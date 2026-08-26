@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "en-001",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "had tended",
+      "tends",
+      "was tending"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrative is told in the simple past (\"Ada lived\"), so the simple past \"tended\" keeps the verb tense consistent."
+  },
+  {
+    "id": "en-002",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "listening to",
+      "listening; to",
+      "listening — to"
+    ],
+    "correctIndex": 1,
+    "explanation": "No punctuation should separate the verb \"listening\" from its object; the comma incorrectly interrupts the phrase."
+  },
+  {
+    "id": "en-003",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "Because the lamp had to burn from dusk until dawn. Someone always stayed awake.",
+      "The lamp had to burn from dusk until dawn, someone always stayed awake.",
+      "The lamp having to burn from dusk until dawn, someone always staying awake."
+    ],
+    "correctIndex": 0,
+    "explanation": "The original correctly attaches the subordinate clause to a complete main clause. The alternatives create a fragment, a comma splice, or a sentence with no main verb."
+  },
+  {
+    "id": "en-004",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "logged",
+      "logging",
+      "having logged"
+    ],
+    "correctIndex": 2,
+    "explanation": "The item must be parallel with the other gerunds in the list: \"Trimming,\" \"polishing,\" and \"logging.\""
+  },
+  {
+    "id": "en-005",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      ", she wrote,",
+      ", she wrote",
+      "; she wrote,"
+    ],
+    "correctIndex": 1,
+    "explanation": "The interrupting phrase \"she wrote\" must be set off by commas on both sides, not just one."
+  },
+  {
+    "id": "en-006",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "Her father; was",
+      "Her father — was",
+      "Her father was"
+    ],
+    "correctIndex": 3,
+    "explanation": "No punctuation should come between a subject and its verb."
+  },
+  {
+    "id": "en-007",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the sentence marked [7] to emphasize the storm's danger with vivid, specific detail. Which choice best accomplishes that goal?",
+    "choices": [
+      "NO CHANGE",
+      "The lighthouse was located in a place that had weather.",
+      "In 1921, a January gale shattered two of the lantern panes and flung sleet into the lamp room.",
+      "In 1921, Ada turned twenty-three years old."
+    ],
+    "correctIndex": 2,
+    "explanation": "Only this choice provides concrete, vivid details (shattered panes, sleet in the lamp room) that convey danger; the others are vague or off-topic."
+  },
+  {
+    "id": "en-008",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "won't blow",
+      "hadn't blown",
+      "wouldn't blow"
+    ],
+    "correctIndex": 3,
+    "explanation": "Describing a purpose in the past requires the conditional \"wouldn't blow\"; \"wouldn't have blown\" and \"hadn't blown\" wrongly suggest a completed event, and \"won't\" shifts to present."
+  },
+  {
+    "id": "en-009",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "them his ship",
+      "them; his ship",
+      "them, and yet his ship"
+    ],
+    "correctIndex": 2,
+    "explanation": "Two independent clauses cannot be joined by a comma alone. A semicolon correctly separates them; \"and yet\" introduces an illogical contrast."
+  },
+  {
+    "id": "en-010",
+    "subject": "english",
+    "passageId": "en-p01",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [10]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it establishes the contrast between the automated present and Ada's era that the final sentences develop",
+      "Kept, because it explains the engineering of LED lamps",
+      "Deleted, because it repeats information from the first paragraph",
+      "Deleted, because it shifts focus away from the freighter captain"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sentence sets up the past-versus-present contrast that the essay's closing reflection depends on, so it should be kept."
+  },
+  {
+    "id": "en-011",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "harbors",
+      "are harboring",
+      "have harbored"
+    ],
+    "correctIndex": 1,
+    "explanation": "The relative pronoun \"that\" refers to the singular \"paste,\" so the singular verb \"harbors\" is required."
+  },
+  {
+    "id": "en-012",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "rise, and the acids",
+      "rise; and the acids",
+      "rise. And the acids"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"The carbon dioxide\" and \"the acids\" are two objects of the same verb \"produce,\" so no punctuation should separate them."
+  },
+  {
+    "id": "en-013",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [3] provides the most effective transition into the paragraph's discussion of microbial chemistry?",
+    "choices": [
+      "NO CHANGE",
+      "Belgium is famous for its chocolate as well.",
+      "Most people today buy bread at a store.",
+      "Although the process sounds simple, the chemistry underneath is anything but."
+    ],
+    "correctIndex": 3,
+    "explanation": "This choice links the simple feeding routine just described to the complex chemistry the paragraph goes on to explain; the others are irrelevant."
+  },
+  {
+    "id": "en-014",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Punctuation",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "itself, the",
+      "itself; the",
+      "itself: the"
+    ],
+    "correctIndex": 0,
+    "explanation": "The interrupting phrase opens with a dash (\"—because of temperature...\"), so it must close with a matching dash."
+  },
+  {
+    "id": "en-015",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Sentence Structure",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "around the world, however, they",
+      "around the world. They",
+      "around the world they"
+    ],
+    "correctIndex": 2,
+    "explanation": "The comma creates a comma splice between two independent clauses; a period corrects it."
+  },
+  {
+    "id": "en-016",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "as",
+      "to",
+      "than"
+    ],
+    "correctIndex": 3,
+    "explanation": "The comparison \"differently than\" requires \"than\"; \"then\" refers to time."
+  },
+  {
+    "id": "en-017",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it explains the chemistry of fermentation",
+      "Deleted, because it strays from the paragraph's focus on laboratory methods",
+      "Kept, because it reinforces the idea that starters carry long, distinct histories",
+      "Deleted, because it repeats the essay's opening sentence"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sentence supports the paragraph's point that each starter is distinct by showing how starters accumulate unique histories over generations."
+  },
+  {
+    "id": "en-018",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [8] best maintains the essay's informal but informative tone?",
+    "choices": [
+      "NO CHANGE",
+      "Loaf flavor: unknown. Whatever.",
+      "You never know exactly what your loaf will taste like—and that's the point.",
+      "The flavor outcome is not determinable beforehand by the baker in question."
+    ],
+    "correctIndex": 2,
+    "explanation": "This choice is conversational yet clear, matching the essay's tone; the others are either stiffly formal or too flippant."
+  },
+  {
+    "id": "en-019",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "and more like a pet:",
+      "and more like a pet",
+      "and, more like a pet,"
+    ],
+    "correctIndex": 1,
+    "explanation": "A colon correctly introduces the explanation that follows; the comma creates a comma splice."
+  },
+  {
+    "id": "en-020",
+    "subject": "english",
+    "passageId": "en-p02",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [10] best concludes the essay by returning to its main idea that every starter is unique?",
+    "choices": [
+      "NO CHANGE",
+      "In conclusion, bread contains flour, water, salt, and yeast.",
+      "Belgium remains a leader in food science research.",
+      "Sourdough is only one of many kinds of bread."
+    ],
+    "correctIndex": 0,
+    "explanation": "The image of the loaf as \"a record of every kitchen\" echoes the essay's central idea that each starter carries a unique history."
+  },
+  {
+    "id": "en-021",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "paint",
+      "have painted",
+      "had painted"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"Since the 1970s\" describes action continuing to the present, which requires the present perfect \"have painted.\""
+  },
+  {
+    "id": "en-022",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "and, scenes of neighborhood life",
+      "and scenes of, neighborhood life",
+      "and scenes of neighborhood life"
+    ],
+    "correctIndex": 3,
+    "explanation": "No comma should interrupt the phrase \"scenes of neighborhood life.\""
+  },
+  {
+    "id": "en-023",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "is rooted around",
+      "bases its roots off of",
+      "descends down out of"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Traces its roots to\" is the idiomatic, concise phrasing; the alternatives are unidiomatic or redundant."
+  },
+  {
+    "id": "en-024",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "contains",
+      "are containing",
+      "have contained"
+    ],
+    "correctIndex": 1,
+    "explanation": "The subject is the singular \"Balmy Alley,\" so the singular verb \"contains\" is needed; the intervening phrase does not change the subject."
+  },
+  {
+    "id": "en-025",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "others simply, celebrate the daily rhythms",
+      "others simply celebrate the daily rhythms",
+      "others simply celebrate; the daily rhythms"
+    ],
+    "correctIndex": 2,
+    "explanation": "No punctuation should separate the verb \"celebrate\" from its object \"the daily rhythms.\""
+  },
+  {
+    "id": "en-026",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [6] most effectively introduces the paragraph's discussion of threats to the murals?",
+    "choices": [
+      "NO CHANGE",
+      "The Mission District also has excellent restaurants.",
+      "Paint is made from pigments and binders.",
+      "Preserving outdoor art, however, is a constant struggle."
+    ],
+    "correctIndex": 3,
+    "explanation": "This choice signals the shift from celebrating the murals to describing the difficulties of preserving them, which is the paragraph's subject."
+  },
+  {
+    "id": "en-027",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [7]?",
+    "choices": [
+      "NO CHANGE",
+      "ensuring",
+      "it ensures",
+      "and this ensuring"
+    ],
+    "correctIndex": 1,
+    "explanation": "The participle \"ensuring\" correctly attaches the result to the main clause; \"this ensures\" and \"it ensures\" create comma splices."
+  },
+  {
+    "id": "en-028",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [8] most specifically emphasizes the effort involved in creating a mural?",
+    "choices": [
+      "NO CHANGE",
+      "Murals are large.",
+      "A single mural can demand months on a scaffold, hundreds of hours of labor, and dozens of volunteers.",
+      "Some murals are eventually finished."
+    ],
+    "correctIndex": 2,
+    "explanation": "Only this choice quantifies the time, labor, and people involved, making the effort concrete."
+  },
+  {
+    "id": "en-029",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Punctuation",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "and children ask; if they can help paint",
+      "and children, ask if they can help paint",
+      "and children ask if they can help paint"
+    ],
+    "correctIndex": 3,
+    "explanation": "No punctuation should separate \"ask\" from the indirect question it introduces."
+  },
+  {
+    "id": "en-030",
+    "subject": "english",
+    "passageId": "en-p03",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [10]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it identifies which muralists the writer interviewed",
+      "Kept, because it concisely states the artists' purpose and echoes the essay's theme of shared ownership",
+      "Deleted, because it introduces an unrelated topic",
+      "Deleted, because the preceding sentence already makes the same point in the same words"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sentence ties the closing anecdote back to the essay's central theme that the murals belong to the community, so it should be kept."
+  },
+  {
+    "id": "en-031",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "blasting tunnels through granite and hauling debris",
+      "tunnels were blasted through granite and debris hauled",
+      "they blasting tunnels through granite and hauling debris"
+    ],
+    "correctIndex": 1,
+    "explanation": "The original is a comma splice. Participles (\"blasting... hauling\") correctly attach the details to the main clause."
+  },
+  {
+    "id": "en-032",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "but few of its'",
+      "but few of its",
+      "but few of their's"
+    ],
+    "correctIndex": 2,
+    "explanation": "The possessive of \"it\" is \"its\" with no apostrophe; \"it's\" means \"it is.\""
+  },
+  {
+    "id": "en-033",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "Swinging from cliffs in woven baskets, workers set black powder charges",
+      "Black powder charges, swinging from cliffs in woven baskets, were set by workers",
+      "Workers set, swinging from cliffs in woven baskets, black powder charges"
+    ],
+    "correctIndex": 1,
+    "explanation": "The opening modifier must describe the workers, not the charges. Placing \"workers\" directly after the modifier fixes the dangling modifier."
+  },
+  {
+    "id": "en-034",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "Despite these conditions the crews advanced, with remarkable speed,",
+      "Despite these conditions, the crews advanced with remarkable speed;",
+      "Despite these conditions; the crews advanced with remarkable speed,"
+    ],
+    "correctIndex": 0,
+    "explanation": "The introductory phrase takes a comma, and the comma before the participial phrase \"at one point laying...\" is correct; a semicolon there would create a fragment."
+  },
+  {
+    "id": "en-035",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "estimate that,",
+      "estimate, that,",
+      "estimate that"
+    ],
+    "correctIndex": 3,
+    "explanation": "No comma should separate a verb from the \"that\" clause serving as its object."
+  },
+  {
+    "id": "en-036",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Strategy",
+    "difficulty": 1,
+    "prompt": "Which choice for the portion marked [6] most specifically emphasizes what the textbooks omitted?",
+    "choices": [
+      "NO CHANGE",
+      "anything about it.",
+      "stuff about these people.",
+      "the workers' existence, their skill, or even their names."
+    ],
+    "correctIndex": 3,
+    "explanation": "This choice names precisely what was left out, making the omission vivid; the other options are vague or too casual."
+  },
+  {
+    "id": "en-037",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer is considering deleting the sentence marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it describes the archaeologists' credentials",
+      "Deleted, because it interrupts the discussion of wages",
+      "Kept, because it introduces the physical evidence that the following paragraph builds on",
+      "Deleted, because artifacts are unrelated to the workers"
+    ],
+    "correctIndex": 2,
+    "explanation": "The recovered artifacts set up the next paragraph's opening reference to \"these objects,\" so the sentence is essential."
+  },
+  {
+    "id": "en-038",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [8] provides the most effective transition into the final paragraph?",
+    "choices": [
+      "NO CHANGE",
+      "These artifacts tell a story the photographs left out.",
+      "Archaeology is a popular field of study.",
+      "Some bowls were made of porcelain."
+    ],
+    "correctIndex": 1,
+    "explanation": "This choice connects the artifacts just described to the essay's theme of the workers' absence from photographs, launching the final paragraph."
+  },
+  {
+    "id": "en-039",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "where the rails once met to honor",
+      "where the rails once met; to honor",
+      "where, the rails once met, to honor"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nonessential clause \"where the rails once met\" is correctly set off by commas on both sides."
+  },
+  {
+    "id": "en-040",
+    "subject": "english",
+    "passageId": "en-p04",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "Which choice for the sentence marked [10] best supports the paragraph's focus on the descendants' campaign for recognition?",
+    "choices": [
+      "NO CHANGE",
+      "Promontory Summit is located in Utah.",
+      "In 2014, descendants successfully campaigned to have the workers inducted into the U.S. Department of Labor's Hall of Honor.",
+      "Railroads today carry mostly freight."
+    ],
+    "correctIndex": 2,
+    "explanation": "This choice gives a specific, relevant achievement of the descendants' efforts, directly supporting the paragraph's focus on recognition."
+  },
+  {
+    "id": "en-041",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "that broadcast",
+      "that have broadcast",
+      "that are broadcast"
+    ],
+    "correctIndex": 1,
+    "explanation": "The singular \"station\" needs a singular past-tense verb; \"that broadcast\" fits the past-tense narrative."
+  },
+  {
+    "id": "en-042",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "a retired teacher, named Dolores,",
+      "a retired teacher named Dolores;",
+      "a retired teacher named, Dolores,"
+    ],
+    "correctIndex": 0,
+    "explanation": "The appositive \"a retired teacher named Dolores\" is correctly set off by a pair of commas with no internal punctuation."
+  },
+  {
+    "id": "en-043",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Sentence Structure",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "them; which took",
+      "them. Taking",
+      "them, which took"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"Which took the better part of a week\" is a fragment on its own; joining it with a comma makes it a proper relative clause."
+  },
+  {
+    "id": "en-044",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "and repairing",
+      "and to repair",
+      "and repaired"
+    ],
+    "correctIndex": 3,
+    "explanation": "The verb must be parallel with the other past-tense verbs in the series: \"ran,\" \"took,\" and \"repaired.\""
+  },
+  {
+    "id": "en-045",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "with the same unhurried courtesy.",
+      "with courtesy of an equally unhurried type in all cases.",
+      "nicely."
+    ],
+    "correctIndex": 1,
+    "explanation": "This choice conveys the full idea concisely; the original and the third choice are wordy, and \"nicely\" loses meaning."
+  },
+  {
+    "id": "en-046",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the portion marked [6] to give a specific example of an on-air mistake. Which choice best accomplishes this?",
+    "choices": [
+      "NO CHANGE",
+      "Things did not go perfectly.",
+      "I mispronounced the name of a lake I had swum in my whole life.",
+      "Mistakes happen to everyone."
+    ],
+    "correctIndex": 2,
+    "explanation": "Only this choice describes a particular, concrete mistake; the others are general statements."
+  },
+  {
+    "id": "en-047",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Style",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [7]?",
+    "choices": [
+      "NO CHANGE",
+      "is forgiving of and lenient toward",
+      "forgives and pardons",
+      "gives forgiveness in the direction of"
+    ],
+    "correctIndex": 0,
+    "explanation": "The single verb \"forgives\" is the most concise choice; the alternatives are redundant or wordy."
+  },
+  {
+    "id": "en-048",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "However,",
+      "Eventually,",
+      "Similarly,"
+    ],
+    "correctIndex": 2,
+    "explanation": "The paragraph describes skills gained over time, so \"Eventually\" is the logical transition; the sentence is not an example of the previous one."
+  },
+  {
+    "id": "en-049",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "Because",
+      "Although",
+      "Being as"
+    ],
+    "correctIndex": 2,
+    "explanation": "The clause contrasts with the main statement—the station is gone, yet the narrator keeps the cassette—so \"Although\" is logical; \"being that\" is nonstandard."
+  },
+  {
+    "id": "en-050",
+    "subject": "english",
+    "passageId": "en-p05",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [10]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it provides a concrete detail that grounds the essay's reflective final line",
+      "Kept, because it explains how cassettes are manufactured",
+      "Deleted, because the essay never mentions the narrator's desk again",
+      "Deleted, because it contradicts the previous sentence"
+    ],
+    "correctIndex": 0,
+    "explanation": "The homely detail of the desk drawer anchors the abstract final sentence about machines playing memories, so it should be kept."
+  },
+  {
+    "id": "en-051",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "fewer than",
+      "lesser than",
+      "less then"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bison are countable, so \"fewer\" is required rather than \"less.\""
+  },
+  {
+    "id": "en-052",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "known, the",
+      "known the",
+      "known: and the"
+    ],
+    "correctIndex": 0,
+    "explanation": "A semicolon correctly joins the two closely related independent clauses; a comma would create a splice."
+  },
+  {
+    "id": "en-053",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "including ranchers, and Lakota leaders,",
+      "including, ranchers and Lakota leaders,",
+      "including ranchers and Lakota leaders;"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nonessential phrase is correctly enclosed by a pair of commas; the alternatives add incorrect internal punctuation or a semicolon fragment."
+  },
+  {
+    "id": "en-054",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "coordinate with",
+      "coordinates",
+      "are coordinating"
+    ],
+    "correctIndex": 2,
+    "explanation": "The singular subject \"the InterTribal Buffalo Council\" requires the singular verb \"coordinates.\""
+  },
+  {
+    "id": "en-055",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [5] most effectively introduces the paragraph's discussion of bison's ecological effects?",
+    "choices": [
+      "NO CHANGE",
+      "Bison reshape the prairie in ways cattle cannot.",
+      "Cattle ranching is common in many states.",
+      "The prairie is home to many kinds of wildlife."
+    ],
+    "correctIndex": 1,
+    "explanation": "This choice states the paragraph's main idea—bison's unique effects on the prairie—which the following examples then support."
+  },
+  {
+    "id": "en-056",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "creates up",
+      "created",
+      "create"
+    ],
+    "correctIndex": 3,
+    "explanation": "The plural subject \"grazing patterns\" requires the plural present-tense verb \"create,\" matching the other verbs in the series."
+  },
+  {
+    "id": "en-057",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it adds another example of bison's influence on the prairie",
+      "Kept, because burrows are mentioned later in the essay",
+      "Deleted, because it interrupts the paragraph's focus on how bison themselves shape the prairie",
+      "Deleted, because the essay is about extinction, not burrows"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sentence describes prairie dogs, not bison, so it strays from the paragraph's focus and should be deleted."
+  },
+  {
+    "id": "en-058",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice for the sentence marked [8] makes the writer's meaning clearest?",
+    "choices": [
+      "NO CHANGE",
+      "Bison need room; fences, veterinary care, and genetic testing are expensive.",
+      "Bison need room and fences veterinary care and genetic testing are expensive.",
+      "Bison need room, and fences, and veterinary care, and genetic testing being expensive."
+    ],
+    "correctIndex": 1,
+    "explanation": "A semicolon cleanly separates the two claims. In the original, readers may misread \"room, and fences\" as one list, momentarily obscuring the meaning."
+  },
+  {
+    "id": "en-059",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "that hadn't never seen",
+      "that hadn't seen",
+      "that hadn't been saw"
+    ],
+    "correctIndex": 2,
+    "explanation": "The past participle of \"see\" is \"seen,\" so the past perfect is \"hadn't seen.\""
+  },
+  {
+    "id": "en-060",
+    "subject": "english",
+    "passageId": "en-p06",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [10] best maintains the essay's vivid closing image?",
+    "choices": [
+      "NO CHANGE",
+      "As the gate opened, the animals went out onto the prairie area.",
+      "The gate having been opened, egress was achieved by the animals.",
+      "As the gate opened, the animals exited in an orderly fashion."
+    ],
+    "correctIndex": 0,
+    "explanation": "The simile of water finding an old channel gives the ending vivid, figurative force; the alternatives are flat or stiffly formal."
+  },
+  {
+    "id": "en-061",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "archivist's",
+      "archivists",
+      "archivists's"
+    ],
+    "correctIndex": 2,
+    "explanation": "The word is a simple plural subject, not a possessive, so no apostrophe is needed."
+  },
+  {
+    "id": "en-062",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Style",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "that no one has heard in decades",
+      "that have not been heard by anyone by ear in decades",
+      "that no one has aurally heard in decades"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Heard or listened to\" is redundant; \"heard\" alone conveys the idea concisely."
+  },
+  {
+    "id": "en-063",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "destroying",
+      "have destroyed",
+      "destroys"
+    ],
+    "correctIndex": 3,
+    "explanation": "The gerund phrase \"playing them once\" is a singular subject and takes the singular verb \"destroys.\""
+  },
+  {
+    "id": "en-064",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [4] most effectively introduces the paragraph?",
+    "choices": [
+      "NO CHANGE",
+      "Chemistry is taught in most high schools.",
+      "Meanwhile, the library also lends novels.",
+      "In contrast, digitization is a simple process."
+    ],
+    "correctIndex": 0,
+    "explanation": "The sentence previews both ideas the paragraph develops—chemical treatment of tape and painstaking care—so it is the best opener."
+  },
+  {
+    "id": "en-065",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "that scholars had known, only from a newspaper description.",
+      "that scholars had known only from a newspaper description.",
+      "that scholars had known only from a newspaper, description."
+    ],
+    "correctIndex": 2,
+    "explanation": "No comma should interrupt the phrase \"only from a newspaper description.\""
+  },
+  {
+    "id": "en-066",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "whose",
+      "whom's",
+      "who is"
+    ],
+    "correctIndex": 1,
+    "explanation": "The possessive relative pronoun \"whose\" is needed; \"who's\" means \"who is.\""
+  },
+  {
+    "id": "en-067",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the sentence marked [7] to convey the pianist's originality. Which choice best accomplishes this?",
+    "choices": [
+      "NO CHANGE",
+      "She played the piano on the recording.",
+      "The practice session lasted about an hour.",
+      "Her improvisations, quick and architectural, reveal a musician experimenting years ahead of her time."
+    ],
+    "correctIndex": 3,
+    "explanation": "Only this choice characterizes the playing and explicitly frames the pianist as ahead of her time; the others state bare facts."
+  },
+  {
+    "id": "en-068",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "around",
+      "on",
+      "from off"
+    ],
+    "correctIndex": 2,
+    "explanation": "The idiomatic construction is \"based on\"; \"based off of\" is nonstandard."
+  },
+  {
+    "id": "en-069",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the sentence marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "Funding, of course, is never guaranteed; the archivists write grants between repair sessions.",
+      "Funding, of course, is never guaranteed the archivists write grants between repair sessions.",
+      "Funding, of course, is never guaranteed, the archivists writing grants, between repair sessions."
+    ],
+    "correctIndex": 1,
+    "explanation": "The original joins two independent clauses with only a comma. A semicolon corrects the splice."
+  },
+  {
+    "id": "en-070",
+    "subject": "english",
+    "passageId": "en-p07",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "Which choice for the sentence marked [10] provides the most effective conclusion to the essay?",
+    "choices": [
+      "NO CHANGE",
+      "In conclusion, archives contain many old things.",
+      "The library closes at nine on weekdays.",
+      "The digitized files are stored on servers."
+    ],
+    "correctIndex": 0,
+    "explanation": "The image of a voice that \"refused to disappear\" captures the essay's theme of rescuing music from oblivion; the alternatives are flat or irrelevant."
+  },
+  {
+    "id": "en-071",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "like a dance instructor would of",
+      "as a dance instructor would have",
+      "as a dance instructor would of done"
+    ],
+    "correctIndex": 2,
+    "explanation": "A conjunction (\"as\") should introduce the clause, and \"would of\" is an error for \"would have.\""
+  },
+  {
+    "id": "en-072",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "if you're",
+      "if yore",
+      "if you are being"
+    ],
+    "correctIndex": 1,
+    "explanation": "The contraction \"you're\" (you are) is needed; \"your\" is a possessive."
+  },
+  {
+    "id": "en-073",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "fascinated and frightened, her:",
+      "fascinated and, frightened her:",
+      "fascinated and frightened her"
+    ],
+    "correctIndex": 0,
+    "explanation": "The colon correctly introduces the explanation that follows; the other options misplace commas or fuse the clauses together."
+  },
+  {
+    "id": "en-074",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the sentence marked [4] to emphasize how easily hours of work can be lost. Which choice best accomplishes this?",
+    "choices": [
+      "NO CHANGE",
+      "Glass is a material that can be damaged.",
+      "Errors were possible in the studio.",
+      "One hesitation, one wobble of the pipe, and a piece that took hours can fold into ruin."
+    ],
+    "correctIndex": 3,
+    "explanation": "This choice dramatizes how a single small mistake destroys hours of work; the others are vague generalities."
+  },
+  {
+    "id": "en-075",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [5] most effectively sets up the anecdote that follows?",
+    "choices": [
+      "NO CHANGE",
+      "Bruno rarely praised anyone.",
+      "Glass comes in many colors.",
+      "Marisol commuted to the studio by bus."
+    ],
+    "correctIndex": 1,
+    "explanation": "The anecdote about Bruno saying only \"Again\" makes sense only if readers know he rarely praised anyone."
+  },
+  {
+    "id": "en-076",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "Later she understood; that",
+      "Later she understood that",
+      "Later she understood, that,"
+    ],
+    "correctIndex": 2,
+    "explanation": "No comma should separate the verb \"understood\" from its object clause."
+  },
+  {
+    "id": "en-077",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Style",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [7]?",
+    "choices": [
+      "NO CHANGE",
+      "with stems as thin as pencils",
+      "with extremely thin stem structures similar to pencils in thinness",
+      "with stems, than which pencils were no thinner"
+    ],
+    "correctIndex": 1,
+    "explanation": "This choice expresses the comparison concisely; the original and the other alternatives are wordy and awkward."
+  },
+  {
+    "id": "en-078",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "wether",
+      "whether or",
+      "whether"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"Whether\" introduces the indirect question; \"weather\" refers to atmospheric conditions."
+  },
+  {
+    "id": "en-079",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Punctuation",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "which roared like a patient orange animal",
+      "that roared like a patient orange animal,",
+      "which, roared like a patient orange animal,"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nonessential \"which\" clause is correctly set off by commas on both sides; removing a comma or using \"that\" would mispunctuate it."
+  },
+  {
+    "id": "en-080",
+    "subject": "english",
+    "passageId": "en-p08",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [10]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it explains why Marisol held her breath",
+      "Kept, because temperature is mentioned earlier in the essay",
+      "Deleted, because it interrupts the paragraph's reflection with a loosely related fact",
+      "Deleted, because the temperature figure is inaccurate"
+    ],
+    "correctIndex": 2,
+    "explanation": "The general fact about studio temperatures breaks the reflective close about why Marisol stays, so it should be deleted."
+  },
+  {
+    "id": "en-081",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "than",
+      "as",
+      "then we do have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Comparisons require \"than\"; \"then\" indicates time or sequence."
+  },
+  {
+    "id": "en-082",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "were",
+      "having been",
+      "has been"
+    ],
+    "correctIndex": 3,
+    "explanation": "The singular subject \"a quarter of the ocean bottom\" requires the singular verb \"has been.\""
+  },
+  {
+    "id": "en-083",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [3] most effectively introduces the paragraph's explanation of sonar surveying?",
+    "choices": [
+      "NO CHANGE",
+      "Sonar was invented over a century ago.",
+      "Mars has been mapped by orbiting spacecraft.",
+      "Many ships cross the ocean every day."
+    ],
+    "correctIndex": 0,
+    "explanation": "The sentence introduces multibeam sonar ships, exactly what the paragraph goes on to describe; the alternatives point away from that focus."
+  },
+  {
+    "id": "en-084",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "measuring",
+      "and it measuring",
+      "measures"
+    ],
+    "correctIndex": 1,
+    "explanation": "The participle \"measuring\" correctly attaches the second action to the main clause; \"it measures\" creates a comma splice."
+  },
+  {
+    "id": "en-085",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "expensive, consequently an",
+      "expensive; consequently, an",
+      "expensive consequently, an"
+    ],
+    "correctIndex": 2,
+    "explanation": "A conjunctive adverb like \"consequently\" joining two independent clauses requires a semicolon before it and a comma after it."
+  },
+  {
+    "id": "en-086",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "is dwarfing",
+      "dwarf",
+      "has dwarfed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The relative pronoun refers to the plural \"canyons,\" so the plural verb \"dwarf\" is required."
+  },
+  {
+    "id": "en-087",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer is considering deleting the sentence marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it proves the Empire State Building is tall",
+      "Kept, because it offers a vivid, specific example of the discoveries the paragraph describes",
+      "Deleted, because coral is not part of the seafloor",
+      "Deleted, because the paragraph is about ships, not reefs"
+    ],
+    "correctIndex": 1,
+    "explanation": "The coral tower is a concrete, memorable instance of the surprising discoveries the paragraph claims, so it should be kept."
+  },
+  {
+    "id": "en-088",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [8] most effectively opens the final paragraph?",
+    "choices": [
+      "NO CHANGE",
+      "Here is another paragraph about the ocean.",
+      "Land is different from the sea in many ways.",
+      "In summary, sonar is a useful tool."
+    ],
+    "correctIndex": 0,
+    "explanation": "The rhetorical question engages readers and frames the paragraph's answer about why seafloor mapping matters on land."
+  },
+  {
+    "id": "en-089",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "Fisheries depend on seamounts, habitats cluster around them.",
+      "Fisheries depend on the seamounts that habitats, clustering around them.",
+      "Fisheries depend on seamounts because entire habitats cluster around them."
+    ],
+    "correctIndex": 3,
+    "explanation": "The original leaves \"Habitats clustering around them\" as a fragment; subordinating it with \"because\" produces one complete, logical sentence."
+  },
+  {
+    "id": "en-090",
+    "subject": "english",
+    "passageId": "en-p09",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [10]?",
+    "choices": [
+      "NO CHANGE",
+      "cartographers would rather call it they're next assignment",
+      "cartographers would rather call it their next assignment",
+      "cartographers would rather call it there, next assignment"
+    ],
+    "correctIndex": 2,
+    "explanation": "The possessive \"their\" is required; \"there\" indicates place and \"they're\" means \"they are.\""
+  },
+  {
+    "id": "en-091",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "residents mobilized in a quick way",
+      "residents mobilized more quick",
+      "residents mobilized quickly"
+    ],
+    "correctIndex": 3,
+    "explanation": "An adverb, \"quickly,\" is needed to modify the verb \"mobilized.\""
+  },
+  {
+    "id": "en-092",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "where neighbors grew tomatoes, taught composting workshops, and hosting",
+      "where neighbors grew tomatoes, teaching composting workshops, and hosted",
+      "where neighbors were growing tomatoes, taught composting workshops, and to host"
+    ],
+    "correctIndex": 0,
+    "explanation": "The original keeps all three verbs parallel in the simple past: \"grew,\" \"taught,\" and \"hosted.\""
+  },
+  {
+    "id": "en-093",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "needed repairs to two",
+      "needed, repairs to two",
+      "needed repairs to, two"
+    ],
+    "correctIndex": 1,
+    "explanation": "No comma should separate \"repairs\" from the prepositional phrase that completes it."
+  },
+  {
+    "id": "en-094",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "and saved,",
+      "and, saved,",
+      "and saved"
+    ],
+    "correctIndex": 3,
+    "explanation": "No comma belongs between the conjunction and the second verb of the compound predicate."
+  },
+  {
+    "id": "en-095",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "in other words,",
+      "meanwhile,",
+      "in contrast,"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sentence restates the preceding arguments in summary form, so \"in other words\" is the logical transition; the sentence is not an example."
+  },
+  {
+    "id": "en-096",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "lesser",
+      "fewer",
+      "least"
+    ],
+    "correctIndex": 2,
+    "explanation": "Calls are countable, so \"fewer\" is correct rather than \"less.\""
+  },
+  {
+    "id": "en-097",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the portion marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because science fairs occur annually in most districts",
+      "Deleted, because the student is not identified by name",
+      "Kept, because it explains how the student obtained her data and adds credibility to her testimony",
+      "Deleted, because the detail distracts from the firefighter's testimony"
+    ],
+    "correctIndex": 2,
+    "explanation": "Explaining the data's origin lends the student's testimony credibility and rounds out the picture of citizen participation."
+  },
+  {
+    "id": "en-098",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "For example,",
+      "Similarly,",
+      "In addition,"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"In the end\" correctly signals the resolution after the long hearing; the alternatives misstate the relationship."
+  },
+  {
+    "id": "en-099",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "and preserving",
+      "and preserve",
+      "and to preserving"
+    ],
+    "correctIndex": 2,
+    "explanation": "The verb must be parallel with \"sell\": the city would \"sell half the lot and preserve the other half.\""
+  },
+  {
+    "id": "en-100",
+    "subject": "english",
+    "passageId": "en-p10",
+    "topic": "Style",
+    "difficulty": 3,
+    "prompt": "Which choice for the portion marked [10] best maintains the essay's wry, balanced tone?",
+    "choices": [
+      "NO CHANGE",
+      "which was totally lame for everybody",
+      "which constitutes an indicator of authentic compromise attainment",
+      "which shows people argued about it"
+    ],
+    "correctIndex": 0,
+    "explanation": "The original's understated observation suits the essay's evenhanded, lightly ironic voice; the alternatives are too casual or too stilted."
+  },
+  {
+    "id": "en-101",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "collectors, students, and the merely curious;",
+      "collectors students and the merely curious,",
+      "collectors, students, and, the merely curious,"
+    ],
+    "correctIndex": 0,
+    "explanation": "The series is correctly punctuated, and the final comma properly attaches the modifying phrase \"all of whom....\""
+  },
+  {
+    "id": "en-102",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Strategy",
+    "difficulty": 1,
+    "prompt": "The writer is considering deleting the sentence marked [2]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it gives the building's construction date",
+      "Kept, because it vividly conveys the machines' age, adding character to the scene",
+      "Deleted, because the machines' age is irrelevant to the essay",
+      "Deleted, because it contradicts the previous sentence"
+    ],
+    "correctIndex": 1,
+    "explanation": "The comparison dramatizes how old the typewriters are, enriching the opening scene, so it should be kept."
+  },
+  {
+    "id": "en-103",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "is converging",
+      "converge",
+      "has converged"
+    ],
+    "correctIndex": 2,
+    "explanation": "The plural subject \"answers\" requires the plural verb \"converge.\""
+  },
+  {
+    "id": "en-104",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Sentence Structure",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the sentence marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "It cannot refresh a feed it can only put letters on paper.",
+      "It cannot refresh a feed; it can only put letters on paper.",
+      "It cannot refresh a feed, only putting, letters on paper."
+    ],
+    "correctIndex": 2,
+    "explanation": "The original is a comma splice; a semicolon correctly joins the two independent clauses."
+  },
+  {
+    "id": "en-105",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "feels",
+      "are feeling",
+      "have felt"
+    ],
+    "correctIndex": 1,
+    "explanation": "The singular subject \"that limitation\" requires the singular verb \"feels.\""
+  },
+  {
+    "id": "en-106",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Sentence Structure",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "Repair technicians, once a dying trade themselves,",
+      "Repair technicians, members of a once-dying trade,",
+      "Repair technicians, a trade that was dying,"
+    ],
+    "correctIndex": 2,
+    "explanation": "Technicians are people, not a trade, so the appositive must describe them as members of the trade to avoid an illogical comparison."
+  },
+  {
+    "id": "en-107",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the portion marked [7] to provide specific evidence of the typewriter revival. Which choice best accomplishes this?",
+    "choices": [
+      "NO CHANGE",
+      "says she sells more ribbons today than at any time since the 1980s.",
+      "says people sometimes visit the shop.",
+      "says the shop is located downtown."
+    ],
+    "correctIndex": 1,
+    "explanation": "Rising ribbon sales are concrete, quantifiable evidence of renewed typewriter use; the other options are vague or irrelevant."
+  },
+  {
+    "id": "en-108",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "so functioning machines circulate like heirlooms;",
+      "so functioning machines circulate, like heirlooms,",
+      "so, functioning machines circulate like heirlooms,"
+    ],
+    "correctIndex": 0,
+    "explanation": "The comma correctly attaches the participial phrase \"passed between generations...\"; a semicolon would leave that phrase as a fragment."
+  },
+  {
+    "id": "en-109",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Organization",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [9] most effectively acknowledges an opposing view before the paragraph answers it?",
+    "choices": [
+      "NO CHANGE",
+      "Everyone agrees typewriters are superior to computers.",
+      "Nostalgia is a word derived from Greek roots.",
+      "Some critics have never attended a Type-In."
+    ],
+    "correctIndex": 0,
+    "explanation": "Conceding that the trend may be nostalgia sets up the rebuttal that follows (\"But nostalgia has rarely been this productive\")."
+  },
+  {
+    "id": "en-110",
+    "subject": "english",
+    "passageId": "en-p11",
+    "topic": "Style",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the portion marked [10]?",
+    "choices": [
+      "NO CHANGE",
+      "typed in a slow manner, stamp-sealed, notification-free",
+      "slowly typed, and then they sealed it with a stamp, without a single notification",
+      "typed slowly, sealed with a stamp, and sent without a single notification"
+    ],
+    "correctIndex": 3,
+    "explanation": "This choice uses the correct adverb \"slowly\" and keeps the three phrases parallel, giving the closing image its rhythm."
+  },
+  {
+    "id": "en-111",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Grammar & Usage",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "lie",
+      "are lying",
+      "have lain"
+    ],
+    "correctIndex": 0,
+    "explanation": "In this inverted sentence the subject is the singular \"a small physics lecture,\" so the singular verb \"lies\" is correct."
+  },
+  {
+    "id": "en-112",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "they're",
+      "their",
+      "there own"
+    ],
+    "correctIndex": 2,
+    "explanation": "The possessive \"their\" is needed before \"arms\"; \"there\" indicates place."
+  },
+  {
+    "id": "en-113",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "accelerates—",
+      "accelerates, being",
+      "accelerates this is"
+    ],
+    "correctIndex": 1,
+    "explanation": "The comma splice is corrected by a dash, which properly introduces the appositive phrase \"the same principle that....\""
+  },
+  {
+    "id": "en-114",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Organization",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "however,",
+      "similarly,",
+      "as a result,"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sentence pivots from jumping to the contrasting challenge of landing, so the contrast word \"however\" is logical."
+  },
+  {
+    "id": "en-115",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "by five or six times over",
+      "by a factor of five or six",
+      "times five or six times"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"Multiplies... by five or six times\" is redundant; \"by a factor of five or six\" is precise and concise."
+  },
+  {
+    "id": "en-116",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "which",
+      "whose",
+      "who"
+    ],
+    "correctIndex": 3,
+    "explanation": "The pronoun is the subject of \"study,\" so the subjective form \"who\" is required, not the objective \"whom.\""
+  },
+  {
+    "id": "en-117",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Organization",
+    "difficulty": 1,
+    "prompt": "Which choice for the sentence marked [7] most effectively introduces the paragraph?",
+    "choices": [
+      "NO CHANGE",
+      "Ice is simply frozen water.",
+      "Meanwhile, skates have laces.",
+      "In conclusion, rinks are cold places."
+    ],
+    "correctIndex": 0,
+    "explanation": "The sentence announces the paragraph's focus—how the ice itself affects the physics—which the details about temperature then develop."
+  },
+  {
+    "id": "en-118",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "softer ice hockey players like it harder and faster.",
+      "softer ice, hockey players liking it, harder and faster.",
+      "softer ice; hockey players like it harder and faster."
+    ],
+    "correctIndex": 3,
+    "explanation": "Two independent clauses joined by only a comma form a splice; a semicolon fixes it."
+  },
+  {
+    "id": "en-119",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "Which choice for the sentence marked [9] most effectively introduces the paragraph with a specific claim?",
+    "choices": [
+      "NO CHANGE",
+      "Coaches are found at every level of the sport.",
+      "That research is now reshaping how young skaters train.",
+      "Physics research is often published in journals."
+    ],
+    "correctIndex": 2,
+    "explanation": "This choice makes a pointed claim about the research's effect on training, which the sentence about capping jump repetitions then supports."
+  },
+  {
+    "id": "en-120",
+    "subject": "english",
+    "passageId": "en-p12",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the portion marked [10]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it explains the purpose of the practice caps described in the sentence",
+      "Kept, because it defines the word \"joints\"",
+      "Deleted, because young athletes are not mentioned elsewhere in the essay",
+      "Deleted, because it repeats the previous paragraph"
+    ],
+    "correctIndex": 0,
+    "explanation": "Without the phrase, readers would not know why coaches cap repetitions; it supplies the rationale."
+  },
+  {
+    "id": "en-121",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Sentence Structure",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "written by",
+      "having written by",
+      "that written by"
+    ],
+    "correctIndex": 1,
+    "explanation": "The participial phrase \"written by our great-great-grandmother\" correctly modifies \"letters\"; adding \"which\" or \"that\" without a verb creates an error."
+  },
+  {
+    "id": "en-122",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Punctuation",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "a hundred sixty acres, of grass and wind.",
+      "a hundred sixty acres of grass, and wind.",
+      "a hundred sixty acres of grass and wind;"
+    ],
+    "correctIndex": 0,
+    "explanation": "The appositive renaming the homestead needs no internal punctuation; the alternatives insert commas that break up the phrase or end with a stray semicolon."
+  },
+  {
+    "id": "en-123",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "record",
+      "is recording",
+      "has recorded"
+    ],
+    "correctIndex": 1,
+    "explanation": "The plural subject \"letters\" requires the plural verb \"record\"; the phrase between commas does not change the subject."
+  },
+  {
+    "id": "en-124",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [4]?",
+    "choices": [
+      "NO CHANGE",
+      "did build",
+      "had builded",
+      "built"
+    ],
+    "correctIndex": 3,
+    "explanation": "The past tense of \"build\" is the irregular \"built,\" which also stays parallel with \"broke\" and \"dug.\""
+  },
+  {
+    "id": "en-125",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice for the portion marked [5] most vividly conveys the severity of the winters?",
+    "choices": [
+      "NO CHANGE",
+      "made things difficult, so she",
+      "affected the door in such a way that she",
+      "were significant, and she"
+    ],
+    "correctIndex": 0,
+    "explanation": "The image of snow burying the door so deep that Ingrid used a window is concrete and vivid; the alternatives are vague."
+  },
+  {
+    "id": "en-126",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Style",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "but the administrative documentation apparatus.",
+      "but the bookkeeping.",
+      "but all the boring forms and junk."
+    ],
+    "correctIndex": 2,
+    "explanation": "\"The bookkeeping\" matches the essay's plain, reflective tone; the alternatives are either too casual or needlessly inflated."
+  },
+  {
+    "id": "en-127",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [7]?",
+    "choices": [
+      "NO CHANGE",
+      "her",
+      "hers'",
+      "hers"
+    ],
+    "correctIndex": 3,
+    "explanation": "The possessive pronoun \"hers\" never takes an apostrophe."
+  },
+  {
+    "id": "en-128",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer is considering deleting the sentence marked [8]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because it defines a key term for the first time",
+      "Kept, because it supports the paragraph's statistics",
+      "Deleted, because it states information readers already know and interrupts the paragraph's focus on Ingrid's records",
+      "Deleted, because it contradicts the previous sentence"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sentence adds an obvious generality that breaks the paragraph's focus on Ingrid's meticulous bookkeeping, so it should be deleted."
+  },
+  {
+    "id": "en-129",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "has begun",
+      "have begun",
+      "begins to have"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Begun\" cannot stand alone as a past-tense verb; the singular subject \"my aunt\" takes \"has begun.\""
+  },
+  {
+    "id": "en-130",
+    "subject": "english",
+    "passageId": "en-p13",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "Which choice for the sentence marked [10] provides the most effective conclusion to the essay?",
+    "choices": [
+      "NO CHANGE",
+      "Video calls require a stable internet connection.",
+      "Norway is a beautiful country to visit.",
+      "The letters are now stored in a new shoebox."
+    ],
+    "correctIndex": 0,
+    "explanation": "The sentence answers Ingrid's hope that the prairie would remember her, tying the family's Sunday readings back to the essay's theme of memory."
+  },
+  {
+    "id": "en-131",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Punctuation",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the portion marked [1]?",
+    "choices": [
+      "NO CHANGE",
+      "But on Friday evenings in summer, it transforms:",
+      "But, on Friday evenings, in summer it transforms:",
+      "But on Friday evenings in summer it transforms,:"
+    ],
+    "correctIndex": 1,
+    "explanation": "A comma should follow the long introductory phrase \"on Friday evenings in summer\" before the main clause."
+  },
+  {
+    "id": "en-132",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [2]?",
+    "choices": [
+      "NO CHANGE",
+      "have begun",
+      "begins",
+      "beginning"
+    ],
+    "correctIndex": 2,
+    "explanation": "The singular subject \"the night market\" requires the singular present-tense verb \"begins.\""
+  },
+  {
+    "id": "en-133",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Punctuation",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [3]?",
+    "choices": [
+      "NO CHANGE",
+      "just seven, vendors",
+      "just: seven vendors",
+      "just seven vendors"
+    ],
+    "correctIndex": 3,
+    "explanation": "No punctuation should interrupt the simple phrase \"just seven vendors.\""
+  },
+  {
+    "id": "en-134",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Strategy",
+    "difficulty": 2,
+    "prompt": "The writer wants the sentence marked [4] to convey the market's continuity over the years. Which choice best accomplishes this?",
+    "choices": [
+      "NO CHANGE",
+      "A grandmother sells mango sticky rice from a cart.",
+      "Someone is selling mango sticky rice tonight.",
+      "Mango sticky rice is a popular dessert in Southeast Asia."
+    ],
+    "correctIndex": 0,
+    "explanation": "The detail that the grandmother has wheeled her cart there \"since the market's first night\" directly conveys continuity; the alternatives drop that history."
+  },
+  {
+    "id": "en-135",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Sentence Structure",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [5]?",
+    "choices": [
+      "NO CHANGE",
+      "point; the",
+      "point the",
+      "point, and, the"
+    ],
+    "correctIndex": 1,
+    "explanation": "The comma joins two independent clauses in a splice; a semicolon corrects it."
+  },
+  {
+    "id": "en-136",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [6]?",
+    "choices": [
+      "NO CHANGE",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Who\" is correct: it refers to people (\"vendors\") and serves as the subject of \"began.\""
+  },
+  {
+    "id": "en-137",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Strategy",
+    "difficulty": 3,
+    "prompt": "The writer is considering deleting the sentence marked [7]. Should it be kept or deleted?",
+    "choices": [
+      "Kept, because payment methods explain the vendors' success",
+      "Kept, because it adds a practical detail readers need",
+      "Deleted, because it strays from the paragraph's focus on the market as a community stage",
+      "Deleted, because markets do not accept payment"
+    ],
+    "correctIndex": 2,
+    "explanation": "The paragraph is about music and vendors' growth into restaurants; a note about payment methods is off-topic and should be cut."
+  },
+  {
+    "id": "en-138",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Punctuation",
+    "difficulty": 3,
+    "prompt": "Which choice best replaces the underlined portion marked [8]?",
+    "choices": [
+      "NO CHANGE",
+      "a link to somewhere else;",
+      "a link, to somewhere else:",
+      "a link to somewhere else,"
+    ],
+    "correctIndex": 0,
+    "explanation": "A colon correctly introduces the elaborating list that follows; a semicolon would leave a fragment, and a comma would blur the list's internal commas."
+  },
+  {
+    "id": "en-139",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Grammar & Usage",
+    "difficulty": 2,
+    "prompt": "Which choice best replaces the underlined portion marked [9]?",
+    "choices": [
+      "NO CHANGE",
+      "A visitor can eat they're way",
+      "Visitors can eat their way",
+      "A visitor can eat its way"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"There\" is an error for the possessive \"their,\" and making the subject plural (\"visitors\") keeps the pronoun agreement consistent."
+  },
+  {
+    "id": "en-140",
+    "subject": "english",
+    "passageId": "en-p14",
+    "topic": "Grammar & Usage",
+    "difficulty": 1,
+    "prompt": "Which choice best replaces the underlined portion marked [10]?",
+    "choices": [
+      "NO CHANGE",
+      "its",
+      "its'",
+      "it is"
+    ],
+    "correctIndex": 1,
+    "explanation": "The possessive of \"it\" is \"its\"; \"it's\" is the contraction of \"it is.\""
+  }
+]

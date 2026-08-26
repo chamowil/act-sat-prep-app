@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "re-001",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "explain how lighthouses were automated and why keepers became unnecessary",
+      "argue that children should spend summers away from their parents",
+      "describe how a summer with her grandfather changed the narrator's way of paying attention to the world",
+      "recount the history of the museum at Point Bellamy"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage traces the narrator from sulking on arrival to keeping her own ledger and becoming 'quieter inside... attentive,' showing a change in how she attends to the world."
+  },
+  {
+    "id": "re-002",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the grandfather's daily ledger entries record:",
+    "choices": [
+      "wind, cloud, swell, and the arrivals of certain birds",
+      "the number of visitors to the museum",
+      "repairs made to the automated light",
+      "the tides and the phases of the moon"
+    ],
+    "correctIndex": 0,
+    "explanation": "The second paragraph states he 'recorded the weather in a canvas-bound ledger: wind, cloud, swell, the arrivals of certain birds.'"
+  },
+  {
+    "id": "re-003",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage indicates that the lighthouse at Point Bellamy:",
+    "choices": [
+      "was scheduled to be demolished at the end of the summer",
+      "had been automated for thirty years",
+      "was still operated by hand each night by the grandfather",
+      "had been converted into a private home"
+    ],
+    "correctIndex": 1,
+    "explanation": "The second paragraph opens by stating, 'The lighthouse had been automated for thirty years,' with a machine now blinking the light on at dusk."
+  },
+  {
+    "id": "re-004",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"trailed\" most nearly means:",
+    "choices": [
+      "fell behind in a competition",
+      "left a visible track",
+      "faded away gradually",
+      "followed along after"
+    ],
+    "correctIndex": 3,
+    "explanation": "The narrator says she 'trailed him grudgingly, doing chores,' meaning she reluctantly followed her grandfather around during his routine."
+  },
+  {
+    "id": "re-005",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The grandfather's habit of eating the same lunch every day most strongly suggests that he:",
+    "choices": [
+      "cannot afford a greater variety of food",
+      "values routine because it frees him from repeated small decisions",
+      "dislikes most foods other than sardines and apples",
+      "is following a doctor's strict dietary orders"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explicitly rules out poverty and reports his reasoning: 'deciding once, he said, freed him from deciding daily.'"
+  },
+  {
+    "id": "re-006",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "During the storm, the grandfather explains that he stands in the lantern room because:",
+    "choices": [
+      "the automated light often fails in bad weather",
+      "he is worried the windows will break",
+      "although the light no longer needs a keeper, somebody ought to see what it sees",
+      "he cannot sleep through the noise of the wind"
+    ],
+    "correctIndex": 2,
+    "explanation": "When the narrator says the light doesn't need him, he replies, 'The light doesn't need us anymore. But somebody ought to see what it sees.'"
+  },
+  {
+    "id": "re-007",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "According to the passage, the narrator begins keeping a ledger of her own:",
+    "choices": [
+      "on the afternoon after the storm, without being asked",
+      "on the morning her parents first left her at Point Bellamy",
+      "only after she returns home in August",
+      "as soon as her grandfather asks her to help with his records"
+    ],
+    "correctIndex": 0,
+    "explanation": "After the storm and the morning walk along the wreckage-strewn beach, the passage says, 'That afternoon, without being asked, I started a ledger of my own.'"
+  },
+  {
+    "id": "re-008",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "When the narrator describes herself at the end of the summer as \"not empty, but attentive,\" she most likely means that she:",
+    "choices": [
+      "has become withdrawn and lonely after weeks away from her friends",
+      "has learned to conceal her true feelings from her parents",
+      "no longer has any interest in her old life at home",
+      "has internalized her grandfather's habit of quiet, careful observation"
+    ],
+    "correctIndex": 3,
+    "explanation": "She compares her inner quiet to the tower's watchfulness and immediately notes she has kept a notebook ever since, echoing her grandfather's practice of attentive record-keeping."
+  },
+  {
+    "id": "re-009",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The final sentence of the passage (\"I have kept a notebook, one way or another, ever since\") primarily serves to:",
+    "choices": [
+      "reveal that the narrator became a professional writer",
+      "show that the summer's influence on the narrator was lasting",
+      "suggest that the narrator never returned to Point Bellamy",
+      "explain how the grandfather's ledgers were eventually preserved"
+    ],
+    "correctIndex": 1,
+    "explanation": "By extending the ledger-keeping habit from that summer into the narrator's ongoing life, the sentence shows the summer's effect endured well beyond August."
+  },
+  {
+    "id": "re-010",
+    "subject": "reading",
+    "passageId": "re-p01",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "Compared with her attitude at the beginning of the summer, the narrator's attitude at the end is best described as having shifted from:",
+    "choices": [
+      "resentful boredom to quiet attentiveness",
+      "eager curiosity to weary disappointment",
+      "fear of the ocean to confidence on the water",
+      "admiration for her grandfather to embarrassment about him"
+    ],
+    "correctIndex": 0,
+    "explanation": "She begins determined to 'spend the whole summer sulking' and ends 'quieter inside... not empty, but attentive,' voluntarily keeping her own ledger."
+  },
+  {
+    "id": "re-011",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is primarily concerned with:",
+    "choices": [
+      "the difficulty of running a family restaurant profitably",
+      "a son's announcement of a life choice and his mother's unexpected response to it",
+      "the process of preparing a traditional twelve-hour broth",
+      "the narrator's decision to drop out of college entirely"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dramatic center of the passage is the narrator telling his mother he changed his major to music and her reply, in which she reveals her own abandoned singing."
+  },
+  {
+    "id": "re-012",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the broth is made with:",
+    "choices": [
+      "chicken, lemongrass, and cinnamon",
+      "beef bones, garlic, and cloves",
+      "pork, scallions, and peppercorns",
+      "oxtail, charred ginger, and star anise"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage describes 'twelve hours of oxtail and charred ginger and star anise, my grandmother's recipe.'"
+  },
+  {
+    "id": "re-013",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The news the narrator has come home to tell his mother is that he:",
+    "choices": [
+      "changed his college major from business to music",
+      "plans to open a second location of the restaurant",
+      "has decided to transfer to a school in Vietnam",
+      "failed his second-year business courses"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrator states directly, 'What I have to tell her is that in October I changed my major to music.'"
+  },
+  {
+    "id": "re-014",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the name of the restaurant, Mua, means:",
+    "choices": [
+      "home",
+      "song",
+      "rain",
+      "harvest"
+    ],
+    "correctIndex": 2,
+    "explanation": "The opening sentence states, 'The restaurant is called Mua, which means rain.'"
+  },
+  {
+    "id": "re-015",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"carried\" (\"carried here in my mother's memory\") most nearly means:",
+    "choices": [
+      "lifted with physical effort",
+      "preserved and brought along",
+      "sold at a store",
+      "won by a wide margin"
+    ],
+    "correctIndex": 1,
+    "explanation": "The recipe 'could not be carried any other way' than in memory, meaning the mother preserved it mentally and brought it with her to the new country."
+  },
+  {
+    "id": "re-016",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The mother most likely tells the story of her singing competitions in order to:",
+    "choices": [
+      "persuade the narrator to abandon music as she did",
+      "prove that she is a more talented performer than her son",
+      "let her son make his choice knowing the cost of both directions, which no one explained to her",
+      "explain why she refuses to share the broth recipe with customers"
+    ],
+    "correctIndex": 2,
+    "explanation": "She says explicitly, 'I know the cost of both directions. Nobody told me that. I am telling you,' framing the story as information rather than a warning or a rebuke."
+  },
+  {
+    "id": "re-017",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "According to the passage, the narrator hears his mother singing:",
+    "choices": [
+      "before he makes his announcement, while she skims the broth",
+      "during the lunch rush, over the noise of the exhaust fan",
+      "at the singing competitions she won in Da Lat",
+      "at closing time, after the lunch rush, while he stacks chairs"
+    ],
+    "correctIndex": 3,
+    "explanation": "The final paragraph places the singing 'at close, while I stack chairs,' after the lunch rush has come and gone."
+  },
+  {
+    "id": "re-018",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The mother's singing at the end of the passage most strongly suggests that:",
+    "choices": [
+      "her son's decision has stirred a part of herself she had long set aside",
+      "she has decided to sell the restaurant and return to performing",
+      "she is unaware that her son can hear her",
+      "she regrets having told her son about Da Lat"
+    ],
+    "correctIndex": 0,
+    "explanation": "After decades in which the narrator 'never heard her sing so much as a note,' she sings on the very day of his announcement, implying his choice reawakened her abandoned music."
+  },
+  {
+    "id": "re-019",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author most likely uses images of rain throughout the passage in order to:",
+    "choices": [
+      "establish that the story takes place during a storm",
+      "connect the restaurant's name to the mother's abandoned singing, which her father dismissed as rain",
+      "emphasize that the narrator dislikes the town's climate",
+      "foreshadow the failure of the family business"
+    ],
+    "correctIndex": 1,
+    "explanation": "The restaurant is named for rain, the grandfather called singing 'rain' that lets nothing grow, and the mother's final song comes 'in a key of rainfall,' tying the motif to her sacrificed art."
+  },
+  {
+    "id": "re-020",
+    "subject": "reading",
+    "passageId": "re-p02",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The mother's response to her son's announcement differs from her own father's response to her singing primarily in that she:",
+    "choices": [
+      "forbids the choice outright rather than merely discouraging it",
+      "insists that her son first prove his talent in competitions",
+      "offers her son knowledge of the consequences instead of a dismissal",
+      "refuses to discuss the matter at all during working hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "Her father dismissed singing as rain that lets nothing grow, whereas she tells her son she knows 'the cost of both directions' and gives him the information she was never given."
+  },
+  {
+    "id": "re-021",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage as a whole is best described as:",
+    "choices": [
+      "a remembrance of an aunt whose practice of origami shaped the narrator's character and teaching",
+      "an instructional guide to folding a paper crane correctly",
+      "an account of working conditions in garment factories",
+      "a history of the belief that a thousand cranes earn a wish"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrator recalls Aunt Lin's folding, its role during the mother's illness, and how the narrator now passes the same lessons to seventh-grade students."
+  },
+  {
+    "id": "re-022",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, Aunt Lin earned her living as a:",
+    "choices": [
+      "hospital aide",
+      "schoolteacher",
+      "seamstress paid by the finished garment",
+      "grocery store clerk"
+    ],
+    "correctIndex": 2,
+    "explanation": "The second paragraph says she 'worked as a seamstress in a factory... doing piecework, paid by the finished garment.'"
+  },
+  {
+    "id": "re-023",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The first crane Aunt Lin folded for the narrator was made from:",
+    "choices": [
+      "a sheet of gold origami paper",
+      "a square trimmed from a grocery flyer",
+      "a page of pattern paper from the factory",
+      "a hospital admission form"
+    ],
+    "correctIndex": 1,
+    "explanation": "The opening sentence says she folded it 'using a square she had trimmed from a grocery flyer,' which is why the bird was orange and advertised chicken thighs."
+  },
+  {
+    "id": "re-024",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage, Aunt Lin began folding a thousand cranes:",
+    "choices": [
+      "to sell at the factory where she worked",
+      "when she first arrived in the country",
+      "after the narrator failed to learn the folds",
+      "during the eleven weeks the narrator's mother was in the hospital"
+    ],
+    "correctIndex": 3,
+    "explanation": "The fourth paragraph ties the thousand cranes to 'the winter I turned twelve,' when the narrator's mother was hospitalized 'for what became eleven weeks.'"
+  },
+  {
+    "id": "re-025",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Vocabulary in Context",
+    "difficulty": 1,
+    "prompt": "As it is used in the fourth paragraph, the phrase \"a new, fierce economy\" most nearly describes folding that was:",
+    "choices": [
+      "expensive and wasteful",
+      "intensely efficient, with no wasted motion",
+      "related to the family's finances",
+      "careless and hurried"
+    ],
+    "correctIndex": 1,
+    "explanation": "In context, 'economy' refers to efficiency of effort: Aunt Lin folded on lunch breaks and after shifts, recruiting others, driving urgently toward the thousand."
+  },
+  {
+    "id": "re-026",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The adult narrator interprets the thousand cranes primarily as:",
+    "choices": [
+      "proof that Aunt Lin secretly believed in magic",
+      "a gift intended to decorate the hospital room",
+      "a way of converting helplessness into something countable during the crisis",
+      "an attempt to earn extra money for medical bills"
+    ],
+    "correctIndex": 2,
+    "explanation": "The narrator states the cranes 'were not a bargain with the universe' but 'a way of making eleven weeks hold still, of converting helplessness into something you could count.'"
+  },
+  {
+    "id": "re-027",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The structure of the passage is best described as:",
+    "choices": [
+      "childhood memories of the aunt leading to a final scene in the narrator's present-day classroom",
+      "a single continuous scene set at a kitchen table",
+      "alternating chapters told by the narrator and by Aunt Lin",
+      "a chronological history of origami followed by a biography"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage moves from the first crane at age seven through the hospital winter and the aunt's death to the narrator's monthly origami lesson with seventh graders."
+  },
+  {
+    "id": "re-028",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The detail that Aunt Lin \"scoffed at lottery tickets and lucky colors\" most strongly suggests that her thousand-crane project was:",
+    "choices": [
+      "an attempt to change her own luck at the factory",
+      "evidence that the illness had changed her beliefs about fate",
+      "a tradition required by her employer",
+      "not motivated by genuine superstition"
+    ],
+    "correctIndex": 3,
+    "explanation": "By establishing that she 'was not superstitious about anything else,' the passage signals that the folding served another purpose, which the narrator then names: managing helplessness."
+  },
+  {
+    "id": "re-029",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The description of the shoebox of creased practice sheets primarily serves to:",
+    "choices": [
+      "show that Aunt Lin never finished the thousand cranes",
+      "portray Aunt Lin's folding as a disciplined practice, like a pianist doing scales",
+      "suggest that the narrator should have inherited something more valuable",
+      "explain why the narrator chose to teach mathematics"
+    ],
+    "correctIndex": 1,
+    "explanation": "The narrator directly compares the practice sheets to 'the exercises she did the way a pianist does scales,' emphasizing craft and discipline behind the finished animals."
+  },
+  {
+    "id": "re-030",
+    "subject": "reading",
+    "passageId": "re-p03",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The narrator's students resemble the young narrator primarily in that they:",
+    "choices": [
+      "groan at first and produce mangled early cranes",
+      "fold cranes to help a sick relative",
+      "learn origami from squares of grocery flyers",
+      "refuse to look at their unfolded mistakes"
+    ],
+    "correctIndex": 0,
+    "explanation": "The final paragraph draws the parallel explicitly: 'My students groan the way I once groaned. Their first cranes are mangled the way mine were mangled.'"
+  },
+  {
+    "id": "re-031",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Main Idea",
+    "difficulty": 1,
+    "prompt": "The central claim of the passage is that:",
+    "choices": [
+      "waits in line have grown steadily longer in modern life",
+      "satisfaction with waiting depends less on a wait's actual length than on how the wait feels",
+      "mathematical models can eliminate queues entirely",
+      "customers should always choose the serpentine line"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first paragraph states the key discovery: satisfaction 'had surprisingly little to do with how long people waited' and 'almost everything to do with how the wait felt.'"
+  },
+  {
+    "id": "re-032",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the airport reduced complaints about baggage delivery by:",
+    "choices": [
+      "hiring additional baggage handlers",
+      "installing screens showing estimated wait times",
+      "moving arrival gates farther from baggage claim so passengers spent most of the wait walking",
+      "delivering bags directly to passengers' cars"
+    ],
+    "correctIndex": 2,
+    "explanation": "The second paragraph explains that gates were moved so passengers 'spent six of those eight minutes walking instead of standing,' and complaints nearly vanished."
+  },
+  {
+    "id": "re-033",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "The passage states that the true advantage of the single serpentine line is that it:",
+    "choices": [
+      "guarantees first come, first served",
+      "is significantly faster on average",
+      "requires fewer employees to manage",
+      "lets customers pick the fastest register"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage says the serpentine line 'is rarely faster on average' and that 'its advantage is moral, not mathematical: it guarantees first come, first served.'"
+  },
+  {
+    "id": "re-034",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"inflates\" most nearly means:",
+    "choices": [
+      "fills with air",
+      "raises the price of",
+      "celebrates",
+      "makes seem longer than it is"
+    ],
+    "correctIndex": 3,
+    "explanation": "The claim that 'uncertainty inflates a wait' is illustrated by ten unexplained minutes feeling psychologically longer than ten announced minutes."
+  },
+  {
+    "id": "re-035",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The finding that wait-time displays reduced complaints even when actual waits grew slightly longer most strongly supports the conclusion that people are primarily:",
+    "choices": [
+      "unable to judge the passage of time accurately",
+      "seeking relief from anxiety rather than speed itself",
+      "reluctant to complain in government offices",
+      "more patient in hospitals than in banks"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage draws this exact conclusion: 'People, it turns out, are not primarily buying speed. They are buying the absence of anxiety.'"
+  },
+  {
+    "id": "re-036",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage cites mirrors in elevator lobbies and menus handed out immediately as examples of the principle that:",
+    "choices": [
+      "customers dislike being watched while they wait",
+      "fair lines matter more than fast lines",
+      "occupied time feels shorter than unoccupied time",
+      "waits should always be under ten minutes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both examples follow the statement of the principle that 'occupied time feels shorter than unoccupied time.'"
+  },
+  {
+    "id": "re-037",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author includes the airport anecdote primarily in order to:",
+    "choices": [
+      "provide a vivid case in which the felt wait changed while the actual wait did not",
+      "criticize airlines for slow baggage handling",
+      "show that walking is healthier than standing",
+      "argue that executives ignore customer complaints"
+    ],
+    "correctIndex": 0,
+    "explanation": "The anecdote's point is stated directly: 'The total wait was unchanged; the experience of it was transformed,' making it the passage's classic illustration."
+  },
+  {
+    "id": "re-038",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "It can most reasonably be inferred that customers feel more anger in parallel lines than in serpentine lines because parallel lines:",
+    "choices": [
+      "take longer on average than serpentine lines",
+      "prevent customers from seeing the registers",
+      "require more walking between stations",
+      "make violations of first come, first served visible to everyone waiting"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage explains that in parallel lines 'the arrangement makes injustice visible: whenever a neighboring line lurches ahead, someone who arrived after you is served before you.'"
+  },
+  {
+    "id": "re-039",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The organization of the passage is best described as:",
+    "choices": [
+      "a chronological history of queue research from the 1980s to today",
+      "a series of psychological principles, each supported by examples, followed by a broader lesson",
+      "a debate between two researchers with opposing views",
+      "a single extended case study of one airport"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage moves through occupied time, uncertainty, and fairness, illustrating each principle with examples, and closes with lessons for institutions and individuals."
+  },
+  {
+    "id": "re-040",
+    "subject": "reading",
+    "passageId": "re-p04",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "According to the passage, customers' stated preference for parallel lines differs from their actual experience of them in that customers:",
+    "choices": [
+      "say parallel lines are unfair but secretly enjoy the competition",
+      "prefer parallel lines only when signs display wait times",
+      "say they prefer the gambler's hope of picking a fast line yet report more anger while waiting in one",
+      "choose parallel lines because they are proven to be faster"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage notes people 'often say they prefer' parallel lines for the chance of picking the fast one, 'yet the same customers report far more anger in parallel lines.'"
+  },
+  {
+    "id": "re-041",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main idea of the passage is that periodic markets are:",
+    "choices": [
+      "a primitive stage of commerce that vanishes as towns grow wealthy",
+      "primarily religious festivals with minor economic functions",
+      "a recent invention spread by cell phones and paved roads",
+      "adaptive institutions that solve the problem of scarce customers by concentrating trade in time"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage argues the markets 'have proven not primitive but adaptive,' solving 'a scarcity of customers' by concentrating buyers and sellers on fixed days."
+  },
+  {
+    "id": "re-042",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, market cycles documented by geographers include:",
+    "choices": [
+      "weekly cycles in the Guatemalan highlands and four-day cycles in parts of West Africa",
+      "daily cycles in pre-modern Korea and monthly cycles in Java",
+      "ten-day cycles in rural France and two-day cycles in Guatemala",
+      "seasonal cycles found only in East Africa"
+    ],
+    "correctIndex": 0,
+    "explanation": "The second paragraph lists 'weekly cycles in the Guatemalan highlands and rural France, four-day cycles in parts of West Africa, five-day cycles in pre-modern Korea and Java.'"
+  },
+  {
+    "id": "re-043",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that neighboring towns hold their markets on different days so that:",
+    "choices": [
+      "officials can attend every market in the region",
+      "farmers can rest their animals between trips",
+      "no two nearby markets compete directly, creating a rotating circuit",
+      "each town can specialize in a single kind of good"
+    ],
+    "correctIndex": 2,
+    "explanation": "The schedules are 'arranged so that no two nearby markets compete directly. The result is a rotating circuit' that traders travel in a loop."
+  },
+  {
+    "id": "re-044",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage, functions of market day beyond buying and selling include all of the following EXCEPT:",
+    "choices": [
+      "settling debts and arranging loans",
+      "electing regional trade officials",
+      "spreading news and posting official announcements",
+      "introductions that led to marriages"
+    ],
+    "correctIndex": 1,
+    "explanation": "The third paragraph mentions news, debts and loans, official announcements, and marriage introductions; it says nothing about electing officials."
+  },
+  {
+    "id": "re-045",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Vocabulary in Context",
+    "difficulty": 1,
+    "prompt": "As it is used in the third paragraph, the word \"stopgap\" most nearly means:",
+    "choices": [
+      "a temporary makeshift expected to be replaced",
+      "a barrier that blocks trade",
+      "a permanent legal institution",
+      "a sudden interruption in supply"
+    ],
+    "correctIndex": 0,
+    "explanation": "Early models saw the markets as 'a primitive stage, a stopgap that would disappear' once permanent stores became viable, i.e., a temporary arrangement."
+  },
+  {
+    "id": "re-046",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "It can most reasonably be inferred that cell phones failed to dissolve the weekly market cycle because:",
+    "choices": [
+      "traders could not afford the new technology",
+      "governments required markets to keep their traditional schedules",
+      "the markets' underlying problem was a shortage of customers, not a shortage of information",
+      "paved roads made daily travel between towns impossible"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage explains the rhythm survived 'because it still solved the underlying problem, which is not a lack of information but a scarcity of customers.'"
+  },
+  {
+    "id": "re-047",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "In the final paragraph, the author describes the market system as \"a single, mobile city\" primarily in order to:",
+    "choices": [
+      "argue that rural regions should build real cities instead",
+      "reframe the system as efficient when seen in time rather than space",
+      "predict that the markets will soon become permanent settlements",
+      "criticize outsiders who enjoy visiting weekly markets"
+    ],
+    "correctIndex": 1,
+    "explanation": "The metaphor supports the paragraph's lesson that institutions looking inefficient from a distance encode solutions: viewed in time, the region's commerce forms one assembling city."
+  },
+  {
+    "id": "re-048",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The example of the cloth merchant traveling a Monday-Tuesday-Wednesday loop primarily illustrates that the rotating schedule benefits:",
+    "choices": [
+      "only the largest town on the circuit",
+      "government tax collectors most of all",
+      "wealthy customers who can travel between towns",
+      "both traveling merchants and the villagers whose doorsteps commerce visits weekly"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states the point from both angles: villages 'take turns assembling a full-sized market for her,' while for villagers 'the whole region's commerce comes to their doorstep once a week.'"
+  },
+  {
+    "id": "re-049",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Sequence & Structure",
+    "difficulty": 3,
+    "prompt": "Which of the following best describes how the passage develops its argument?",
+    "choices": [
+      "It presents an early prediction that the markets would disappear, then uses fieldwork findings to overturn that prediction",
+      "It narrates a single market day from dawn to dusk",
+      "It compares statistics from two competing markets in one region",
+      "It lists the passage's conclusions first and provides no supporting evidence"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage introduces early models treating markets as a stopgap, then shows how fieldwork 'complicated that prediction' and revealed the markets' adaptive functions."
+  },
+  {
+    "id": "re-050",
+    "subject": "reading",
+    "passageId": "re-p05",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The view of early economic modelers differs from that of researchers who did fieldwork primarily in that the modelers:",
+    "choices": [
+      "believed markets served vital social functions no shop could replace",
+      "expected periodic markets to disappear as towns grew richer, while fieldworkers found them performing irreplaceable functions",
+      "studied East African markets, while fieldworkers studied Korean ones",
+      "focused on marriage customs rather than commerce"
+    ],
+    "correctIndex": 1,
+    "explanation": "Early models treated the markets as a stopgap destined to vanish; researchers 'who actually spent time in periodic markets found them performing functions no shop could replace.'"
+  },
+  {
+    "id": "re-051",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage as a whole is primarily concerned with:",
+    "choices": [
+      "proving that remote work has permanently ended commuting",
+      "ranking the world's cities by average commute length",
+      "how commuting functions as a stable time budget and, unexpectedly, as a psychological boundary",
+      "arguing that highways should no longer be built"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage develops two linked findings: the near-constant one-hour travel budget and the discovery that the commute served as a 'boundary ritual' many remote workers missed."
+  },
+  {
+    "id": "re-052",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the physicist studying travel surveys found that average daily travel time across many countries hovered near:",
+    "choices": [
+      "fifteen minutes",
+      "one hour",
+      "two hours",
+      "three hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first paragraph reports that average daily travel time 'hovered near one hour—roughly thirty minutes out and thirty minutes back.'"
+  },
+  {
+    "id": "re-053",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that ancient cities in which everyone walked were rarely more than about:",
+    "choices": [
+      "one kilometer across",
+      "twenty kilometers across",
+      "one hundred kilometers across",
+      "five kilometers across"
+    ],
+    "correctIndex": 3,
+    "explanation": "The second paragraph says walking cities 'were rarely more than about five kilometers across—one hour's round trip on foot.'"
+  },
+  {
+    "id": "re-054",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "Based on the passage, when a city builds a faster rail line, residents most typically respond by:",
+    "choices": [
+      "moving farther out until their commutes return to roughly the former length in time",
+      "arriving home earlier and banking the saved minutes",
+      "abandoning automobiles entirely",
+      "working longer hours at the office"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage explains that residents 'move farther out, trading the speed for a larger house or a cheaper rent, until their commute swells back toward the familiar thirty minutes.'"
+  },
+  {
+    "id": "re-055",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"seam\" (\"no seam between them\") most nearly means:",
+    "choices": [
+      "a line of stitching in fabric",
+      "a layer of coal underground",
+      "a dividing boundary between two parts of the day",
+      "a visible flaw or defect"
+    ],
+    "correctIndex": 2,
+    "explanation": "With the commute gone, 'the video calls ended and dinner began with no seam between them'—that is, no boundary separating work from home life."
+  },
+  {
+    "id": "re-056",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, some newly remote workers responded to the loss of their commutes by:",
+    "choices": [
+      "moving closer to their former offices",
+      "taking a fifteen-minute walk around the block before logging on",
+      "petitioning employers to restore office work",
+      "sleeping an extra hour each morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "The third paragraph describes workers 'inventing artificial commutes—a fifteen-minute walk around the block before logging on... to mark the crossing.'"
+  },
+  {
+    "id": "re-057",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The concept of a \"boundary ritual\" best explains why some remote workers:",
+    "choices": [
+      "reported higher well-being than long-distance commuters",
+      "preferred trains to automobiles",
+      "chose to work in coffee shops rather than at home",
+      "missed the commute's interval itself rather than the traffic or crowding"
+    ],
+    "correctIndex": 3,
+    "explanation": "Psychologists' term names what was lost: 'a daily corridor in which one identity could be set down and another picked up,' which is why the interval itself was missed."
+  },
+  {
+    "id": "re-058",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author ends the passage with the image of people \"walking in a circle\" primarily to:",
+    "choices": [
+      "underscore the surprising conclusion that the commute served purposes beyond transportation",
+      "mock remote workers for wasting their reclaimed time",
+      "recommend a specific exercise routine for remote workers",
+      "show that commuting distances have begun to shrink"
+    ],
+    "correctIndex": 0,
+    "explanation": "The closing image dramatizes the passage's central surprise: given back thirty minutes, many people re-created the commute, revealing its role as a transition rather than mere travel."
+  },
+  {
+    "id": "re-059",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "Which of the following best describes the organization of the passage?",
+    "choices": [
+      "A list of unrelated statistics about transportation",
+      "An empirical pattern is introduced, its implications for cities are drawn out, and a psychological reinterpretation of commuting follows",
+      "A personal narrative about the author's own commute",
+      "A point-by-point rebuttal of the physicist's original study"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage moves from the one-hour constant, to its consequences for urban form, to the remote-work findings that recast the commute as a boundary ritual."
+  },
+  {
+    "id": "re-060",
+    "subject": "reading",
+    "passageId": "re-p06",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The twentieth-century researchers' view of commuting differs from the view suggested by the remote-work surveys in that the earlier researchers:",
+    "choices": [
+      "believed commutes were becoming steadily shorter",
+      "argued that commutes improved daily well-being",
+      "treated the commute as pure loss to be minimized, whereas the surveys revealed it also served as a valued transition",
+      "focused only on walking cities rather than modern ones"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage contrasts the older view of commuting as 'dead time... to be minimized like friction' with survey findings that many workers missed the interval as a boundary between identities."
+  },
+  {
+    "id": "re-061",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "explore the choice translators of poetry face between preserving meaning and preserving music, and propose performance as a useful analogy",
+      "prove that poetry can never be translated at all",
+      "explain how to translate Italian sonnets accurately",
+      "argue that translators should always remain invisible"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage sets up the meaning-versus-music dilemma, surveys two schools, and develops the analogy of translation as musical performance."
+  },
+  {
+    "id": "re-062",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "In the example of the Italian sonnet, the opening line is notable because:",
+    "choices": [
+      "it contains no verbs",
+      "it rhymes with every other line in the poem",
+      "nearly every word begins with a soft s, so the line sounds like the wind it describes",
+      "it was added by a later translator"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage describes a line in which 'nearly every word begins with a soft s, so that the line itself sounds like wind moving through grass—and the line is about wind moving through grass.'"
+  },
+  {
+    "id": "re-063",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the school of translation that favors being \"a pane of glass\" holds that the translator should:",
+    "choices": [
+      "rewrite the poem freely in the new language",
+      "transmit the original with minimal interference, even at the cost of losing its music",
+      "translate only poems originally written in prose",
+      "publish the original and translation side by side"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first school wants the translator 'invisible, self-effacing, transmitting the original with as little interference as possible,' accepting that the music is left behind."
+  },
+  {
+    "id": "re-064",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Vocabulary in Context",
+    "difficulty": 1,
+    "prompt": "As it is used in the first paragraph, the word \"cargo\" most nearly refers to:",
+    "choices": [
+      "the payment a translator receives",
+      "goods shipped across the ocean",
+      "the physical weight of a book",
+      "what a poem carries—its meaning and its sound"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage uses 'cargo' figuratively for the two things a poem transports: 'what the words mean, and what the words do—their sound, their rhythm.'"
+  },
+  {
+    "id": "re-065",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "By saying of the two ways to translate the sonnet's line that \"Neither choice is wrong. Both are losses,\" the author most nearly means that:",
+    "choices": [
+      "translators should refuse to translate poems about wind",
+      "each legitimate option sacrifices something essential from the original",
+      "the literal translation is superior to the musical one",
+      "the sonnet has already been translated too many times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Saving the meaning loses the whispering sound, and chasing the sound lets the meaning drift; each defensible choice still forfeits part of what made the line work."
+  },
+  {
+    "id": "re-066",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage's musical analogy, fidelity in performance means:",
+    "choices": [
+      "playing the piece exactly as its first performer did",
+      "never deviating from a single correct sound",
+      "honoring the work's intentions rather than duplicating one correct sound",
+      "improvising freely on the score's themes"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says two differing performances can both be faithful 'because fidelity in performance means honoring the work's intentions, not duplicating a single correct sound.'"
+  },
+  {
+    "id": "re-067",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "It can most reasonably be inferred that if translation is a kind of performance, then the idea of a \"definitive\" translation:",
+    "choices": [
+      "becomes incoherent, since no performance can be final",
+      "becomes achievable through modern scholarship",
+      "applies only to translations of music",
+      "was achieved once for the Italian sonnet discussed earlier"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage states that the analogy 'quietly discards... the old dream of the perfect translation,' because 'if translation is performance, there is no final performance.'"
+  },
+  {
+    "id": "re-068",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author introduces the analogy of the pianist and the sonata primarily in order to:",
+    "choices": [
+      "argue that musicians make better translators than scholars",
+      "show that sonatas are harder to interpret than poems",
+      "explain why concert audiences prefer familiar works",
+      "offer a framework in which multiple differing translations can all count as faithful"
+    ],
+    "correctIndex": 3,
+    "explanation": "The analogy reframes each translation as one performance of a score, making 'the existence of many differing translations... no more scandalous than' many recordings of one concerto."
+  },
+  {
+    "id": "re-069",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Sequence & Structure",
+    "difficulty": 3,
+    "prompt": "Which of the following best describes the structure of the passage?",
+    "choices": [
+      "A chronological survey of famous translators through history",
+      "A dilemma is posed, illustrated with an example, mapped onto two opposing schools, and then reframed through an extended analogy",
+      "A translation is quoted in full and then criticized line by line",
+      "Two poems are compared stanza by stanza"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage moves from the meaning-versus-music dilemma, to the sonnet example, to the transparency and re-creation schools, to the performance analogy and its consequences."
+  },
+  {
+    "id": "re-070",
+    "subject": "reading",
+    "passageId": "re-p07",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The two schools of translation described in the passage differ most fundamentally over whether:",
+    "choices": [
+      "poems should be translated only by native speakers",
+      "translation should be done quickly or slowly",
+      "a poem's music is dispensable decoration or essential substance",
+      "Italian poetry is superior to English poetry"
+    ],
+    "correctIndex": 2,
+    "explanation": "The transparency school accepts losing the music as the price of fidelity, while the rival school holds that 'a poem's music is not decoration but substance.'"
+  },
+  {
+    "id": "re-071",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage as a whole is primarily concerned with:",
+    "choices": [
+      "the biography of the muralist Clara Vasquez",
+      "how the restoration of a mural illustrates conservation's ethical commitments to honesty and reversibility",
+      "the federal arts programs of the Depression era",
+      "techniques for removing drop ceilings from historic buildings"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage uses the fourteen-month project—cleaning, the tratteggio square, the reversibility rule—to explore how conservators balance visual unity against honesty about what is original."
+  },
+  {
+    "id": "re-072",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the mural was painted:",
+    "choices": [
+      "in 1938 by Clara Vasquez under a Depression-era federal arts program",
+      "in 1939 by an anonymous sign painter",
+      "in the 1950s as a copy of an earlier photograph",
+      "in the 1970s during a renovation of the post office"
+    ],
+    "correctIndex": 0,
+    "explanation": "The first paragraph states the mural was 'painted in 1938 by Clara Vasquez, a muralist hired under a Depression-era federal arts program.'"
+  },
+  {
+    "id": "re-073",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Examination under ultraviolet light revealed that:",
+    "choices": [
+      "the sky had originally been gray-green",
+      "the mural was painted over an older mural",
+      "the plaster was too damaged to restore",
+      "a sign painter in the 1950s had repainted several faces slightly wrong"
+    ],
+    "correctIndex": 3,
+    "explanation": "Under UV, retouching fluoresces differently from original paint, revealing that 'a well-meaning sign painter had repainted several faces in the 1950s, slightly wrong.'"
+  },
+  {
+    "id": "re-074",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "After cleaning, the mural's sky turned out to be:",
+    "choices": [
+      "a stormy gray-green",
+      "entirely missing",
+      "a saturated dawn pink",
+      "covered in gold leaf"
+    ],
+    "correctIndex": 2,
+    "explanation": "The second paragraph says the cleaning revealed colors no living resident had seen: 'the sky, thought to be gray-green, was a saturated dawn pink.'"
+  },
+  {
+    "id": "re-075",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"legible\" (\"left legible as a blank\") most nearly means:",
+    "choices": [
+      "clearly recognizable for what it is",
+      "written in readable handwriting",
+      "legally documented",
+      "faintly visible only under special light"
+    ],
+    "correctIndex": 0,
+    "explanation": "The tradition holds that a loss should remain identifiable as a loss—toned neutrally but never disguised—so viewers are not deceived about what is original."
+  },
+  {
+    "id": "re-076",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage, the tratteggio technique used on the empty square:",
+    "choices": [
+      "permanently seals the missing section with modern varnish",
+      "blends into the composition from across the room but openly declares itself at arm's length",
+      "reproduces Vasquez's brushwork so exactly that experts cannot detect it",
+      "leaves the square completely blank and untoned"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explains that from across the lobby the fine vertical lines blend, while 'from arm's length, the reconstruction openly declares itself.'"
+  },
+  {
+    "id": "re-077",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage suggests that the rule of reversibility is \"quietly radical\" because it:",
+    "choices": [
+      "requires materials far more expensive than traditional paints",
+      "allows conservators to alter an artist's original intentions",
+      "was invented by the sign painter whose work was removed",
+      "builds into today's work an admission that the present's understanding of the mural is incomplete"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage says the principle 'concedes in advance that the present understands the mural incompletely,' anticipating that some of today's choices will later look mistaken."
+  },
+  {
+    "id": "re-078",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author describes the mounting of the 1939 photograph beside the restored mural primarily to:",
+    "choices": [
+      "prove that the photograph is more valuable than the mural",
+      "suggest the restoration failed to satisfy the town",
+      "show the project completing its logic of honesty about what was lost and reconstructed",
+      "explain how the conservators were paid"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says the gesture 'completed the project's logic,' presenting restoration as an honest added layer of care rather than a return to a timeless original."
+  },
+  {
+    "id": "re-079",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage is organized primarily as:",
+    "choices": [
+      "a stage-by-stage account of the restoration, with each stage raising a broader question of conservation ethics",
+      "a debate transcript between two named conservators",
+      "an alphabetical glossary of conservation terms",
+      "a comparison of murals in several different post offices"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage moves through cleaning, the UV discoveries, the empty square and tratteggio, and the reversibility rule, drawing an ethical point from each phase."
+  },
+  {
+    "id": "re-080",
+    "subject": "reading",
+    "passageId": "re-p08",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The two conservation traditions regarding losses differ primarily over whether:",
+    "choices": [
+      "losses should be repaired with reversible or irreversible materials",
+      "a blank should be honestly displayed as a blank or filled in to preserve the work's visual unity",
+      "ultraviolet light should be used before or after cleaning",
+      "murals should be restored on site or moved to museums"
+    ],
+    "correctIndex": 1,
+    "explanation": "One tradition insists losses stay legible as blanks so viewers are never deceived; the rival tradition holds that a void 'hijacks the eye and destroys the work's unity.'"
+  },
+  {
+    "id": "re-081",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Main Idea",
+    "difficulty": 1,
+    "prompt": "The central argument of the passage is that jazz improvisation:",
+    "choices": [
+      "is a dying art that audiences no longer appreciate",
+      "requires abandoning all musical training",
+      "depends on deep preparation, which enables rather than prevents spontaneity",
+      "consists entirely of memorized solos played from scores"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage argues against the romance of creation from nothing, concluding that 'discipline, pursued long enough, becomes indistinguishable from freedom.'"
+  },
+  {
+    "id": "re-082",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, young jazz players traditionally acquire their vocabulary of licks by:",
+    "choices": [
+      "transcribing recorded solos note for note and playing them repeatedly",
+      "composing original phrases in notation software",
+      "avoiding the recordings of earlier musicians",
+      "studying classical piano exclusively"
+    ],
+    "correctIndex": 0,
+    "explanation": "The second paragraph says licks are acquired 'by imitation, repetition, and theft,' with young players spending 'years transcribing recorded solos note for note.'"
+  },
+  {
+    "id": "re-083",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "As described in the passage, the practice called \"trading fours\" involves:",
+    "choices": [
+      "four musicians playing the same melody in unison",
+      "exchanging instruments every four songs",
+      "repeating a four-note motif throughout a piece",
+      "soloists exchanging four-bar statements, each answering the last"
+    ],
+    "correctIndex": 3,
+    "explanation": "The third paragraph defines trading fours as soloists exchanging 'four-bar statements, each answering the last—echoing its rhythm, inverting its shape, or puncturing its mood.'"
+  },
+  {
+    "id": "re-084",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the third paragraph, the word \"cardinal\" most nearly means:",
+    "choices": [
+      "brightly colored",
+      "most important",
+      "religious in nature",
+      "numerical"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bandmates rank listening as 'the improviser's cardinal skill, ranked above technique,' so 'cardinal' means foremost or most important."
+  },
+  {
+    "id": "re-085",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The passage's analogy between improvisation and spoken language chiefly supports the point that:",
+    "choices": [
+      "originality lies in fluent use of inherited materials, not in inventing the materials themselves",
+      "musicians should study linguistics before performing",
+      "jazz solos follow strict grammatical rules that cannot be broken",
+      "speech is a more expressive medium than music"
+    ],
+    "correctIndex": 0,
+    "explanation": "The analogy notes that sentences are built from words and grammar we did not invent, yet remain our own: 'Fluency, not novelty, is the medium of expression.'"
+  },
+  {
+    "id": "re-086",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "According to the passage, extensive practice contributes to spontaneity primarily by:",
+    "choices": [
+      "supplying complete solos that can be replayed from memory",
+      "eliminating the need to listen to other players",
+      "freeing the performer's attention from mechanics so that higher-order choices can happen at tempo",
+      "guaranteeing that no two performances are alike"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage explains that practice 'lowers the cost of the choices until choosing becomes fast enough to happen at tempo,' freeing attention for higher-order decisions."
+  },
+  {
+    "id": "re-087",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "The veteran saxophonist quoted in the passage tells his students that you practice for ten years so that:",
+    "choices": [
+      "you can win auditions against other players",
+      "for one chorus, you can forget everything you practiced",
+      "you never have to practice again",
+      "you can teach others to transcribe solos"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fourth paragraph quotes the formulation: 'you practice for ten years so that, for one chorus, you can forget everything you practiced.'"
+  },
+  {
+    "id": "re-088",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author's primary purpose in comparing improvisation to conversation is to:",
+    "choices": [
+      "prove that jazz musicians talk to each other on stage",
+      "show that audiences prefer talkative performers",
+      "argue that jazz is easier to learn than a foreign language",
+      "resolve the apparent paradox of learning to be original by copying"
+    ],
+    "correctIndex": 3,
+    "explanation": "The paradox 'dissolves if one thinks of language': just as no speaker is unoriginal for using inherited words, musicians express themselves through learned phrases."
+  },
+  {
+    "id": "re-089",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Sequence & Structure",
+    "difficulty": 3,
+    "prompt": "The passage begins by presenting the romantic story of the spontaneous solo primarily in order to:",
+    "choices": [
+      "set up a popular belief that the rest of the passage systematically corrects",
+      "endorse the audience's traditional understanding of jazz",
+      "summarize the history of jazz criticism",
+      "introduce a specific concert the author attended"
+    ],
+    "correctIndex": 0,
+    "explanation": "After presenting the romance of creation from nothing, the passage immediately calls it false and spends the remaining paragraphs showing how practiced improvisation really works."
+  },
+  {
+    "id": "re-090",
+    "subject": "reading",
+    "passageId": "re-p09",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The audiences' romantic view and the working musicians' view differ most sharply over whether:",
+    "choices": [
+      "jazz should be performed in concert halls or clubs",
+      "trading fours is a legitimate performance practice",
+      "improvisation is the opposite of preparation or its product",
+      "listening matters more than technique"
+    ],
+    "correctIndex": 2,
+    "explanation": "The romance casts improvisation as 'the opposite of preparation—pure spontaneity,' while musicians know 'how much of it is practiced,' with discipline enabling freedom."
+  },
+  {
+    "id": "re-091",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main idea of the passage is that:",
+    "choices": [
+      "sunlight penetrates deeper into the ocean than scientists once believed",
+      "bioluminescence is too rare to study effectively",
+      "the anglerfish is the deep sea's most successful predator",
+      "far from being lightless, the deep sea is filled with biological light serving many survival functions"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage argues the deep sea is 'not a silent darkness but a dense field of signals,' with roughly three-quarters of midwater animals producing light for lures, camouflage, and defense."
+  },
+  {
+    "id": "re-092",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, surveys from research submersibles estimate that the proportion of animals in the open water between the surface and four thousand meters that can produce light is roughly:",
+    "choices": [
+      "one-tenth",
+      "three-quarters",
+      "one-quarter",
+      "half"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first paragraph states that 'roughly three-quarters of the animals living in the open water between the surface and four thousand meters can produce their own light.'"
+  },
+  {
+    "id": "re-093",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "As described in the passage, bioluminescent light is typically produced when:",
+    "choices": [
+      "luciferin reacts with oxygen with the help of the enzyme luciferase",
+      "seawater filters sunlight down to a single wavelength",
+      "an animal's body heat ignites chemical compounds",
+      "bacteria absorb moonlight near the surface"
+    ],
+    "correctIndex": 0,
+    "explanation": "The second paragraph explains that 'a molecule called luciferin reacts with oxygen, with the help of an enzyme called luciferase, releasing energy as photons.'"
+  },
+  {
+    "id": "re-094",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, deep-sea luminescence is overwhelmingly blue because blue light:",
+    "choices": [
+      "requires the least energy to produce",
+      "is invisible to predators",
+      "travels farther through seawater than any other color",
+      "matches the color of the animals' bodies"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage states the reason is practical: 'blue light travels farther through seawater than any other color, so a blue signal can be seen at the greatest distance.'"
+  },
+  {
+    "id": "re-095",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the second paragraph, the word \"converged\" most nearly means:",
+    "choices": [
+      "collided by accident",
+      "independently arrived at the same solution",
+      "gathered in one physical location",
+      "gradually disappeared"
+    ],
+    "correctIndex": 1,
+    "explanation": "Evolution 'converged on the same wavelength band again and again' in distantly related fish, squid, shrimp, and jellies—separate lineages reaching the same answer."
+  },
+  {
+    "id": "re-096",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Comparative",
+    "difficulty": 2,
+    "prompt": "The anglerfish's use of light differs from a counterilluminating squid's use of light in that the anglerfish:",
+    "choices": [
+      "produces red light rather than blue",
+      "uses light only during the day",
+      "matches the brightness of down-welling light",
+      "uses light to attract prey, whereas the squid uses it to erase its own silhouette"
+    ],
+    "correctIndex": 3,
+    "explanation": "The anglerfish 'dangles a glowing appendage above its mouth' as a lure, while counterilluminating species glow from their undersides to hide their shadows from predators below."
+  },
+  {
+    "id": "re-097",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The \"burglar alarm\" strategy works to the flashing animal's advantage because the display:",
+    "choices": [
+      "attracts a larger predator that may attack the animal's own attacker",
+      "blinds the attacker with a burst of white light",
+      "signals to the attacker that the animal is poisonous",
+      "warns other members of its species to flee"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage explains the animal lights up 'not to deter the attacker but to summon something larger that might eat it—turning its own predator into prey.'"
+  },
+  {
+    "id": "re-098",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "Biologists explore the deep sea with red light primarily because:",
+    "choices": [
+      "red light penetrates seawater farther than blue light",
+      "red light recharges the animals' luminescent chemicals",
+      "most deep-sea animals cannot see red wavelengths, so their behavior is not disturbed",
+      "submersible windows filter out all other colors"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage notes that red wavelengths vanished from the deep long ago, so 'most deep-sea animals cannot see' red light, letting cameras record undisturbed behavior."
+  },
+  {
+    "id": "re-099",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The author most likely describes deep-sea light as \"a language older than anything that lives in the light\" in order to:",
+    "choices": [
+      "prove that bioluminescence evolved before sunlight-dependent life",
+      "frame the flashes as a communication system whose meanings scientists have only begun to decode",
+      "argue that human languages evolved from animal signals",
+      "suggest that deep-sea animals are more intelligent than surface animals"
+    ],
+    "correctIndex": 1,
+    "explanation": "Following the statement that 'much remains unread in that conversation,' the metaphor casts the lures, alarms, and veils as signals still awaiting interpretation."
+  },
+  {
+    "id": "re-100",
+    "subject": "reading",
+    "passageId": "re-p10",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "Which of the following best describes the overall organization of the passage?",
+    "choices": [
+      "It establishes the prevalence of deep-sea light, explains its chemistry, surveys its functions, and describes how researchers study it",
+      "It narrates a single dive aboard a research submersible",
+      "It compares bioluminescence in the deep sea with fireflies on land",
+      "It presents competing theories about why the ocean is dark"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage proceeds from the surprising prevalence of bioluminescence, to the luciferin chemistry, to lures, counterillumination, and alarms, and finally to red-light research methods."
+  },
+  {
+    "id": "re-101",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is primarily concerned with:",
+    "choices": [
+      "efforts to protect monarch wintering grounds in Mexico",
+      "the life cycle of milkweed plants that monarchs depend on",
+      "how scientists have pieced together the navigational systems behind the monarch's inherited migration",
+      "a comparison of butterfly and bird migration routes"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage moves from the puzzle of an inherited three-thousand-mile route to the evidence for a time-compensated sun compass, antennal clocks, and a magnetic backup."
+  },
+  {
+    "id": "re-102",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the monarchs that fly south each October are:",
+    "choices": [
+      "the same individuals that made the journey the previous year",
+      "the great-great-grandchildren of the previous year's migrants",
+      "butterflies raised in laboratories and released",
+      "the parents of the butterflies that flew north in spring"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first paragraph states that the autumn migrants 'are the great-great-grandchildren of the ones that flew south the year before,' so the route must be inherited."
+  },
+  {
+    "id": "re-103",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that the migratory \"super generation\" differs from early-summer monarchs in that it:",
+    "choices": [
+      "delays reproduction and can live about eight months",
+      "breeds immediately and dies within five weeks",
+      "cannot fly more than a few miles",
+      "hatches only in the mountains of Mexico"
+    ],
+    "correctIndex": 0,
+    "explanation": "The second paragraph explains that the late-summer generation 'delays reproduction, feeds heavily, and can live eight months,' unlike four-to-five-week summer generations."
+  },
+  {
+    "id": "re-104",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "In the enamel experiments described in the passage, monarchs whose antennae were painted with black enamel:",
+    "choices": [
+      "stopped flying altogether",
+      "oriented correctly toward the southwest",
+      "flew in perfect circles around the simulator",
+      "oriented consistently but in the wrong direction"
+    ],
+    "correctIndex": 3,
+    "explanation": "Black enamel stalled the antennal clocks while the brain's clocks ran normally, and 'the painted butterflies oriented consistently but in the wrong direction.'"
+  },
+  {
+    "id": "re-105",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Vocabulary in Context",
+    "difficulty": 1,
+    "prompt": "As it is used in the fourth paragraph, the word \"scattered\" (\"their headings scattered at random\") most nearly means:",
+    "choices": [
+      "chased away in fear",
+      "planted across a wide area",
+      "spread out with no consistent direction",
+      "broken into small pieces"
+    ],
+    "correctIndex": 2,
+    "explanation": "Monarchs without antennae 'still flew vigorously' but their flight directions became random, showing the compass had lost its clock, not the ability to fly."
+  },
+  {
+    "id": "re-106",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The clear-enamel condition was most likely included in the experiment in order to:",
+    "choices": [
+      "test whether monarchs prefer dark or light antennae",
+      "show that the paint itself, rather than the blocking of light, was not responsible for the disrupted orientation",
+      "measure how long enamel remains on an antenna in flight",
+      "prove that the brain contains no circadian clocks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Clear-painted butterflies, whose antennal clocks still saw the light cycle, oriented correctly—so the disruption in the black-enamel group came from blocking light, not from being painted."
+  },
+  {
+    "id": "re-107",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "The passage suggests that the monarch's magnetic sense may function as:",
+    "choices": [
+      "the primary compass used on sunny days",
+      "a way of locating milkweed plants",
+      "a signal that triggers the start of migration",
+      "a backup compass for overcast days"
+    ],
+    "correctIndex": 3,
+    "explanation": "Monarchs with no view of the sky can still orient in a magnetic field, 'a backup system, perhaps, for overcast days.'"
+  },
+  {
+    "id": "re-108",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage develops its explanation of monarch navigation by:",
+    "choices": [
+      "posing the inherited-route puzzle and then presenting experimental findings in increasingly specific detail",
+      "describing a year in the life of a single tagged butterfly",
+      "listing the opinions of several named scientists in turn",
+      "arguing against the existence of a sun compass"
+    ],
+    "correctIndex": 0,
+    "explanation": "After framing the puzzle of inherited navigation, the passage moves from the sun compass, to time compensation, to the antennal clocks, and finally to the magnetic backup."
+  },
+  {
+    "id": "re-109",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The author ends the passage with the unexplained clustering in particular groves primarily to:",
+    "choices": [
+      "argue that the antennal-clock experiments were flawed",
+      "warn that the wintering forests are disappearing",
+      "acknowledge that a complete explanation of the migration still eludes science",
+      "suggest that monarchs learn the groves' locations from other butterflies"
+    ],
+    "correctIndex": 2,
+    "explanation": "The final paragraph calls the grove selection 'a mystery larger than direction,' a reminder that a full explanation 'still lies somewhere beyond the horizon of the science.'"
+  },
+  {
+    "id": "re-110",
+    "subject": "reading",
+    "passageId": "re-p11",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "Compared with scientists' earlier assumption about the location of the compass clock, the experimental findings showed that the clock consulted by the sun compass:",
+    "choices": [
+      "does not exist at all",
+      "resides in the antennae rather than solely in the brain",
+      "operates only at night",
+      "is located in the wings"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientists 'assumed the clock resided in the brain,' but the antennae-removal and enamel experiments showed 'the compass... consults the clocks in the antennae rather than the ones in the head.'"
+  },
+  {
+    "id": "re-111",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "explain how ice cores archive Earth's climate history and what they have revealed about it",
+      "describe the daily hardships of polar drilling crews",
+      "argue that ice cores are less reliable than tree rings",
+      "recount the discovery of a specific volcanic eruption"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage explains how annual layers, trapped bubbles, and isotopes record past climate, and how those records revealed the ice-age rhythm and abrupt climate shifts."
+  },
+  {
+    "id": "re-112",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the deepest layers of continuous Antarctic ice cores fell as snow approximately:",
+    "choices": [
+      "eight thousand years ago",
+      "eighty million years ago",
+      "eight hundred thousand years ago",
+      "eight hundred years ago"
+    ],
+    "correctIndex": 2,
+    "explanation": "The first paragraph describes cores 'whose deepest layers fell as snow eight hundred thousand years ago.'"
+  },
+  {
+    "id": "re-113",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that the air bubbles trapped in deep ice are significant because they:",
+    "choices": [
+      "cause the ice to float when it breaks off",
+      "are actual samples of the ancient atmosphere that can be measured directly",
+      "indicate exactly how much snow fell each year",
+      "make the annual layers visible to the naked eye"
+    ],
+    "correctIndex": 1,
+    "explanation": "The second paragraph emphasizes that a bubble 'is not an indirect clue about ancient air; it is ancient air,' which laboratories can open and measure directly."
+  },
+  {
+    "id": "re-114",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage, the ratio of heavy to light oxygen in an ice layer serves as:",
+    "choices": [
+      "a measure of ancient wind speed",
+      "a count of the volcanic eruptions in a given century",
+      "a record of how deep the ice sheet was",
+      "a proxy for the temperature when that layer's snow fell"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because the heavier form of oxygen evaporates less readily and falls out of clouds sooner, 'the isotope ratio in each layer thus serves as a proxy... for the temperature.'"
+  },
+  {
+    "id": "re-115",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the second paragraph, the word \"anchors\" (\"anchors the counting of all the layers around it\") most nearly means:",
+    "choices": [
+      "provides a fixed reference point for",
+      "weighs down physically",
+      "brings to a complete stop",
+      "broadcasts on television"
+    ],
+    "correctIndex": 0,
+    "explanation": "A known eruption's acid spike 'pins a precise date onto a layer,' giving scientists a fixed point from which the surrounding layers can be reliably counted."
+  },
+  {
+    "id": "re-116",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "According to the passage, the trapped air bubbles differ from the oxygen-isotope record in that the bubbles are:",
+    "choices": [
+      "found only in Greenland ice, while isotopes occur only in Antarctic ice",
+      "useful only for dating, while isotopes reveal gas composition",
+      "direct samples of the ancient atmosphere, while the isotope ratio is an indirect stand-in for temperature",
+      "formed by volcanic eruptions, while isotopes come from sea salt"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage contrasts the bubbles—actual ancient air—with the isotope ratio, which it explicitly defines as 'a proxy—an indirect stand-in—for the temperature.'"
+  },
+  {
+    "id": "re-117",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that the Greenland layers recorded episodes in which temperatures over the ice sheet swung by ten degrees Celsius or more within:",
+    "choices": [
+      "several million years",
+      "a few decades",
+      "tens of thousands of years",
+      "a single afternoon"
+    ],
+    "correctIndex": 1,
+    "explanation": "The third paragraph describes 'repeated episodes in which temperatures over the ice sheet swung by ten degrees Celsius or more within a few decades.'"
+  },
+  {
+    "id": "re-118",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "It can most reasonably be inferred that the oldest ice at the bottom of a core is often the hardest to interpret because:",
+    "choices": [
+      "the drills melt the deepest layers as they descend",
+      "pressure and the flow of the ice sheet near bedrock can fold and shuffle the layers out of order",
+      "air bubbles rise out of the deepest ice over time",
+      "the oldest snow contained no dust or pollen"
+    ],
+    "correctIndex": 1,
+    "explanation": "The final paragraph explains that 'near bedrock, the immense pressure and the flow of the sheet can fold and shuffle the oldest layers,' disordering the record."
+  },
+  {
+    "id": "re-119",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author compares the ice layers to \"the pages of a diary\" primarily in order to:",
+    "choices": [
+      "suggest that the record is private and inaccessible to scientists",
+      "emphasize the emotional experience of the drilling crews",
+      "imply that the ice record is fictional rather than factual",
+      "convey that the layers preserve an ordered, readable record of the past"
+    ],
+    "correctIndex": 3,
+    "explanation": "The diary metaphor, introduced in the first paragraph and echoed at the end ('the planet wrote it down'), presents the stacked annual layers as a legible chronological record."
+  },
+  {
+    "id": "re-120",
+    "subject": "reading",
+    "passageId": "re-p12",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The final paragraph of the passage primarily serves to:",
+    "choices": [
+      "summarize the chemical composition of ancient air",
+      "describe the physical demands of drilling and point toward the search for even older, undisturbed ice",
+      "argue that ice core research should be discontinued",
+      "explain how the isotope proxy was first discovered"
+    ],
+    "correctIndex": 1,
+    "explanation": "The last paragraph turns to the fieldwork itself—wintering crews, five-season cores, folded bottom layers—and ends with the hunt for sites holding million-year-old ice."
+  }
+]

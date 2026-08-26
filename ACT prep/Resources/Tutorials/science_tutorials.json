@@ -1,0 +1,990 @@
+[
+  {
+    "id": "st-01",
+    "subject": "science",
+    "category": "Test Skills",
+    "title": "Reading Data Tables and Graphs Fast",
+    "symbolName": "tablecells",
+    "summary": "Decode headings, units, and axes so you can find the number a question asks for.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Core Idea",
+        "body": "ACT Science is mostly a reading test with numbers instead of paragraphs. Almost every table or graph is a machine that takes one input and reports one output. Before you read a single question, spend about fifteen seconds naming that machine: what was changed, what was measured, and in what units. If you can say a sentence like \"as depth increases, temperature decreases,\" you already own half the points. Do not try to understand the underlying science first. The passage gives you everything you need, and the test rewards students who look things up quickly far more than students who know the topic."
+      },
+      {
+        "heading": "Headings, Units, and Direction",
+        "body": "Column headings carry the units, and units are where careless mistakes live. A rate measured in mL/min is not the same as a total volume in mL, and a value in grams per 100 g of water is not the same as grams. Check whether the first column climbs by even steps, because uneven steps change how you estimate between rows. Also check direction: some tables list depth from the surface downward, some list layers from oldest to youngest. Read the label under the table too, since it often states the one condition that was held constant across every row."
+      },
+      {
+        "heading": "Answer From the Page, Not From Memory",
+        "body": "If a question asks which solution had the highest conductivity, the answer is a value printed on the page. Slide your finger down that one column, find the extreme, and read the label in the same row. Resist the urge to reason about why. Real ACT data sometimes disagrees with what a textbook would predict, and the correct answer is always what the researchers actually measured. When an answer choice contains a number that never appears in any table and cannot be reached by a simple comparison, it is usually a distractor built from the wrong column."
+      },
+      {
+        "heading": "Two-Table and Two-Condition Questions",
+        "body": "Harder questions make you match a row across two tables, or satisfy two conditions at once. Handle these one filter at a time. First mark every row that satisfies condition one, then check only those marked rows against condition two. This is much faster and safer than scanning for both at once. When two tables share a column, that shared column is the bridge: find the value in Table 1, carry it into Table 2, then read the answer. Say the bridge out loud in your head so you do not lose track of which number you are carrying."
+      }
+    ],
+    "keyFacts": [
+      "Name the independent variable, the dependent variable, and the units before reading questions.",
+      "A rate (per second, per minute) is never the same quantity as a total.",
+      "Extremes questions (highest, lowest, greatest change) are single-column scans.",
+      "For two conditions, filter by one condition first, then check the survivors.",
+      "The shared column between two tables is the bridge you carry a value across."
+    ],
+    "examples": [
+      {
+        "problem": "Researchers applied different doses of fertilizer to identical seedlings and measured height after 30 days.\n\nTable 1\nDose (g) | Height (cm)\n0 | 12\n2 | 18\n4 | 25\n6 | 29\n8 | 21\n\nAt which dose was height greatest, and how much taller was that plant than the plant at 0 g?",
+        "steps": [
+          "The question asks about height, so scan only the Height column.",
+          "Values are 12, 18, 25, 29, 21. The largest is 29 cm.",
+          "Read across that row to the Dose column: 6 g.",
+          "Subtract the 0 g height: 29 cm − 12 cm = 17 cm."
+        ],
+        "answer": "6 g, and it was 17 cm taller than the plant at 0 g."
+      },
+      {
+        "problem": "Table 2\nSolution | pH | Conductivity (µS/cm)\nW | 3.1 | 420\nX | 6.8 | 95\nY | 8.4 | 310\nZ | 11.2 | 680\n\nWhich solution had a pH above 7 and a conductivity below 400 µS/cm?",
+        "steps": [
+          "Apply the first filter: pH above 7 leaves Y (8.4) and Z (11.2).",
+          "Apply the second filter only to those two rows.",
+          "Y has conductivity 310 µS/cm, which is below 400.",
+          "Z has 680 µS/cm, which is above 400, so Z is out."
+        ],
+        "answer": "Solution Y"
+      }
+    ],
+    "tips": [
+      "Circle the units in every column heading before you start; most trap answers swap units.",
+      "If a question names a figure, look only at that figure. Mixing figures wastes time.",
+      "When two answer choices are numerically close, recheck which row you were on."
+    ]
+  },
+  {
+    "id": "st-02",
+    "subject": "science",
+    "category": "Test Skills",
+    "title": "Trends, Interpolation, and Extrapolation",
+    "symbolName": "chart.xyaxis.line",
+    "summary": "Estimate values between and beyond the data using the pattern the numbers already show.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Describe the Trend in One Sentence",
+        "body": "Every trend question starts the same way: as the input increases, does the output increase, decrease, or do both in turn? Write that sentence in your head before you look at the answer choices. Roughly a quarter of ACT Science questions can be answered by that sentence alone, because the choices are often just \"increases only,\" \"decreases only,\" \"increases then decreases,\" and \"decreases then increases.\" Watch for turning points, which are rows where the direction flips. A turning point is the most commonly tested feature of a data set, so mark it as soon as you spot it."
+      },
+      {
+        "heading": "Interpolation: Filling the Gap",
+        "body": "Interpolation means estimating a value between two measured points. If a question asks for the output at an input the table skips, find the two rows that surround it and place your answer between their outputs. When the steps are even and the outputs change by a constant amount, the data is linear and you can split the difference exactly. When the change is not constant, you can still bracket the answer, and bracketing is usually enough because ACT choices are spread far apart. Answer choices outside the bracket are wrong no matter how reasonable the science sounds."
+      },
+      {
+        "heading": "Extrapolation: Going Past the Edge",
+        "body": "Extrapolation means continuing the pattern beyond the last measured point. Find the step size between consecutive rows near the edge of the table and keep applying it. If the volume of gas rises by 14 mL every 2 minutes, then two minutes past the last row it should rise about 14 mL more. Be careful when the steps are shrinking, because that signals the values are leveling off toward a limit rather than climbing forever. If the data flattens, the correct extrapolation is \"about the same,\" not \"much larger.\""
+      },
+      {
+        "heading": "Know When to Stop Trusting the Pattern",
+        "body": "Extrapolation is a prediction, not a measurement, and the ACT sometimes asks how confident you can be. The further past the data you go, the weaker the prediction becomes, especially for a curve that could turn. Real systems hit limits: a population runs out of food, a solution becomes saturated, an enzyme denatures. If a passage mentions any such limit, an extreme extrapolation is a trap. A safe answer usually keeps the direction of the trend but not necessarily its exact rate, and it is phrased as an estimate rather than a certainty."
+      }
+    ],
+    "keyFacts": [
+      "Interpolation is between known points; extrapolation goes past them.",
+      "Equal input steps with equal output steps means a linear pattern you can split evenly.",
+      "An answer that falls outside the bracketing pair of values is always wrong.",
+      "Shrinking step sizes mean the data is leveling off toward a limit.",
+      "Predictions get less reliable the further past the last data point they reach."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nTime (min) | Gas collected (mL)\n0 | 0\n2 | 14\n4 | 28\n6 | 42\n8 | 56\n\n(a) Estimate the volume at 5 min. (b) Estimate the volume at 12 min if the reaction continues at the same rate.",
+        "steps": [
+          "Check the step size: each 2 min adds 14 mL, so the pattern is linear.",
+          "That is 14 ÷ 2 = 7 mL per minute.",
+          "For 5 min, interpolate between 28 mL (4 min) and 42 mL (6 min): 28 + 7 = 35 mL.",
+          "For 12 min, extrapolate 4 min past the last row: 56 + 4 × 7 = 56 + 28 = 84 mL."
+        ],
+        "answer": "(a) about 35 mL  (b) about 84 mL"
+      },
+      {
+        "problem": "Table 2\nDepth (m) | Water temp (°C)\n0 | 24\n10 | 23\n20 | 19\n30 | 12\n40 | 8\n\nAt approximately what depth would the temperature be 15 °C?",
+        "steps": [
+          "Find the two rows that bracket 15 °C: 19 °C at 20 m and 12 °C at 30 m.",
+          "So the answer must be between 20 m and 30 m.",
+          "Across that 10 m interval the temperature falls 19 − 12 = 7 °C.",
+          "To fall from 19 °C to 15 °C is 4 °C, and 4 ÷ 7 ≈ 0.57 of the interval.",
+          "0.57 × 10 m ≈ 5.7 m below 20 m."
+        ],
+        "answer": "Between 20 m and 30 m, roughly 26 m"
+      }
+    ],
+    "tips": [
+      "Say the trend out loud before reading choices; it eliminates two options instantly.",
+      "Bracket first. If only one choice sits between the surrounding values, you are done.",
+      "Beware of extrapolations that cross an impossible boundary, like a negative volume."
+    ]
+  },
+  {
+    "id": "st-03",
+    "subject": "science",
+    "category": "Test Skills",
+    "title": "Experimental Design: Variables and Controls",
+    "symbolName": "flask",
+    "summary": "Spot the variable that was changed, the one measured, and the ones held constant.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "The Three Kinds of Variables",
+        "body": "The independent variable is what the researchers deliberately changed. The dependent variable is what they measured in response. Controlled variables are everything they deliberately kept the same so the comparison stays fair. In a table, the independent variable is usually the leftmost column and the dependent variable is usually to its right. Any column whose value never changes from row to row is a controlled variable, and questions love to ask about exactly those columns. Being able to point at each of the three within ten seconds of seeing a table is one of the highest-value habits on this test."
+      },
+      {
+        "heading": "Why a Control Group Exists",
+        "body": "A control group is the trial that receives no treatment: zero grams of fertilizer, no catalyst, plain water instead of the drug. It gives a baseline to compare everything else against. Without it you can see that treated samples differ from one another but you cannot say the treatment did anything at all. When an ACT question asks about the purpose of a particular setup, the answer is often \"to serve as a basis for comparison\" or \"to show what happens in the absence of the variable being tested.\" Look for the row with a zero or an \"untreated\" label."
+      },
+      {
+        "heading": "One Variable at a Time",
+        "body": "A valid comparison changes exactly one thing. If two trials differ in both light exposure and water volume, you cannot tell which factor caused the change in growth, and the study is called confounded. ACT questions phrase this as \"the results are inconclusive because\" or \"the students should have.\" The fix is always the same: hold the extra factor constant and repeat. When you must compare two rows in a table, run your finger across every column and make sure only one entry differs. If two differ, the comparison cannot support a cause-and-effect claim."
+      },
+      {
+        "heading": "Repetition, Sample Size, and Error",
+        "body": "Researchers repeat trials because single measurements carry random error. More trials, or averaging several trials, reduces the chance that a stray result drives the conclusion. A larger sample also makes a small real difference easier to detect. If a passage reports an average with a range like 4.2 ± 0.3, the ± part tells you how much wobble to expect; two averages whose ranges overlap heavily are not clearly different. When a question asks how to improve an experiment, adding trials, adding a control, or extending the range of the independent variable are all common correct answers."
+      }
+    ],
+    "keyFacts": [
+      "Independent = changed on purpose; dependent = measured; controlled = held constant.",
+      "The control group receives no treatment and provides the baseline for comparison.",
+      "If two trials differ in more than one factor, the experiment is confounded.",
+      "Repeating trials reduces the effect of random error.",
+      "Overlapping ± ranges mean two results may not be meaningfully different."
+    ],
+    "examples": [
+      {
+        "problem": "Students tested how added salt changes the freezing point of water. Each beaker held 100 mL of water and was cooled in the same freezer.\n\nTable 1\nBeaker | Salt added (g) | Water (mL) | Freezing point (°C)\n1 | 0 | 100 | 0.0\n2 | 5 | 100 | −3.0\n3 | 10 | 100 | −6.1\n4 | 15 | 100 | −9.3\n\nIdentify the independent variable, the dependent variable, and the control.",
+        "steps": [
+          "Find the column that changes on purpose: Salt added, which goes 0, 5, 10, 15 g.",
+          "Find the column that was measured in response: Freezing point.",
+          "Find columns held constant: Water is 100 mL in every beaker, and the freezer was the same.",
+          "The control is the trial with no treatment: Beaker 1, with 0 g of salt."
+        ],
+        "answer": "Independent: mass of salt. Dependent: freezing point. Control: Beaker 1 (0 g salt)."
+      },
+      {
+        "problem": "Table 2\nTrial | Light (hours/day) | Water (mL/day) | Growth (cm)\n1 | 6 | 20 | 3.2\n2 | 12 | 40 | 7.9\n\nA student concludes that more light causes more growth. Why is that conclusion unsupported, and how should the experiment be fixed?",
+        "steps": [
+          "Compare the two trials column by column.",
+          "Light changed from 6 to 12 hours AND water changed from 20 to 40 mL/day.",
+          "Two variables changed together, so the experiment is confounded.",
+          "The fix is to hold water constant, for example 20 mL/day in both trials, and vary only light."
+        ],
+        "answer": "Both light and water differed, so the cause is unknown. Repeat with water held constant and only light varied."
+      }
+    ],
+    "tips": [
+      "The leftmost data column is usually the independent variable. Check, then move on.",
+      "A row containing a zero is almost always the control group.",
+      "\"Which additional trial should they run?\" usually means extend the range by one step."
+    ]
+  },
+  {
+    "id": "st-04",
+    "subject": "science",
+    "category": "Test Skills",
+    "title": "Research Summaries Strategy",
+    "symbolName": "chart.bar.fill",
+    "summary": "Work multi-experiment passages by mapping what changed from one study to the next.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "How These Passages Are Built",
+        "body": "A Research Summaries passage gives a short introduction, then two or three experiments, each with its own table or figure. The introduction defines terms and equipment. Each experiment section describes a procedure and reports results. The single most useful move is to read the introduction, then read only the first sentence of each experiment and the headings of each table. That takes under a minute and gives you a map. Detailed procedure text is best read after a question sends you there, because most questions never require it at all."
+      },
+      {
+        "heading": "Map What Changed Between Experiments",
+        "body": "Experiment 2 almost always repeats Experiment 1 with one deliberate difference: a new temperature, a different material, a wider range. Write that difference in the margin as a single word, like \"hotter\" or \"thicker.\" Once you know it, cross-experiment questions become quick. If both experiments used the same input values, you can compare rows straight across and describe the effect of the change. If the ranges differ, note which experiment covered more ground, since questions often ask which study could support a prediction at some value."
+      },
+      {
+        "heading": "The Question Types You Will See",
+        "body": "Four types dominate. Lookup questions ask you to read one value. Trend questions ask how the dependent variable responds. Comparison questions ask you to combine two experiments. Design questions ask why a step was performed or what should be done next. Lookup and trend questions should take under thirty seconds each, and you should bank that time for the comparison and design questions. If a question mentions a term you have never seen, it was defined in the introduction, so go back and find it rather than guessing from context."
+      },
+      {
+        "heading": "Predicting the Next Experiment",
+        "body": "\"What would the researchers most likely do next?\" is really asking which single new trial fills an obvious gap. Usually that means extending the independent variable one step past the last value, testing the same setup under the one condition not yet tried, or repeating a trial that produced an odd result. Answers that change several conditions at once are wrong because they would confound the study. Answers that repeat something already done are wrong because they add no information. Pick the choice that adds exactly one new, clean data point."
+      }
+    ],
+    "keyFacts": [
+      "Read the introduction and table headings first; skip procedure detail until asked.",
+      "Experiment 2 usually equals Experiment 1 with exactly one condition changed.",
+      "Find that changed condition and write it down in one word.",
+      "Design questions reward the choice that adds one clean new data point.",
+      "Terms you do not recognize were defined in the introduction, not in your memory."
+    ],
+    "examples": [
+      {
+        "problem": "Experiment 1: The rate of O₂ production was measured at 25 °C with different masses of catalyst.\n\nTable 1\nCatalyst (mg) | Rate (mL O₂/s)\n0 | 0.4\n10 | 1.1\n20 | 1.9\n30 | 2.6\n\nExperiment 2: Experiment 1 was repeated at 35 °C.\n\nTable 2\nCatalyst (mg) | Rate (mL O₂/s)\n0 | 0.9\n10 | 2.2\n20 | 3.8\n30 | 5.1\n\nWhat single variable differed between the experiments, and what was its effect at 20 mg of catalyst?",
+        "steps": [
+          "Compare the setups: catalyst masses are identical (0, 10, 20, 30 mg) in both.",
+          "The only stated difference is temperature: 25 °C versus 35 °C.",
+          "Read the 20 mg row in each table: 1.9 mL O₂/s and 3.8 mL O₂/s.",
+          "Compare: 3.8 ÷ 1.9 = 2.0."
+        ],
+        "answer": "Temperature was the only difference; raising it from 25 °C to 35 °C doubled the rate at 20 mg, from 1.9 to 3.8 mL O₂/s."
+      },
+      {
+        "problem": "Using the same two experiments, which additional trial would best extend Experiment 1 without confounding it?\nA. 40 mg of catalyst at 25 °C\nB. 40 mg of catalyst at 45 °C\nC. 20 mg of catalyst at 25 °C\nD. 0 mg of catalyst at 35 °C",
+        "steps": [
+          "Extending Experiment 1 means keeping its temperature of 25 °C.",
+          "Choice B changes both catalyst mass and temperature, so it confounds the study.",
+          "Choice C repeats a trial already in Table 1, adding no new information.",
+          "Choice D belongs to Experiment 2's conditions and is already in Table 2.",
+          "Choice A adds one new catalyst mass at the original temperature."
+        ],
+        "answer": "A. 40 mg of catalyst at 25 °C"
+      }
+    ],
+    "tips": [
+      "Do lookup and trend questions first, then spend the saved time on comparisons.",
+      "Write one word per experiment describing what made it different.",
+      "If a choice changes two conditions at once, eliminate it without further thought."
+    ]
+  },
+  {
+    "id": "st-05",
+    "subject": "science",
+    "category": "Test Skills",
+    "title": "Conflicting Viewpoints Strategy",
+    "symbolName": "person.2.fill",
+    "summary": "Handle the reading-heavy passage where two or more scientists disagree about a cause.",
+    "estimatedMinutes": 8,
+    "sections": [
+      {
+        "heading": "What Makes This Passage Different",
+        "body": "One passage per test drops the tables and gives you competing explanations instead, usually labeled Scientist 1 and Scientist 2, or Hypothesis A, B, and C. Every viewpoint tries to explain the same observation, so the shared setup paragraph at the top matters enormously. Read that setup carefully, because the disagreement only makes sense against it. Then read each viewpoint fully. This is the one passage where skimming hurts, since nearly every question depends on catching a specific claim rather than reading a number off a chart."
+      },
+      {
+        "heading": "Summarize Each Viewpoint in One Line",
+        "body": "After reading each viewpoint, compress it to a sentence of the form \"X caused Y because Z.\" Jot it beside the paragraph. Then note one thing all viewpoints agree on and one thing they clearly dispute. Agreements are usually the observed facts, such as the fossils exist or the temperature rose; disputes are usually the mechanism, such as what caused the rise. Questions asking \"both scientists would agree that\" are testing the facts; questions asking \"the main difference between them\" are testing the mechanism."
+      },
+      {
+        "heading": "Answer From the Right Paragraph",
+        "body": "Almost every question names a viewpoint. Go back to that specific paragraph and find the sentence that supports the answer. Wrong choices are frequently true statements taken from the other viewpoint, which feel familiar and therefore tempting. If a choice states something no viewpoint ever mentions, it is wrong even if it is scientifically accurate in the real world. The passage, not outside knowledge, defines what each scientist believes, and you are being graded on faithful reading rather than on who is actually right."
+      },
+      {
+        "heading": "New Evidence Questions",
+        "body": "The hardest questions supply a new finding and ask whose view it supports or weakens. Handle these in two steps. First, restate the new evidence plainly. Second, check it against your one-line summary of each viewpoint: does it match that scientist's predicted mechanism or contradict it? Evidence that matches supports; evidence that contradicts weakens; evidence about something neither scientist discussed does neither. Watch for questions phrased negatively, such as \"would weaken\" or \"is inconsistent with,\" since flipping the logic by accident is the most common way strong students lose these points."
+      }
+    ],
+    "keyFacts": [
+      "Read the shared introduction closely; it defines the observation everyone is explaining.",
+      "Compress each viewpoint to \"X caused Y because Z.\"",
+      "Viewpoints usually agree on observations and disagree on mechanisms.",
+      "A true-sounding statement that no viewpoint makes is still a wrong answer.",
+      "For new evidence, ask whether it matches or contradicts each stated mechanism."
+    ],
+    "examples": [
+      {
+        "problem": "A lake's fish population fell sharply over ten years.\nScientist 1: Runoff of farm fertilizer caused algae blooms; when the algae died, decomposition used up dissolved oxygen and the fish suffocated.\nScientist 2: Warmer summers raised water temperature; warm water holds less dissolved oxygen and also stressed cold-water fish directly.\n\nWhat do the scientists agree on, and what is the central disagreement?",
+        "steps": [
+          "Summarize Scientist 1: fertilizer → algae → decay → low oxygen → fish die.",
+          "Summarize Scientist 2: warming → less dissolved oxygen plus heat stress → fish die.",
+          "Both explanations end with low dissolved oxygen harming fish, so that is the agreement.",
+          "The starting cause differs: nutrient runoff versus rising temperature."
+        ],
+        "answer": "They agree that low dissolved oxygen killed the fish; they disagree about whether fertilizer runoff or warming caused the oxygen decline."
+      },
+      {
+        "problem": "New evidence: records show the lake's average summer temperature was unchanged over the ten years, while measured nitrate levels tripled. Whose view does this support?",
+        "steps": [
+          "Restate the evidence plainly: temperature flat, nutrients way up.",
+          "Check Scientist 2's mechanism, which requires warming. Temperature did not rise, so the mechanism's trigger is missing.",
+          "Check Scientist 1's mechanism, which requires increased fertilizer nutrients. Tripled nitrate matches that trigger.",
+          "So the evidence supports one view and weakens the other."
+        ],
+        "answer": "It supports Scientist 1 and weakens Scientist 2."
+      }
+    ],
+    "tips": [
+      "Save this passage for last if reading slowly is a problem, but never skip the intro.",
+      "Underline each scientist's cause; that single word answers most questions.",
+      "Reread negatively worded questions once before choosing; \"weaken\" flips your logic."
+    ]
+  },
+  {
+    "id": "st-06",
+    "subject": "science",
+    "category": "Biology",
+    "title": "Cells, Membranes, and Enzymes",
+    "symbolName": "magnifyingglass",
+    "summary": "The cell background ACT passages assume: structures, transport, energy, and enzymes.",
+    "estimatedMinutes": 8,
+    "sections": [
+      {
+        "heading": "Cell Types and Parts",
+        "body": "All living things are made of cells. Prokaryotic cells, such as bacteria, have no nucleus and no membrane-bound organelles. Eukaryotic cells, including plant, animal, and fungal cells, keep their DNA in a nucleus. Mitochondria release energy from food molecules. Ribosomes build proteins. The cell membrane controls what enters and leaves. Plant cells add a rigid cell wall, a large central vacuole, and chloroplasts for photosynthesis; animal cells have none of those three. ACT passages rarely test these definitions directly, but they use the vocabulary freely, so recognizing the words keeps you from stalling."
+      },
+      {
+        "heading": "Diffusion and Osmosis",
+        "body": "Particles spread from where they are crowded to where they are sparse, which is diffusion, and it needs no energy. Osmosis is the same idea applied to water crossing a membrane. Water moves toward the side with more dissolved solute. A solution with more solute than the cell is hypertonic, and a cell placed in it loses water and shrinks. A solution with less solute is hypotonic, so the cell gains water and swells. Equal concentrations make an isotonic solution and no net change. Moving a substance against its gradient requires active transport, which costs energy."
+      },
+      {
+        "heading": "Photosynthesis and Cellular Respiration",
+        "body": "Photosynthesis happens in chloroplasts and uses light energy to turn carbon dioxide and water into glucose and oxygen. Cellular respiration runs the reverse trade: glucose and oxygen are broken down to carbon dioxide, water, and usable energy stored as ATP. Plants do both; animals do only respiration. That is why a sealed jar with a plant in light can show rising oxygen while the same jar in darkness shows falling oxygen. Many ACT biology data sets are built on this exact swing, measuring oxygen, carbon dioxide, or mass change under different light conditions."
+      },
+      {
+        "heading": "Enzymes and Their Optimum",
+        "body": "Enzymes are proteins that speed up reactions by lowering the energy needed to start them. Each enzyme has an optimum temperature and pH where it works fastest. Move away from that optimum in either direction and activity falls, because the enzyme's shape changes. Push too far and the enzyme denatures, losing its shape permanently, so activity does not recover when conditions return to normal. That is why enzyme data almost always forms a peak rather than a straight line, and why the peak row is the one questions ask about."
+      }
+    ],
+    "keyFacts": [
+      "Water moves toward the more concentrated solution; solute moves the other way.",
+      "Hypertonic surroundings shrink a cell; hypotonic surroundings swell it.",
+      "Photosynthesis stores energy in glucose; respiration releases it as ATP.",
+      "Plants perform both photosynthesis and respiration; animals only respire.",
+      "Enzyme activity peaks at an optimum temperature and pH, then drops off.",
+      "Denaturation is a permanent loss of enzyme shape and function."
+    ],
+    "examples": [
+      {
+        "problem": "Identical potato cubes were soaked for one hour in salt solutions of different concentrations.\n\nTable 1\nSolution | Salt concentration (%) | Change in mass (%)\nA | 0.1 | +6\nB | 0.9 | 0\nC | 3.0 | −9\n\nWhich solution was hypertonic to the potato cells, and which was isotonic?",
+        "steps": [
+          "Mass change tracks water movement: gaining mass means the cube absorbed water.",
+          "Solution A gained 6%, so water moved into the cells; A had less solute, making it hypotonic.",
+          "Solution C lost 9%, so water left the cells toward the solution, which must be more concentrated.",
+          "Solution B showed no net change, so its concentration matched the cells."
+        ],
+        "answer": "C was hypertonic; B was isotonic."
+      },
+      {
+        "problem": "Table 2\npH | Enzyme activity (units)\n2 | 1\n4 | 12\n6 | 30\n7 | 34\n8 | 18\n10 | 2\n\nAt what pH does this enzyme work best, and what most likely explains the value at pH 10?",
+        "steps": [
+          "Scan the activity column for the maximum: 34 units.",
+          "Read across: that occurs at pH 7.",
+          "Activity falls on both sides of pH 7, forming a peak.",
+          "At pH 10 activity is nearly zero, consistent with the enzyme losing its shape."
+        ],
+        "answer": "Optimum pH is 7; at pH 10 the enzyme has largely denatured, so almost no reaction occurs."
+      }
+    ],
+    "tips": [
+      "\"Salty outside means shrink\" is a fast way to recall hypertonic effects.",
+      "When enzyme data peaks, expect a question about the row containing the maximum.",
+      "A jar experiment in the dark isolates respiration, since photosynthesis stops."
+    ]
+  },
+  {
+    "id": "st-07",
+    "subject": "science",
+    "category": "Biology",
+    "title": "Genes, DNA, and Inheritance",
+    "symbolName": "arrow.triangle.branch",
+    "summary": "DNA to protein, alleles and crosses, and the ratios ACT genetics data usually shows.",
+    "estimatedMinutes": 8,
+    "sections": [
+      {
+        "heading": "From DNA to Protein",
+        "body": "DNA is a double helix whose rungs pair A with T and C with G. A gene is a stretch of DNA that codes for one protein. During transcription the cell copies a gene into messenger RNA, where uracil replaces thymine. During translation, ribosomes read the mRNA three bases at a time; each three-base codon specifies one amino acid, and the chain of amino acids folds into a protein. Because proteins do nearly all the work in a cell, a change in DNA sequence can change a protein and therefore change a trait."
+      },
+      {
+        "heading": "Alleles, Genotype, and Phenotype",
+        "body": "Most organisms carry two copies of each gene, one from each parent. Different versions of a gene are alleles. The genotype is the pair of alleles written out, like AA, Aa, or aa. The phenotype is the observable trait. A dominant allele shows its effect even when only one copy is present, so AA and Aa look alike. A recessive phenotype appears only with two recessive alleles, aa. An organism with two identical alleles is homozygous; one with two different alleles is heterozygous and is often called a carrier."
+      },
+      {
+        "heading": "Punnett Squares and Expected Ratios",
+        "body": "A Punnett square lists one parent's alleles across the top and the other's down the side, then fills in every combination. Two heterozygous parents, Aa × Aa, produce 1 AA, 2 Aa, and 1 aa, giving a 3:1 ratio of dominant to recessive phenotypes, or 75% to 25%. A cross of Aa × aa yields half Aa and half aa, a 1:1 ratio. A cross of aa × aa yields only aa offspring. These three patterns cover most ACT genetics data, and real counts wobble around the predicted percentages because chance affects small samples."
+      },
+      {
+        "heading": "Mutations and Variation",
+        "body": "A mutation is a change in DNA sequence. Some mutations change one base and have no effect at all, some change a protein slightly, and some disable it entirely. Mutations in body cells are not inherited, but mutations in egg or sperm cells can be passed to offspring. Mutation, combined with the shuffling of alleles during reproduction, creates the variation that natural selection acts on. Individuals whose traits suit the environment tend to survive and reproduce more, so those alleles become more common over generations. That is the mechanism behind evolution passages on the test."
+      }
+    ],
+    "keyFacts": [
+      "DNA pairs A–T and C–G; in RNA, uracil replaces thymine.",
+      "Three mRNA bases form a codon that specifies one amino acid.",
+      "Aa × Aa gives a 3:1 dominant-to-recessive phenotype ratio (75% / 25%).",
+      "Aa × aa gives a 1:1 ratio; aa × aa gives all recessive offspring.",
+      "Only mutations in egg or sperm cells can be inherited.",
+      "Observed offspring counts vary around the predicted ratio by chance."
+    ],
+    "examples": [
+      {
+        "problem": "In a plant, purple flowers (A) are dominant to white (a). Researchers recorded 100 offspring from each of three crosses.\n\nTable 1\nCross | Parent genotypes | Purple offspring\n1 | Aa × Aa | 74\n2 | Aa × aa | 52\n3 | aa × aa | 0\n\nAre these results consistent with A being dominant? What percentage was expected in Cross 1?",
+        "steps": [
+          "Cross 1 predicts 3 purple : 1 white, so 75 of 100 purple; the observed 74 is essentially that.",
+          "Cross 2 predicts 1 purple : 1 white, so 50 of 100; the observed 52 is close.",
+          "Cross 3 has no dominant allele available, so 0 purple is exactly predicted.",
+          "All three match within normal chance variation."
+        ],
+        "answer": "Yes, the results fit a dominant A. Cross 1 predicted 75% purple, and 74 of 100 was observed."
+      },
+      {
+        "problem": "Two parents who both show a trait have a child who does not show it. Is the trait dominant or recessive, and what are the parents' genotypes?",
+        "steps": [
+          "The child lacks the trait, so the child received one non-trait allele from each parent.",
+          "If the trait were recessive, both parents would be aa and could pass only a, so every child would show it.",
+          "Therefore the trait must be dominant, and the child must be homozygous recessive, aa.",
+          "Each parent carries the dominant allele plus a recessive one to pass along."
+        ],
+        "answer": "The trait is dominant; both parents are heterozygous, Aa, and the child is aa."
+      }
+    ],
+    "tips": [
+      "Memorize the 3:1 and 1:1 patterns; they cover most genetics questions instantly.",
+      "Two affected parents with an unaffected child means the trait is dominant.",
+      "Counts near but not equal to the predicted ratio are still consistent with it."
+    ]
+  },
+  {
+    "id": "st-08",
+    "subject": "science",
+    "category": "Biology",
+    "title": "Ecosystems, Energy Flow, and Populations",
+    "symbolName": "leaf.fill",
+    "summary": "Food chains, the ten percent rule, carrying capacity, and cycles ACT passages use.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Trophic Levels and the Ten Percent Rule",
+        "body": "Energy enters an ecosystem when producers, mostly plants and algae, capture sunlight. Primary consumers eat producers, secondary consumers eat primary consumers, and so on. At each step only about ten percent of the energy is passed upward; the rest is lost as heat or used for the organism's own living. That is why food chains rarely exceed four or five levels and why there are far fewer top predators than plants. Decomposers such as fungi and bacteria break down dead material at every level and return nutrients to the soil."
+      },
+      {
+        "heading": "Population Growth and Carrying Capacity",
+        "body": "A population entering a new habitat with plenty of resources grows slowly at first, then rapidly, producing a J-shaped curve. As food, space, or water run short, growth slows and the population levels off near the carrying capacity, the maximum the environment can support long term. The resulting S-shaped curve is one of the most common figures on ACT Science. In a data table, the carrying capacity is where consecutive values stop changing much. Populations that overshoot carrying capacity typically crash before settling back."
+      },
+      {
+        "heading": "Limiting Factors and Species Interactions",
+        "body": "A limiting factor is whatever runs short first and caps growth: nutrients, water, sunlight, nesting sites, or predators. Adding more of something that is not limiting changes nothing, which is why experiments often test several nutrients separately. Species interact in predictable ways. In competition, both species are harmed as they use the same resource. In predation, one benefits and one is killed. In mutualism, both benefit. Predator and prey populations often cycle, with the predator peak lagging behind the prey peak."
+      },
+      {
+        "heading": "Cycles and Human Impact",
+        "body": "Matter, unlike energy, recycles. Carbon moves between the atmosphere, living things, oceans, and rock; photosynthesis pulls it out of the air and respiration and combustion put it back. Nitrogen must be converted by bacteria into forms plants can absorb. Water cycles by evaporation, condensation, precipitation, and runoff. Human activity shifts these cycles: burning fossil fuels adds carbon dioxide, and fertilizer runoff adds nitrogen and phosphorus to waterways, driving algae blooms that lower dissolved oxygen. Many ACT ecology passages measure exactly these quantities over time."
+      }
+    ],
+    "keyFacts": [
+      "About 10% of energy transfers from one trophic level to the next.",
+      "Carrying capacity is where a population's growth levels off.",
+      "A limiting factor is the resource that runs out first.",
+      "Energy flows one way through an ecosystem; matter cycles.",
+      "Predator population peaks usually lag behind prey population peaks."
+    ],
+    "examples": [
+      {
+        "problem": "A meadow's producers capture 20,000 kJ of energy in one season. Using the ten percent rule, about how much energy reaches the secondary consumers?",
+        "steps": [
+          "Producers hold 20,000 kJ.",
+          "Primary consumers receive about 10%: 0.10 × 20,000 = 2,000 kJ.",
+          "Secondary consumers receive about 10% of that: 0.10 × 2,000 = 200 kJ.",
+          "Each step costs a factor of ten."
+        ],
+        "answer": "About 200 kJ"
+      },
+      {
+        "problem": "Table 1\nYear | Deer population\n0 | 40\n2 | 95\n4 | 210\n6 | 330\n8 | 360\n10 | 358\n\nEstimate the carrying capacity, and identify the interval of fastest growth.",
+        "steps": [
+          "Look for where the numbers stop rising: 360 at year 8 and 358 at year 10 are essentially equal.",
+          "That plateau is the carrying capacity, about 360 deer.",
+          "Compute changes per interval: 55, 115, 120, 30, −2.",
+          "The largest increase is 120, from year 4 to year 6."
+        ],
+        "answer": "Carrying capacity is about 360 deer; fastest growth occurred between years 4 and 6."
+      }
+    ],
+    "tips": [
+      "Ten percent per level means dividing by 10 for each step up the chain.",
+      "In a population table, flat consecutive values mark carrying capacity.",
+      "If adding a nutrient changes nothing, that nutrient was not the limiting factor."
+    ]
+  },
+  {
+    "id": "st-09",
+    "subject": "science",
+    "category": "Chemistry",
+    "title": "Atoms, Isotopes, and the Periodic Table",
+    "symbolName": "atom",
+    "summary": "Subatomic particles, atomic and mass number, periodic trends, and basic bonding.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "What an Atom Contains",
+        "body": "An atom has a dense nucleus of protons and neutrons surrounded by electrons. Protons carry a positive charge, electrons carry an equal negative charge, and neutrons are neutral. Almost all the mass sits in the nucleus, because a proton or neutron is roughly two thousand times heavier than an electron. A neutral atom has equal numbers of protons and electrons. Chemistry happens in the outer electrons, called valence electrons, since those are the ones that get shared or transferred when atoms bond."
+      },
+      {
+        "heading": "Atomic Number, Mass Number, and Isotopes",
+        "body": "The atomic number is the number of protons, and it alone determines which element an atom is. Change the proton count and you have a different element. The mass number is protons plus neutrons. Isotopes are atoms of the same element with different neutron counts, so they share an atomic number but differ in mass number: carbon-12 and carbon-14 both have 6 protons but 6 and 8 neutrons. An ion is an atom that has gained or lost electrons, so its proton and electron counts no longer match and it carries a net charge."
+      },
+      {
+        "heading": "Reading the Periodic Table",
+        "body": "Elements are arranged by increasing atomic number. A vertical column is a group, and members of a group have the same number of valence electrons, so they behave similarly. A horizontal row is a period. Group 1 metals are highly reactive, and Group 18 noble gases are almost inert because their outer shells are full. Metals sit on the left and tend to lose electrons; nonmetals sit on the upper right and tend to gain them. Moving right across a period, atoms generally get smaller and pull on electrons more strongly."
+      },
+      {
+        "heading": "Ionic and Covalent Bonding",
+        "body": "When a metal meets a nonmetal, electrons are usually transferred outright: the metal becomes a positive ion, the nonmetal becomes a negative ion, and their attraction forms an ionic bond. Ionic compounds tend to have high melting points and conduct electricity when dissolved or melted. When two nonmetals meet, they share electrons in covalent bonds, forming molecules. Molecular substances usually melt at lower temperatures and do not conduct. That difference explains why conductivity and melting point columns show up constantly in ACT chemistry tables."
+      }
+    ],
+    "keyFacts": [
+      "Atomic number = number of protons and defines the element.",
+      "Mass number = protons + neutrons.",
+      "Isotopes share protons but differ in neutrons; ions have unequal protons and electrons.",
+      "Elements in the same group have similar chemical behavior.",
+      "Metal + nonmetal usually gives an ionic bond; nonmetal + nonmetal gives covalent.",
+      "Ionic compounds conduct when dissolved or molten; molecular ones generally do not."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nParticle | Protons | Neutrons | Electrons\nW | 6 | 6 | 6\nX | 6 | 8 | 6\nY | 8 | 8 | 8\nZ | 6 | 6 | 5\n\nWhich two particles are isotopes of each other, and which particle is an ion?",
+        "steps": [
+          "Isotopes need the same proton count but different neutron counts.",
+          "W, X, and Z all have 6 protons; Y has 8, so Y is a different element.",
+          "W has 6 neutrons and X has 8, so W and X are isotopes of each other.",
+          "An ion has unequal protons and electrons; Z has 6 protons and 5 electrons, a charge of +1.",
+          "W, X, and Y each have matching proton and electron counts, so they are neutral."
+        ],
+        "answer": "W and X are isotopes; Z is an ion with a 1+ charge."
+      },
+      {
+        "problem": "Using Table 1 above, what is the mass number of particle X, and what element are W, X, and Z?",
+        "steps": [
+          "Mass number equals protons plus neutrons.",
+          "For X: 6 + 8 = 14.",
+          "The element is set by the proton count alone, which is 6 for W, X, and Z.",
+          "Atomic number 6 is carbon."
+        ],
+        "answer": "X has mass number 14; W, X, and Z are all carbon."
+      }
+    ],
+    "tips": [
+      "Protons name the element. Neutrons name the isotope. Electrons name the charge.",
+      "If a table lists conductivity, expect an ionic-versus-covalent question.",
+      "Same column means same behavior; use that to predict an unfamiliar element."
+    ]
+  },
+  {
+    "id": "st-10",
+    "subject": "science",
+    "category": "Chemistry",
+    "title": "Chemical Reactions and Reaction Rates",
+    "symbolName": "testtube.2",
+    "summary": "Conservation of mass, reaction types, energy changes, and the four rate factors.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Reactants, Products, and Conservation of Mass",
+        "body": "In a chemical reaction, reactants rearrange into products, written with an arrow: reactants → products. Atoms are never created or destroyed, so the total mass before equals the total mass after. That is why chemical equations must be balanced, with the same count of each element on both sides. In an open container, mass may appear to drop because a gas escaped; in a sealed container it stays constant. ACT tables often exploit this by giving you starting mass and solid product mass and asking for the mass of gas released."
+      },
+      {
+        "heading": "Common Reaction Types",
+        "body": "Synthesis combines simple substances into one compound. Decomposition splits one compound into simpler pieces. Single replacement has one element trading places with another in a compound, and double replacement swaps partners between two compounds. Combustion burns a fuel with oxygen, typically producing carbon dioxide and water. Recognizing a type is rarely required outright, but passages use the names casually, and knowing that decomposition releases products from one starting substance helps you predict what a table's columns are tracking."
+      },
+      {
+        "heading": "Energy: Exothermic and Endothermic",
+        "body": "Breaking bonds absorbs energy and forming bonds releases it. If forming the new bonds releases more than breaking the old ones absorbed, the reaction is exothermic and the surroundings warm up. If it absorbs more, the reaction is endothermic and the surroundings cool down. A temperature probe in the reaction vessel is the usual measurement, so a rising temperature column signals exothermic and a falling one signals endothermic. Combustion and neutralization are typically exothermic; many dissolving and decomposition processes are endothermic."
+      },
+      {
+        "heading": "Four Things That Change Reaction Rate",
+        "body": "Rate rises with higher temperature, because particles move faster and collide harder and more often. Rate rises with higher concentration or pressure, because collisions become more frequent. Rate rises with greater surface area, which is why powder reacts faster than a single lump of the same mass. And a catalyst speeds a reaction by providing an easier pathway without being consumed. Because these four factors are the entire menu, a question asking why one trial finished faster is almost always answered by whichever of the four the table shows changing."
+      }
+    ],
+    "keyFacts": [
+      "Mass of reactants always equals mass of products, including any gas released.",
+      "Exothermic releases heat and warms the surroundings; endothermic absorbs heat and cools them.",
+      "Higher temperature, higher concentration, more surface area, or a catalyst all speed a reaction.",
+      "A catalyst is not consumed and does not change the amount of product formed.",
+      "Time to completion is the inverse of rate: shorter time means faster reaction."
+    ],
+    "examples": [
+      {
+        "problem": "A carbonate was heated in an open dish. The total starting mass was 20.0 g and 15.6 g of solid remained.\n\nTable 1\nTrial | Starting mass (g) | Solid remaining (g) | Gas released (g)\n1 | 20.0 | 15.6 | ?\n\nWhat mass of gas escaped, and why does the dish appear to lose mass?",
+        "steps": [
+          "Conservation of mass says starting mass = solid remaining + gas released.",
+          "Rearrange: gas released = 20.0 − 15.6.",
+          "20.0 − 15.6 = 4.4 g.",
+          "The dish is open, so the gas leaves the system and is no longer weighed."
+        ],
+        "answer": "4.4 g of gas escaped; mass appears lost only because the gas left the open dish."
+      },
+      {
+        "problem": "Table 2\nTemp (°C) | Time to complete reaction (s)\n10 | 120\n20 | 60\n30 | 31\n40 | 15\n\nDescribe the pattern and predict the time at 50 °C.",
+        "steps": [
+          "Compare consecutive times: 120 → 60 is about half, 60 → 31 is about half, 31 → 15 is about half.",
+          "So each 10 °C rise roughly halves the time, meaning the rate roughly doubles.",
+          "Apply the pattern once more past 40 °C: 15 ÷ 2 ≈ 7.5.",
+          "Round sensibly for an estimate."
+        ],
+        "answer": "Time roughly halves per 10 °C, so about 7 to 8 s at 50 °C."
+      }
+    ],
+    "tips": [
+      "\"Time to finish\" going down means rate going up; do not confuse the two directions.",
+      "If mass seems to vanish, look for a gas and check whether the container was sealed.",
+      "A catalyst changes how fast, never how much product you end up with."
+    ]
+  },
+  {
+    "id": "st-11",
+    "subject": "science",
+    "category": "Chemistry",
+    "title": "Solutions, Concentration, and pH",
+    "symbolName": "eyedropper",
+    "summary": "Solubility, dilution, the logarithmic pH scale, and acid-base behavior in data.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Solutes, Solvents, and Solubility",
+        "body": "A solution is a solute dissolved evenly in a solvent, usually water. Solubility is the maximum amount of solute that will dissolve in a set amount of solvent at a given temperature, often reported as grams per 100 g of water. For most solids, solubility rises with temperature, which is why solubility tables climb as you read down the temperature column. Gases behave oppositely: warmer water holds less dissolved gas, which is why dissolved oxygen falls as lake temperature rises. A solution holding the maximum amount is saturated."
+      },
+      {
+        "heading": "Concentration and Dilution",
+        "body": "Concentration describes how much solute sits in a given volume, expressed as percent, grams per liter, or molarity in moles per liter. Adding solvent dilutes the solution, lowering concentration while the amount of solute stays the same. Halving the concentration means doubling the volume. Watch units closely in these problems: parts per million, percent, and grams per liter all appear on the ACT, and a choice built from the wrong unit is a standard distractor. Concentration also matters for rate, since more concentrated solutions react faster."
+      },
+      {
+        "heading": "The pH Scale Is Logarithmic",
+        "body": "pH runs from 0 to 14 and measures hydrogen ion concentration. Below 7 is acidic, exactly 7 is neutral, and above 7 is basic. The scale is logarithmic, so each whole step is a factor of ten: pH 3 has ten times more hydrogen ions than pH 4 and one hundred times more than pH 5. Because of that, a question asking \"how many times more acidic\" is answered by counting steps and raising ten to that power. Lower pH always means more hydrogen ions and stronger acidity."
+      },
+      {
+        "heading": "Acids, Bases, and Neutralization",
+        "body": "Acids release hydrogen ions in solution, taste sour, and react with many metals. Bases release hydroxide ions and feel slippery. Mixing an acid and a base is neutralization, producing water and a salt and driving pH toward 7. Indicators reveal pH by changing color, and litmus is the classic case: red in acid, blue in base. In titration data, pH climbs slowly, jumps sharply near the equivalence point where the amounts exactly cancel, then levels off. That sharp jump is what titration questions ask you to locate."
+      }
+    ],
+    "keyFacts": [
+      "Solubility of most solids increases with temperature; solubility of gases decreases.",
+      "Each whole pH unit is a factor of 10 in hydrogen ion concentration.",
+      "pH below 7 is acidic, 7 is neutral, above 7 is basic.",
+      "Neutralization of an acid and a base produces water and a salt.",
+      "Diluting adds solvent, lowering concentration while solute amount stays fixed."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nTemp (°C) | Solubility of KNO₃ (g per 100 g water)\n20 | 32\n40 | 64\n60 | 110\n80 | 169\n\nA saturated solution is made with 100 g of water at 20 °C and then heated to 60 °C. How much more solute can now dissolve?",
+        "steps": [
+          "At 20 °C the water already holds 32 g of KNO₃.",
+          "At 60 °C it can hold 110 g in the same 100 g of water.",
+          "Subtract: 110 − 32 = 78.",
+          "The solvent amount is unchanged, so the difference is the extra solid that dissolves."
+        ],
+        "answer": "78 g more KNO₃ can dissolve."
+      },
+      {
+        "problem": "Table 2\nSample | pH\nJ | 3\nK | 5\nL | 7\nM | 9\n\nHow many times more hydrogen ions does Sample J have than Sample K, and which sample is basic?",
+        "steps": [
+          "Count whole pH units between J and K: 5 − 3 = 2 steps.",
+          "Each step is a factor of 10, so the ratio is 10², which is 100.",
+          "Lower pH means more hydrogen ions, so J is the more concentrated one.",
+          "A basic sample has pH above 7, which is Sample M at pH 9."
+        ],
+        "answer": "J has 100 times more hydrogen ions than K; Sample M is basic."
+      }
+    ],
+    "tips": [
+      "For pH ratios, count the steps and raise 10 to that power.",
+      "Warm water dissolves more solid but less gas; keep those two rules separate.",
+      "In titration data, the row with the biggest pH jump is the equivalence point."
+    ]
+  },
+  {
+    "id": "st-12",
+    "subject": "science",
+    "category": "Physics",
+    "title": "Motion and Forces",
+    "symbolName": "scalemass",
+    "summary": "Speed, acceleration, Newton's laws, and reading motion data out of a table.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Speed, Velocity, and Acceleration",
+        "body": "Speed is distance divided by time, so a car covering 120 m in 8 s moves at 15 m/s. Velocity is speed with a direction attached, which matters when something reverses. Acceleration is the change in velocity divided by the time it took, measured in meters per second squared. Positive acceleration means speeding up in the direction of motion; negative acceleration, sometimes called deceleration, means slowing down. In a table of time versus speed, constant differences in the speed column mean constant acceleration, and the acceleration equals that difference divided by the time step."
+      },
+      {
+        "heading": "Newton's Three Laws",
+        "body": "The first law says an object keeps doing what it is doing, at rest or in steady motion, unless an unbalanced force acts on it. The second law connects the pieces: net force equals mass times acceleration, F = ma. For a fixed force, heavier objects accelerate less; for a fixed mass, more force means more acceleration. The third law says forces come in pairs: if A pushes B, B pushes back on A equally and oppositely. Rocket propulsion, walking, and recoil are all third-law situations that show up in passages."
+      },
+      {
+        "heading": "Balanced and Unbalanced Forces",
+        "body": "Add up the forces on an object. If they cancel, the net force is zero and the velocity does not change, which includes an object sitting still and an object cruising at a steady speed. If they do not cancel, the object accelerates in the direction of the leftover force. A skydiver reaching terminal velocity is the classic case: as speed rises, air resistance grows until it exactly balances weight, after which the speed stays constant. Data showing speed climbing then flattening is almost always this scenario."
+      },
+      {
+        "heading": "Friction, Gravity, and Weight",
+        "body": "Friction opposes motion between surfaces in contact and converts kinetic energy into heat. Rougher surfaces and heavier loads generally increase it. Gravity pulls every mass toward every other mass, and near Earth's surface it gives falling objects an acceleration of about 9.8 m/s² regardless of their mass, when air resistance is ignored. Mass is the amount of matter and does not change with location, while weight is the force of gravity on that mass and does change: the same astronaut weighs far less on the Moon but has the same mass."
+      }
+    ],
+    "keyFacts": [
+      "Speed = distance ÷ time; acceleration = change in speed ÷ time.",
+      "F = ma: net force equals mass times acceleration.",
+      "Zero net force means constant velocity, including staying at rest.",
+      "Free-fall acceleration near Earth is about 9.8 m/s², independent of mass.",
+      "Mass stays the same everywhere; weight depends on local gravity.",
+      "Speed rising then flattening usually means a resisting force grew to balance the driving force."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nTime (s) | Speed (m/s)\n0 | 0\n2 | 6\n4 | 12\n6 | 18\n\nFind the acceleration, and find the distance traveled in the first 6 s.",
+        "steps": [
+          "Check the speed differences: 6, 6, 6 m/s for each 2 s interval, so acceleration is constant.",
+          "Acceleration = 6 m/s ÷ 2 s = 3 m/s².",
+          "For constant acceleration, use the average speed: (0 + 18) ÷ 2 = 9 m/s.",
+          "Distance = average speed × time = 9 m/s × 6 s = 54 m."
+        ],
+        "answer": "Acceleration is 3 m/s²; distance is 54 m."
+      },
+      {
+        "problem": "A 1,200 kg car accelerates at 2.5 m/s². What net force is required? If the same net force were applied to a 600 kg car, what would its acceleration be?",
+        "steps": [
+          "Use F = ma with m = 1,200 kg and a = 2.5 m/s².",
+          "F = 1,200 × 2.5 = 3,000 N.",
+          "For the lighter car, rearrange to a = F ÷ m.",
+          "a = 3,000 N ÷ 600 kg = 5 m/s², double the original since the mass was halved."
+        ],
+        "answer": "3,000 N; the 600 kg car would accelerate at 5 m/s²."
+      }
+    ],
+    "tips": [
+      "Constant differences in a speed column mean constant acceleration.",
+      "For constant acceleration from rest, distance = (final speed ÷ 2) × time.",
+      "Halving mass at fixed force doubles acceleration; use ratios instead of recalculating."
+    ]
+  },
+  {
+    "id": "st-13",
+    "subject": "science",
+    "category": "Physics",
+    "title": "Energy, Work, and Heat",
+    "symbolName": "bolt.fill",
+    "summary": "Kinetic and potential energy, conservation, work and power, and heat transfer.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Kinetic and Potential Energy",
+        "body": "Kinetic energy is the energy of motion, KE = ½mv². Because velocity is squared, doubling the speed multiplies kinetic energy by four, which is why stopping distances grow so sharply with speed. Gravitational potential energy is stored by height, PE = mgh, so lifting an object twice as high doubles its stored energy. Other forms of potential energy include a stretched spring and the chemical energy in fuel or food. On a roller coaster, height converts to speed and back, and the two forms trade off continuously."
+      },
+      {
+        "heading": "Conservation and Transformation",
+        "body": "Energy is never created or destroyed, only converted from one form to another. A falling ball converts potential energy into kinetic energy; a light bulb converts electrical energy into light and a great deal of heat. Some energy always ends up as heat through friction or air resistance, so no real machine is one hundred percent efficient. Efficiency is useful output energy divided by total input energy, expressed as a percent. If an ACT table shows input and output, the missing energy went to heat, not nowhere."
+      },
+      {
+        "heading": "Work and Power",
+        "body": "Work is done when a force moves an object through a distance in the direction of the force: W = Fd, measured in joules. Holding a heavy box motionless does no work in the physics sense, because the distance is zero. Power is how quickly work is done, P = W ÷ t, measured in watts. Two motors that lift the same crate the same height do equal work, but the faster one delivers more power. Questions often give you a table of times for the same task, and the shortest time means the greatest power."
+      },
+      {
+        "heading": "Heat, Temperature, and Transfer",
+        "body": "Temperature measures the average kinetic energy of particles, while thermal energy also depends on how many particles there are. A bathtub of warm water holds more thermal energy than a cup of boiling water even though the cup is hotter. Heat always flows from hotter to colder until temperatures equalize. It moves by conduction through direct contact, convection through moving fluids, and radiation through electromagnetic waves that need no medium. Specific heat measures how much energy a substance needs to warm by one degree, and water's high specific heat makes it warm and cool slowly."
+      }
+    ],
+    "keyFacts": [
+      "KE = ½mv²; doubling speed quadruples kinetic energy.",
+      "PE = mgh; doubling height doubles gravitational potential energy.",
+      "Energy is conserved; the \"missing\" energy in real systems became heat.",
+      "Work = force × distance; no distance means no work.",
+      "Power = work ÷ time, so faster completion of the same job means more power.",
+      "Heat flows hot to cold by conduction, convection, or radiation."
+    ],
+    "examples": [
+      {
+        "problem": "A 4 kg cart moves at 3 m/s. (a) Find its kinetic energy. (b) Find its kinetic energy if it speeds up to 6 m/s.",
+        "steps": [
+          "Use KE = ½mv² with m = 4 kg and v = 3 m/s.",
+          "KE = ½ × 4 × 3² = 2 × 9 = 18 J.",
+          "At 6 m/s: KE = ½ × 4 × 6² = 2 × 36 = 72 J.",
+          "Doubling the speed multiplied the energy by 4, since 72 ÷ 18 = 4."
+        ],
+        "answer": "(a) 18 J  (b) 72 J, which is four times as much"
+      },
+      {
+        "problem": "Table 1\nTime (min) | Temp of coffee (°C)\n0 | 90\n5 | 72\n10 | 60\n15 | 52\n20 | 47\n\nDuring which interval did the coffee cool fastest, and why does cooling slow down over time?",
+        "steps": [
+          "Compute the drop in each 5 min interval: 18, 12, 8, 5 °C.",
+          "The largest drop, 18 °C, occurred from 0 to 5 min.",
+          "Heat flows faster when the temperature difference with the room is larger.",
+          "As the coffee approaches room temperature, that difference shrinks, so cooling slows."
+        ],
+        "answer": "Fastest from 0 to 5 min; cooling slows as the gap between coffee and room temperature narrows."
+      }
+    ],
+    "tips": [
+      "Speed is squared in kinetic energy; tripling speed means nine times the energy.",
+      "In a cooling table, the differences between rows shrink; expect a question about that.",
+      "Same job in less time means more power, not more work."
+    ]
+  },
+  {
+    "id": "st-14",
+    "subject": "science",
+    "category": "Physics",
+    "title": "Waves, Sound, and Light",
+    "symbolName": "waveform.path.ecg",
+    "summary": "Wave anatomy, the speed-frequency-wavelength relationship, and the EM spectrum.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Parts of a Wave",
+        "body": "A wave transfers energy without permanently transporting matter. Wavelength is the distance from one crest to the next, measured in meters. Frequency is how many complete waves pass a point each second, measured in hertz. Amplitude is the height of the wave from its rest position and corresponds to energy: for sound, larger amplitude means louder; for light, it means brighter. Period is the time for one full wave and is simply one divided by the frequency. A table listing these quantities almost always wants you to relate two of them."
+      },
+      {
+        "heading": "Speed, Frequency, and Wavelength",
+        "body": "The three are tied together by speed = frequency × wavelength. In a given medium the speed is essentially fixed, so frequency and wavelength trade off inversely: double the frequency and the wavelength halves. Sound travels about 340 m/s in room-temperature air, faster in liquids and faster still in solids, because tightly packed particles pass the disturbance along more quickly. Light travels about 3 × 10⁸ m/s in a vacuum and slows in glass or water. If a table shows frequency rising while wavelength falls, their product should stay constant."
+      },
+      {
+        "heading": "Sound Versus Light",
+        "body": "Sound is a longitudinal wave: particles vibrate back and forth along the direction the wave travels, creating compressions and rarefactions. It needs a medium, so it cannot cross a vacuum. Light is an electromagnetic wave and is transverse, with vibrations perpendicular to travel, and it needs no medium at all. Pitch corresponds to frequency and loudness to amplitude in sound; color corresponds to frequency and brightness to amplitude in light. The Doppler effect raises the observed frequency of a source moving toward you and lowers it as the source moves away."
+      },
+      {
+        "heading": "The Electromagnetic Spectrum and Behavior",
+        "body": "From longest wavelength to shortest, the spectrum runs radio, microwave, infrared, visible, ultraviolet, X-ray, gamma. Shorter wavelength means higher frequency and higher energy, which is why gamma rays are dangerous and radio waves are not. Within visible light, red has the longest wavelength and violet the shortest. Waves reflect when they bounce off a surface, refract when they bend on entering a new medium at an angle, and diffract when they spread around edges. Refraction bending toward the normal signals the wave slowed down in the new medium."
+      }
+    ],
+    "keyFacts": [
+      "speed = frequency × wavelength.",
+      "In a fixed medium, frequency and wavelength are inversely related.",
+      "Sound is longitudinal and needs a medium; light is transverse and does not.",
+      "Sound travels about 340 m/s in air; light travels about 3 × 10⁸ m/s in a vacuum.",
+      "Shorter wavelength means higher frequency and higher energy.",
+      "EM order by increasing energy: radio, microwave, infrared, visible, UV, X-ray, gamma."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nWave | Frequency (Hz) | Wavelength (m)\nA | 200 | 1.70\nB | 400 | 0.85\nC | 800 | 0.425\n\nWhat is the speed of these waves, and what medium is most likely being used?",
+        "steps": [
+          "Use speed = frequency × wavelength for each row.",
+          "A: 200 × 1.70 = 340 m/s.",
+          "B: 400 × 0.85 = 340 m/s.",
+          "C: 800 × 0.425 = 340 m/s.",
+          "All three give the same speed, and 340 m/s is the speed of sound in room-temperature air."
+        ],
+        "answer": "340 m/s, consistent with sound traveling through air."
+      },
+      {
+        "problem": "Two forms of electromagnetic radiation are compared: ultraviolet light and radio waves. Which has the higher frequency, and which carries more energy per wave?",
+        "steps": [
+          "Recall the spectrum order by wavelength: radio is the longest, ultraviolet is much shorter.",
+          "Since speed is fixed for all EM waves in a vacuum, shorter wavelength means higher frequency.",
+          "So ultraviolet has the higher frequency.",
+          "Energy increases with frequency, so ultraviolet also carries more energy per wave."
+        ],
+        "answer": "Ultraviolet has both the higher frequency and the higher energy."
+      }
+    ],
+    "tips": [
+      "If frequency × wavelength is constant down a table, the medium never changed.",
+      "\"Needs a medium\" separates sound from light in one step.",
+      "Doppler: approaching raises pitch, receding lowers it."
+    ]
+  },
+  {
+    "id": "st-15",
+    "subject": "science",
+    "category": "Earth & Space",
+    "title": "Earth's Structure, Rocks, and Weather",
+    "symbolName": "mountain.2.fill",
+    "summary": "Plate tectonics, the rock cycle and rock layers, and how the atmosphere drives weather.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Layers and Plate Tectonics",
+        "body": "Earth has a thin rocky crust, a thick hot mantle, and a core that is liquid on the outside and solid at the center. The crust and the rigid top of the mantle are broken into plates that drift on the slowly flowing rock beneath. At divergent boundaries plates pull apart and new crust forms, as at mid-ocean ridges. At convergent boundaries they collide, building mountains or forcing one plate down in subduction. At transform boundaries they slide past each other, producing earthquakes. Most volcanoes and quakes cluster along these boundaries."
+      },
+      {
+        "heading": "The Rock Cycle",
+        "body": "Igneous rock forms when molten rock cools, quickly at the surface or slowly underground. Weathering breaks rock into sediment, which is transported, deposited, and compacted into sedimentary rock, often in visible layers. Heat and pressure deep underground turn any rock into metamorphic rock, and enough heat melts it back to magma, restarting the cycle. Fossils appear almost exclusively in sedimentary rock, because igneous and metamorphic processes destroy remains. Data tables in this area typically list layers, rock types, and sometimes fossil contents."
+      },
+      {
+        "heading": "Reading Rock Layers",
+        "body": "The principle of superposition says that in undisturbed layers, the deepest layer is oldest and the top layer is youngest. That single rule answers a large share of geology questions. Anything that cuts across layers, such as a fault or an intruding sheet of magma, is younger than everything it cuts. Fossils help correlate layers between sites: if two distant outcrops contain the same distinctive fossil, those layers formed at roughly the same time. Missing layers indicate erosion removed material before new sediment arrived."
+      },
+      {
+        "heading": "Atmosphere and Weather",
+        "body": "Air pressure and temperature both fall with altitude through the lowest layer of the atmosphere, the troposphere, where nearly all weather occurs. Uneven solar heating drives convection, which drives wind. Warm air holds more water vapor; when it rises and cools, the vapor condenses into clouds and precipitation. A cold front pushes under warm air and lifts it sharply, bringing brief intense storms and a temperature drop; a warm front slides over cold air, bringing longer, gentler rain. Weather is the day-to-day state of the atmosphere, while climate is the long-term average pattern."
+      }
+    ],
+    "keyFacts": [
+      "Superposition: in undisturbed layers, deeper means older.",
+      "A feature that cuts across layers is younger than the layers it cuts.",
+      "Fossils are found almost exclusively in sedimentary rock.",
+      "Most earthquakes and volcanoes occur at plate boundaries.",
+      "In the troposphere, both temperature and pressure decrease with altitude.",
+      "Weather is short term; climate is the long-term average."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nLayer (top to bottom) | Rock type\n1 | Sandstone\n2 | Shale\n3 | Limestone\n4 | Basalt\n\nA fault cuts through Layers 1 through 3 but not Layer 4's surroundings. Which layer is oldest, and is the fault older or younger than Layer 2?",
+        "steps": [
+          "Apply superposition: the list runs top to bottom, so Layer 4 is deepest.",
+          "The deepest undisturbed layer is the oldest, so Layer 4 is oldest.",
+          "The fault cuts across Layers 1, 2, and 3.",
+          "Anything that cuts a layer must have formed after that layer existed."
+        ],
+        "answer": "Layer 4 is oldest; the fault is younger than Layer 2."
+      },
+      {
+        "problem": "Table 2\nAltitude (km) | Pressure (kPa) | Temp (°C)\n0 | 101 | 15\n2 | 79 | 2\n4 | 62 | −11\n6 | 47 | −24\n\nPredict the temperature at 8 km and describe the pressure trend.",
+        "steps": [
+          "Compute temperature changes: 15 → 2 is −13, 2 → −11 is −13, −11 → −24 is −13.",
+          "The drop is a steady 13 °C per 2 km, so continue: −24 − 13 = −37 °C.",
+          "Compute pressure changes: −22, −17, −15 kPa per 2 km.",
+          "Pressure keeps falling but by smaller amounts each step, so it decreases at a slowing rate."
+        ],
+        "answer": "About −37 °C at 8 km; pressure decreases with altitude but by progressively smaller amounts."
+      }
+    ],
+    "tips": [
+      "Check whether a layer table is listed top-to-bottom or bottom-to-top before answering.",
+      "Fossil questions almost always point you toward sedimentary layers.",
+      "A sharp temperature drop plus brief heavy rain signals a cold front."
+    ]
+  },
+  {
+    "id": "st-16",
+    "subject": "science",
+    "category": "Earth & Space",
+    "title": "The Solar System, Stars, and Space",
+    "symbolName": "globe.americas.fill",
+    "summary": "Orbits and seasons, star temperature and life cycles, and the expanding universe.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "The Solar System and Orbits",
+        "body": "The Sun holds over 99 percent of the solar system's mass, and its gravity keeps everything in orbit. The four inner planets are small, rocky, and dense; the four outer planets are large gas or ice giants with many moons. Distances are measured in astronomical units, where one AU is the average Earth-Sun distance. Planets farther from the Sun travel slower along much longer paths, so their orbital periods grow rapidly with distance. Orbits are ellipses, not perfect circles, so a planet's distance from the Sun varies a little through its year."
+      },
+      {
+        "heading": "Seasons, Phases, and Eclipses",
+        "body": "Seasons are caused by Earth's axial tilt of about 23.5 degrees, not by distance from the Sun. The hemisphere tilted toward the Sun receives more direct sunlight for more hours per day, making it summer there while the other hemisphere has winter. Moon phases come from the changing angle between the Sun, Earth, and Moon, which changes how much of the lit half we can see. A solar eclipse happens when the Moon passes between Earth and the Sun; a lunar eclipse happens when Earth's shadow falls on the Moon."
+      },
+      {
+        "heading": "Stars: Temperature, Color, and Life Cycle",
+        "body": "A star's color reveals its surface temperature: red stars are coolest, then orange, yellow, and white, with blue stars the hottest. Luminosity is total energy output, while apparent brightness also depends on distance, so a dim-looking star may simply be far away. Stars form when gravity collapses a cloud of gas and dust until fusion of hydrogen into helium begins. A star like the Sun eventually swells into a red giant and leaves a white dwarf. Much more massive stars explode as supernovae and leave neutron stars or black holes."
+      },
+      {
+        "heading": "Distances, Spectra, and the Expanding Universe",
+        "body": "A light-year is the distance light travels in one year, so looking at distant objects means looking into the past. Splitting starlight into a spectrum reveals dark absorption lines whose positions identify the elements present. When those lines are shifted toward longer, redder wavelengths, the object is moving away, and the size of the redshift indicates how fast. Nearly all distant galaxies show redshift, and the more distant ones show more, which is the central evidence that the universe is expanding and supports the Big Bang model."
+      }
+    ],
+    "keyFacts": [
+      "Seasons come from Earth's axial tilt, not from distance to the Sun.",
+      "Blue stars are hottest; red stars are coolest.",
+      "Apparent brightness depends on both luminosity and distance.",
+      "A light-year is a distance, not a time.",
+      "Redshift means an object is moving away; greater distance means greater redshift.",
+      "Orbital period increases sharply with distance from the Sun."
+    ],
+    "examples": [
+      {
+        "problem": "Table 1\nPlanet | Distance from Sun (AU) | Orbital period (yr)\nMercury | 0.39 | 0.24\nEarth | 1.00 | 1.00\nMars | 1.52 | 1.88\nJupiter | 5.20 | 11.86\n\nA newly found planet orbits at 3.0 AU. Estimate its orbital period.",
+        "steps": [
+          "Locate the bracketing rows: 3.0 AU falls between Mars at 1.52 AU and Jupiter at 5.20 AU.",
+          "So the period must fall between 1.88 yr and 11.86 yr.",
+          "The period grows faster than the distance does, so the answer sits well below the midpoint of that range in proportion to distance.",
+          "A reasonable estimate is roughly 5 years."
+        ],
+        "answer": "Between 1.88 and 11.86 years, roughly 5 years"
+      },
+      {
+        "problem": "Table 2\nStar | Surface temp (K) | Color\nP | 3,200 | red\nQ | 5,800 | yellow\nR | 9,900 | white\nS | 25,000 | blue\n\nWhich star is hottest, and if Star P appears brighter in the sky than Star S, what explains it?",
+        "steps": [
+          "Compare the temperature column: the largest value is 25,000 K.",
+          "That is Star S, which matches blue being the hottest color.",
+          "Apparent brightness depends on luminosity and on distance.",
+          "A cooler star can look brighter if it is much closer to Earth."
+        ],
+        "answer": "Star S is hottest; Star P likely appears brighter because it is much closer to Earth."
+      }
+    ],
+    "tips": [
+      "Color-to-temperature order: red, orange, yellow, white, blue from coolest to hottest.",
+      "If asked why a star looks bright, always consider distance before luminosity.",
+      "Tilt causes seasons. Any answer choice blaming distance is wrong."
+    ]
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "ma-001",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the value of 4 + 3 × 6?",
+    "choices": [
+      "42",
+      "22",
+      "24",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Order of operations: multiply first, 3 × 6 = 18, then 4 + 18 = 22."
+  },
+  {
+    "id": "ma-002",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the greatest common factor of 24 and 36?",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "72"
+    ],
+    "correctIndex": 2,
+    "explanation": "The factors common to 24 and 36 are 1, 2, 3, 4, 6, and 12. The greatest is 12."
+  },
+  {
+    "id": "ma-003",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is 15% of 80?",
+    "choices": [
+      "12",
+      "15",
+      "8",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "15% of 80 = 0.15 × 80 = 12."
+  },
+  {
+    "id": "ma-004",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the value of -5 + (-3) × 2?",
+    "choices": [
+      "-16",
+      "-11",
+      "1",
+      "-1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply first: (-3) × 2 = -6. Then -5 + (-6) = -11."
+  },
+  {
+    "id": "ma-005",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the sum 2/3 + 1/6?",
+    "choices": [
+      "1/2",
+      "3/9",
+      "5/6",
+      "2/9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use a common denominator of 6: 2/3 = 4/6, and 4/6 + 1/6 = 5/6."
+  },
+  {
+    "id": "ma-006",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "A recipe uses 2 cups of flour for every 3 cups of sugar. If a baker uses 8 cups of flour, how many cups of sugar are needed?",
+    "choices": [
+      "10",
+      "12",
+      "9",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Set up the proportion 2/3 = 8/x. Cross-multiply: 2x = 24, so x = 12."
+  },
+  {
+    "id": "ma-007",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the value of |-7| + |3|?",
+    "choices": [
+      "4",
+      "-4",
+      "-10",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "Absolute values are nonnegative: |-7| = 7 and |3| = 3, so the sum is 10."
+  },
+  {
+    "id": "ma-008",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 1,
+    "prompt": "What is the least common multiple of 4 and 6?",
+    "choices": [
+      "2",
+      "10",
+      "12",
+      "24"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiples of 4: 4, 8, 12, ... Multiples of 6: 6, 12, ... The least common multiple is 12."
+  },
+  {
+    "id": "ma-009",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "If 4x + 5 = 33, what is the value of x?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9.5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract 5 from both sides: 4x = 28, so x = 7."
+  },
+  {
+    "id": "ma-010",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "Which expression is equivalent to 5(2x - 3)?",
+    "choices": [
+      "10x - 3",
+      "7x - 15",
+      "10x - 15",
+      "10x + 15"
+    ],
+    "correctIndex": 2,
+    "explanation": "Distribute the 5 to both terms: 5 × 2x = 10x and 5 × (-3) = -15, giving 10x - 15."
+  },
+  {
+    "id": "ma-011",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "If y = 3, what is the value of 2y²?",
+    "choices": [
+      "9",
+      "12",
+      "18",
+      "36"
+    ],
+    "correctIndex": 2,
+    "explanation": "Square first: y² = 9. Then 2 × 9 = 18. (36 comes from squaring 2y instead.)"
+  },
+  {
+    "id": "ma-012",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "If x/4 = 9, what is the value of x?",
+    "choices": [
+      "2.25",
+      "5",
+      "13",
+      "36"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiply both sides by 4: x = 36."
+  },
+  {
+    "id": "ma-013",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "Which expression is equivalent to 3a + 5b - a + 2b?",
+    "choices": [
+      "2a + 7b",
+      "4a + 7b",
+      "2a + 3b",
+      "9ab"
+    ],
+    "correctIndex": 0,
+    "explanation": "Combine like terms: 3a - a = 2a and 5b + 2b = 7b, giving 2a + 7b."
+  },
+  {
+    "id": "ma-014",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "If 2(x - 4) = 10, what is the value of x?",
+    "choices": [
+      "3",
+      "7",
+      "9",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide both sides by 2: x - 4 = 5, so x = 9."
+  },
+  {
+    "id": "ma-015",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "Which of the following is the complete factorization of x² - 9?",
+    "choices": [
+      "(x - 3)²",
+      "(x - 3)(x + 3)",
+      "(x - 9)(x + 1)",
+      "x(x - 9)"
+    ],
+    "correctIndex": 1,
+    "explanation": "x² - 9 is a difference of squares: x² - 3² = (x - 3)(x + 3)."
+  },
+  {
+    "id": "ma-016",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "If 5x - 2 = 3x + 8, what is the value of x?",
+    "choices": [
+      "5",
+      "3",
+      "10",
+      "-5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 3x from both sides: 2x - 2 = 8. Add 2: 2x = 10, so x = 5."
+  },
+  {
+    "id": "ma-017",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "Which expression represents \"7 less than twice a number n\"?",
+    "choices": [
+      "7 - 2n",
+      "2n - 7",
+      "2(n - 7)",
+      "n/2 - 7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Twice a number n is 2n, and 7 less than that quantity is 2n - 7."
+  },
+  {
+    "id": "ma-018",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "What is the solution set of the inequality x + 5 < 12?",
+    "choices": [
+      "x < 7",
+      "x > 7",
+      "x < 17",
+      "x > -7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 5 from both sides: x < 7."
+  },
+  {
+    "id": "ma-019",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 1,
+    "prompt": "Which expression is equivalent to (x³)(x⁴)?",
+    "choices": [
+      "x¹²",
+      "2x⁷",
+      "x⁴",
+      "x⁷"
+    ],
+    "correctIndex": 3,
+    "explanation": "When multiplying powers with the same base, add the exponents: 3 + 4 = 7, so the product is x⁷."
+  },
+  {
+    "id": "ma-020",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "What is the slope of the line passing through the points (1, 2) and (3, 8)?",
+    "choices": [
+      "3",
+      "1/3",
+      "6",
+      "-3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Slope = (8 - 2)/(3 - 1) = 6/2 = 3."
+  },
+  {
+    "id": "ma-021",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "What is the midpoint of the segment with endpoints (2, 4) and (6, 10)?",
+    "choices": [
+      "(8, 14)",
+      "(4, 7)",
+      "(2, 3)",
+      "(3, 4)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Average the coordinates: x = (2 + 6)/2 = 4 and y = (4 + 10)/2 = 7, giving (4, 7)."
+  },
+  {
+    "id": "ma-022",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "What is the y-intercept of the line y = 2x - 5?",
+    "choices": [
+      "2",
+      "5",
+      "-5",
+      "-2"
+    ],
+    "correctIndex": 2,
+    "explanation": "In slope-intercept form y = mx + b, the y-intercept is b, which is -5."
+  },
+  {
+    "id": "ma-023",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "What is the distance from the origin (0, 0) to the point (3, 4)?",
+    "choices": [
+      "7",
+      "5",
+      "12",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distance = √(3² + 4²) = √(9 + 16) = √25 = 5."
+  },
+  {
+    "id": "ma-024",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "In which quadrant of the standard (x, y) coordinate plane does the point (-3, 5) lie?",
+    "choices": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "correctIndex": 1,
+    "explanation": "The x-coordinate is negative and the y-coordinate is positive, which places the point in Quadrant II."
+  },
+  {
+    "id": "ma-025",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "A line is parallel to the line y = 4x + 1. What is the slope of the parallel line?",
+    "choices": [
+      "-4",
+      "1/4",
+      "4",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Parallel lines have equal slopes, so the slope is 4."
+  },
+  {
+    "id": "ma-026",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 1,
+    "prompt": "Which of the following points lies on the line y = 3x - 2?",
+    "choices": [
+      "(4, 14)",
+      "(4, 10)",
+      "(10, 4)",
+      "(4, -10)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute x = 4: y = 3(4) - 2 = 10, so (4, 10) is on the line."
+  },
+  {
+    "id": "ma-027",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+    "choices": [
+      "10",
+      "14",
+      "48",
+      "100"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the Pythagorean theorem, hypotenuse = √(6² + 8²) = √100 = 10."
+  },
+  {
+    "id": "ma-028",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "A rectangle has a length of 12 and a width of 5. What is its area?",
+    "choices": [
+      "17",
+      "34",
+      "60",
+      "120"
+    ],
+    "correctIndex": 2,
+    "explanation": "Area of a rectangle = length × width = 12 × 5 = 60."
+  },
+  {
+    "id": "ma-029",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "What is the area of a circle with radius 3?",
+    "choices": [
+      "3π",
+      "6π",
+      "9π",
+      "12π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Area = πr² = π(3²) = 9π. (6π is the circumference.)"
+  },
+  {
+    "id": "ma-030",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "Two angles of a triangle measure 65° and 45°. What is the measure of the third angle?",
+    "choices": [
+      "70°",
+      "80°",
+      "110°",
+      "60°"
+    ],
+    "correctIndex": 0,
+    "explanation": "The angles of a triangle sum to 180°: 180 - 65 - 45 = 70°."
+  },
+  {
+    "id": "ma-031",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "A square has an area of 49 square inches. What is its perimeter, in inches?",
+    "choices": [
+      "14",
+      "28",
+      "49",
+      "196"
+    ],
+    "correctIndex": 1,
+    "explanation": "The side length is √49 = 7, so the perimeter is 4 × 7 = 28."
+  },
+  {
+    "id": "ma-032",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "Two angles are supplementary. If one angle measures 38°, what is the measure of the other angle?",
+    "choices": [
+      "52°",
+      "62°",
+      "128°",
+      "142°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Supplementary angles sum to 180°: 180 - 38 = 142°. (52° would be the complement.)"
+  },
+  {
+    "id": "ma-033",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "What is the circumference of a circle with diameter 10?",
+    "choices": [
+      "5π",
+      "10π",
+      "20π",
+      "25π"
+    ],
+    "correctIndex": 1,
+    "explanation": "Circumference = πd = 10π."
+  },
+  {
+    "id": "ma-034",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "A rectangular box has dimensions 2 by 3 by 4. What is its volume?",
+    "choices": [
+      "9",
+      "20",
+      "24",
+      "52"
+    ],
+    "correctIndex": 2,
+    "explanation": "Volume = 2 × 3 × 4 = 24. (52 is the surface area.)"
+  },
+  {
+    "id": "ma-035",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 1,
+    "prompt": "An isosceles triangle has a vertex angle of 40°. What is the measure of each base angle?",
+    "choices": [
+      "40°",
+      "100°",
+      "140°",
+      "70°"
+    ],
+    "correctIndex": 3,
+    "explanation": "The two base angles are equal and the angles sum to 180°: (180 - 40)/2 = 70°."
+  },
+  {
+    "id": "ma-036",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 1,
+    "prompt": "In a right triangle, the side opposite angle θ has length 3 and the hypotenuse has length 5. What is sin θ?",
+    "choices": [
+      "3/5",
+      "4/5",
+      "3/4",
+      "5/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin θ = opposite/hypotenuse = 3/5."
+  },
+  {
+    "id": "ma-037",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 1,
+    "prompt": "A right triangle has legs of length 5 and 12 and a hypotenuse of length 13. What is the cosine of the angle that is adjacent to the leg of length 12?",
+    "choices": [
+      "5/13",
+      "12/13",
+      "5/12",
+      "13/12"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos θ = adjacent/hypotenuse = 12/13."
+  },
+  {
+    "id": "ma-038",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 1,
+    "prompt": "In a right triangle, the side opposite angle θ has length 7 and the side adjacent to θ has length 24. What is tan θ?",
+    "choices": [
+      "24/7",
+      "7/25",
+      "7/24",
+      "24/25"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan θ = opposite/adjacent = 7/24."
+  },
+  {
+    "id": "ma-039",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 1,
+    "prompt": "What is the exact value of sin 30°?",
+    "choices": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin 30° = 1/2 is a standard special-angle value."
+  },
+  {
+    "id": "ma-040",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 1,
+    "prompt": "If f(x) = 2x + 3, what is f(4)?",
+    "choices": [
+      "11",
+      "14",
+      "8",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(4) = 2(4) + 3 = 11."
+  },
+  {
+    "id": "ma-041",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 1,
+    "prompt": "If f(x) = x² - 1, what is f(-3)?",
+    "choices": [
+      "-10",
+      "-8",
+      "10",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(-3) = (-3)² - 1 = 9 - 1 = 8."
+  },
+  {
+    "id": "ma-042",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 1,
+    "prompt": "If g(x) = 3x and f(x) = x + 2, what is f(g(2))?",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "g(2) = 6, then f(6) = 6 + 2 = 8."
+  },
+  {
+    "id": "ma-043",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 1,
+    "prompt": "For what value of x is the function f(x) = 1/(x - 4) undefined?",
+    "choices": [
+      "0",
+      "-4",
+      "4",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "The function is undefined when the denominator is 0, that is, when x = 4."
+  },
+  {
+    "id": "ma-044",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 1,
+    "prompt": "If f(x) = 5x - 7 and f(x) = 13, what is the value of x?",
+    "choices": [
+      "4",
+      "58",
+      "6/5",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solve 5x - 7 = 13: 5x = 20, so x = 4."
+  },
+  {
+    "id": "ma-045",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 1,
+    "prompt": "What is the mean of the numbers 4, 8, 9, and 11?",
+    "choices": [
+      "7",
+      "8",
+      "8.5",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sum is 32, and 32 ÷ 4 = 8."
+  },
+  {
+    "id": "ma-046",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 1,
+    "prompt": "What is the median of the data set 3, 7, 9, 15, 20?",
+    "choices": [
+      "7",
+      "10.8",
+      "15",
+      "9"
+    ],
+    "correctIndex": 3,
+    "explanation": "The values are already ordered, and the middle (third) value is 9. (10.8 is the mean.)"
+  },
+  {
+    "id": "ma-047",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 1,
+    "prompt": "A bag contains 3 red marbles and 5 blue marbles. If one marble is drawn at random, what is the probability that it is red?",
+    "choices": [
+      "3/8",
+      "5/8",
+      "3/5",
+      "1/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 3 red marbles out of 8 total, so the probability is 3/8."
+  },
+  {
+    "id": "ma-048",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 1,
+    "prompt": "What is the mode of the data set 2, 4, 4, 5, 7, 4, 9?",
+    "choices": [
+      "2",
+      "4",
+      "5",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "The value 4 appears three times, more than any other value."
+  },
+  {
+    "id": "ma-049",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 1,
+    "prompt": "A fair coin is flipped twice. What is the probability that both flips land heads?",
+    "choices": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "3/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "The flips are independent: (1/2) × (1/2) = 1/4."
+  },
+  {
+    "id": "ma-050",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "A $40 shirt is discounted 25%, and then the sale price is discounted an additional 10%. What is the final price?",
+    "choices": [
+      "$26.00",
+      "$27.00",
+      "$28.00",
+      "$30.00"
+    ],
+    "correctIndex": 1,
+    "explanation": "After 25% off: 40 × 0.75 = $30. After 10% more off: 30 × 0.90 = $27."
+  },
+  {
+    "id": "ma-051",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "What is the product (3 × 10⁴)(2 × 10³) written in scientific notation?",
+    "choices": [
+      "6 × 10¹²",
+      "6 × 10⁷",
+      "5 × 10⁷",
+      "6 × 10¹"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply the coefficients (3 × 2 = 6) and add the exponents (4 + 3 = 7): 6 × 10⁷."
+  },
+  {
+    "id": "ma-052",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "Two numbers are in the ratio 3:5, and their sum is 64. What is the larger number?",
+    "choices": [
+      "24",
+      "32",
+      "40",
+      "48"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 8 ratio parts total 64, so each part is 8. The larger number is 5 × 8 = 40."
+  },
+  {
+    "id": "ma-053",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "A price increases from $60 to $75. What is the percent increase?",
+    "choices": [
+      "15%",
+      "20%",
+      "25%",
+      "80%"
+    ],
+    "correctIndex": 2,
+    "explanation": "The increase is $15, and 15/60 = 0.25 = 25%. (20% uses 75 as the base.)"
+  },
+  {
+    "id": "ma-054",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "A driver travels 180 miles in 3 hours, then 120 miles in 2 hours. What is the driver's average speed for the entire trip, in miles per hour?",
+    "choices": [
+      "55",
+      "62.5",
+      "65",
+      "60"
+    ],
+    "correctIndex": 3,
+    "explanation": "Total distance is 300 miles in 5 total hours: 300 ÷ 5 = 60 mph."
+  },
+  {
+    "id": "ma-055",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "How many distinct prime factors does 84 have?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "84 = 2² × 3 × 7, so the distinct prime factors are 2, 3, and 7 — three in all."
+  },
+  {
+    "id": "ma-056",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "If 5/8 = x/56, what is the value of x?",
+    "choices": [
+      "45",
+      "40",
+      "35",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cross-multiply: 8x = 280, so x = 35."
+  },
+  {
+    "id": "ma-057",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 2,
+    "prompt": "The first three terms of an arithmetic sequence are 7, 11, 15. What is the 20th term?",
+    "choices": [
+      "76",
+      "80",
+      "83",
+      "87"
+    ],
+    "correctIndex": 2,
+    "explanation": "The common difference is 4, so the 20th term is 7 + 19 × 4 = 83."
+  },
+  {
+    "id": "ma-058",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "If x + y = 10 and x - y = 4, what is the value of the product xy?",
+    "choices": [
+      "21",
+      "24",
+      "25",
+      "40"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding the equations gives 2x = 14, so x = 7 and y = 3. Then xy = 21."
+  },
+  {
+    "id": "ma-059",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "What are the solutions of x² - 5x + 6 = 0?",
+    "choices": [
+      "x = -2 and x = -3",
+      "x = 2 and x = 3",
+      "x = 1 and x = 6",
+      "x = -1 and x = -6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3."
+  },
+  {
+    "id": "ma-060",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "The formula V = lwh gives the volume of a rectangular box. Which equation expresses w in terms of the other variables?",
+    "choices": [
+      "w = V/(lh)",
+      "w = Vlh",
+      "w = lh/V",
+      "w = V - lh"
+    ],
+    "correctIndex": 0,
+    "explanation": "Divide both sides of V = lwh by lh to isolate w: w = V/(lh)."
+  },
+  {
+    "id": "ma-061",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "What are all values of x that satisfy |2x - 6| = 10?",
+    "choices": [
+      "8 only",
+      "-2 only",
+      "8 and -2",
+      "8 and 2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Either 2x - 6 = 10 (x = 8) or 2x - 6 = -10 (x = -2)."
+  },
+  {
+    "id": "ma-062",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "What is the solution set of the inequality -3x + 4 > 13?",
+    "choices": [
+      "x > -3",
+      "x < -3",
+      "x > 3",
+      "x < 3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract 4: -3x > 9. Dividing by -3 reverses the inequality: x < -3."
+  },
+  {
+    "id": "ma-063",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "Which expression is equivalent to (2x + 3)(x - 4)?",
+    "choices": [
+      "2x² - 5x - 12",
+      "2x² + 5x - 12",
+      "2x² - 11x - 12",
+      "2x² - 12"
+    ],
+    "correctIndex": 0,
+    "explanation": "FOIL: 2x² - 8x + 3x - 12 = 2x² - 5x - 12."
+  },
+  {
+    "id": "ma-064",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "Which expression is equivalent to (3x²y)³?",
+    "choices": [
+      "9x⁶y³",
+      "27x⁵y³",
+      "27x⁶y³",
+      "3x⁶y³"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cube each factor: 3³ = 27, (x²)³ = x⁶, and y³, giving 27x⁶y³."
+  },
+  {
+    "id": "ma-065",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "Which of the following is √48 written in simplest radical form?",
+    "choices": [
+      "4√3",
+      "2√6",
+      "16√3",
+      "4√12"
+    ],
+    "correctIndex": 0,
+    "explanation": "√48 = √(16 × 3) = 4√3."
+  },
+  {
+    "id": "ma-066",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "Three pencils and two pens cost $4.10 altogether. Each pencil costs $0.50. What is the cost of one pen?",
+    "choices": [
+      "$1.20",
+      "$1.30",
+      "$1.55",
+      "$2.60"
+    ],
+    "correctIndex": 1,
+    "explanation": "The pencils cost 3 × $0.50 = $1.50, leaving $2.60 for two pens, so each pen costs $1.30."
+  },
+  {
+    "id": "ma-067",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "If x² + 6x + 9 = 25, what is the positive value of x?",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "The left side is (x + 3)², so x + 3 = ±5. The positive solution is x = 2."
+  },
+  {
+    "id": "ma-068",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "For x ≠ 2, which expression is equivalent to (x² - 4)/(x - 2)?",
+    "choices": [
+      "x - 2",
+      "x + 2",
+      "x² - 2",
+      "2x"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor the numerator: (x - 2)(x + 2)/(x - 2) = x + 2."
+  },
+  {
+    "id": "ma-069",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "prompt": "The value of y varies directly with x. If y = 12 when x = 3, what is y when x = 7?",
+    "choices": [
+      "16",
+      "21",
+      "28",
+      "84"
+    ],
+    "correctIndex": 2,
+    "explanation": "y = kx with k = 12/3 = 4, so y = 4 × 7 = 28."
+  },
+  {
+    "id": "ma-070",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "What is the equation of the line with slope -2 that passes through the point (2, 3)?",
+    "choices": [
+      "y = -2x + 7",
+      "y = -2x - 1",
+      "y = 2x - 1",
+      "y = -2x + 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "y - 3 = -2(x - 2) simplifies to y = -2x + 7."
+  },
+  {
+    "id": "ma-071",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "A line is perpendicular to the line y = (2/3)x + 1. What is the slope of the perpendicular line?",
+    "choices": [
+      "2/3",
+      "-2/3",
+      "3/2",
+      "-3/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Perpendicular slopes are negative reciprocals: the negative reciprocal of 2/3 is -3/2."
+  },
+  {
+    "id": "ma-072",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "What is the distance between the points (-1, 2) and (5, 10)?",
+    "choices": [
+      "14",
+      "√28",
+      "100",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "Distance = √((5 - (-1))² + (10 - 2)²) = √(36 + 64) = √100 = 10."
+  },
+  {
+    "id": "ma-073",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "A circle has the equation (x - 3)² + (y + 2)² = 25. What is the center of the circle?",
+    "choices": [
+      "(-3, 2)",
+      "(3, -2)",
+      "(-3, -2)",
+      "(3, 2)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The standard form (x - h)² + (y - k)² = r² has center (h, k) = (3, -2)."
+  },
+  {
+    "id": "ma-074",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "What is the x-intercept of the line 3x + 4y = 12?",
+    "choices": [
+      "(0, 3)",
+      "(4, 0)",
+      "(0, 4)",
+      "(3, 0)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Set y = 0: 3x = 12, so x = 4. The x-intercept is (4, 0)."
+  },
+  {
+    "id": "ma-075",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "At what point do the lines y = 2x + 1 and y = -x + 7 intersect?",
+    "choices": [
+      "(2, 5)",
+      "(5, 2)",
+      "(3, 7)",
+      "(2, 3)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Set 2x + 1 = -x + 7: 3x = 6, so x = 2 and y = 2(2) + 1 = 5."
+  },
+  {
+    "id": "ma-076",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "What is the vertex of the parabola y = (x - 4)² + 2?",
+    "choices": [
+      "(-4, 2)",
+      "(4, -2)",
+      "(2, 4)",
+      "(4, 2)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vertex form y = (x - h)² + k has vertex (h, k) = (4, 2)."
+  },
+  {
+    "id": "ma-077",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 2,
+    "prompt": "The point (3, -5) is reflected across the x-axis. What are the coordinates of the image?",
+    "choices": [
+      "(-3, -5)",
+      "(-3, 5)",
+      "(3, 5)",
+      "(-5, 3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reflecting across the x-axis keeps x the same and negates y: (3, 5)."
+  },
+  {
+    "id": "ma-078",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "A trapezoid has parallel bases of length 6 and 10 and a height of 4. What is its area?",
+    "choices": [
+      "24",
+      "32",
+      "40",
+      "64"
+    ],
+    "correctIndex": 1,
+    "explanation": "Area = (1/2)(b₁ + b₂)h = (1/2)(6 + 10)(4) = 32."
+  },
+  {
+    "id": "ma-079",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "What is the sum of the interior angle measures of a hexagon?",
+    "choices": [
+      "540°",
+      "620°",
+      "720°",
+      "900°"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sum is (n - 2) × 180° = (6 - 2) × 180° = 720°."
+  },
+  {
+    "id": "ma-080",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "A triangle has sides of length 3, 4, and 5. A similar triangle has a shortest side of length 9. What is the length of the longest side of the similar triangle?",
+    "choices": [
+      "11",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "The scale factor is 9/3 = 3, so the longest side is 5 × 3 = 15."
+  },
+  {
+    "id": "ma-081",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "A circle has radius 6. What is the length of the arc intercepted by a central angle of 60°?",
+    "choices": [
+      "π",
+      "2π",
+      "6π",
+      "12π"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arc length = (60/360) × 2π(6) = (1/6)(12π) = 2π."
+  },
+  {
+    "id": "ma-082",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "A rhombus has diagonals of length 6 and 8. What is its perimeter?",
+    "choices": [
+      "20",
+      "24",
+      "28",
+      "48"
+    ],
+    "correctIndex": 0,
+    "explanation": "The diagonals bisect each other at right angles, so each side is √(3² + 4²) = 5, and the perimeter is 4 × 5 = 20."
+  },
+  {
+    "id": "ma-083",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "Two parallel lines are cut by a transversal. One of the angles formed measures 118°. What is the measure of the same-side (co-interior) angle on the other parallel line?",
+    "choices": [
+      "28°",
+      "62°",
+      "72°",
+      "118°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Same-side interior angles are supplementary: 180 - 118 = 62°."
+  },
+  {
+    "id": "ma-084",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "A cylinder has a radius of 3 and a height of 7. What is its volume?",
+    "choices": [
+      "21π",
+      "42π",
+      "63π",
+      "189π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Volume = πr²h = π(9)(7) = 63π."
+  },
+  {
+    "id": "ma-085",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "Two sides of a triangle have lengths 5 and 9. Which of the following could be the length of the third side?",
+    "choices": [
+      "3",
+      "4",
+      "10",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "The third side must be strictly between 9 - 5 = 4 and 9 + 5 = 14. Only 10 is in that range."
+  },
+  {
+    "id": "ma-086",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "In a 30°-60°-90° right triangle, the hypotenuse has length 12. What is the length of the longer leg?",
+    "choices": [
+      "6",
+      "6√3",
+      "12√3",
+      "6√2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sides are in ratio 1 : √3 : 2. The shorter leg is 6, so the longer leg is 6√3."
+  },
+  {
+    "id": "ma-087",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 2,
+    "prompt": "What is the length of the diagonal of a square with side length 5?",
+    "choices": [
+      "5√2",
+      "10",
+      "5√3",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "The diagonal of a square is side × √2 = 5√2."
+  },
+  {
+    "id": "ma-088",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "In a right triangle, the hypotenuse has length 10 and one acute angle measures 35°. Which expression gives the length of the side opposite the 35° angle?",
+    "choices": [
+      "10 sin 35°",
+      "10 cos 35°",
+      "10 tan 35°",
+      "sin 35°/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin 35° = opposite/10, so the opposite side is 10 sin 35°."
+  },
+  {
+    "id": "ma-089",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "If θ is an acute angle and tan θ = 3/4, what is sin θ?",
+    "choices": [
+      "4/5",
+      "3/5",
+      "3/4",
+      "5/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "A right triangle with legs 3 (opposite) and 4 (adjacent) has hypotenuse 5, so sin θ = 3/5."
+  },
+  {
+    "id": "ma-090",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "What is 150° converted to radians?",
+    "choices": [
+      "3π/4",
+      "2π/3",
+      "5π/3",
+      "5π/6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiply by π/180: 150 × π/180 = 5π/6."
+  },
+  {
+    "id": "ma-091",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "If sin θ = 1/3, what is the value of cos²θ?",
+    "choices": [
+      "1/9",
+      "2/3",
+      "8/9",
+      "4/9"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the identity sin²θ + cos²θ = 1, cos²θ = 1 - 1/9 = 8/9."
+  },
+  {
+    "id": "ma-092",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "What is the period of the function y = sin(2x)?",
+    "choices": [
+      "π/2",
+      "π",
+      "2π",
+      "4π"
+    ],
+    "correctIndex": 1,
+    "explanation": "The period of sin(bx) is 2π/b = 2π/2 = π."
+  },
+  {
+    "id": "ma-093",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 2,
+    "prompt": "A 13-foot ladder leans against a wall with its base 5 feet from the wall. What is the tangent of the angle the ladder makes with the ground?",
+    "choices": [
+      "5/12",
+      "12/13",
+      "5/13",
+      "12/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "The ladder reaches √(13² - 5²) = 12 feet up the wall, so tan = opposite/adjacent = 12/5."
+  },
+  {
+    "id": "ma-094",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "If f(x) = 2x - 1 and g(x) = x², what is g(f(2))?",
+    "choices": [
+      "7",
+      "9",
+      "3",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = 3, then g(3) = 9."
+  },
+  {
+    "id": "ma-095",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "What is the inverse of the function f(x) = (x - 4)/3?",
+    "choices": [
+      "f⁻¹(x) = 3x + 4",
+      "f⁻¹(x) = (x + 4)/3",
+      "f⁻¹(x) = 3x - 4",
+      "f⁻¹(x) = 3/(x - 4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Swap x and y in x = (y - 4)/3 and solve: y = 3x + 4."
+  },
+  {
+    "id": "ma-096",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "What is the minimum value of the function f(x) = x² - 4x + 3?",
+    "choices": [
+      "-4",
+      "-1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "The vertex occurs at x = 4/2 = 2, and f(2) = 4 - 8 + 3 = -1."
+  },
+  {
+    "id": "ma-097",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "A sequence is defined by f(1) = 2 and f(n) = 3·f(n - 1) for n ≥ 2. What is f(4)?",
+    "choices": [
+      "18",
+      "54",
+      "162",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = 6, f(3) = 18, f(4) = 54."
+  },
+  {
+    "id": "ma-098",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "What are the zeros of the function f(x) = x² - 7x + 10?",
+    "choices": [
+      "-2 and -5",
+      "1 and 10",
+      "-1 and -10",
+      "2 and 5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Factor: (x - 2)(x - 5) = 0, so the zeros are 2 and 5."
+  },
+  {
+    "id": "ma-099",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 2,
+    "prompt": "The graph of g(x) = f(x) + 3 is the graph of f(x) shifted 3 units in which direction?",
+    "choices": [
+      "Right",
+      "Left",
+      "Up",
+      "Down"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding a constant outside the function shifts the graph vertically upward by 3."
+  },
+  {
+    "id": "ma-100",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "The mean of 5 numbers is 12. Four of the numbers are 10, 11, 13, and 14. What is the fifth number?",
+    "choices": [
+      "10",
+      "13",
+      "15",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "The five numbers sum to 5 × 12 = 60. The four given sum to 48, so the fifth is 12."
+  },
+  {
+    "id": "ma-101",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "Two fair six-sided dice are rolled. What is the probability that the sum of the two dice is 7?",
+    "choices": [
+      "1/6",
+      "1/12",
+      "7/36",
+      "1/7"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 6 favorable outcomes (1-6, 2-5, 3-4, 4-3, 5-2, 6-1) out of 36: 6/36 = 1/6."
+  },
+  {
+    "id": "ma-102",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "After 3 tests, a student's average score is 80. What score does the student need on the 4th test to raise the average to 84?",
+    "choices": [
+      "88",
+      "92",
+      "96",
+      "100"
+    ],
+    "correctIndex": 2,
+    "explanation": "Four tests must total 4 × 84 = 336. The first three total 240, so the 4th must be 96."
+  },
+  {
+    "id": "ma-103",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "A club has 6 members. How many different 2-person committees can be formed?",
+    "choices": [
+      "12",
+      "30",
+      "36",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "This is a combination: 6C2 = (6 × 5)/2 = 15. (30 counts ordered pairs.)"
+  },
+  {
+    "id": "ma-104",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "A bag contains 4 red and 6 blue marbles. Two marbles are drawn at random without replacement. What is the probability that both are red?",
+    "choices": [
+      "4/25",
+      "2/15",
+      "6/19",
+      "1/6"
+    ],
+    "correctIndex": 1,
+    "explanation": "P = (4/10) × (3/9) = 12/90 = 2/15. (4/25 assumes replacement.)"
+  },
+  {
+    "id": "ma-105",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 2,
+    "prompt": "What is the range of the data set 12, 3, 8, 15, 6?",
+    "choices": [
+      "8.8",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "Range = maximum - minimum = 15 - 3 = 12. (8.8 is the mean.)"
+  },
+  {
+    "id": "ma-106",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 3,
+    "prompt": "What is the smallest positive integer that is divisible by 6, 8, and 15?",
+    "choices": [
+      "90",
+      "120",
+      "240",
+      "720"
+    ],
+    "correctIndex": 1,
+    "explanation": "LCM: 6 = 2·3, 8 = 2³, 15 = 3·5, so LCM = 2³ × 3 × 5 = 120."
+  },
+  {
+    "id": "ma-107",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 3,
+    "prompt": "The repeating decimal 0.363636... is equal to which fraction?",
+    "choices": [
+      "4/11",
+      "9/25",
+      "36/100",
+      "3/8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let x = 0.3636..., then 100x = 36.3636..., so 99x = 36 and x = 36/99 = 4/11."
+  },
+  {
+    "id": "ma-108",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 3,
+    "prompt": "If x is 40% of y, and y is 50% of z, then x is what percent of z?",
+    "choices": [
+      "10%",
+      "20%",
+      "45%",
+      "90%"
+    ],
+    "correctIndex": 1,
+    "explanation": "x = 0.40y = 0.40(0.50z) = 0.20z, so x is 20% of z."
+  },
+  {
+    "id": "ma-109",
+    "subject": "math",
+    "topic": "Pre-Algebra",
+    "difficulty": 3,
+    "prompt": "What is the sum of all the integers from 1 to 50, inclusive?",
+    "choices": [
+      "1225",
+      "1250",
+      "1275",
+      "2550"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum = n(n + 1)/2 = 50 × 51/2 = 1275."
+  },
+  {
+    "id": "ma-110",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "What are the solutions of x² + 4x - 3 = 0?",
+    "choices": [
+      "x = 2 ± √7",
+      "x = -4 ± √7",
+      "x = -2 ± √13",
+      "x = -2 ± √7"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quadratic formula: x = (-4 ± √(16 + 12))/2 = (-4 ± 2√7)/2 = -2 ± √7."
+  },
+  {
+    "id": "ma-111",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "If 4ˣ = 8ˣ⁻¹, what is the value of x?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "-3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Write with base 2: 2²ˣ = 2³⁽ˣ⁻¹⁾, so 2x = 3x - 3, giving x = 3."
+  },
+  {
+    "id": "ma-112",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "Pipe A alone fills a tank in 6 hours, and pipe B alone fills the same tank in 3 hours. Working together, how many hours do they take to fill the tank?",
+    "choices": [
+      "2",
+      "2.5",
+      "4.5",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Combined rate = 1/6 + 1/3 = 1/2 tank per hour, so the tank fills in 2 hours."
+  },
+  {
+    "id": "ma-113",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "The equation x² - 6x + k = 0 has two solutions, and one solution is twice the other. What is the value of k?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "If the roots are s and 2s, their sum 3s = 6 gives s = 2. Then k = s × 2s = 2 × 4 = 8."
+  },
+  {
+    "id": "ma-114",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "What is the solution set of the inequality x² - x - 12 < 0?",
+    "choices": [
+      "-3 < x < 4",
+      "x < -3 or x > 4",
+      "-4 < x < 3",
+      "x > 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor: (x - 4)(x + 3) < 0, which holds when x is between the roots: -3 < x < 4."
+  },
+  {
+    "id": "ma-115",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "For i = √(-1), what is the product (2 + 3i)(1 - 2i)?",
+    "choices": [
+      "2 - i",
+      "8 - i",
+      "8 + i",
+      "-4 - i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Expand: 2 - 4i + 3i - 6i² = 2 - i + 6 = 8 - i."
+  },
+  {
+    "id": "ma-116",
+    "subject": "math",
+    "topic": "Algebra",
+    "difficulty": 3,
+    "prompt": "If log₃ x = 4, what is the value of x?",
+    "choices": [
+      "12",
+      "64",
+      "81",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the definition of logarithm, x = 3⁴ = 81."
+  },
+  {
+    "id": "ma-117",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 3,
+    "prompt": "What is the area of the triangle with vertices (0, 0), (6, 0), and (2, 5)?",
+    "choices": [
+      "30",
+      "17",
+      "11",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "The base along the x-axis is 6 and the height is 5, so area = (1/2)(6)(5) = 15."
+  },
+  {
+    "id": "ma-118",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 3,
+    "prompt": "What is the radius of the circle x² + y² - 6x + 4y - 12 = 0?",
+    "choices": [
+      "√12",
+      "5",
+      "25",
+      "√13"
+    ],
+    "correctIndex": 1,
+    "explanation": "Complete the square: (x - 3)² + (y + 2)² = 12 + 9 + 4 = 25, so r = 5."
+  },
+  {
+    "id": "ma-119",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 3,
+    "prompt": "What is the shortest distance from the origin to the line 3x + 4y = 12?",
+    "choices": [
+      "5/12",
+      "12/5",
+      "3",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distance = |3(0) + 4(0) - 12|/√(3² + 4²) = 12/5."
+  },
+  {
+    "id": "ma-120",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 3,
+    "prompt": "What is the vertex of the parabola y = x² - 6x + 5?",
+    "choices": [
+      "(3, -4)",
+      "(-3, 4)",
+      "(3, 5)",
+      "(6, 5)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The vertex has x = 6/2 = 3, and y = 9 - 18 + 5 = -4, giving (3, -4)."
+  },
+  {
+    "id": "ma-121",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "difficulty": 3,
+    "prompt": "The line through the points (2, k) and (k, 8) has slope 2. What is the value of k?",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "(8 - k)/(k - 2) = 2 gives 8 - k = 2k - 4, so 3k = 12 and k = 4."
+  },
+  {
+    "id": "ma-122",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "A circle has radius 9. What is the area of a sector with a central angle of 80°?",
+    "choices": [
+      "2π",
+      "9π",
+      "18π",
+      "81π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sector area = (80/360) × π(9²) = (2/9)(81π) = 18π."
+  },
+  {
+    "id": "ma-123",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "A circle is inscribed in a square with side length 10, touching all four sides. What is the area of the region inside the square but outside the circle?",
+    "choices": [
+      "100 - 25π",
+      "100 - 100π",
+      "25 - 25π",
+      "100 - 10π"
+    ],
+    "correctIndex": 0,
+    "explanation": "The circle's radius is 5, so the shaded area is 10² - π(5²) = 100 - 25π."
+  },
+  {
+    "id": "ma-124",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "A cone has a base radius of 6 and a height of 10. What is its volume?",
+    "choices": [
+      "60π",
+      "360π",
+      "240π",
+      "120π"
+    ],
+    "correctIndex": 3,
+    "explanation": "Volume = (1/3)πr²h = (1/3)π(36)(10) = 120π."
+  },
+  {
+    "id": "ma-125",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "Each exterior angle of a regular polygon measures 24°. How many sides does the polygon have?",
+    "choices": [
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "The exterior angles of any polygon sum to 360°, so there are 360/24 = 15 sides."
+  },
+  {
+    "id": "ma-126",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "An isosceles triangle has sides of length 5, 5, and 6. What is its area?",
+    "choices": [
+      "12",
+      "15",
+      "24",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "The altitude to the base of 6 is √(5² - 3²) = 4, so area = (1/2)(6)(4) = 12."
+  },
+  {
+    "id": "ma-127",
+    "subject": "math",
+    "topic": "Plane Geometry",
+    "difficulty": 3,
+    "prompt": "A chord of length 12 is drawn in a circle of radius 10. What is the distance from the center of the circle to the chord?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Half the chord is 6, so the distance is √(10² - 6²) = √64 = 8."
+  },
+  {
+    "id": "ma-128",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 3,
+    "prompt": "A triangle has sides of length 5 and 8 with an included angle of 60°. What is the length of the third side?",
+    "choices": [
+      "7",
+      "√129",
+      "9",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "Law of cosines: c² = 25 + 64 - 2(5)(8)cos 60° = 89 - 40 = 49, so c = 7."
+  },
+  {
+    "id": "ma-129",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 3,
+    "prompt": "If sin θ = 5/13 and 90° < θ < 180°, what is cos θ?",
+    "choices": [
+      "12/13",
+      "-5/12",
+      "5/12",
+      "-12/13"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos²θ = 1 - 25/169 = 144/169. In the second quadrant cosine is negative, so cos θ = -12/13."
+  },
+  {
+    "id": "ma-130",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 3,
+    "prompt": "What is the maximum value of the function y = 4 sin(3x) - 2?",
+    "choices": [
+      "4",
+      "2",
+      "-2",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine factor peaks at 1, so the maximum is 4(1) - 2 = 2."
+  },
+  {
+    "id": "ma-131",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 3,
+    "prompt": "What is the value of tan 225°?",
+    "choices": [
+      "-1",
+      "0",
+      "1",
+      "Undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "225° is in the third quadrant with reference angle 45°, where tangent is positive: tan 225° = 1."
+  },
+  {
+    "id": "ma-132",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "difficulty": 3,
+    "prompt": "In triangle ABC, angle A = 30°, angle B = 45°, and the side opposite angle A has length 10. What is the length of the side opposite angle B?",
+    "choices": [
+      "5√2",
+      "10√2",
+      "20",
+      "10√3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Law of sines: b = 10 · sin 45°/sin 30° = 10 · (√2/2)/(1/2) = 10√2."
+  },
+  {
+    "id": "ma-133",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 3,
+    "prompt": "If f(x) = 2x² - 3x + 1, which expression is equivalent to f(x + 1)?",
+    "choices": [
+      "2x² + x",
+      "2x² - x",
+      "2x² + x + 2",
+      "2x² - 3x + 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(x + 1) = 2(x + 1)² - 3(x + 1) + 1 = 2x² + 4x + 2 - 3x - 3 + 1 = 2x² + x."
+  },
+  {
+    "id": "ma-134",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 3,
+    "prompt": "A town's population of 500 doubles every 8 years. What will the population be after 24 years?",
+    "choices": [
+      "1,500",
+      "2,000",
+      "8,000",
+      "4,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "In 24 years there are 3 doubling periods: 500 × 2³ = 4,000."
+  },
+  {
+    "id": "ma-135",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 3,
+    "prompt": "A piecewise function is defined by f(x) = x + 5 for x < 2, and f(x) = x² for x ≥ 2. What is f(f(0))?",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since 0 < 2, f(0) = 5. Since 5 ≥ 2, f(5) = 25."
+  },
+  {
+    "id": "ma-136",
+    "subject": "math",
+    "topic": "Functions",
+    "difficulty": 3,
+    "prompt": "What is the horizontal asymptote of the function f(x) = (3x² + 1)/(x² - 4)?",
+    "choices": [
+      "y = 0",
+      "y = 1",
+      "y = 3",
+      "y = -3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The numerator and denominator have equal degree, so the asymptote is the ratio of leading coefficients: y = 3."
+  },
+  {
+    "id": "ma-137",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 3,
+    "prompt": "In a game, a player wins $10 with probability 1/5 and loses $5 with probability 4/5. What is the expected value of one play, in dollars?",
+    "choices": [
+      "-3",
+      "-2",
+      "2",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "EV = 10(1/5) + (-5)(4/5) = 2 - 4 = -2."
+  },
+  {
+    "id": "ma-138",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 3,
+    "prompt": "Five different books are arranged in a row on a shelf. If two particular books must be next to each other, how many arrangements are possible?",
+    "choices": [
+      "24",
+      "36",
+      "48",
+      "120"
+    ],
+    "correctIndex": 2,
+    "explanation": "Treat the pair as one unit: 4! = 24 arrangements, times 2 orders within the pair, gives 48."
+  },
+  {
+    "id": "ma-139",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 3,
+    "prompt": "Every value in a data set is increased by exactly 5. Which statement is true about the new data set?",
+    "choices": [
+      "The mean and the standard deviation both increase by 5",
+      "The mean increases by 5 and the standard deviation is unchanged",
+      "The mean is unchanged and the standard deviation increases by 5",
+      "The mean and the standard deviation are both unchanged"
+    ],
+    "correctIndex": 1,
+    "explanation": "Shifting every value moves the mean by 5 but does not change the spread, so the standard deviation is unchanged."
+  },
+  {
+    "id": "ma-140",
+    "subject": "math",
+    "topic": "Statistics & Probability",
+    "difficulty": 3,
+    "prompt": "A class has 12 girls and 8 boys. Exactly 6 of the girls and 4 of the boys wear glasses. If a randomly chosen student wears glasses, what is the probability that the student is a girl?",
+    "choices": [
+      "1/2",
+      "3/10",
+      "2/5",
+      "3/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Of the 10 students with glasses, 6 are girls: 6/10 = 3/5."
+  }
+]

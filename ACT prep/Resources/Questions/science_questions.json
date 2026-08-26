@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "sc-001",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the solubility of Salt A at 40°C was closest to:",
+    "choices": [
+      "21 g/100 mL",
+      "45 g/100 mL",
+      "55 g/100 mL",
+      "82 g/100 mL"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists the solubility of Salt A at 40°C as 55 g/100 mL."
+  },
+  {
+    "id": "sc-002",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, as temperature increased from 10°C to 60°C, the solubility of Salt C:",
+    "choices": [
+      "increased only",
+      "decreased only",
+      "increased, then decreased",
+      "remained constant"
+    ],
+    "correctIndex": 1,
+    "explanation": "Salt C's solubility fell steadily from 60 g/100 mL at 10°C to 33 g/100 mL at 60°C, so it decreased only."
+  },
+  {
+    "id": "sc-003",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "At 30°C, which salt had the greatest solubility?",
+    "choices": [
+      "Salt A",
+      "Salt B",
+      "Salt C",
+      "All three salts had the same solubility."
+    ],
+    "correctIndex": 2,
+    "explanation": "At 30°C, Salt A dissolved 45 g/100 mL, Salt B 37 g/100 mL, and Salt C 49 g/100 mL, so Salt C had the greatest solubility."
+  },
+  {
+    "id": "sc-004",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, the solubility of Salt A at 45°C would most likely have been closest to:",
+    "choices": [
+      "61 g/100 mL",
+      "48 g/100 mL",
+      "55 g/100 mL",
+      "70 g/100 mL"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 40°C the solubility was 55 g/100 mL and at 50°C it was 68 g/100 mL; at 45°C the value should fall about midway, near 61 g/100 mL."
+  },
+  {
+    "id": "sc-005",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "If the trend in Table 1 continued, the solubility of Salt A at 70°C would most likely be:",
+    "choices": [
+      "less than 21 g/100 mL",
+      "between 32 and 55 g/100 mL",
+      "between 55 and 82 g/100 mL",
+      "greater than 82 g/100 mL"
+    ],
+    "correctIndex": 3,
+    "explanation": "Salt A's solubility rose with each temperature increase, reaching 82 g/100 mL at 60°C, so at 70°C it should exceed 82 g/100 mL."
+  },
+  {
+    "id": "sc-006",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 2, the solubilities of Salt B and Salt C were most nearly equal at which of the following temperatures?",
+    "choices": [
+      "10°C",
+      "30°C",
+      "40°C",
+      "50°C"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 50°C, Salt B dissolved 39 g/100 mL and Salt C dissolved 38 g/100 mL, a difference of only 1 g/100 mL, smaller than at any other listed temperature."
+  },
+  {
+    "id": "sc-007",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Tables 1 and 2, Salt A and Salt C most likely had equal solubilities at a temperature:",
+    "choices": [
+      "between 10°C and 20°C",
+      "between 20°C and 30°C",
+      "between 30°C and 40°C",
+      "between 50°C and 60°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 30°C, Salt C (49) was more soluble than Salt A (45), but at 40°C, Salt A (55) was more soluble than Salt C (43). The two values must have been equal somewhere between 30°C and 40°C."
+  },
+  {
+    "id": "sc-008",
+    "subject": "science",
+    "passageId": "sc-p01",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "A saturated solution of Salt A was prepared in 100 mL of water at 60°C and then cooled to 20°C. Based on Table 1 and the passage, approximately how much Salt A crystallized out of the solution?",
+    "choices": [
+      "32 g",
+      "50 g",
+      "82 g",
+      "114 g"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 60°C the saturated solution held 82 g; at 20°C only 32 g can stay dissolved. The excess, 82 − 32 = 50 g, crystallized out."
+  },
+  {
+    "id": "sc-009",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the activity of Enzyme Y at pH 6 was:",
+    "choices": [
+      "8 µmol/min",
+      "18 µmol/min",
+      "42 µmol/min",
+      "48 µmol/min"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists Enzyme Y's activity at pH 6 as 42 µmol/min."
+  },
+  {
+    "id": "sc-010",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, the optimum pH of Enzyme X among those tested was:",
+    "choices": [
+      "2",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Enzyme X's activity was highest (45 µmol/min) at pH 2 and declined at every higher pH tested."
+  },
+  {
+    "id": "sc-011",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, which enzyme was most active at pH 8?",
+    "choices": [
+      "Enzyme X",
+      "Enzyme Y",
+      "Enzyme Z",
+      "All three enzymes were equally active."
+    ],
+    "correctIndex": 2,
+    "explanation": "At pH 8, Enzyme Z's activity (40 µmol/min) exceeded that of Enzyme Y (25) and Enzyme X (1)."
+  },
+  {
+    "id": "sc-012",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "According to Table 2, as temperature increased from 10°C to 60°C, the activity of Enzyme Y:",
+    "choices": [
+      "increased only",
+      "decreased only",
+      "increased, then decreased",
+      "decreased, then increased"
+    ],
+    "correctIndex": 2,
+    "explanation": "Activity rose from 12 µmol/min at 10°C to a peak of 48 µmol/min at 40°C, then fell to 2 µmol/min at 60°C."
+  },
+  {
+    "id": "sc-013",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, the activity of Enzyme Z at pH 7 would most likely have been closest to:",
+    "choices": [
+      "18 µmol/min",
+      "29 µmol/min",
+      "40 µmol/min",
+      "51 µmol/min"
+    ],
+    "correctIndex": 1,
+    "explanation": "Enzyme Z's activity was 18 µmol/min at pH 6 and 40 µmol/min at pH 8, so at pH 7 it should fall about midway, near 29 µmol/min."
+  },
+  {
+    "id": "sc-014",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In the trials shown in Table 2, the pH was held constant at 6 most likely so that:",
+    "choices": [
+      "Enzyme Y would be completely inactive during the trials",
+      "the results could be compared with those for Enzyme X",
+      "the reactant concentration could be varied",
+      "temperature would be the only factor affecting the measured activity"
+    ],
+    "correctIndex": 3,
+    "explanation": "Holding pH constant ensured that any change in Enzyme Y's activity could be attributed to temperature alone."
+  },
+  {
+    "id": "sc-015",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "The passage states that the interior of the human stomach has a pH near 2. Based on Table 1, which enzyme most likely functions in the stomach?",
+    "choices": [
+      "Enzyme X, because its activity was greatest at pH 2",
+      "Enzyme Y, because its activity was greatest at pH 2",
+      "Enzyme Z, because it was inactive at pH 2",
+      "None of the enzymes, because no enzyme was active at pH 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Enzymes are expected to work best at the pH of their region. Enzyme X had its maximum activity (45 µmol/min) at pH 2, matching stomach conditions."
+  },
+  {
+    "id": "sc-016",
+    "subject": "science",
+    "passageId": "sc-p02",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Table 2, the activity of Enzyme Y at 45°C was most likely:",
+    "choices": [
+      "less than 2 µmol/min",
+      "between 2 and 15 µmol/min",
+      "between 15 and 48 µmol/min",
+      "greater than 48 µmol/min"
+    ],
+    "correctIndex": 2,
+    "explanation": "Activity was 48 µmol/min at 40°C and 15 µmol/min at 50°C, so at 45°C the activity should fall between 15 and 48 µmol/min."
+  },
+  {
+    "id": "sc-017",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the period of the pendulum with a 100 cm string was:",
+    "choices": [
+      "1.0 s",
+      "1.4 s",
+      "2.0 s",
+      "2.8 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists a period of 2.0 s for the 100 cm string length."
+  },
+  {
+    "id": "sc-018",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Scientific Investigation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, which factor was deliberately varied by the students?",
+    "choices": [
+      "bob mass",
+      "string length",
+      "release angle",
+      "number of swings timed"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Experiment 1, the students tested strings of different lengths while keeping the bob mass (50 g) and release angle (10°) constant."
+  },
+  {
+    "id": "sc-019",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "The results of Experiment 2 indicate that increasing the mass of the bob from 25 g to 200 g caused the period to:",
+    "choices": [
+      "double",
+      "decrease by half",
+      "remain unchanged",
+      "increase, then decrease"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Table 2, the period was 2.0 s for every bob mass tested, so mass had no effect on the period."
+  },
+  {
+    "id": "sc-020",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which two factors were held constant in every trial of Experiment 1?",
+    "choices": [
+      "string length and period",
+      "bob mass and release angle",
+      "string length and bob mass",
+      "period and release angle"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Experiment 1, only string length was varied; the bob mass was fixed at 50 g and the release angle at 10° in every trial."
+  },
+  {
+    "id": "sc-021",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on the pattern noted in Experiment 1, the period of a pendulum with a 400 cm string would most likely be closest to:",
+    "choices": [
+      "2.8 s",
+      "3.4 s",
+      "4.0 s",
+      "5.6 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each doubling of string length multiplied the period by about 1.4. Doubling 200 cm (period 2.8 s) to 400 cm gives 2.8 × 1.4 ≈ 4.0 s."
+  },
+  {
+    "id": "sc-022",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, the period of a pendulum with a 75 cm string would most likely be:",
+    "choices": [
+      "less than 1.0 s",
+      "between 1.0 s and 1.4 s",
+      "between 1.4 s and 2.0 s",
+      "greater than 2.0 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "A 75 cm length falls between the 50 cm (1.4 s) and 100 cm (2.0 s) lengths, so its period should fall between 1.4 s and 2.0 s."
+  },
+  {
+    "id": "sc-023",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A student hypothesized that pendulums with heavier bobs swing with longer periods. Do the results of the experiments support this hypothesis?",
+    "choices": [
+      "Yes; in Experiment 1, longer strings produced longer periods.",
+      "No; in Experiment 2, the period was the same for all bob masses tested.",
+      "Yes; in Experiment 3, larger release angles produced longer periods.",
+      "No; in Experiment 2, heavier bobs produced shorter periods."
+    ],
+    "correctIndex": 1,
+    "explanation": "Experiment 2 varied bob mass from 25 g to 200 g and the period stayed at 2.0 s throughout, contradicting the hypothesis."
+  },
+  {
+    "id": "sc-024",
+    "subject": "science",
+    "passageId": "sc-p03",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "The students conducted three separate experiments rather than a single experiment most likely because:",
+    "choices": [
+      "timing 10 swings is only possible for short strings",
+      "the stopwatch could not be reused between experiments",
+      "a 50 g bob cannot be attached to strings of different lengths",
+      "changing only one factor at a time allowed the effect of each factor to be determined separately"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states the experiments were designed so that only one factor was changed at a time, allowing each factor's effect to be evaluated independently."
+  },
+  {
+    "id": "sc-025",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the discharge of the stream in May was:",
+    "choices": [
+      "30 m³/s",
+      "45 m³/s",
+      "88 m³/s",
+      "420 m³/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists the May discharge as 88 m³/s (420 mg/L is the suspended sediment value)."
+  },
+  {
+    "id": "sc-026",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, which statement best describes the relationship between discharge and suspended sediment concentration?",
+    "choices": [
+      "As discharge increased, suspended sediment concentration increased.",
+      "As discharge increased, suspended sediment concentration decreased.",
+      "Suspended sediment concentration was the same in every month.",
+      "Suspended sediment was highest in the month with the lowest discharge."
+    ],
+    "correctIndex": 0,
+    "explanation": "Months with higher discharge had higher sediment concentrations; for example, May had both the highest discharge (88 m³/s) and the highest sediment concentration (420 mg/L)."
+  },
+  {
+    "id": "sc-027",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, the largest particle type that can be transported at a water velocity of 30 cm/s is:",
+    "choices": [
+      "silt",
+      "sand",
+      "gravel",
+      "cobbles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 2 shows that 30 cm/s is the minimum velocity needed to transport sand, and gravel requires at least 75 cm/s."
+  },
+  {
+    "id": "sc-028",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 1, the suspended sediment concentration was highest in:",
+    "choices": [
+      "January",
+      "May",
+      "July",
+      "November"
+    ],
+    "correctIndex": 1,
+    "explanation": "May's suspended sediment concentration of 420 mg/L was the highest value listed in Table 1."
+  },
+  {
+    "id": "sc-029",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, if the stream's discharge in a given month were 60 m³/s, the suspended sediment concentration would most likely be:",
+    "choices": [
+      "less than 120 mg/L",
+      "between 120 and 180 mg/L",
+      "between 180 and 420 mg/L",
+      "greater than 420 mg/L"
+    ],
+    "correctIndex": 2,
+    "explanation": "A discharge of 60 m³/s falls between March (45 m³/s, 180 mg/L) and May (88 m³/s, 420 mg/L), so the sediment concentration should fall between 180 and 420 mg/L."
+  },
+  {
+    "id": "sc-030",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Table 2, at a water velocity of 100 cm/s, the stream could transport:",
+    "choices": [
+      "silt only",
+      "sand, but not gravel",
+      "gravel, but not cobbles",
+      "cobbles"
+    ],
+    "correctIndex": 2,
+    "explanation": "A velocity of 100 cm/s exceeds the 75 cm/s minimum for gravel but is below the 150 cm/s minimum for cobbles."
+  },
+  {
+    "id": "sc-031",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "The passage states that water velocity increases as discharge increases. Based on Tables 1 and 2, in which month would the stream most likely be able to transport its largest sediment particles?",
+    "choices": [
+      "May",
+      "September",
+      "January",
+      "November"
+    ],
+    "correctIndex": 0,
+    "explanation": "May had the highest discharge (88 m³/s) and therefore the fastest water, so the stream could move larger particles in May than in any other listed month."
+  },
+  {
+    "id": "sc-032",
+    "subject": "science",
+    "passageId": "sc-p04",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Suppose the stream's average discharge in February was 25 m³/s. Based on Table 1, the suspended sediment concentration in February was most likely:",
+    "choices": [
+      "less than 55 mg/L",
+      "between 75 and 120 mg/L",
+      "between 120 and 180 mg/L",
+      "greater than 180 mg/L"
+    ],
+    "correctIndex": 1,
+    "explanation": "A discharge of 25 m³/s falls between November (20 m³/s, 75 mg/L) and July (30 m³/s, 120 mg/L), so the sediment concentration should fall between 75 and 120 mg/L."
+  },
+  {
+    "id": "sc-033",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, the mean height of seedlings that received 2 g/kg of nitrogen was:",
+    "choices": [
+      "12 cm",
+      "18 cm",
+      "24 cm",
+      "29 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists a mean height of 24 cm for the group that received 2 g/kg of nitrogen."
+  },
+  {
+    "id": "sc-034",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Scientific Investigation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, the independent variable (the factor deliberately changed by the botanists) was the:",
+    "choices": [
+      "mean height of the seedlings",
+      "amount of nitrogen added to the soil",
+      "number of seedlings in each group",
+      "length of the growing period"
+    ],
+    "correctIndex": 1,
+    "explanation": "The botanists varied the amount of nitrogen mixed into the soil and then measured the resulting heights; height was the dependent variable."
+  },
+  {
+    "id": "sc-035",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, when the nitrogen added was increased from 4 g/kg to 8 g/kg, the mean seedling height:",
+    "choices": [
+      "increased",
+      "stayed the same",
+      "doubled",
+      "decreased"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mean height fell from 29 cm at 4 g/kg to 22 cm at 8 g/kg, and the passage attributes this to stress from excess fertilizer."
+  },
+  {
+    "id": "sc-036",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In Experiment 1, the group that received 0 g/kg of nitrogen served primarily to:",
+    "choices": [
+      "provide a control for comparison with the fertilized groups",
+      "test whether phosphorus affects growth",
+      "show that seedlings cannot grow without fertilizer",
+      "measure the effect of reduced watering"
+    ],
+    "correctIndex": 0,
+    "explanation": "The unfertilized group shows how much the seedlings grow without added nitrogen, providing a baseline (control) against which the fertilized groups can be compared."
+  },
+  {
+    "id": "sc-037",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Which statement best describes the effect of phosphorus on mean seedling height in Experiment 2?",
+    "choices": [
+      "Height decreased steadily as phosphorus increased.",
+      "Height was unaffected by phosphorus.",
+      "Height increased with phosphorus, but the increase leveled off at the higher amounts tested.",
+      "Height increased by the same amount for each addition of phosphorus."
+    ],
+    "correctIndex": 2,
+    "explanation": "Height rose from 24 to 28 to 31 cm for the first additions but increased only 1 cm more (to 32 cm) when phosphorus was doubled from 2 to 4 g/kg, showing a leveling off."
+  },
+  {
+    "id": "sc-038",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, if a group of seedlings had received 3 g/kg of nitrogen, its mean height after 30 days would most likely have been:",
+    "choices": [
+      "less than 18 cm",
+      "between 24 and 29 cm",
+      "between 12 and 18 cm",
+      "greater than 29 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "A nitrogen amount of 3 g/kg falls between 2 g/kg (24 cm) and 4 g/kg (29 cm), so the mean height should fall between 24 and 29 cm."
+  },
+  {
+    "id": "sc-039",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Data Interpretation",
+    "difficulty": 3,
+    "prompt": "Considering the results of both experiments, which combination of added nutrients produced the greatest mean seedling height?",
+    "choices": [
+      "0 g/kg nitrogen and 0 g/kg phosphorus",
+      "8 g/kg nitrogen and 0 g/kg phosphorus",
+      "2 g/kg nitrogen and 1 g/kg phosphorus",
+      "2 g/kg nitrogen and 4 g/kg phosphorus"
+    ],
+    "correctIndex": 3,
+    "explanation": "The tallest group in either experiment (32 cm) received 2 g/kg of nitrogen and 4 g/kg of phosphorus in Experiment 2."
+  },
+  {
+    "id": "sc-040",
+    "subject": "science",
+    "passageId": "sc-p05",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "To best test the effect of potassium on seedling height in their planned experiment, the botanists should:",
+    "choices": [
+      "vary the amount of potassium while keeping the amounts of nitrogen and phosphorus the same in all groups",
+      "vary the amounts of potassium, nitrogen, and phosphorus simultaneously in each group",
+      "add potassium to a single group of seedlings and measure its height",
+      "vary the amount of water given to each group while adding equal potassium"
+    ],
+    "correctIndex": 0,
+    "explanation": "To isolate potassium's effect, it must be the only variable changed; all other nutrients and conditions must be held constant across groups, and multiple potassium levels allow comparison."
+  },
+  {
+    "id": "sc-041",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Scientist 1, the primary cause of the end-Cretaceous extinction was:",
+    "choices": [
+      "volcanic eruptions in India",
+      "the impact of a large asteroid",
+      "gradual climate warming from carbon dioxide",
+      "acid rain produced over hundreds of thousands of years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 attributes the extinction to the impact of an asteroid roughly 10 km in diameter that blocked sunlight and collapsed food webs."
+  },
+  {
+    "id": "sc-042",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "The two scientists would most likely agree on which of the following statements?",
+    "choices": [
+      "The extinction occurred gradually over 400,000 years.",
+      "Shocked quartz is produced by volcanic eruptions.",
+      "A worldwide layer rich in iridium was deposited at the end of the Cretaceous Period.",
+      "No asteroid impact occurred at the end of the Cretaceous Period."
+    ],
+    "correctIndex": 2,
+    "explanation": "Both scientists discuss the worldwide iridium-rich boundary layer; they disagree only about its source and about the cause of the extinction."
+  },
+  {
+    "id": "sc-043",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Scientist 2, the iridium in the boundary layer came from:",
+    "choices": [
+      "material rising from Earth's deep mantle and released by eruptions",
+      "fallout from a vaporized asteroid",
+      "glass spherules formed during an impact",
+      "ordinary crustal rocks eroded by acid rain"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 2 states that iridium is delivered to the surface by mantle plumes, so gases and particles from mantle-fed eruptions could have deposited the layer."
+  },
+  {
+    "id": "sc-044",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Fossil evidence showing that many species were declining in number well before the boundary layer was deposited would best support the viewpoint of:",
+    "choices": [
+      "Scientist 1, because impacts cause instantaneous extinction",
+      "Scientist 2, because volcanic stresses accumulated over hundreds of thousands of years",
+      "both scientists equally",
+      "neither scientist"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 2 predicts gradual decline caused by long-lasting volcanic stresses; Scientist 1 predicts an abrupt extinction at the boundary."
+  },
+  {
+    "id": "sc-045",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "The presence of shocked quartz grains in the worldwide boundary layer is best explained by the viewpoint of:",
+    "choices": [
+      "Scientist 1, because shocked quartz forms only under the sudden extreme conditions of an impact",
+      "Scientist 2, because shocked quartz forms in slowly cooling lava",
+      "Scientist 1, because shocked quartz is rich in iridium",
+      "Scientist 2, because mantle plumes carry shocked quartz to the surface"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 1 states that shocked quartz forms only under sudden, extreme impact pressures and that ordinary volcanic eruptions cannot produce it."
+  },
+  {
+    "id": "sc-046",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "According to Scientist 2, the eruptions harmed ecosystems in which of the following ways?",
+    "choices": [
+      "by depositing shocked quartz on land",
+      "by forming a 180 km wide crater",
+      "by ejecting vaporized asteroid material",
+      "by releasing gases that caused warming, periods of blocked sunlight, and acid rain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Scientist 2 states that carbon dioxide caused warming while sulfur droplets blocked sunlight, cooled the surface, and produced acid rain."
+  },
+  {
+    "id": "sc-047",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose a new study of fossils found that many species disappeared abruptly and simultaneously at exactly the level of the iridium layer. This finding would most directly weaken:",
+    "choices": [
+      "Scientist 1's claim that the crater matches the age of the boundary",
+      "Scientist 1's claim that asteroids are rich in iridium",
+      "Scientist 2's claim that species declined gradually before the boundary",
+      "Scientist 2's claim that the eruptions released carbon dioxide"
+    ],
+    "correctIndex": 2,
+    "explanation": "An abrupt, simultaneous disappearance exactly at the boundary matches Scientist 1's prediction and contradicts Scientist 2's picture of gradual decline before the boundary."
+  },
+  {
+    "id": "sc-048",
+    "subject": "science",
+    "passageId": "sc-p06",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Both scientists' explanations include the idea that the extinction involved:",
+    "choices": [
+      "a collision between Earth and a second asteroid",
+      "particles in the atmosphere that blocked sunlight",
+      "the complete absence of iridium at the boundary",
+      "extinctions confined to the region that is now India"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 cites dust and sulfur droplets from the impact blocking sunlight; Scientist 2 cites volcanic sulfur droplets periodically blocking sunlight."
+  },
+  {
+    "id": "sc-049",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the surface temperature of Star C is:",
+    "choices": [
+      "3,200 K",
+      "5,800 K",
+      "9,900 K",
+      "25,000 K"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists Star C's surface temperature as 9,900 K."
+  },
+  {
+    "id": "sc-050",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, as the surface temperature of a star increases, its color changes from red toward:",
+    "choices": [
+      "a deeper red",
+      "black",
+      "yellow only",
+      "blue"
+    ],
+    "correctIndex": 3,
+    "explanation": "In order of increasing temperature, the stars' colors progress from red (3,200 K) through yellow and white to blue (25,000 K)."
+  },
+  {
+    "id": "sc-051",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, which statement best describes the relationship between surface temperature and luminosity for the four stars?",
+    "choices": [
+      "As surface temperature increased, luminosity increased.",
+      "As surface temperature increased, luminosity decreased.",
+      "Luminosity was the same for all four stars.",
+      "Luminosity increased, then decreased, as temperature increased."
+    ],
+    "correctIndex": 0,
+    "explanation": "Luminosity rose from 0.04 for the coolest star (Star A) to 8,000 for the hottest star (Star D)."
+  },
+  {
+    "id": "sc-052",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 2, each time the distance to a star is doubled, its apparent brightness:",
+    "choices": [
+      "decreases by a factor of 2",
+      "decreases by a factor of 4",
+      "increases by a factor of 2",
+      "stays the same"
+    ],
+    "correctIndex": 1,
+    "explanation": "Brightness fell from 100 at 10 light-years to 25 at 20 light-years, and from 25 to 6.3 when the distance doubled again, a factor of 4 decrease per doubling."
+  },
+  {
+    "id": "sc-053",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, a main-sequence star with a surface temperature of 15,000 K would most likely have a luminosity (Sun = 1):",
+    "choices": [
+      "less than 1",
+      "between 1 and 25",
+      "between 25 and 8,000",
+      "greater than 8,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "A temperature of 15,000 K falls between Star C (9,900 K, luminosity 25) and Star D (25,000 K, luminosity 8,000), so the luminosity should fall between 25 and 8,000."
+  },
+  {
+    "id": "sc-054",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 2, a star identical to Star B located 160 light-years from Earth would have an apparent brightness, in relative units, closest to:",
+    "choices": [
+      "0.1",
+      "0.4",
+      "0.8",
+      "1.6"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 80 light-years the brightness is 1.6; doubling the distance to 160 light-years divides the brightness by 4, giving 0.4."
+  },
+  {
+    "id": "sc-055",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Table 2, a star identical to Star B located 30 light-years from Earth would have an apparent brightness, in relative units:",
+    "choices": [
+      "less than 6.3",
+      "between 1.6 and 6.3",
+      "between 6.3 and 25",
+      "greater than 100"
+    ],
+    "correctIndex": 2,
+    "explanation": "A distance of 30 light-years falls between 20 light-years (brightness 25) and 40 light-years (brightness 6.3), so the brightness should fall between 6.3 and 25."
+  },
+  {
+    "id": "sc-056",
+    "subject": "science",
+    "passageId": "sc-p07",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Astronomers discover a red star with a surface temperature of 3,200 K and a luminosity of 100. Based on the passage, which conclusion about this star is most reasonable?",
+    "choices": [
+      "The star must be a main-sequence star like Star A.",
+      "The star must have a much larger surface area than Star A.",
+      "The star must be hotter than Star D.",
+      "The star must be closer to Earth than Star A."
+    ],
+    "correctIndex": 1,
+    "explanation": "Luminosity depends on both temperature and surface area. Since this star has the same temperature as Star A (luminosity 0.04) but is 2,500 times more luminous, it must have a far larger surface area, so it cannot fit the main-sequence pattern."
+  },
+  {
+    "id": "sc-057",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, the time required to collect 50 mL of CO2 using 1.5 M HCl was:",
+    "choices": [
+      "61 s",
+      "80 s",
+      "118 s",
+      "240 s"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists a time of 80 s for the 1.5 M HCl trial."
+  },
+  {
+    "id": "sc-058",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Scientific Investigation",
+    "difficulty": 1,
+    "prompt": "In Experiment 2, the factor deliberately varied by the students was the:",
+    "choices": [
+      "concentration of the HCl",
+      "size of the marble chips",
+      "temperature of the acid",
+      "volume of CO2 collected"
+    ],
+    "correctIndex": 2,
+    "explanation": "Experiment 2 varied the temperature of the acid while using 1.0 M HCl and medium chips in every trial."
+  },
+  {
+    "id": "sc-059",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "In Experiment 3, the reaction was fastest when the marble was in which form?",
+    "choices": [
+      "large chips",
+      "medium chips",
+      "powder",
+      "The reaction rate was the same for all forms."
+    ],
+    "correctIndex": 2,
+    "explanation": "A shorter collection time means a faster reaction, and the powder trial had the shortest time (22 s)."
+  },
+  {
+    "id": "sc-060",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 1, doubling the HCl concentration from 0.5 M to 1.0 M caused the collection time to:",
+    "choices": [
+      "decrease to about half its value",
+      "double",
+      "stay approximately the same",
+      "decrease to about one-tenth its value"
+    ],
+    "correctIndex": 0,
+    "explanation": "The time fell from 240 s at 0.5 M to 118 s at 1.0 M, which is approximately half of 240 s."
+  },
+  {
+    "id": "sc-061",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 2, if a trial had been run at 50°C, the time to collect 50 mL of CO2 would most likely have been:",
+    "choices": [
+      "about 240 s",
+      "about 118 s",
+      "about 60 s",
+      "less than 31 s"
+    ],
+    "correctIndex": 3,
+    "explanation": "In Table 2, each 10°C increase roughly halved the collection time; the time at 40°C was 31 s, so at 50°C the time should be less than 31 s."
+  },
+  {
+    "id": "sc-062",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which of the following factors were held constant across all trials of Experiment 1?",
+    "choices": [
+      "HCl concentration and temperature",
+      "temperature and marble chip size",
+      "HCl concentration and chip size",
+      "temperature and collection time"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Experiment 1, only the HCl concentration was varied; all trials used medium chips at 20°C."
+  },
+  {
+    "id": "sc-063",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on the trend in Table 1, if a trial had used 2.5 M HCl at 20°C with medium chips, the time to collect 50 mL of CO2 would most likely have been:",
+    "choices": [
+      "less than 61 s",
+      "between 61 and 80 s",
+      "between 80 and 118 s",
+      "greater than 240 s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collection time decreased steadily as concentration increased, reaching 61 s at 2.0 M, so at 2.5 M the time should be less than 61 s."
+  },
+  {
+    "id": "sc-064",
+    "subject": "science",
+    "passageId": "sc-p08",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "Based on the results of all three experiments, which combination of conditions would produce the fastest reaction?",
+    "choices": [
+      "0.5 M HCl at 10°C with large chips",
+      "1.0 M HCl at 20°C with medium chips",
+      "2.0 M HCl at 40°C with powdered marble",
+      "2.0 M HCl at 10°C with large chips"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each experiment showed the reaction was fastest at the highest concentration (2.0 M), the highest temperature (40°C), and with the most finely divided marble (powder)."
+  },
+  {
+    "id": "sc-065",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the volume of the gas at a pressure of 150 kPa was:",
+    "choices": [
+      "120 mL",
+      "160 mL",
+      "240 mL",
+      "480 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists a volume of 160 mL at 150 kPa."
+  },
+  {
+    "id": "sc-066",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, which statement best describes the relationship between pressure and volume at constant temperature?",
+    "choices": [
+      "Volume increased as pressure increased.",
+      "Volume was unaffected by pressure.",
+      "Volume decreased as pressure increased.",
+      "Volume increased, then decreased, as pressure increased."
+    ],
+    "correctIndex": 2,
+    "explanation": "As pressure rose from 50 to 200 kPa, the volume fell from 480 to 120 mL, an inverse relationship."
+  },
+  {
+    "id": "sc-067",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 2, at constant pressure, increasing the temperature of the gas caused its volume to:",
+    "choices": [
+      "increase",
+      "decrease",
+      "stay the same",
+      "decrease, then increase"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Table 2, the volume rose steadily from 164 mL at 200 K to 287 mL at 350 K."
+  },
+  {
+    "id": "sc-068",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "In Study 1, the product of pressure and volume for each trial was:",
+    "choices": [
+      "12,000 kPa·mL",
+      "24,000 kPa·mL",
+      "48,000 kPa·mL",
+      "different for every trial"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage notes, and the table confirms, that pressure times volume equaled 24,000 kPa·mL in every row (for example, 100 × 240 = 24,000)."
+  },
+  {
+    "id": "sc-069",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Study 1, if the pressure on the gas were increased to 400 kPa at 293 K, the volume would most likely be:",
+    "choices": [
+      "30 mL",
+      "60 mL",
+      "80 mL",
+      "120 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since pressure × volume = 24,000 kPa·mL, at 400 kPa the volume would be 24,000 ÷ 400 = 60 mL."
+  },
+  {
+    "id": "sc-070",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on the pattern in Table 2, the volume of the gas at 400 K and 100 kPa would most likely be closest to:",
+    "choices": [
+      "246 mL",
+      "287 mL",
+      "305 mL",
+      "328 mL"
+    ],
+    "correctIndex": 3,
+    "explanation": "The volume increased by 41 mL for every 50 K increase; adding 41 mL to the 287 mL measured at 350 K gives 328 mL at 400 K."
+  },
+  {
+    "id": "sc-071",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Table 2, at a temperature of 225 K and a pressure of 100 kPa, the volume of the gas would most likely be:",
+    "choices": [
+      "less than 164 mL",
+      "between 164 and 205 mL",
+      "between 205 and 246 mL",
+      "greater than 246 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "A temperature of 225 K falls between 200 K (164 mL) and 250 K (205 mL), so the volume should fall between 164 and 205 mL."
+  },
+  {
+    "id": "sc-072",
+    "subject": "science",
+    "passageId": "sc-p09",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "The students' extrapolation of the Study 2 data toward lower temperatures is best interpreted as evidence that:",
+    "choices": [
+      "the volume of an ideal gas would approach zero as the temperature approaches 0 K",
+      "the gas would expand without limit at low temperatures",
+      "pressure and volume are unrelated at low temperatures",
+      "the gas sample gained matter as it cooled"
+    ],
+    "correctIndex": 0,
+    "explanation": "The straight-line plot of volume versus temperature pointed toward 0 mL at 0 K, supporting the idea that an ideal gas's volume would vanish at absolute zero."
+  },
+  {
+    "id": "sc-073",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, the zone of inhibition produced by Antibiotic C was:",
+    "choices": [
+      "0 mm",
+      "8 mm",
+      "15 mm",
+      "22 mm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists a zone diameter of 15 mm for Antibiotic C."
+  },
+  {
+    "id": "sc-074",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "Based on Experiment 1, which antibiotic was most effective against E. coli?",
+    "choices": [
+      "Antibiotic A",
+      "Antibiotic B",
+      "Antibiotic C",
+      "Antibiotic D"
+    ],
+    "correctIndex": 0,
+    "explanation": "A larger zone of inhibition indicates greater effectiveness, and Antibiotic A produced the largest zone (22 mm)."
+  },
+  {
+    "id": "sc-075",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "The result for Antibiotic D in Experiment 1 most strongly suggests that:",
+    "choices": [
+      "Antibiotic D killed all the E. coli on the dish",
+      "E. coli growth was not inhibited by Antibiotic D at the amount tested",
+      "Antibiotic D evaporated before the test began",
+      "the dish for Antibiotic D contained no bacteria"
+    ],
+    "correctIndex": 1,
+    "explanation": "A zone diameter of 0 mm means bacteria grew right up to the disk, indicating that Antibiotic D did not inhibit E. coli at 20 µg."
+  },
+  {
+    "id": "sc-076",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "The main purpose of Experiment 2 was to determine how the zone of inhibition is affected by the:",
+    "choices": [
+      "species of bacteria tested",
+      "temperature of incubation",
+      "type of antibiotic on the disk",
+      "amount of antibiotic on the disk"
+    ],
+    "correctIndex": 3,
+    "explanation": "Experiment 2 varied only the amount of Antibiotic A per disk (5 to 40 µg) while all other procedures stayed the same."
+  },
+  {
+    "id": "sc-077",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 2, a disk containing 30 µg of Antibiotic A tested against E. coli would most likely produce a zone diameter:",
+    "choices": [
+      "less than 15 mm",
+      "between 15 and 22 mm",
+      "between 22 and 28 mm",
+      "greater than 28 mm"
+    ],
+    "correctIndex": 2,
+    "explanation": "An amount of 30 µg falls between 20 µg (22 mm) and 40 µg (28 mm), so the zone should fall between 22 and 28 mm."
+  },
+  {
+    "id": "sc-078",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Experiment 3, which bacterial species was least susceptible to Antibiotic A?",
+    "choices": [
+      "E. coli",
+      "S. aureus",
+      "P. aeruginosa",
+      "B. subtilis"
+    ],
+    "correctIndex": 2,
+    "explanation": "P. aeruginosa had the smallest zone of inhibition (6 mm), indicating that Antibiotic A was least effective against it."
+  },
+  {
+    "id": "sc-079",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "In each experiment, a disk soaked only in sterile water was included. If the antibiotics, and not some other feature of the disks, inhibited bacterial growth, the water-only disk should have produced a zone diameter of:",
+    "choices": [
+      "22 mm",
+      "0 mm",
+      "at least 6 mm",
+      "28 mm"
+    ],
+    "correctIndex": 1,
+    "explanation": "The water-only disk is a control; if the paper disk itself does not inhibit growth, bacteria should grow right up to it, giving a zone of 0 mm."
+  },
+  {
+    "id": "sc-080",
+    "subject": "science",
+    "passageId": "sc-p10",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on the trend in Table 2, a disk containing 80 µg of Antibiotic A tested against E. coli would most likely produce a zone diameter:",
+    "choices": [
+      "of exactly 28 mm",
+      "between 15 and 22 mm",
+      "less than 10 mm",
+      "greater than 28 mm"
+    ],
+    "correctIndex": 3,
+    "explanation": "The zone diameter increased with every increase in the amount of Antibiotic A, reaching 28 mm at 40 µg, so at 80 µg the zone should exceed 28 mm."
+  },
+  {
+    "id": "sc-081",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Scientist 1, the Moon formed from:",
+    "choices": [
+      "material captured from the asteroid belt",
+      "rocky debris blasted into orbit by a giant collision with Earth",
+      "the iron core of a Mars-sized body",
+      "gas left over from the formation of the Sun"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 states that rocky material from the outer layers of Earth and the impactor was blasted into orbit and gathered together to form the Moon."
+  },
+  {
+    "id": "sc-082",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "The two scientists would most likely agree on which of the following statements about the Moon?",
+    "choices": [
+      "Its rocks have oxygen isotope ratios nearly identical to those of Earth rocks.",
+      "It formed far from Earth, near Mars.",
+      "It has an unusually large iron core.",
+      "It was never molten."
+    ],
+    "correctIndex": 0,
+    "explanation": "The isotope similarity is presented in the introduction as an observation both hypotheses must explain, and both scientists offer explanations for it."
+  },
+  {
+    "id": "sc-083",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Scientist 2, capture of the Moon by Earth was possible because:",
+    "choices": [
+      "the Moon collided with a smaller body first",
+      "Earth's gravity was much stronger in the past",
+      "friction with Earth's thick, extended early atmosphere slowed the Moon",
+      "the Moon approached Earth at an extremely high speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientist 2 states that the Moon was slowed just enough by friction with the thick, extended atmosphere surrounding the young Earth."
+  },
+  {
+    "id": "sc-084",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Scientist 1 explains the similarity of oxygen isotope ratios in Earth rocks and Moon rocks by proposing that:",
+    "choices": [
+      "oxygen isotopes are identical everywhere in the solar system",
+      "the Moon's isotopes changed after billions of years of solar heating",
+      "Earth and the Moon exchanged rocks through later impacts",
+      "material from Earth and the impactor was vaporized and thoroughly mixed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Scientist 1 attributes the matching ratios to thorough mixing of vaporized material from Earth and the impacting body."
+  },
+  {
+    "id": "sc-085",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "According to Scientist 1, the Moon's iron core is small because:",
+    "choices": [
+      "the debris that formed the Moon came mostly from iron-poor outer rocky layers",
+      "iron cannot exist in orbit around Earth",
+      "the Moon lost its iron during capture",
+      "the impactor contained no iron at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 1 states that the impactor's iron core merged with Earth's core, so the orbiting debris, and thus the Moon, came mostly from iron-poor rocky layers."
+  },
+  {
+    "id": "sc-086",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Which of the following findings, if true, would most weaken Scientist 1's hypothesis?",
+    "choices": [
+      "Moon rocks contain minerals that form in molten rock.",
+      "Computer models showing that debris from such a collision could not have remained in orbit and formed the Moon.",
+      "Earth's core is larger than the Moon's core.",
+      "The Moon's crust is very ancient."
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1's hypothesis requires that collision debris gathered in orbit to form the Moon; models showing this could not happen would undermine the central mechanism."
+  },
+  {
+    "id": "sc-087",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose simulations showed that a body approaching Earth could not have been captured into orbit unless the early Earth had an extremely thick extended atmosphere, and geological evidence showed no such atmosphere existed. These findings would most directly weaken the viewpoint of:",
+    "choices": [
+      "Scientist 1, because impacts require an atmosphere",
+      "Scientist 1, because the impactor would have been slowed too much",
+      "Scientist 2, because the proposed mechanism for slowing the Moon would have been absent",
+      "both scientists equally"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientist 2's capture hypothesis depends on atmospheric friction slowing the Moon; without the thick atmosphere, the capture mechanism fails."
+  },
+  {
+    "id": "sc-088",
+    "subject": "science",
+    "passageId": "sc-p11",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Both scientists' hypotheses account for the evidence that the young Moon was:",
+    "choices": [
+      "almost entirely molten early in its history",
+      "made mostly of iron",
+      "formed after Earth's oceans appeared",
+      "orbited by its own small satellites"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 1 attributes the Moon's molten state to impact energy; Scientist 2 attributes it to heat from capture and later impacts. Both explain the ancient molten state recorded by the crust."
+  },
+  {
+    "id": "sc-089",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, the block with the metal bottom surface began to slide at an angle of:",
+    "choices": [
+      "8°",
+      "22°",
+      "27°",
+      "42°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 22° as the angle at which the metal-bottomed block began to slide."
+  },
+  {
+    "id": "sc-090",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "Based on Experiment 1, the friction between the ramp and the block was greatest for which bottom surface?",
+    "choices": [
+      "rubber",
+      "wood",
+      "metal",
+      "Teflon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Greater friction allows a larger angle before sliding begins, and the rubber-bottomed block reached the largest angle (42°)."
+  },
+  {
+    "id": "sc-091",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Scientific Investigation",
+    "difficulty": 1,
+    "prompt": "In Experiment 2, the factor deliberately varied was the:",
+    "choices": [
+      "material of the ramp",
+      "material of the block's bottom surface",
+      "total mass of the block",
+      "area of contact with the ramp"
+    ],
+    "correctIndex": 2,
+    "explanation": "Experiment 2 tested a wood-bottomed block with different masses stacked on top, varying total mass from 100 g to 800 g."
+  },
+  {
+    "id": "sc-092",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "The results of Experiment 2 best support which conclusion about the effect of mass on the sliding angle?",
+    "choices": [
+      "Doubling the mass doubled the sliding angle.",
+      "Mass had essentially no effect on the sliding angle.",
+      "Heavier blocks slid at much smaller angles.",
+      "Only blocks lighter than 200 g slid at all."
+    ],
+    "correctIndex": 1,
+    "explanation": "The sliding angle stayed at 27° to 28° as mass increased eightfold, so mass had essentially no effect."
+  },
+  {
+    "id": "sc-093",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Experiment 3, increasing the area of contact between the block and the ramp from 24 cm² to 96 cm² caused the sliding angle to:",
+    "choices": [
+      "increase from 27° to 42°",
+      "decrease from 27° to 8°",
+      "double",
+      "remain at 27°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Table 3 shows the sliding angle was 27° for all three contact areas tested."
+  },
+  {
+    "id": "sc-094",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which of the following was held constant across all trials of Experiment 1?",
+    "choices": [
+      "the mass of the block and the ramp material",
+      "the bottom surface of the block",
+      "the angle at which sliding began",
+      "the material covering the ramp's hinge"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Experiment 1, every block had a mass of 200 g and was tested on the same wooden ramp; only the bottom surface material differed."
+  },
+  {
+    "id": "sc-095",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A student hypothesized that a larger area of contact produces greater friction and therefore a larger sliding angle. Which experiment's results contradict this hypothesis?",
+    "choices": [
+      "Experiment 1, because rubber produced the largest angle",
+      "Experiment 2, because mass had no effect",
+      "Experiment 3, because the sliding angle was the same for all three contact areas",
+      "None of the experiments addressed contact area."
+    ],
+    "correctIndex": 2,
+    "explanation": "Experiment 3 varied contact area from 24 to 96 cm² and found the same 27° sliding angle each time, contradicting the hypothesis."
+  },
+  {
+    "id": "sc-096",
+    "subject": "science",
+    "passageId": "sc-p12",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "The friction between glass and the wooden ramp is known to be greater than the friction between metal and the ramp, but less than the friction between wood and the ramp. Based on Experiment 1, a glass-bottomed 200 g block would most likely begin to slide at an angle:",
+    "choices": [
+      "less than 8°",
+      "between 22° and 27°",
+      "between 27° and 42°",
+      "greater than 42°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Greater friction corresponds to a larger sliding angle. Friction between metal (22°) and wood (27°) implies a sliding angle between 22° and 27°."
+  },
+  {
+    "id": "sc-097",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the water temperature at a depth of 600 m was:",
+    "choices": [
+      "3°C",
+      "5°C",
+      "8°C",
+      "18°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists a temperature of 8°C at 600 m."
+  },
+  {
+    "id": "sc-098",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, as depth increased from 0 m to 2,000 m, water temperature and density, respectively:",
+    "choices": [
+      "increased; increased",
+      "decreased; increased",
+      "decreased; decreased",
+      "increased; decreased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Temperature fell from 24°C to 3°C, while density rose from 1.0235 to 1.0282 g/cm³."
+  },
+  {
+    "id": "sc-099",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, the light intensity at a depth of 100 m was what percentage of the surface value?",
+    "choices": [
+      "25%",
+      "3%",
+      "0.1%",
+      "100%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 2 lists a light intensity of 3% of the surface value at 100 m."
+  },
+  {
+    "id": "sc-100",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, the largest decrease in temperature occurred between which two consecutive listed depths?",
+    "choices": [
+      "0 m and 200 m",
+      "600 m and 1,000 m",
+      "200 m and 600 m",
+      "1,000 m and 2,000 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Temperature fell 10°C (from 18°C to 8°C) between 200 m and 600 m, a larger drop than between any other pair of consecutive listed depths."
+  },
+  {
+    "id": "sc-101",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, the water temperature at a depth of 800 m was most likely:",
+    "choices": [
+      "less than 5°C",
+      "between 5°C and 8°C",
+      "between 8°C and 18°C",
+      "greater than 18°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "A depth of 800 m falls between 600 m (8°C) and 1,000 m (5°C), so the temperature should fall between 5°C and 8°C."
+  },
+  {
+    "id": "sc-102",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "The passage states that photosynthetic organisms generally require at least 1% of surface light intensity. Based on Table 2, the bottom of the photic zone at this station was most likely at a depth:",
+    "choices": [
+      "between 0 m and 50 m",
+      "between 50 m and 100 m",
+      "between 100 m and 200 m",
+      "greater than 200 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Light intensity was 3% at 100 m and 0.1% at 200 m, so intensity fell to 1% at some depth between 100 m and 200 m."
+  },
+  {
+    "id": "sc-103",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Between 200 m and 1,000 m, salinity decreased slightly, yet density continued to increase. Based on the passage, this occurred because:",
+    "choices": [
+      "the effect of decreasing temperature on density outweighed the effect of decreasing salinity",
+      "salinity has no effect on the density of seawater",
+      "density always decreases with depth in the ocean",
+      "light intensity controls the density of seawater"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage states that density increased with depth because the effect of falling temperature outweighed the effect of the small salinity changes."
+  },
+  {
+    "id": "sc-104",
+    "subject": "science",
+    "passageId": "sc-p13",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on the trends in Table 1, at a depth of 3,000 m the temperature and density would most likely be:",
+    "choices": [
+      "24°C and 1.0235 g/cm³",
+      "well above 3°C and well below 1.0282 g/cm³",
+      "8°C and exactly 1.0271 g/cm³",
+      "slightly below 3°C and slightly above 1.0282 g/cm³"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both trends flatten with depth: temperature was changing by ever-smaller amounts as it fell toward 3°C, and density was rising by ever-smaller amounts toward 1.0282 g/cm³, so 3,000 m values should be only slightly beyond the 2,000 m values."
+  },
+  {
+    "id": "sc-105",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the volume of water retained by silt was:",
+    "choices": [
+      "18 mL",
+      "45 mL",
+      "52 mL",
+      "70 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 45 mL of water retained by silt."
+  },
+  {
+    "id": "sc-106",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "Based on Experiment 2, which soil drained the fastest?",
+    "choices": [
+      "sand",
+      "silt",
+      "clay",
+      "loam"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sand's dripping stopped after only 35 s, far sooner than for any other soil tested."
+  },
+  {
+    "id": "sc-107",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "The passage states that sand grains are the largest particles and clay particles are the smallest. Based on Experiment 1, which statement best describes the relationship between particle size and water retention?",
+    "choices": [
+      "Soils with larger particles retained more water.",
+      "Particle size had no effect on water retention.",
+      "Soils with smaller particles retained more water.",
+      "Only mixtures of particle sizes retained water."
+    ],
+    "correctIndex": 2,
+    "explanation": "Clay (smallest particles) retained the most water (70 mL) and sand (largest particles) retained the least (18 mL)."
+  },
+  {
+    "id": "sc-108",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "According to Table 3, as the percentage of clay in the sand-clay mixture increased, the volume of water retained:",
+    "choices": [
+      "increased steadily",
+      "decreased steadily",
+      "stayed the same",
+      "increased, then decreased"
+    ],
+    "correctIndex": 0,
+    "explanation": "Water retained rose from 18 mL at 0% clay to 70 mL at 100% clay, increasing at every step."
+  },
+  {
+    "id": "sc-109",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Based on Table 3, a mixture containing 60% clay would most likely retain a volume of water:",
+    "choices": [
+      "less than 33 mL",
+      "between 33 and 46 mL",
+      "between 46 and 58 mL",
+      "greater than 70 mL"
+    ],
+    "correctIndex": 2,
+    "explanation": "A clay percentage of 60% falls between 50% (46 mL) and 75% (58 mL), so the retained volume should fall between 46 and 58 mL."
+  },
+  {
+    "id": "sc-110",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which of the following quantities were the same in every trial of Experiment 1?",
+    "choices": [
+      "the volume of water drained and the soil type",
+      "the mass of soil and the volume of water poured",
+      "the time until dripping stopped and the funnel size",
+      "the volume of water retained and the mesh size"
+    ],
+    "correctIndex": 1,
+    "explanation": "Every trial used 200 g of soil and 100 mL of poured water; the drained and retained volumes were the measured results, which differed among soils."
+  },
+  {
+    "id": "sc-111",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "The passage states that plants grow best in soil that holds enough water for roots but drains quickly enough to let air reach the roots. Based on Experiments 1 and 2, which soil best fits this description?",
+    "choices": [
+      "sand, because it retained the least water",
+      "clay, because it retained the most water",
+      "silt, because it retained the least water of the four soils",
+      "loam, because it retained more water than sand yet drained far more quickly than clay"
+    ],
+    "correctIndex": 3,
+    "explanation": "Loam retained a substantial 52 mL of water but finished draining in 210 s, compared with clay's 940 s, so loam best combines water storage with quick drainage."
+  },
+  {
+    "id": "sc-112",
+    "subject": "science",
+    "passageId": "sc-p14",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "A gardener wants a sand-clay mixture that retains at least 50 mL of water per 200 g of soil. Based on Table 3, the minimum percentage of clay required is:",
+    "choices": [
+      "between 25% and 50%",
+      "between 50% and 75%",
+      "exactly 25%",
+      "greater than 75%"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 50% clay the mixture retained 46 mL, below the target, and at 75% clay it retained 58 mL, above the target, so the minimum percentage lies between 50% and 75%."
+  },
+  {
+    "id": "sc-113",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Student 1, birds navigate primarily by sensing:",
+    "choices": [
+      "the position of the sun",
+      "Earth's magnetic field",
+      "odors carried on the wind",
+      "the positions of coastlines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Student 1 proposes that birds detect the strength and tilt of Earth's magnetic field using magnetite crystals and specialized eye molecules."
+  },
+  {
+    "id": "sc-114",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "According to Student 2, at night migrating birds determine direction using:",
+    "choices": [
+      "their internal biological clock alone",
+      "the odor of the night air",
+      "star patterns that rotate around a fixed point in the sky",
+      "the temperature of the wind"
+    ],
+    "correctIndex": 2,
+    "explanation": "Student 2 states that birds use star patterns rotating around a fixed point, which marks a constant direction."
+  },
+  {
+    "id": "sc-115",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 1,
+    "prompt": "All three students would most likely agree that migrating birds:",
+    "choices": [
+      "use information from their environment to find their way",
+      "navigate only on clear nights",
+      "cannot navigate without experienced flock members",
+      "rely only on internal instincts with no external cues"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each student proposes a different environmental cue (magnetic field, sky, or landscape), but all three assume birds use external information to navigate."
+  },
+  {
+    "id": "sc-116",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "The observation that caged migratory birds orient correctly on completely overcast nights is most consistent with the viewpoint of:",
+    "choices": [
+      "Student 2, because clouds enhance star visibility",
+      "Student 1, because a magnetic sense works when the sun and stars are hidden",
+      "Student 3, because caged birds can see landmarks",
+      "none of the students"
+    ],
+    "correctIndex": 1,
+    "explanation": "With the sky hidden, celestial cues are unavailable, yet the birds still orient correctly, which Student 1 explains by a magnetic sense that works in any weather."
+  },
+  {
+    "id": "sc-117",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "In planetarium experiments, caged birds changed their orientation to match a rotated projection of the stars rather than the true sky. This result best supports the viewpoint of:",
+    "choices": [
+      "Student 1",
+      "Student 3",
+      "neither Student 1 nor Student 2",
+      "Student 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The birds followed the projected star pattern, showing they were using star positions to orient, as Student 2 proposes."
+  },
+  {
+    "id": "sc-118",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Student 3's viewpoint best explains which of the following observations?",
+    "choices": [
+      "Young birds migrating alone for the first time are more likely to wander off course than adults.",
+      "Birds orient correctly under overcast skies.",
+      "Birds shift orientation when the magnetic field around their cage is shifted.",
+      "Birds ignore rivers and coastlines during migration."
+    ],
+    "correctIndex": 0,
+    "explanation": "If routes are learned from experienced flock members and from memorized landmarks, inexperienced birds traveling alone would lack that information and go off course."
+  },
+  {
+    "id": "sc-119",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose researchers found that small magnets attached to birds disrupted their orientation on overcast nights but not on clear nights. This finding would best support the conclusion that birds:",
+    "choices": [
+      "use landmarks whenever magnets are attached",
+      "never use magnetic information",
+      "use magnetic cues when celestial cues are unavailable, and celestial cues when the sky is visible",
+      "use only olfactory cues on clear nights"
+    ],
+    "correctIndex": 2,
+    "explanation": "Disruption only under clouds suggests birds rely on the magnetic sense (Student 1's cue) when the sky is hidden but switch to celestial cues (Student 2's cue) on clear nights."
+  },
+  {
+    "id": "sc-120",
+    "subject": "science",
+    "passageId": "sc-p15",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Which of the following observations would most weaken Student 3's viewpoint?",
+    "choices": [
+      "Birds often follow river valleys during migration.",
+      "Some birds learn odors from their home region.",
+      "Young birds travel with experienced flock members.",
+      "Birds accurately cross thousands of kilometers of open ocean, where no landmarks are visible."
+    ],
+    "correctIndex": 3,
+    "explanation": "Student 3 claims navigation depends on learned landmarks and regional odors; accurate navigation over featureless open ocean could not rely on visible landmarks."
+  }
+]

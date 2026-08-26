@@ -1,0 +1,1651 @@
+[
+  {
+    "id": "mt-01",
+    "subject": "math",
+    "category": "Pre-Algebra",
+    "title": "Integers, Operations & Number Properties",
+    "symbolName": "number",
+    "summary": "Order of operations, signed numbers, factors, and multiples that show up everywhere.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Core Idea",
+        "body": "Almost every ACT Math question eventually comes down to arithmetic done in the right order. Mathematicians agreed on one universal sequence so that an expression like 3 + 4 × 2 has exactly one value. If you evaluate left to right you get 14, but the agreed order gives 11, and the ACT always means 11. The order is grouping symbols first, then exponents and roots, then multiplication and division, and finally addition and subtraction. Multiplication and division sit on the same level, and so do addition and subtraction, which means you handle those pairs left to right rather than doing all multiplication before all division."
+      },
+      {
+        "heading": "Working Through PEMDAS",
+        "body": "Take 3 + 4 × (7 − 5)² ÷ 8 and peel it apart one layer at a time. Start inside the parentheses: 7 − 5 = 2. Next handle the exponent: 2² = 4. Now multiplication and division from left to right: 4 × 4 = 16, then 16 ÷ 8 = 2. Finally add: 3 + 2 = 5. Notice that you never skipped ahead and never combined the 3 with the 4 early. Rewriting the entire expression after each step feels slow, but it is the single most reliable way to avoid the careless error the test is hoping you will make."
+      },
+      {
+        "heading": "Signed Numbers Without Panic",
+        "body": "Negatives cause more lost points than hard concepts do. For multiplication and division, an even number of negative factors gives a positive result and an odd number gives a negative result, so (−2)(−3)(−4) = −24. For addition, think of moving on a number line: adding a negative moves left, and subtracting a negative moves right, so −5 − (−3) becomes −5 + 3 = −2. Exponents deserve special care because −3² and (−3)² are different. In −3² only the 3 is squared, giving −9, while (−3)² squares the whole quantity and gives 9."
+      },
+      {
+        "heading": "Factors, Multiples & Primes",
+        "body": "A factor divides into a number evenly, and a multiple is what you get when you scale a number up. Prime factorization is the tool that makes both easy: break each number into primes, then the greatest common factor is the product of the primes they share, and the least common multiple is the product of every prime raised to its highest power in either number. For 18 = 2 × 3² and 24 = 2³ × 3, they share one 2 and one 3, so the GCF is 6, and the LCM uses 2³ and 3², giving 72. Use the GCF to reduce fractions and the LCM to find common denominators."
+      }
+    ],
+    "keyFacts": [
+      "Order: parentheses, exponents, multiply/divide left to right, add/subtract left to right",
+      "negative × negative = positive; negative × positive = negative",
+      "a − (−b) = a + b",
+      "−x² is not the same as (−x)²",
+      "GCF × LCM = product of the two numbers",
+      "Distributive property: a(b + c) = ab + ac"
+    ],
+    "examples": [
+      {
+        "problem": "Evaluate 3 + 4 × (7 − 5)² ÷ 8",
+        "steps": [
+          "Parentheses first: 7 − 5 = 2, so the expression is 3 + 4 × 2² ÷ 8.",
+          "Exponent: 2² = 4, giving 3 + 4 × 4 ÷ 8.",
+          "Multiply and divide left to right: 4 × 4 = 16, then 16 ÷ 8 = 2.",
+          "Add: 3 + 2 = 5."
+        ],
+        "answer": "5"
+      },
+      {
+        "problem": "Find the GCF and the LCM of 18 and 24.",
+        "steps": [
+          "Prime factor each: 18 = 2 × 3² and 24 = 2³ × 3.",
+          "GCF uses the lowest power of each shared prime: 2 × 3 = 6.",
+          "LCM uses the highest power of every prime present: 2³ × 3² = 8 × 9 = 72."
+        ],
+        "answer": "GCF = 6, LCM = 72"
+      },
+      {
+        "problem": "Evaluate −5 − (−3) × 4",
+        "steps": [
+          "Multiplication comes before subtraction: (−3) × 4 = −12.",
+          "The expression is now −5 − (−12).",
+          "Subtracting a negative adds: −5 + 12 = 7."
+        ],
+        "answer": "7"
+      }
+    ],
+    "tips": [
+      "Rewrite the whole expression after each step instead of doing two operations in your head.",
+      "When a problem mixes negatives and exponents, add parentheses yourself so you can see what is being squared.",
+      "If answer choices differ only by sign, the question is testing negatives, so slow down."
+    ]
+  },
+  {
+    "id": "mt-02",
+    "subject": "math",
+    "category": "Pre-Algebra",
+    "title": "Fractions, Decimals & Percents",
+    "symbolName": "percent",
+    "summary": "Convert between the three forms and handle percent increase, decrease, and change.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Three Names for One Number",
+        "body": "A fraction, a decimal, and a percent are three costumes worn by the same value. Three quarters can appear as 3/4, as 0.75, or as 75%, and the ACT freely mixes them inside a single question. To go from a fraction to a decimal, divide the top by the bottom. To go from a decimal to a percent, move the decimal point two places right and attach a percent sign. To go the other way, drop the sign and move two places left. Memorizing a handful of conversions, especially the eighths and the thirds, saves real time because you stop reaching for the calculator on problems you could finish mentally."
+      },
+      {
+        "heading": "Adding & Multiplying Fractions",
+        "body": "Multiplying fractions is the easy operation: multiply straight across and reduce, and cancel common factors before you multiply to keep the numbers small. Dividing means multiplying by the reciprocal, so 2/3 ÷ 4/5 becomes 2/3 × 5/4 = 10/12 = 5/6. Adding and subtracting are where students slip, because you must first rewrite both fractions with a common denominator. For 3/8 + 5/12, the least common denominator is 24, so the fractions become 9/24 and 10/24, and the sum is 19/24. Never add denominators. If a fraction sits inside a fraction, multiply the top and bottom by the inner denominator to clear it."
+      },
+      {
+        "heading": "The Percent Sentence",
+        "body": "Nearly every percent question is one sentence in disguise: part = whole × percent. Translate word for word, where is means equals, of means multiply, and what means your variable. What is 35% of 80 becomes x = 0.35 × 80 = 28. If instead you are told 28 is what percent of 80, the same equation gives 28 = p × 80, so p = 0.35 = 35%. Percent change follows a related formula: divide the amount of change by the original amount, not the new amount. Choosing the wrong denominator is the single most common percent error on the test."
+      },
+      {
+        "heading": "Increases, Decreases & Multipliers",
+        "body": "Instead of computing a discount and then subtracting, multiply by a single number. A 25% discount means you pay 75% of the price, so multiply by 0.75. A 15% increase means you end with 115% of the original, so multiply by 1.15. Multipliers make chained changes painless: a $60 jacket marked down 25% and then 10% off the sale price costs 60 × 0.75 × 0.90 = $40.50. Notice that this is not the same as a flat 35% off, which would give $39. Successive percent changes never simply add, and the ACT builds trap answers out of exactly that mistake."
+      }
+    ],
+    "keyFacts": [
+      "part = whole × percent",
+      "percent change = (new − original) ÷ original × 100",
+      "A p% increase means multiply by (1 + p/100); a p% decrease means multiply by (1 − p/100)",
+      "To divide by a fraction, multiply by its reciprocal",
+      "1/8 = 0.125, 1/4 = 0.25, 1/3 ≈ 0.333, 3/8 = 0.375, 5/8 = 0.625"
+    ],
+    "examples": [
+      {
+        "problem": "What is 35% of 80?",
+        "steps": [
+          "Convert 35% to the decimal 0.35.",
+          "Translate: part = whole × percent, so part = 80 × 0.35.",
+          "Multiply: 0.35 × 80 = 28."
+        ],
+        "answer": "28"
+      },
+      {
+        "problem": "Add 3/8 + 5/12",
+        "steps": [
+          "Find the least common denominator of 8 and 12, which is 24.",
+          "Rewrite: 3/8 = 9/24 and 5/12 = 10/24.",
+          "Add the numerators: 9/24 + 10/24 = 19/24, which cannot be reduced."
+        ],
+        "answer": "19/24"
+      },
+      {
+        "problem": "A $60 jacket is marked down 25%, then an extra 10% is taken off the sale price. What is the final price?",
+        "steps": [
+          "A 25% discount means paying 75%: 60 × 0.75 = 45.",
+          "An extra 10% off means paying 90% of $45: 45 × 0.90 = 40.50.",
+          "The two discounts do not add to 35%, so the answer is not $39."
+        ],
+        "answer": "$40.50"
+      }
+    ],
+    "tips": [
+      "Turn percent words into an equation before touching the calculator; of means times and is means equals.",
+      "For percent change, the original value always goes in the denominator.",
+      "When a problem has no numbers, plug in 100 for the starting amount to make percents trivial."
+    ]
+  },
+  {
+    "id": "mt-03",
+    "subject": "math",
+    "category": "Pre-Algebra",
+    "title": "Ratios, Proportions & Rates",
+    "symbolName": "divide",
+    "summary": "Set up proportions correctly and use unit rates to solve speed and scaling problems.",
+    "estimatedMinutes": 5,
+    "sections": [
+      {
+        "heading": "What a Ratio Really Says",
+        "body": "A ratio compares two quantities by division, and it carries no units of its own. If red marbles to blue marbles is 3:5, that does not mean there are 3 red marbles. It means the marbles come in repeating groups of 8, with 3 red and 5 blue in every group. This part-to-part idea is the key. Add the parts to get the total number of parts, divide the actual total by that number to find the size of one part, then scale each piece up. With 64 marbles, 64 ÷ 8 = 8 marbles per part, so there are 24 red and 40 blue."
+      },
+      {
+        "heading": "Setting Up Proportions",
+        "body": "A proportion sets two equal ratios side by side, and you solve it by cross multiplying. The only rule that matters is consistency: whatever kind of quantity is on top in the first fraction must be on top in the second. If you write miles over hours on the left, you must write miles over hours on the right, not hours over miles. Once the setup is right, the algebra is trivial. For a map where 1 inch represents 25 miles, the proportion 1/25 = 3.5/x cross multiplies to x = 87.5 miles. Label your fractions with words the first few times so the setup becomes automatic."
+      },
+      {
+        "heading": "Rates & Unit Rates",
+        "body": "A rate is a ratio between two different units, such as miles per hour or dollars per pound. The most useful move is to reduce to a unit rate, meaning the amount for exactly one of something, because then any other amount is a single multiplication. A car covering 150 miles in 2.5 hours travels 150 ÷ 2.5 = 60 miles per hour, so in 4 hours it goes 60 × 4 = 240 miles. The relationship distance = rate × time rearranges to rate = distance ÷ time and time = distance ÷ rate, and average speed is always total distance divided by total time, never the average of two speeds."
+      },
+      {
+        "heading": "Direct & Inverse Variation",
+        "body": "Two quantities vary directly when one is a constant multiple of the other, written y = kx. Doubling x doubles y, and the ratio y/x stays fixed. Quantities vary inversely when their product is constant, written xy = k or y = k/x. Here doubling x cuts y in half, which is the pattern behind problems about workers and job time or speed and travel time. The strategy is the same in both cases: use the first pair of values to find k, then use k with the new information. Read carefully, because the ACT often changes only one word to flip which relationship applies."
+      }
+    ],
+    "keyFacts": [
+      "In a ratio a:b, the total is split into (a + b) equal parts",
+      "Solve a/b = c/d by cross multiplying: ad = bc",
+      "distance = rate × time",
+      "Average speed = total distance ÷ total time",
+      "Direct variation: y = kx; Inverse variation: xy = k"
+    ],
+    "examples": [
+      {
+        "problem": "The ratio of red to blue marbles in a jar is 3:5. If the jar holds 64 marbles, how many are red?",
+        "steps": [
+          "Add the parts: 3 + 5 = 8 parts in all.",
+          "Find the size of one part: 64 ÷ 8 = 8 marbles.",
+          "Red gets 3 parts: 3 × 8 = 24 marbles."
+        ],
+        "answer": "24 red marbles"
+      },
+      {
+        "problem": "A car travels 150 miles in 2.5 hours. At the same rate, how far does it travel in 4 hours?",
+        "steps": [
+          "Find the unit rate: 150 ÷ 2.5 = 60 miles per hour.",
+          "Multiply by the new time: 60 × 4 = 240 miles."
+        ],
+        "answer": "240 miles"
+      },
+      {
+        "problem": "On a map, 1 inch represents 25 miles. How many miles does 3.5 inches represent?",
+        "steps": [
+          "Set up a proportion with inches on top in both fractions: 1/25 = 3.5/x.",
+          "Cross multiply: 1 × x = 25 × 3.5.",
+          "Simplify: x = 87.5 miles."
+        ],
+        "answer": "87.5 miles"
+      }
+    ],
+    "tips": [
+      "Write the units next to each number in a proportion so you can see that they line up.",
+      "For average speed problems with two legs, find total distance and total time separately.",
+      "If a ratio question gives you a total, immediately divide by the sum of the parts."
+    ]
+  },
+  {
+    "id": "mt-04",
+    "subject": "math",
+    "category": "Pre-Algebra",
+    "title": "Exponents, Roots & Scientific Notation",
+    "symbolName": "x.squareroot",
+    "summary": "Exponent rules, simplifying radicals, and moving decimals in scientific notation.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "The Exponent Rules",
+        "body": "An exponent counts repeated multiplication, and every rule follows from that fact. When you multiply powers with the same base you are stacking factors, so the exponents add: x⁵ × x³ = x⁸. When you divide, factors cancel, so the exponents subtract: x⁵ ÷ x³ = x². Raising a power to a power multiplies the exponents, since (x³)⁴ means four copies of three factors, giving x¹². A power applied to a product distributes across every factor, so (2x³)⁴ = 2⁴ × x¹² = 16x¹². The one rule students forget is that the coefficient gets the exponent too, which is where the 16 comes from."
+      },
+      {
+        "heading": "Zero, Negative & Fractional Exponents",
+        "body": "Any nonzero base raised to the zero power equals 1, which follows from division: x³ ÷ x³ = x⁰ and also equals 1. A negative exponent means take the reciprocal, so x⁻³ = 1/x³, and moving a factor across the fraction bar flips the sign of its exponent. Fractional exponents are radicals in disguise: the denominator gives the root and the numerator gives the power, so x^(2/3) is the cube root of x squared. That translation is worth memorizing because the ACT likes to state a problem in radical form and hide the answer in exponent form, or the reverse."
+      },
+      {
+        "heading": "Simplifying Radicals",
+        "body": "To simplify a square root, pull out the largest perfect square factor. For √72, notice 72 = 36 × 2, so √72 = √36 × √2 = 6√2. If the perfect square is not obvious, factor into primes and pair them up, since each matching pair escapes the radical as a single factor. Radicals also multiply and divide freely: √3 × √12 = √36 = 6. You can only add or subtract radicals when the parts under the root match, exactly like combining like terms, so 5√2 + 3√2 = 8√2 while 5√2 + 3√3 cannot be combined at all."
+      },
+      {
+        "heading": "Scientific Notation",
+        "body": "Scientific notation writes a number as a value between 1 and 10 times a power of ten, which keeps very large and very small numbers readable. A positive exponent means the decimal point moves right and the number is large, while a negative exponent moves it left and the number is small. To multiply, multiply the front numbers and add the exponents; to divide, divide the front numbers and subtract the exponents. Then fix the result so the leading number is between 1 and 10. For example, (3.0 × 10⁵)(4.0 × 10⁻²) = 12 × 10³, which is rewritten as 1.2 × 10⁴."
+      }
+    ],
+    "keyFacts": [
+      "xᵃ × xᵇ = xᵃ⁺ᵇ and xᵃ ÷ xᵇ = xᵃ⁻ᵇ",
+      "(xᵃ)ᵇ = xᵃᵇ and (xy)ᵃ = xᵃyᵃ",
+      "x⁰ = 1 for any nonzero x, and x⁻ᵃ = 1/xᵃ",
+      "x^(a/b) = the b-th root of xᵃ",
+      "√a × √b = √(ab)",
+      "Perfect squares to know: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144"
+    ],
+    "examples": [
+      {
+        "problem": "Simplify (2x³)⁴ · x²",
+        "steps": [
+          "Apply the outer exponent to both factors: 2⁴ = 16 and (x³)⁴ = x¹².",
+          "So (2x³)⁴ = 16x¹².",
+          "Multiply by x² and add exponents: 16x¹² · x² = 16x¹⁴."
+        ],
+        "answer": "16x¹⁴"
+      },
+      {
+        "problem": "Simplify √72",
+        "steps": [
+          "Find the largest perfect square factor of 72: 72 = 36 × 2.",
+          "Split the radical: √72 = √36 × √2.",
+          "Since √36 = 6, the result is 6√2."
+        ],
+        "answer": "6√2"
+      },
+      {
+        "problem": "Multiply (3.0 × 10⁵)(4.0 × 10⁻²) and write the result in scientific notation.",
+        "steps": [
+          "Multiply the leading numbers: 3.0 × 4.0 = 12.",
+          "Add the exponents: 5 + (−2) = 3, giving 12 × 10³.",
+          "Rewrite so the front number is between 1 and 10: 12 × 10³ = 1.2 × 10⁴."
+        ],
+        "answer": "1.2 × 10⁴"
+      }
+    ],
+    "tips": [
+      "Exponent rules only apply when the bases match, so rewrite 4 as 2² when you see a base of 2 nearby.",
+      "Never distribute an exponent across addition; (a + b)² is not a² + b².",
+      "Check a simplified radical by estimating: 6√2 ≈ 8.49, and √72 ≈ 8.49."
+    ]
+  },
+  {
+    "id": "mt-05",
+    "subject": "math",
+    "category": "Algebra",
+    "title": "Linear Equations & Word Problems",
+    "symbolName": "equal.square",
+    "summary": "Isolate a variable, clear fractions, and translate word problems into equations.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Balance Idea",
+        "body": "An equation is a balanced scale, and solving means stripping away everything attached to the variable while keeping the scale level. Whatever operation you perform on one side must happen on the other side too. The order is essentially reverse PEMDAS: undo addition and subtraction first, then multiplication and division, working from the outside in. If the variable appears on both sides, first move all variable terms to whichever side keeps the coefficient positive, then move the constants the other way. That single habit prevents most sign errors, because you never end up dividing by a negative number you did not notice."
+      },
+      {
+        "heading": "Distributing & Combining",
+        "body": "Many equations need cleanup before you can isolate anything. Distribute across parentheses, remembering that a negative sign outside flips every sign inside, so −2(x − 5) becomes −2x + 10. Then combine like terms on each side separately. Solving 5(x − 3) = 2x + 9 goes like this: distribute to get 5x − 15 = 2x + 9, subtract 2x from both sides for 3x − 15 = 9, add 15 for 3x = 24, and divide for x = 8. Substituting 8 back gives 25 on both sides, which is a five-second check worth doing on any equation you are unsure about."
+      },
+      {
+        "heading": "Fractions & Literal Equations",
+        "body": "When an equation contains fractions, multiply every term on both sides by the least common denominator to clear them at once. For (3/4)x + 2 = 11, you could multiply through by 4, or simply subtract 2 to get (3/4)x = 9 and then multiply by the reciprocal 4/3 to get x = 12. Literal equations, where you solve for one letter in terms of others, use the identical steps; the only difference is that your answer contains letters instead of numbers. To solve d = rt for t, divide both sides by r and write t = d/r. Treat every other letter as if it were an ordinary number."
+      },
+      {
+        "heading": "Translating Word Problems",
+        "body": "Word problems become routine once you name a variable explicitly and write down what it stands for. Let a be the number of adult tickets. If 30 tickets sold in total, then child tickets must be 30 − a, and that expression is usually the step students miss. Then build the money equation from the prices: 8a + 5(30 − a) = 198. Distribute to get 8a + 150 − 5a = 198, combine to 3a + 150 = 198, subtract to get 3a = 48, and divide for a = 16 adult tickets. Always re-read the final question, because the test often asks for the other quantity."
+      }
+    ],
+    "keyFacts": [
+      "Do the same operation to both sides to keep the equation balanced",
+      "Undo addition and subtraction first, then multiplication and division",
+      "Multiply every term by the LCD to clear fractions",
+      "A negative in front of parentheses changes the sign of every term inside",
+      "Check by substituting your answer back into the original equation"
+    ],
+    "examples": [
+      {
+        "problem": "Solve 5(x − 3) = 2x + 9",
+        "steps": [
+          "Distribute on the left: 5x − 15 = 2x + 9.",
+          "Subtract 2x from both sides: 3x − 15 = 9.",
+          "Add 15 to both sides: 3x = 24.",
+          "Divide by 3: x = 8."
+        ],
+        "answer": "x = 8"
+      },
+      {
+        "problem": "Solve (3/4)x + 2 = 11",
+        "steps": [
+          "Subtract 2 from both sides: (3/4)x = 9.",
+          "Multiply both sides by the reciprocal 4/3: x = 9 × 4/3.",
+          "Simplify: x = 12."
+        ],
+        "answer": "x = 12"
+      },
+      {
+        "problem": "Adult tickets cost $8 and child tickets cost $5. A total of 30 tickets sold for $198. How many adult tickets were sold?",
+        "steps": [
+          "Let a be the number of adult tickets, so child tickets number 30 − a.",
+          "Write the money equation: 8a + 5(30 − a) = 198.",
+          "Distribute: 8a + 150 − 5a = 198, so 3a + 150 = 198.",
+          "Subtract 150 and divide by 3: 3a = 48, so a = 16."
+        ],
+        "answer": "16 adult tickets"
+      }
+    ],
+    "tips": [
+      "Underline what the question asks for so you do not solve for the wrong quantity.",
+      "If the answer choices are simple numbers, plugging them into the original equation can be faster than solving.",
+      "Write out every step; skipping the subtraction line is where sign errors are born."
+    ]
+  },
+  {
+    "id": "mt-06",
+    "subject": "math",
+    "category": "Algebra",
+    "title": "Inequalities & Absolute Value",
+    "symbolName": "plus.forwardslash.minus",
+    "summary": "Solve inequalities, flip signs correctly, and split absolute value into two cases.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Solving Inequalities",
+        "body": "An inequality is solved exactly like an equation, with one crucial exception: multiplying or dividing both sides by a negative number reverses the direction of the symbol. You can see why with a simple case, since 3 < 5 is true but multiplying both sides by −1 gives −3 and −5, and −3 is greater than −5. So to solve −3x + 7 > 19, subtract 7 to get −3x > 12, then divide by −3 and flip the sign to get x < −4. Adding or subtracting never flips anything. If flipping makes you nervous, move terms so the variable coefficient stays positive instead."
+      },
+      {
+        "heading": "Compound Inequalities & Number Lines",
+        "body": "A compound inequality like −4 < x ≤ 7 describes everything between two boundaries, and you solve it by performing each operation on all three parts at once. The word and means the solution must satisfy both conditions, producing an overlap, while or means either condition works, producing two separate pieces. On a number line, use an open circle for < and > because the endpoint is excluded, and a closed circle for ≤ and ≥ because it is included. In interval notation, parentheses mark excluded endpoints and brackets mark included ones, so −2 ≤ x ≤ 7 is written [−2, 7]."
+      },
+      {
+        "heading": "Absolute Value as Distance",
+        "body": "Absolute value measures distance from zero, and distance is never negative. Because two different numbers can sit the same distance from zero, an absolute value equation almost always has two solutions. Solving |x + 3| = 8 means the inside is either 8 or −8, so x + 3 = 8 gives x = 5, and x + 3 = −8 gives x = −11. Always isolate the absolute value bars before splitting into cases; if an equation reads 2|x| + 1 = 9, first reduce it to |x| = 4. And if you ever isolate the bars and find them equal to a negative number, the equation has no solution."
+      },
+      {
+        "heading": "Absolute Value Inequalities",
+        "body": "The two forms behave in opposite ways, and a memory phrase helps: less than becomes an and, greater than becomes an or. For |2x − 5| ≤ 9, the expression inside is within 9 units of zero, so write the sandwich −9 ≤ 2x − 5 ≤ 9, add 5 to all parts for −4 ≤ 2x ≤ 14, and divide by 2 for −2 ≤ x ≤ 7. That is a single connected interval. For a greater-than problem such as |x| > 3, the expression is far from zero in either direction, so the answer splits into x > 3 or x < −3, which is two separate rays pointing outward."
+      }
+    ],
+    "keyFacts": [
+      "Multiplying or dividing an inequality by a negative reverses the inequality sign",
+      "|x| = a means x = a or x = −a, when a ≥ 0",
+      "|x| < a means −a < x < a (one interval)",
+      "|x| > a means x > a or x < −a (two rays)",
+      "Open circle for < and >, closed circle for ≤ and ≥"
+    ],
+    "examples": [
+      {
+        "problem": "Solve −3x + 7 > 19",
+        "steps": [
+          "Subtract 7 from both sides: −3x > 12.",
+          "Divide both sides by −3 and reverse the sign: x < −4.",
+          "Check with x = −5: −3(−5) + 7 = 22, and 22 > 19 is true."
+        ],
+        "answer": "x < −4"
+      },
+      {
+        "problem": "Solve |2x − 5| ≤ 9",
+        "steps": [
+          "Less than means a sandwich: −9 ≤ 2x − 5 ≤ 9.",
+          "Add 5 to all three parts: −4 ≤ 2x ≤ 14.",
+          "Divide all three parts by 2: −2 ≤ x ≤ 7."
+        ],
+        "answer": "−2 ≤ x ≤ 7"
+      },
+      {
+        "problem": "Solve |x + 3| = 8",
+        "steps": [
+          "Split into two cases: x + 3 = 8 or x + 3 = −8.",
+          "First case: x = 5.",
+          "Second case: x = −11."
+        ],
+        "answer": "x = 5 or x = −11"
+      }
+    ],
+    "tips": [
+      "Test one number from your solution set in the original inequality to confirm the direction.",
+      "Isolate the absolute value bars completely before splitting into two cases.",
+      "An absolute value set equal to a negative number has no solution, and that is a real ACT answer choice."
+    ]
+  },
+  {
+    "id": "mt-07",
+    "subject": "math",
+    "category": "Algebra",
+    "title": "Systems of Equations",
+    "symbolName": "square.on.square",
+    "summary": "Solve two equations at once by substitution or elimination, including word problems.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "What a System Means",
+        "body": "A system of two linear equations asks for the pair of values that makes both statements true at the same time. Graphically, each equation is a line, and the solution is the point where they cross. That picture also explains the special cases: if the lines are parallel they never meet and there is no solution, and if the two equations describe the same line there are infinitely many solutions. You can spot those cases algebraically because the variables all cancel, leaving something like 0 = 5, which is false and means no solution, or 0 = 0, which is always true and means infinitely many."
+      },
+      {
+        "heading": "Elimination",
+        "body": "Elimination works by adding or subtracting the two equations so that one variable disappears. It is fastest when the coefficients of a variable are already opposites. For 2x + y = 11 and x − y = 1, the y terms are +1 and −1, so adding the equations gives 3x = 12 and x = 4. Substitute back into either original equation: 4 − y = 1 gives y = 3. When nothing lines up yet, multiply one or both equations by a constant first, remembering to multiply every term. Multiplying the second equation by 2, for instance, would let you cancel x instead."
+      },
+      {
+        "heading": "Substitution",
+        "body": "Substitution shines when one equation is already solved for a variable, or when a coefficient is 1 so isolating is easy. Solve that equation for the lone variable, then replace it in the other equation, which leaves a single equation in a single unknown. From x − y = 1 you get x = y + 1, and substituting into 2x + y = 11 gives 2(y + 1) + y = 11, so 3y + 2 = 11 and y = 3. Then x = 4. The two methods always give the same answer, so choose whichever requires less rewriting, and check your pair in both original equations."
+      },
+      {
+        "heading": "Systems in Word Problems",
+        "body": "Two unknowns in a word problem usually mean two equations. The reliable pattern is one count equation and one value equation. If someone has 12 coins made of nickels and dimes worth 95 cents, the count equation is n + d = 12 and the value equation, in cents, is 5n + 10d = 95. Substituting d = 12 − n gives 5n + 10(12 − n) = 95, so 5n + 120 − 10n = 95, then −5n = −25 and n = 5, leaving d = 7. Keep every term in the same units, and define your variables in writing so you know which number the question actually wants."
+      }
+    ],
+    "keyFacts": [
+      "The solution to a system is the intersection point of the two lines",
+      "Parallel lines (same slope, different intercept) mean no solution",
+      "Identical lines mean infinitely many solutions",
+      "Elimination: make coefficients opposites, then add the equations",
+      "Substitution: isolate one variable, then replace it in the other equation"
+    ],
+    "examples": [
+      {
+        "problem": "Solve the system 2x + y = 11 and x − y = 1",
+        "steps": [
+          "The y terms are already opposites, so add the equations: 3x = 12.",
+          "Divide: x = 4.",
+          "Substitute into x − y = 1: 4 − y = 1, so y = 3.",
+          "Check in 2x + y = 11: 8 + 3 = 11."
+        ],
+        "answer": "x = 4, y = 3"
+      },
+      {
+        "problem": "Solve the system 3x + 2y = 16 and 5x − 2y = 8",
+        "steps": [
+          "The y coefficients are +2 and −2, so add: 8x = 24.",
+          "Divide: x = 3.",
+          "Substitute into 3x + 2y = 16: 9 + 2y = 16, so 2y = 7 and y = 3.5."
+        ],
+        "answer": "x = 3, y = 3.5"
+      },
+      {
+        "problem": "A jar holds 12 coins, all nickels and dimes, worth 95 cents. How many nickels are there?",
+        "steps": [
+          "Let n be nickels and d be dimes. Count equation: n + d = 12.",
+          "Value equation in cents: 5n + 10d = 95.",
+          "Substitute d = 12 − n: 5n + 10(12 − n) = 95.",
+          "Simplify: 5n + 120 − 10n = 95, so −5n = −25 and n = 5."
+        ],
+        "answer": "5 nickels (and 7 dimes)"
+      }
+    ],
+    "tips": [
+      "Pick the method that avoids fractions; elimination usually wins when both equations are in standard form.",
+      "If both variables vanish, decide between no solution and infinitely many by checking whether the leftover statement is true.",
+      "Plug your final pair into both original equations, not just the one you used last."
+    ]
+  },
+  {
+    "id": "mt-08",
+    "subject": "math",
+    "category": "Algebra",
+    "title": "Quadratics & Factoring",
+    "symbolName": "function",
+    "summary": "Factor, use the quadratic formula, and read the vertex of a parabola.",
+    "estimatedMinutes": 8,
+    "sections": [
+      {
+        "heading": "Recognizing a Quadratic",
+        "body": "A quadratic has a squared variable and nothing higher, written in standard form as ax² + bx + c = 0 with a not zero. Its graph is a parabola, opening upward when a is positive and downward when a is negative. Solutions are called roots, zeros, or x-intercepts depending on the wording, but they all mean the same thing: the x-values that make the expression equal zero. A quadratic can have two real solutions, one repeated solution, or no real solutions. Knowing that a quadratic normally has two answers is itself useful, because forgetting the second one is a classic way to lose a point."
+      },
+      {
+        "heading": "Factoring the Common Patterns",
+        "body": "When a is 1, factoring x² + bx + c means finding two numbers that multiply to c and add to b. For x² + 7x + 12, the numbers 3 and 4 work, so the factored form is (x + 3)(x + 4). Setting each factor to zero gives x = −3 and x = −4. Watch for shortcuts: a difference of squares factors as a² − b² = (a + b)(a − b), and a perfect square trinomial such as x² + 10x + 25 becomes (x + 5)². Always factor out a common factor first, since 2x² + 14x + 24 reduces to 2(x² + 7x + 12) and becomes far easier."
+      },
+      {
+        "heading": "The Quadratic Formula",
+        "body": "When factoring resists you, the quadratic formula always works: x = (−b ± √(b² − 4ac)) / (2a). The expression under the radical, b² − 4ac, is the discriminant, and it tells you the number of real solutions before you finish. Positive means two real solutions, zero means exactly one, and negative means none. For 2x² − 5x − 3 = 0, we have a = 2, b = −5, and c = −3, so the discriminant is 25 + 24 = 49 and its root is 7. Then x = (5 ± 7)/4, giving x = 3 and x = −1/2. Substituting both values confirms them."
+      },
+      {
+        "heading": "Vertex, Axis & Graph Facts",
+        "body": "The turning point of a parabola is the vertex, and its x-coordinate is always x = −b/(2a). Plug that value back in to get the y-coordinate. For y = x² − 6x + 5, the vertex x-value is 6/2 = 3, and y = 9 − 18 + 5 = −4, so the vertex is (3, −4). The vertical line x = 3 is the axis of symmetry, and the parabola is a mirror image across it. Vertex form, y = a(x − h)² + k, hands you the vertex (h, k) directly, which is why the ACT often asks you to convert a quadratic into that shape."
+      }
+    ],
+    "keyFacts": [
+      "Standard form: ax² + bx + c = 0",
+      "Quadratic formula: x = (−b ± √(b² − 4ac)) / (2a)",
+      "Discriminant b² − 4ac: positive gives 2 real roots, zero gives 1, negative gives 0",
+      "a² − b² = (a + b)(a − b)",
+      "Vertex x-coordinate: x = −b/(2a)",
+      "Vertex form y = a(x − h)² + k has vertex (h, k)"
+    ],
+    "examples": [
+      {
+        "problem": "Solve x² + 7x + 12 = 0 by factoring.",
+        "steps": [
+          "Find two numbers that multiply to 12 and add to 7: 3 and 4.",
+          "Factor: (x + 3)(x + 4) = 0.",
+          "Set each factor equal to zero: x + 3 = 0 or x + 4 = 0.",
+          "So x = −3 or x = −4."
+        ],
+        "answer": "x = −3 or x = −4"
+      },
+      {
+        "problem": "Solve 2x² − 5x − 3 = 0",
+        "steps": [
+          "Identify a = 2, b = −5, c = −3.",
+          "Discriminant: (−5)² − 4(2)(−3) = 25 + 24 = 49, and √49 = 7.",
+          "Apply the formula: x = (5 ± 7)/4.",
+          "So x = 12/4 = 3 or x = −2/4 = −1/2."
+        ],
+        "answer": "x = 3 or x = −1/2"
+      },
+      {
+        "problem": "Find the vertex of y = x² − 6x + 5",
+        "steps": [
+          "Here a = 1 and b = −6, so x = −b/(2a) = 6/2 = 3.",
+          "Substitute x = 3: y = 9 − 18 + 5 = −4.",
+          "The vertex is (3, −4) and the axis of symmetry is x = 3."
+        ],
+        "answer": "(3, −4)"
+      }
+    ],
+    "tips": [
+      "If the answer choices are numbers, substituting them is often faster than factoring.",
+      "Set the quadratic equal to zero before factoring; a nonzero right side makes the zero-product rule invalid.",
+      "For a real-world maximum or minimum, the answer lives at the vertex."
+    ]
+  },
+  {
+    "id": "mt-09",
+    "subject": "math",
+    "category": "Coordinate Geometry",
+    "title": "Slope & Equations of Lines",
+    "symbolName": "chart.xyaxis.line",
+    "summary": "Compute slope, write line equations, and handle parallel and perpendicular lines.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Slope as a Rate",
+        "body": "Slope measures steepness as rise over run, meaning the change in y divided by the change in x. Between two points, slope = (y₂ − y₁)/(x₂ − x₁), and the order of the points does not matter as long as you stay consistent in both the top and the bottom. A positive slope rises to the right, a negative slope falls, a horizontal line has slope 0, and a vertical line has undefined slope because the run is zero. In word problems, slope is a rate of change, so a line modeling cost against hours has a slope measured in dollars per hour."
+      },
+      {
+        "heading": "Slope-Intercept Form",
+        "body": "The form y = mx + b is the workhorse of coordinate geometry because it displays both key features: m is the slope and b is the y-intercept, the point where the line crosses the y-axis. If you know a slope and a point, substitute them to find b. A line with slope 3 through (1, 4) gives 4 = 3(1) + b, so b = 1 and the equation is y = 3x + 1. To find the x-intercept of any line, set y = 0 and solve. Standard form Ax + By = C is common on the test, and you can always solve it for y to reveal the slope."
+      },
+      {
+        "heading": "Point-Slope Form",
+        "body": "Point-slope form, y − y₁ = m(x − x₁), lets you write a line the moment you know one point and the slope, with no solving required. Drop the numbers into their slots and you are done, and if the question wants slope-intercept form you can distribute and simplify afterward. This is especially handy when the point has ugly coordinates. It also helps on questions about a line of best fit, where you read a point off the graph, estimate the slope from two grid intersections, and build the equation directly rather than trying to eyeball the intercept."
+      },
+      {
+        "heading": "Parallel & Perpendicular",
+        "body": "Parallel lines have equal slopes and different y-intercepts, so they never intersect. Perpendicular lines have slopes that are negative reciprocals, meaning their product is −1. Flip the fraction and change the sign: the perpendicular partner of 2/3 is −3/2. To find the line perpendicular to y = (2/3)x + 5 passing through (6, −1), use slope −3/2 and substitute: −1 = (−3/2)(6) + b, so −1 = −9 + b and b = 8, giving y = (−3/2)x + 8. Horizontal and vertical lines are the exception, since y = 4 and x = 7 are perpendicular even though one slope is undefined."
+      }
+    ],
+    "keyFacts": [
+      "slope = (y₂ − y₁)/(x₂ − x₁) = rise/run",
+      "Slope-intercept form: y = mx + b",
+      "Point-slope form: y − y₁ = m(x − x₁)",
+      "Parallel lines have equal slopes",
+      "Perpendicular slopes are negative reciprocals: m₁ × m₂ = −1",
+      "Horizontal line slope = 0; vertical line slope is undefined"
+    ],
+    "examples": [
+      {
+        "problem": "Find the slope of the line through (−2, 5) and (4, −7).",
+        "steps": [
+          "Apply slope = (y₂ − y₁)/(x₂ − x₁).",
+          "Substitute: (−7 − 5)/(4 − (−2)) = −12/6.",
+          "Simplify: the slope is −2."
+        ],
+        "answer": "−2"
+      },
+      {
+        "problem": "Write the equation of the line with slope 3 that passes through (1, 4).",
+        "steps": [
+          "Start with y = mx + b and substitute m = 3, x = 1, y = 4.",
+          "That gives 4 = 3(1) + b, so b = 1.",
+          "The equation is y = 3x + 1."
+        ],
+        "answer": "y = 3x + 1"
+      },
+      {
+        "problem": "Find the line perpendicular to y = (2/3)x + 5 that passes through (6, −1).",
+        "steps": [
+          "The negative reciprocal of 2/3 is −3/2, so the new slope is −3/2.",
+          "Substitute the point: −1 = (−3/2)(6) + b, so −1 = −9 + b.",
+          "Solve: b = 8, giving y = (−3/2)x + 8."
+        ],
+        "answer": "y = (−3/2)x + 8"
+      }
+    ],
+    "tips": [
+      "Sketch the two points quickly; if the line clearly falls, a positive slope answer must be wrong.",
+      "Rewrite any equation into y = mx + b form before comparing slopes.",
+      "Subtract the coordinates in the same order on top and bottom to avoid a sign flip."
+    ]
+  },
+  {
+    "id": "mt-10",
+    "subject": "math",
+    "category": "Coordinate Geometry",
+    "title": "Distance & Midpoint",
+    "symbolName": "point.topleft.down.to.point.bottomright.curvepath",
+    "summary": "Measure lengths and find middles on the coordinate plane using two short formulas.",
+    "estimatedMinutes": 5,
+    "sections": [
+      {
+        "heading": "Distance Is the Pythagorean Theorem",
+        "body": "The distance formula is not something separate to memorize; it is the Pythagorean theorem wearing coordinates. Draw a right triangle whose horizontal leg is the difference in x-values and whose vertical leg is the difference in y-values. The segment connecting the points is the hypotenuse, so its length is √((x₂ − x₁)² + (y₂ − y₁)²). From (1, 2) to (7, 10) the legs are 6 and 8, and since 36 + 64 = 100, the distance is 10. Because the differences are squared, negative differences cause no trouble, which means you can subtract in either order safely."
+      },
+      {
+        "heading": "Midpoint Is an Average",
+        "body": "The midpoint of a segment sits exactly halfway between the endpoints in both directions, so you simply average the x-values and average the y-values: ((x₁ + x₂)/2, (y₁ + y₂)/2). For (−3, 8) and (5, −2), the x-average is (−3 + 5)/2 = 1 and the y-average is (8 + (−2))/2 = 3, so the midpoint is (1, 3). Confusing this with the distance formula is common, so remember that midpoint adds and divides while distance subtracts and squares. A midpoint answer is a point with two coordinates, while a distance answer is a single number."
+      },
+      {
+        "heading": "Working Backward to an Endpoint",
+        "body": "A favorite ACT twist gives you one endpoint and the midpoint and asks for the missing endpoint. Set up the midpoint formula and solve each coordinate separately. If the midpoint of AB is (4, −1) and A is (2, 3), then (2 + x)/2 = 4 gives x = 6, and (3 + y)/2 = −1 gives y = −5, so B is (6, −5). A faster mental version uses the idea that the midpoint is a halfway step: going from A to the midpoint moves right 2 and down 4, so repeating that same move lands you on B."
+      },
+      {
+        "heading": "Navigating the Plane",
+        "body": "Keep the four quadrants straight, since they are numbered counterclockwise starting from the upper right. Quadrant I has both coordinates positive, Quadrant II has negative x and positive y, Quadrant III has both negative, and Quadrant IV has positive x and negative y. Reflecting a point across the x-axis negates the y-coordinate, reflecting across the y-axis negates the x-coordinate, and reflecting through the origin negates both. Many coordinate questions can be answered by a quick sketch alone, so draw the axes in your test booklet and plot the points before reaching for a formula."
+      }
+    ],
+    "keyFacts": [
+      "distance = √((x₂ − x₁)² + (y₂ − y₁)²)",
+      "midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+      "Distance is one number; midpoint is an ordered pair",
+      "Reflection across the x-axis: (x, y) becomes (x, −y)",
+      "Reflection across the y-axis: (x, y) becomes (−x, y)"
+    ],
+    "examples": [
+      {
+        "problem": "Find the distance between (1, 2) and (7, 10).",
+        "steps": [
+          "Horizontal difference: 7 − 1 = 6. Vertical difference: 10 − 2 = 8.",
+          "Square and add: 6² + 8² = 36 + 64 = 100.",
+          "Take the square root: √100 = 10."
+        ],
+        "answer": "10"
+      },
+      {
+        "problem": "Find the midpoint of the segment joining (−3, 8) and (5, −2).",
+        "steps": [
+          "Average the x-values: (−3 + 5)/2 = 2/2 = 1.",
+          "Average the y-values: (8 + (−2))/2 = 6/2 = 3.",
+          "The midpoint is (1, 3)."
+        ],
+        "answer": "(1, 3)"
+      },
+      {
+        "problem": "The midpoint of AB is (4, −1) and A is (2, 3). Find B.",
+        "steps": [
+          "Set (2 + x)/2 = 4, so 2 + x = 8 and x = 6.",
+          "Set (3 + y)/2 = −1, so 3 + y = −2 and y = −5.",
+          "Point B is (6, −5)."
+        ],
+        "answer": "(6, −5)"
+      }
+    ],
+    "tips": [
+      "Look for 3-4-5 and 5-12-13 patterns in the leg differences to skip the arithmetic.",
+      "Sketch the points first; a rough drawing tells you whether your answer is reasonable.",
+      "If a question asks for the center of a segment or the average position, it wants the midpoint."
+    ]
+  },
+  {
+    "id": "mt-11",
+    "subject": "math",
+    "category": "Coordinate Geometry",
+    "title": "Circles in the Coordinate Plane",
+    "symbolName": "circle",
+    "summary": "Read center and radius from a circle equation and complete the square when needed.",
+    "estimatedMinutes": 5,
+    "sections": [
+      {
+        "heading": "The Standard Equation",
+        "body": "A circle is the set of all points a fixed distance from a center, so its equation is really the distance formula with the square roots removed. If the center is (h, k) and the radius is r, every point (x, y) on the circle satisfies (x − h)² + (y − k)² = r². The two most common errors are sign slips and forgetting to square the radius. Because the formula subtracts h and k, a center of (−2, 5) produces (x + 2)² + (y − 5)², and a radius of 4 produces 16 on the right side, not 4."
+      },
+      {
+        "heading": "Reading a Circle Backward",
+        "body": "Given an equation in standard form, reverse the same logic. In (x − 3)² + (y + 1)² = 49, the x-part shows a plain subtraction of 3, so h = 3, while the y-part shows addition, which means k = −1. The right side is r², so the radius is √49 = 7. From the center and radius you can answer almost anything the test asks: the circle spans from x = −4 to x = 10, its diameter is 14, its circumference is 14π, and its area is 49π. Sketching the center and stepping r units in four directions makes those questions visual instead of algebraic."
+      },
+      {
+        "heading": "Completing the Square",
+        "body": "Sometimes a circle arrives in expanded form, such as x² + y² − 6x + 4y − 12 = 0, and you must rebuild the squares. Group the x terms and the y terms, then move the constant to the right: (x² − 6x) + (y² + 4y) = 12. For each group, take half the middle coefficient and square it, adding that amount to both sides. Half of −6 is −3 and (−3)² = 9; half of 4 is 2 and 2² = 4. That gives (x − 3)² + (y + 2)² = 12 + 9 + 4 = 25, so the center is (3, −2) and the radius is 5."
+      }
+    ],
+    "keyFacts": [
+      "Circle equation: (x − h)² + (y − k)² = r² with center (h, k) and radius r",
+      "The right side is r², so take a square root to get the radius",
+      "A plus sign inside means a negative coordinate: (x + 2)² means h = −2",
+      "To complete the square, add (half the middle coefficient)² to both sides",
+      "Circumference = 2πr and area = πr² still apply"
+    ],
+    "examples": [
+      {
+        "problem": "Write the equation of the circle with center (−2, 5) and radius 4.",
+        "steps": [
+          "Start from (x − h)² + (y − k)² = r² with h = −2 and k = 5.",
+          "Subtracting −2 gives (x + 2)², and subtracting 5 gives (y − 5)².",
+          "Square the radius: 4² = 16."
+        ],
+        "answer": "(x + 2)² + (y − 5)² = 16"
+      },
+      {
+        "problem": "Find the center and radius of (x − 3)² + (y + 1)² = 49.",
+        "steps": [
+          "The x-part gives h = 3.",
+          "The y-part is (y + 1)², which means k = −1.",
+          "The radius is √49 = 7."
+        ],
+        "answer": "Center (3, −1), radius 7"
+      },
+      {
+        "problem": "Find the center and radius of x² + y² − 6x + 4y − 12 = 0.",
+        "steps": [
+          "Group and move the constant: (x² − 6x) + (y² + 4y) = 12.",
+          "Complete the square for x by adding 9, and for y by adding 4, to both sides.",
+          "Rewrite: (x − 3)² + (y + 2)² = 12 + 9 + 4 = 25.",
+          "So the center is (3, −2) and the radius is √25 = 5."
+        ],
+        "answer": "Center (3, −2), radius 5"
+      }
+    ],
+    "tips": [
+      "Flip the sign of the numbers inside the parentheses to read the center.",
+      "If the right side is not a perfect square, leave the radius as a simplified radical.",
+      "Plot the center and mark four points r units away to check any answer about the circle."
+    ]
+  },
+  {
+    "id": "mt-12",
+    "subject": "math",
+    "category": "Plane Geometry",
+    "title": "Angles & Parallel Lines",
+    "symbolName": "angle",
+    "summary": "Use vertical, supplementary, and transversal angle rules to chase missing angles.",
+    "estimatedMinutes": 5,
+    "sections": [
+      {
+        "heading": "Basic Angle Relationships",
+        "body": "Angles that form a straight line add to 180° and are called supplementary; angles that form a right angle add to 90° and are called complementary. When two lines cross, they create two pairs of vertical angles, which sit opposite each other and are always equal. The four angles around the intersection add to 360°. These few facts solve a surprising number of ACT problems on their own. When a figure labels angles with expressions, set up an equation from the correct relationship, so vertical angles (3x + 10)° and (5x − 30)° give 3x + 10 = 5x − 30, leading to x = 20 and an angle of 70°."
+      },
+      {
+        "heading": "Transversals & Parallel Lines",
+        "body": "When a transversal cuts two parallel lines, only two different angle measures appear, and they are supplementary to each other. Corresponding angles, in matching positions at each intersection, are equal. Alternate interior angles, on opposite sides of the transversal between the parallel lines, are equal. Same-side interior angles, on the same side between the lines, add to 180°. Rather than memorizing every name, use the shortcut: all the acute angles in the figure are equal, all the obtuse angles are equal, and any acute plus any obtuse equals 180°. If one angle measures 118°, every angle in the picture is either 118° or 62°."
+      },
+      {
+        "heading": "Angle Chasing Strategy",
+        "body": "Most geometry questions give you one angle and ask for another several steps away, so work outward and write each value directly on the figure as you find it. Look for the triangle angle sum of 180°, the exterior angle rule where an exterior angle equals the sum of the two remote interior angles, and any isosceles triangle whose equal sides force equal base angles. Redraw the figure larger if it is cramped. Diagrams on the ACT are usually drawn to scale unless a note says otherwise, so if you get stuck you can estimate an angle by eye and eliminate answers that are clearly too large or too small."
+      },
+      {
+        "heading": "Setting Up Angle Equations",
+        "body": "Word-only angle problems become easy once you name the smaller angle x and write everything else in terms of it. If two angles are supplementary and one is three times the other, write x + 3x = 180, so 4x = 180 and x = 45, making the angles 45° and 135°. If two angles are complementary and differ by 20°, write x + (x + 20) = 90, giving x = 35 and angles of 35° and 55°. The pattern is always the same: translate the relationship into an expression, then use the total, whether it is 90°, 180°, or 360°."
+      }
+    ],
+    "keyFacts": [
+      "Supplementary angles sum to 180°; complementary angles sum to 90°",
+      "Vertical angles are equal",
+      "With parallel lines, corresponding and alternate interior angles are equal",
+      "Same-side interior angles sum to 180°",
+      "Angles around a point sum to 360°",
+      "The three angles of a triangle sum to 180°"
+    ],
+    "examples": [
+      {
+        "problem": "Two parallel lines are cut by a transversal, and one angle measures 118°. Find the corresponding angle and the same-side interior angle.",
+        "steps": [
+          "Corresponding angles are equal, so that angle is also 118°.",
+          "Same-side interior angles are supplementary: 180° − 118° = 62°.",
+          "Every angle in the figure is therefore 118° or 62°."
+        ],
+        "answer": "Corresponding = 118°, same-side interior = 62°"
+      },
+      {
+        "problem": "Two angles are supplementary and one is three times the other. Find both angles.",
+        "steps": [
+          "Let the smaller angle be x, so the larger is 3x.",
+          "Supplementary means x + 3x = 180, so 4x = 180.",
+          "Then x = 45 and 3x = 135."
+        ],
+        "answer": "45° and 135°"
+      },
+      {
+        "problem": "Vertical angles measure (3x + 10)° and (5x − 30)°. Find the measure of each angle.",
+        "steps": [
+          "Vertical angles are equal: 3x + 10 = 5x − 30.",
+          "Subtract 3x and add 30: 40 = 2x, so x = 20.",
+          "Substitute: 3(20) + 10 = 70°, and 5(20) − 30 = 70° confirms it."
+        ],
+        "answer": "70° each"
+      }
+    ],
+    "tips": [
+      "Write every angle you find directly on the diagram; the answer usually appears within two steps.",
+      "With parallel lines, sort angles into big and small, then use 180° to connect the groups.",
+      "If a figure is drawn to scale, use it to sanity-check whether your angle should be acute or obtuse."
+    ]
+  },
+  {
+    "id": "mt-13",
+    "subject": "math",
+    "category": "Plane Geometry",
+    "title": "Triangles & the Pythagorean Theorem",
+    "symbolName": "triangle",
+    "summary": "Triangle angle rules, right triangle side lengths, similarity, and special triangles.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Triangle Basics",
+        "body": "Every triangle has interior angles summing to 180°, which turns many problems into a one-line equation. If the three angles are in the ratio 1:2:3, write x + 2x + 3x = 180, so 6x = 180 and x = 30, producing a 30-60-90 triangle. Sides and angles are linked: the longest side always sits opposite the largest angle. An isosceles triangle has two equal sides and two equal base angles, and an equilateral triangle has three 60° angles. The triangle inequality adds a useful check, since any two sides must add to more than the third, which limits the possible length of a missing side."
+      },
+      {
+        "heading": "The Pythagorean Theorem",
+        "body": "For right triangles only, a² + b² = c², where c is the hypotenuse and must be the longest side, sitting opposite the right angle. With legs 9 and 12, we get 81 + 144 = 225, so c = 15. Solving for a leg means subtracting instead of adding: if the hypotenuse is 13 and a leg is 5, then the other leg is √(169 − 25) = √144 = 12. Recognizing common triples saves time, especially 3-4-5, 5-12-13, 8-15-17, and 7-24-25, along with all their multiples such as 6-8-10 and 9-12-15."
+      },
+      {
+        "heading": "Special Right Triangles",
+        "body": "Two right triangles appear so often that their side ratios are worth memorizing. In a 45-45-90 triangle the legs are equal and the hypotenuse is a leg times √2, so legs of 5 give a hypotenuse of 5√2. In a 30-60-90 triangle the sides are in the ratio 1 : √3 : 2, where the shortest side faces the 30° angle, the middle side faces the 60° angle, and the hypotenuse faces the right angle. With a hypotenuse of 10, the short leg is 5 and the longer leg is 5√3, roughly 8.66. These ratios let you find every side from just one."
+      },
+      {
+        "heading": "Similar Triangles",
+        "body": "Two triangles are similar when their angles match, which makes one a scaled copy of the other. Corresponding sides are then proportional, so you can set up a proportion and cross multiply to find a missing length. Similarity shows up in nested figures, shadow and height problems, and any diagram with a line drawn parallel to one side of a triangle. Be careful to pair corresponding sides correctly by matching the angles they sit opposite. One extra fact worth knowing: if the sides of similar figures are in ratio k, their areas are in ratio k², so doubling the sides quadruples the area."
+      }
+    ],
+    "keyFacts": [
+      "The three angles of any triangle sum to 180°",
+      "a² + b² = c² for right triangles, with c the hypotenuse",
+      "Common triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25",
+      "45-45-90 sides are in ratio 1 : 1 : √2",
+      "30-60-90 sides are in ratio 1 : √3 : 2",
+      "Area of a triangle = (1/2) × base × height"
+    ],
+    "examples": [
+      {
+        "problem": "A right triangle has legs of 9 and 12. Find the hypotenuse.",
+        "steps": [
+          "Apply a² + b² = c²: 9² + 12² = c².",
+          "Compute: 81 + 144 = 225.",
+          "Take the square root: c = 15. (This is the 3-4-5 triple scaled by 3.)"
+        ],
+        "answer": "15"
+      },
+      {
+        "problem": "The angles of a triangle are in the ratio 1:2:3. Find all three angles.",
+        "steps": [
+          "Let the angles be x, 2x, and 3x.",
+          "Use the angle sum: x + 2x + 3x = 180, so 6x = 180.",
+          "Then x = 30, and the angles are 30°, 60°, and 90°."
+        ],
+        "answer": "30°, 60°, 90°"
+      },
+      {
+        "problem": "A 30-60-90 triangle has a hypotenuse of 10. Find the other two sides.",
+        "steps": [
+          "The ratio is 1 : √3 : 2, and the hypotenuse corresponds to 2.",
+          "So the scale factor is 10 ÷ 2 = 5.",
+          "The short leg is 5 × 1 = 5 and the long leg is 5√3 ≈ 8.66."
+        ],
+        "answer": "5 and 5√3"
+      }
+    ],
+    "tips": [
+      "Check whether a triangle is right before using the Pythagorean theorem; the test hides non-right triangles in plain sight.",
+      "Look for the common triples first, since spotting 5-12-13 is much faster than squaring numbers.",
+      "In similar-triangle problems, label matching angles before writing the proportion."
+    ]
+  },
+  {
+    "id": "mt-14",
+    "subject": "math",
+    "category": "Plane Geometry",
+    "title": "Polygons, Area & Solids",
+    "symbolName": "square.grid.2x2",
+    "summary": "Area and perimeter of common shapes, polygon angle sums, and volume of solids.",
+    "estimatedMinutes": 8,
+    "sections": [
+      {
+        "heading": "Area of the Common Shapes",
+        "body": "Most area formulas are variations on base times height. A rectangle is length times width, a parallelogram is base times height where the height is the perpendicular distance and not the slanted side, and a triangle is half of base times height. A trapezoid averages its two parallel bases and multiplies by the height: A = (1/2)(b₁ + b₂)h. With bases 8 and 14 and height 6, that gives (1/2)(22)(6) = 66. Perimeter is simply the total distance around the outside, so add every side. Keep area in square units and perimeter in plain units, since mismatched units are a common trap."
+      },
+      {
+        "heading": "Polygon Angle Sums",
+        "body": "Any polygon can be sliced into triangles from a single vertex, and an n-sided polygon splits into n − 2 of them. That gives the interior angle sum formula (n − 2) × 180°. A quadrilateral totals 360°, a pentagon 540°, and an octagon 1080°. If the polygon is regular, meaning all sides and all angles are equal, divide by n to get each angle, so a regular octagon has angles of 1080 ÷ 8 = 135°. The exterior angles of any convex polygon always add to 360° no matter how many sides it has, which makes each exterior angle of a regular n-gon equal to 360/n."
+      },
+      {
+        "heading": "Composite & Shaded Regions",
+        "body": "The ACT loves figures made of overlapping or adjacent shapes, often asking for a shaded region. The strategy is almost always subtraction: find the area of the large shape, then remove the pieces that are not shaded. A square with a circle cut out of it has shaded area s² − πr². Alternatively, split a strange figure into rectangles and triangles and add the pieces. Mark the dimensions you can deduce right on the diagram, because a missing side length is often just the difference of two labeled lengths, and the problem stalls only until you find it."
+      },
+      {
+        "heading": "From Flat Shapes to Solids",
+        "body": "Volume extends area into a third dimension. For any prism or cylinder, volume equals the area of the base times the height, so a rectangular box is length times width times height and a cylinder is πr²h. A rectangular box measuring 4 by 5 by 10 holds 200 cubic units. Surface area is the total of all the faces, which for a box is 2(lw + lh + wh), giving 2(20 + 40 + 50) = 220 square units. Pyramids and cones are one third of the matching prism or cylinder, and a sphere has volume (4/3)πr³ and surface area 4πr²."
+      }
+    ],
+    "keyFacts": [
+      "Triangle area = (1/2)bh; parallelogram area = bh",
+      "Trapezoid area = (1/2)(b₁ + b₂)h",
+      "Interior angle sum of an n-gon = (n − 2) × 180°",
+      "Exterior angles of a convex polygon always sum to 360°",
+      "Volume of a prism or cylinder = base area × height",
+      "Cone and pyramid volume = (1/3) × base area × height"
+    ],
+    "examples": [
+      {
+        "problem": "A trapezoid has parallel bases of 8 and 14 and a height of 6. Find its area.",
+        "steps": [
+          "Use A = (1/2)(b₁ + b₂)h.",
+          "Add the bases: 8 + 14 = 22.",
+          "Compute: (1/2)(22)(6) = 11 × 6 = 66."
+        ],
+        "answer": "66 square units"
+      },
+      {
+        "problem": "Find the sum of the interior angles of an octagon and the measure of each angle if it is regular.",
+        "steps": [
+          "Use (n − 2) × 180° with n = 8: (8 − 2) × 180 = 6 × 180 = 1080°.",
+          "For a regular octagon, divide evenly: 1080 ÷ 8 = 135°."
+        ],
+        "answer": "1080° total, 135° each"
+      },
+      {
+        "problem": "A rectangular box measures 4 by 5 by 10. Find its volume and surface area.",
+        "steps": [
+          "Volume = length × width × height = 4 × 5 × 10 = 200.",
+          "Surface area = 2(lw + lh + wh) = 2(4·5 + 4·10 + 5·10).",
+          "Compute inside: 20 + 40 + 50 = 110, so the surface area is 2 × 110 = 220."
+        ],
+        "answer": "Volume 200 cubic units, surface area 220 square units"
+      }
+    ],
+    "tips": [
+      "The height in an area formula must be perpendicular to the base, not the slanted edge.",
+      "For shaded regions, subtract the unshaded piece from the whole rather than trying to measure the shape directly.",
+      "Check units: area answers are squared, volume answers are cubed."
+    ]
+  },
+  {
+    "id": "mt-15",
+    "subject": "math",
+    "category": "Plane Geometry",
+    "title": "Circles, Arcs & Sectors",
+    "symbolName": "chart.pie.fill",
+    "summary": "Circumference, area, and the fraction rule that unlocks arc length and sector area.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Circumference & Area",
+        "body": "A circle is defined by its radius, the distance from the center to the edge, and the diameter is twice that. Circumference, the distance around, is C = 2πr or equivalently πd, and area is A = πr². For a radius of 6, the circumference is 12π and the area is 36π. Notice that circumference uses the radius once while area squares it, which means doubling the radius doubles the circumference but quadruples the area. Leave answers in terms of π unless the question asks for a decimal, since the ACT usually lists choices such as 36π rather than 113.1."
+      },
+      {
+        "heading": "The Fraction Rule",
+        "body": "Arcs and sectors are just pieces of a whole circle, and one idea handles them all: the piece is the same fraction of the circle that its central angle is of 360°. So arc length equals (angle/360) × 2πr, and sector area equals (angle/360) × πr². With a central angle of 45° and a radius of 8, the fraction is 45/360 = 1/8. The full circumference is 16π, so the arc is 2π, and the full area is 64π, so the sector is 8π. Set up the fraction first and the rest is multiplication you can do in one line."
+      },
+      {
+        "heading": "Central & Inscribed Angles",
+        "body": "A central angle has its vertex at the center, and its measure equals the measure of the arc it cuts off. An inscribed angle has its vertex on the circle itself, and it measures exactly half of its intercepted arc. So an inscribed angle of 35° opens onto a 70° arc, and a central angle looking at that same 70° arc measures 70°. A useful consequence: any angle inscribed in a semicircle is a right angle, because the intercepted arc is 180°. Confusing these two angle types is the most common mistake on circle questions, so identify where the vertex sits before doing anything else."
+      },
+      {
+        "heading": "Tangents & Chords",
+        "body": "A tangent line touches a circle at exactly one point and is perpendicular to the radius drawn to that point, which quietly creates a right triangle you can attack with the Pythagorean theorem. A chord is any segment with both endpoints on the circle, and the longest possible chord is the diameter. A radius drawn perpendicular to a chord bisects it, splitting the chord into two equal halves and again forming a right triangle. When a circle problem seems to lack information, draw a radius to a tangent point or to the end of a chord, and the missing relationship usually appears."
+      }
+    ],
+    "keyFacts": [
+      "Circumference = 2πr = πd; Area = πr²",
+      "Arc length = (central angle/360) × 2πr",
+      "Sector area = (central angle/360) × πr²",
+      "A central angle equals its intercepted arc",
+      "An inscribed angle is half its intercepted arc",
+      "A tangent is perpendicular to the radius at the point of contact"
+    ],
+    "examples": [
+      {
+        "problem": "A circle has a radius of 6. Find its circumference and area.",
+        "steps": [
+          "Circumference: C = 2πr = 2π(6) = 12π.",
+          "Area: A = πr² = π(6²) = 36π."
+        ],
+        "answer": "C = 12π, A = 36π"
+      },
+      {
+        "problem": "A sector of a circle of radius 8 has a central angle of 45°. Find the arc length and the sector area.",
+        "steps": [
+          "Find the fraction of the circle: 45/360 = 1/8.",
+          "Full circumference is 2π(8) = 16π, so the arc is (1/8)(16π) = 2π.",
+          "Full area is π(8²) = 64π, so the sector is (1/8)(64π) = 8π."
+        ],
+        "answer": "Arc = 2π, sector area = 8π"
+      },
+      {
+        "problem": "An inscribed angle in a circle measures 35°. What is the measure of its intercepted arc?",
+        "steps": [
+          "An inscribed angle is half its intercepted arc.",
+          "So the arc is twice the angle: 2 × 35° = 70°."
+        ],
+        "answer": "70°"
+      }
+    ],
+    "tips": [
+      "Write the fraction angle/360 before anything else on arc and sector questions.",
+      "Keep π symbolic through the whole calculation and convert to a decimal only at the end.",
+      "If the problem gives a diameter, cut it in half immediately so you never plug it in as r."
+    ]
+  },
+  {
+    "id": "mt-16",
+    "subject": "math",
+    "category": "Trigonometry",
+    "title": "SOHCAHTOA & Right Triangle Trig",
+    "symbolName": "ruler",
+    "summary": "Use sine, cosine, and tangent to connect an angle to the sides of a right triangle.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Three Basic Ratios",
+        "body": "Trigonometry begins with a simple observation: in a right triangle, the ratio between any two sides depends only on the acute angle, not on the size of the triangle. Three of those ratios get names, captured by SOHCAHTOA. Sine equals opposite over hypotenuse, cosine equals adjacent over hypotenuse, and tangent equals opposite over adjacent. The labels opposite and adjacent are always measured relative to the angle you care about, so they swap when you switch angles. The hypotenuse never changes, because it is always the side across from the right angle and always the longest side of the triangle."
+      },
+      {
+        "heading": "Finding All Six Values",
+        "body": "If a right triangle has an angle A with an opposite side of 7 and a hypotenuse of 25, then sin A = 7/25. The Pythagorean theorem fills in the missing leg, since 625 − 49 = 576 and √576 = 24, so the adjacent side is 24. Now cos A = 24/25 and tan A = 7/24. The reciprocal functions follow directly: cosecant is 1/sine, secant is 1/cosine, and cotangent is 1/tangent, so csc A = 25/7. The ACT asks for these often enough that memorizing which one flips which is worth a minute of study time."
+      },
+      {
+        "heading": "Solving for a Missing Side",
+        "body": "To find a side, pick the ratio that uses the side you know and the side you want, then solve. Suppose a 20-foot ladder leans against a wall at 65° to the ground and you want the height reached. The height is opposite the angle and the ladder is the hypotenuse, so use sine: sin 65° = h/20, meaning h = 20 sin 65° ≈ 18.1 feet. If instead you know a horizontal distance of 50 and an angle of elevation of 40° to the top of a tree, tangent connects opposite to adjacent, so x = 50 tan 40° ≈ 42.0."
+      },
+      {
+        "heading": "Angles of Elevation & Depression",
+        "body": "Word problems dress these ratios in real-world clothing. An angle of elevation is measured upward from the horizontal, and an angle of depression is measured downward from the horizontal, and the two are equal when they describe the same line of sight from opposite ends. Always sketch the situation, mark the right angle, label the given angle, and write in which sides are opposite, adjacent, and hypotenuse. Then choose your ratio. Also make sure your calculator is in degree mode, because a calculator left in radian mode produces answers that look plausible but are completely wrong."
+      }
+    ],
+    "keyFacts": [
+      "SOH: sin = opposite/hypotenuse",
+      "CAH: cos = adjacent/hypotenuse",
+      "TOA: tan = opposite/adjacent",
+      "csc = 1/sin, sec = 1/cos, cot = 1/tan",
+      "Opposite and adjacent are defined relative to the chosen angle",
+      "The hypotenuse is always opposite the right angle"
+    ],
+    "examples": [
+      {
+        "problem": "In right triangle ABC, angle A has an opposite side of 7 and a hypotenuse of 25. Find sin A, cos A, and tan A.",
+        "steps": [
+          "sin A = opposite/hypotenuse = 7/25.",
+          "Find the adjacent leg: 25² − 7² = 625 − 49 = 576, so the leg is 24.",
+          "cos A = 24/25 and tan A = 7/24."
+        ],
+        "answer": "sin A = 7/25, cos A = 24/25, tan A = 7/24"
+      },
+      {
+        "problem": "A 20-foot ladder leans against a wall, making a 65° angle with the ground. How high up the wall does it reach?",
+        "steps": [
+          "The height is opposite the 65° angle and the ladder is the hypotenuse, so use sine.",
+          "Write sin 65° = h/20, so h = 20 sin 65°.",
+          "Since sin 65° ≈ 0.9063, h ≈ 18.1 feet."
+        ],
+        "answer": "about 18.1 feet"
+      },
+      {
+        "problem": "From a point 50 feet from the base of a tree, the angle of elevation to the top is 40°. How tall is the tree?",
+        "steps": [
+          "Height is opposite the angle and 50 feet is adjacent, so use tangent.",
+          "Write tan 40° = x/50, so x = 50 tan 40°.",
+          "Since tan 40° ≈ 0.8391, x ≈ 42.0 feet."
+        ],
+        "answer": "about 42 feet"
+      }
+    ],
+    "tips": [
+      "Label opposite, adjacent, and hypotenuse on the drawing before choosing a ratio.",
+      "Confirm your calculator is in degree mode whenever an angle is written with the ° symbol.",
+      "Many ACT questions want the expression, such as 50 tan 40°, rather than a decimal answer."
+    ]
+  },
+  {
+    "id": "mt-17",
+    "subject": "math",
+    "category": "Trigonometry",
+    "title": "Radians, Trig Graphs & Identities",
+    "symbolName": "waveform.path",
+    "summary": "Convert angle units, read amplitude and period, and use the core trig identities.",
+    "estimatedMinutes": 7,
+    "sections": [
+      {
+        "heading": "Degrees & Radians",
+        "body": "Radians measure angles by arc length rather than by degrees, and the whole system rests on one equivalence: 180° equals π radians. To convert from degrees to radians, multiply by π/180, and to go the other way, multiply by 180/π. So 135° becomes 135 × π/180 = 3π/4 radians. A few conversions are worth knowing on sight: 30° is π/6, 45° is π/4, 60° is π/3, 90° is π/2, and a full circle of 360° is 2π. Radian answers appear frequently on the ACT, so recognizing 3π/4 as an obtuse angle rather than a strange fraction is genuinely useful."
+      },
+      {
+        "heading": "The Unit Circle",
+        "body": "The unit circle is a circle of radius 1 centered at the origin, and for an angle measured counterclockwise from the positive x-axis, the point where the terminal side meets the circle has coordinates (cos θ, sin θ). That single fact extends trigonometry beyond right triangles to any angle. It also explains the signs in each quadrant: in Quadrant I both are positive, in Quadrant II sine is positive and cosine is negative, in Quadrant III both are negative, and in Quadrant IV cosine is positive and sine is negative. Tangent, being sine over cosine, is positive in Quadrants I and III."
+      },
+      {
+        "heading": "Reading Trig Graphs",
+        "body": "For y = a sin(bx) + d, each constant controls one feature. The amplitude is |a|, the distance from the midline to a peak, and the midline itself sits at y = d. The period, meaning the horizontal length of one full cycle, is 2π/b when x is in radians or 360/b when in degrees. So y = 3 sin(2x) has amplitude 3 and period 2π/2 = π, meaning it completes two full waves in the space a plain sine curve needs for one. Sine starts at the midline going up and cosine starts at a maximum, which is often all you need to match a graph to an equation."
+      },
+      {
+        "heading": "The Identities You Need",
+        "body": "Two identities cover nearly every ACT question. The Pythagorean identity, sin²θ + cos²θ = 1, comes straight from the unit circle and lets you find one function value from the other. The quotient identity, tan θ = sin θ / cos θ, connects all three. If sin θ = 3/5 and θ lies in Quadrant II, then cos²θ = 1 − 9/25 = 16/25, so cos θ = ±4/5, and because cosine is negative in Quadrant II the value is −4/5. Then tan θ = (3/5)/(−4/5) = −3/4. Deciding the sign from the quadrant is the step that most students skip."
+      }
+    ],
+    "keyFacts": [
+      "180° = π radians; multiply degrees by π/180 to convert",
+      "On the unit circle, the point is (cos θ, sin θ)",
+      "sin²θ + cos²θ = 1",
+      "tan θ = sin θ / cos θ",
+      "For y = a sin(bx) + d: amplitude = |a|, period = 2π/b, midline y = d",
+      "Signs by quadrant: I all positive, II sine, III tangent, IV cosine"
+    ],
+    "examples": [
+      {
+        "problem": "Convert 135° to radians.",
+        "steps": [
+          "Multiply by π/180: 135 × π/180.",
+          "Reduce the fraction 135/180 by dividing both by 45: 3/4.",
+          "So the angle is 3π/4 radians."
+        ],
+        "answer": "3π/4"
+      },
+      {
+        "problem": "Find the amplitude and period of y = 3 sin(2x).",
+        "steps": [
+          "The amplitude is the coefficient in front: |3| = 3.",
+          "The period is 2π divided by the coefficient of x: 2π/2.",
+          "So the period is π."
+        ],
+        "answer": "Amplitude 3, period π"
+      },
+      {
+        "problem": "If sin θ = 3/5 and θ is in Quadrant II, find cos θ and tan θ.",
+        "steps": [
+          "Use sin²θ + cos²θ = 1: (3/5)² + cos²θ = 1, so cos²θ = 1 − 9/25 = 16/25.",
+          "That gives cos θ = ±4/5, and cosine is negative in Quadrant II, so cos θ = −4/5.",
+          "Then tan θ = sin θ / cos θ = (3/5) ÷ (−4/5) = −3/4."
+        ],
+        "answer": "cos θ = −4/5, tan θ = −3/4"
+      }
+    ],
+    "tips": [
+      "If an answer choice contains π, the question is almost certainly using radians.",
+      "Sketch a quick quadrant diagram to settle whether a trig value should be positive or negative.",
+      "To match a graph to an equation, check the amplitude first, then count one full cycle for the period."
+    ]
+  },
+  {
+    "id": "mt-18",
+    "subject": "math",
+    "category": "Trigonometry",
+    "title": "Law of Sines & Law of Cosines",
+    "symbolName": "compass.drawing",
+    "summary": "Solve triangles that have no right angle using two extended trig relationships.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "When SOHCAHTOA Runs Out",
+        "body": "The basic trig ratios only work inside right triangles. When a triangle has no right angle, you need one of two extended tools, and choosing between them takes one glance at what you are given. Use the Law of Sines when you have a matched pair, meaning an angle and the side directly across from it, plus one more piece of information. Use the Law of Cosines when you have no complete pair, which happens with two sides and the angle between them, or with all three sides and no angles. Label sides with lowercase letters matching the opposite uppercase angles."
+      },
+      {
+        "heading": "The Law of Sines",
+        "body": "The Law of Sines says a/sin A = b/sin B = c/sin C, so each side divided by the sine of its opposite angle gives the same value. Use only two of the three fractions at a time and cross multiply. If A = 40°, B = 75°, and a = 10, then 10/sin 40° = b/sin 75°, so b = 10 sin 75° / sin 40°. Evaluating gives roughly 9.659 ÷ 0.643, about 15.0. Because angles in a triangle sum to 180°, you can also find the third angle instantly, which often creates the matched pair you were missing."
+      },
+      {
+        "heading": "The Law of Cosines",
+        "body": "The Law of Cosines is c² = a² + b² − 2ab·cos C, a generalized Pythagorean theorem where the extra term corrects for the angle not being 90°. Notice that if C = 90°, cos C = 0 and the formula collapses back to a² + b² = c². For sides of 7 and 9 with a 60° angle between them, c² = 49 + 81 − 2(7)(9)cos 60° = 130 − 126(0.5) = 130 − 63 = 67, so c = √67 ≈ 8.19. The angle in the formula must always be the one enclosed between the two sides you are squaring."
+      },
+      {
+        "heading": "Finding an Angle from Three Sides",
+        "body": "Rearranged, the Law of Cosines finds an angle when all three sides are known: cos C = (a² + b² − c²)/(2ab), where C is the angle opposite side c. For a triangle with sides 5, 6, and 7, the angle opposite the 7 satisfies cos C = (25 + 36 − 49)/(2 · 5 · 6) = 12/60 = 0.2, so C = cos⁻¹(0.2) ≈ 78.5°. This version is handy because it never suffers from the ambiguity that can trouble the Law of Sines, where an inverse sine may correspond to either an acute or an obtuse angle."
+      }
+    ],
+    "keyFacts": [
+      "Law of Sines: a/sin A = b/sin B = c/sin C",
+      "Law of Cosines: c² = a² + b² − 2ab·cos C",
+      "Angle form: cos C = (a² + b² − c²)/(2ab)",
+      "Use the Law of Sines when you have an angle and its opposite side",
+      "Use the Law of Cosines for two sides with the included angle, or for three sides",
+      "Triangle area with an included angle: A = (1/2)ab·sin C"
+    ],
+    "examples": [
+      {
+        "problem": "In triangle ABC, A = 40°, B = 75°, and side a = 10. Find side b.",
+        "steps": [
+          "Set up the Law of Sines with the matched pairs: 10/sin 40° = b/sin 75°.",
+          "Cross multiply: b = 10 sin 75° / sin 40°.",
+          "Evaluate: 10(0.9659) ÷ 0.6428 ≈ 9.659 ÷ 0.6428 ≈ 15.0."
+        ],
+        "answer": "b ≈ 15.0"
+      },
+      {
+        "problem": "Two sides of a triangle measure 7 and 9 with a 60° angle between them. Find the third side.",
+        "steps": [
+          "Use c² = a² + b² − 2ab·cos C with a = 7, b = 9, C = 60°.",
+          "Compute: 49 + 81 − 2(7)(9)(0.5) = 130 − 63 = 67.",
+          "Take the square root: c = √67 ≈ 8.19."
+        ],
+        "answer": "√67, about 8.19"
+      },
+      {
+        "problem": "A triangle has sides 5, 6, and 7. Find the angle opposite the side of length 7.",
+        "steps": [
+          "Use cos C = (a² + b² − c²)/(2ab) with a = 5, b = 6, c = 7.",
+          "Compute the numerator: 25 + 36 − 49 = 12, and the denominator: 2(5)(6) = 60.",
+          "So cos C = 12/60 = 0.2, and C = cos⁻¹(0.2) ≈ 78.5°."
+        ],
+        "answer": "about 78.5°"
+      }
+    ],
+    "tips": [
+      "Decide which law to use by checking whether you have a complete angle-and-opposite-side pair.",
+      "Find the third angle with the 180° rule before doing anything harder; it is often enough.",
+      "Keep the calculator in degree mode and round only at the very end."
+    ]
+  },
+  {
+    "id": "mt-19",
+    "subject": "math",
+    "category": "Functions",
+    "title": "Function Notation, Domain & Range",
+    "symbolName": "function",
+    "summary": "Evaluate f(x), compose functions, and decide which inputs and outputs are allowed.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "What f(x) Means",
+        "body": "A function is a rule that takes an input and returns exactly one output. The notation f(x) is not multiplication; it names the output of the rule f when the input is x. Evaluating means substituting the input everywhere x appears and simplifying. For f(x) = 2x² − 3x + 1, computing f(−2) gives 2(−2)² − 3(−2) + 1 = 8 + 6 + 1 = 15. Wrapping the input in parentheses is essential when it is negative, because 2(−2)² is 8 while 2 · −2² would be −8. The letter used for the input is irrelevant, so f(a) and f(t) follow exactly the same rule."
+      },
+      {
+        "heading": "Domain & Range",
+        "body": "The domain is the set of inputs a function will accept, and the range is the set of outputs it can produce. Most ACT domain questions come down to two forbidden moves: you cannot divide by zero and you cannot take an even root of a negative number. For f(x) = √(x − 4)/(x − 9), the radical requires x − 4 ≥ 0, so x ≥ 4, and the denominator requires x ≠ 9. The domain is therefore x ≥ 4 with 9 excluded. On a graph, the domain is what the curve covers horizontally and the range is what it covers vertically."
+      },
+      {
+        "heading": "Composition of Functions",
+        "body": "Composing functions means feeding the output of one into another, written f(g(x)) and read as f of g of x. Work from the inside out. If f(x) = 3x + 1 and g(x) = x² − 2, then to find f(g(2)) first compute g(2) = 4 − 2 = 2, then apply f to that result: f(2) = 3(2) + 1 = 7. Order matters, since g(f(2)) would give a different value. If a problem asks for the composed rule rather than a number, substitute the whole expression, so f(g(x)) = 3(x² − 2) + 1 = 3x² − 5."
+      },
+      {
+        "heading": "Reading Functions from Graphs & Tables",
+        "body": "A function can be described by a formula, a table, or a graph, and the ACT switches between them freely. On a graph, f(3) = 5 means the point (3, 5) lies on the curve, so to evaluate you move to x = 3 and read the height. To solve f(x) = 5 instead, you find every x where the height is 5, and there may be more than one. The vertical line test confirms whether a graph is a function at all: if any vertical line crosses the curve twice, one input produces two outputs and the relation is not a function."
+      }
+    ],
+    "keyFacts": [
+      "f(x) is a rule applied to the input x, not multiplication",
+      "Substitute the input in parentheses everywhere x appears",
+      "Domain rules: the denominator cannot be zero and even roots cannot hold a negative",
+      "f(g(x)) means evaluate g first, then apply f",
+      "f(a) = b corresponds to the point (a, b) on the graph",
+      "Vertical line test: a function passes if no vertical line hits the graph twice"
+    ],
+    "examples": [
+      {
+        "problem": "If f(x) = 2x² − 3x + 1, find f(−2).",
+        "steps": [
+          "Substitute with parentheses: 2(−2)² − 3(−2) + 1.",
+          "Handle the exponent first: (−2)² = 4, so 2(4) = 8.",
+          "Then −3(−2) = 6, giving 8 + 6 + 1.",
+          "Add: 15."
+        ],
+        "answer": "15"
+      },
+      {
+        "problem": "Find the domain of f(x) = √(x − 4)/(x − 9).",
+        "steps": [
+          "The square root requires x − 4 ≥ 0, so x ≥ 4.",
+          "The denominator cannot be zero, so x ≠ 9.",
+          "Combine both conditions."
+        ],
+        "answer": "x ≥ 4 and x ≠ 9"
+      },
+      {
+        "problem": "If f(x) = 3x + 1 and g(x) = x² − 2, find f(g(2)).",
+        "steps": [
+          "Work inside out: g(2) = 2² − 2 = 4 − 2 = 2.",
+          "Now apply f to that output: f(2) = 3(2) + 1.",
+          "Simplify: 7."
+        ],
+        "answer": "7"
+      }
+    ],
+    "tips": [
+      "Always put the input in parentheses; it prevents nearly every substitution error.",
+      "For domain questions, scan only for denominators and even roots.",
+      "In composition, the inner function is the one in the inner parentheses, so evaluate it first."
+    ]
+  },
+  {
+    "id": "mt-20",
+    "subject": "math",
+    "category": "Functions",
+    "title": "Transformations of Graphs",
+    "symbolName": "arrow.up.right",
+    "summary": "Shift, stretch, and flip a graph by reading the constants in the equation.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Parent Graph Idea",
+        "body": "Every family of functions has a basic shape, called the parent graph: y = x² is a parabola with vertex at the origin, y = |x| is a V, and y = √x is half a sideways parabola. Every other equation in that family is the parent graph moved, stretched, or flipped. Instead of plotting points, you can read the changes straight from the equation. This saves enormous time on the ACT, because a question asking where the vertex of y = (x − 3)² + 4 sits becomes a two-second read rather than a calculation."
+      },
+      {
+        "heading": "Shifts: Inside vs Outside",
+        "body": "Changes made outside the function affect y and behave the way you expect, so f(x) + k moves the graph up by k and f(x) − k moves it down. Changes made inside the parentheses affect x and behave the opposite way, so f(x − h) moves the graph right by h and f(x + h) moves it left. The inside rule feels backward but follows logically, since you must feed in a larger x to reach the same output. So y = (x − 3)² + 4 is the parabola shifted right 3 and up 4, putting its vertex at (3, 4)."
+      },
+      {
+        "heading": "Stretches & Reflections",
+        "body": "A coefficient in front of the function scales it vertically. If |a| > 1 the graph stretches and becomes narrower, and if |a| is between 0 and 1 it compresses and becomes wider. A negative sign in front reflects the graph across the x-axis, flipping it upside down. So y = −2|x| is the V flipped downward and stretched by a factor of 2, meaning the point (3, 3) on the parent graph moves to (3, −6). A negative inside the parentheses, as in f(−x), reflects across the y-axis instead, swapping left and right."
+      },
+      {
+        "heading": "Tracking a Single Point",
+        "body": "The most reliable way to handle a transformation question is to follow one point through the changes rather than imagining the whole curve. Suppose (1, 6) lies on y = f(x), and you want the corresponding point on y = f(x + 5) − 2. The inside change shifts left 5 and the outside change shifts down 2, so the new point is (1 − 5, 6 − 2) = (−4, 4). You can verify this algebraically: to make the inside equal 1, you need x + 5 = 1, so x = −4, and the output is 6 − 2 = 4. Both routes agree."
+      }
+    ],
+    "keyFacts": [
+      "f(x) + k shifts up k; f(x) − k shifts down k",
+      "f(x − h) shifts right h; f(x + h) shifts left h",
+      "a·f(x) with |a| > 1 stretches vertically; 0 < |a| < 1 compresses",
+      "−f(x) reflects across the x-axis; f(−x) reflects across the y-axis",
+      "y = a(x − h)² + k is a parabola with vertex (h, k)"
+    ],
+    "examples": [
+      {
+        "problem": "Describe how y = (x − 3)² + 4 relates to y = x², and give its vertex.",
+        "steps": [
+          "The inside change x − 3 shifts the graph right 3 units.",
+          "The outside change + 4 shifts the graph up 4 units.",
+          "The vertex moves from (0, 0) to (3, 4)."
+        ],
+        "answer": "Right 3, up 4; vertex (3, 4)"
+      },
+      {
+        "problem": "Describe the graph of y = −2|x| and find the point where x = 3.",
+        "steps": [
+          "The negative sign reflects the V across the x-axis so it opens downward.",
+          "The factor 2 stretches it vertically, making it narrower.",
+          "At x = 3: y = −2|3| = −6, so the point is (3, −6)."
+        ],
+        "answer": "Reflected and stretched by 2; the point is (3, −6)"
+      },
+      {
+        "problem": "The point (1, 6) lies on y = f(x). Find the corresponding point on y = f(x + 5) − 2.",
+        "steps": [
+          "The inside + 5 shifts the graph left 5, so the x-coordinate becomes 1 − 5 = −4.",
+          "The outside − 2 shifts the graph down 2, so the y-coordinate becomes 6 − 2 = 4.",
+          "The new point is (−4, 4)."
+        ],
+        "answer": "(−4, 4)"
+      }
+    ],
+    "tips": [
+      "Inside the parentheses affects x and goes the opposite direction; outside affects y and goes as written.",
+      "Track one easy point through the transformation instead of redrawing the entire graph.",
+      "For a parabola in vertex form, the vertex is the sign-flipped h paired with the plain k."
+    ]
+  },
+  {
+    "id": "mt-21",
+    "subject": "math",
+    "category": "Functions",
+    "title": "Sequences & Patterns",
+    "symbolName": "list.number",
+    "summary": "Find any term of an arithmetic or geometric sequence and add up a finite series.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Arithmetic vs Geometric",
+        "body": "A sequence is an ordered list of numbers, and the ACT cares about two kinds. An arithmetic sequence adds a constant, called the common difference, to move from one term to the next, as in 7, 11, 15, 19 where d = 4. A geometric sequence multiplies by a constant ratio instead, as in 3, 6, 12, 24 where r = 2. Diagnose which type you have by testing both: subtract consecutive terms and see if the difference stays the same, then divide consecutive terms and see if the quotient stays the same. Only one test will come out constant."
+      },
+      {
+        "heading": "Finding the nth Term",
+        "body": "Listing terms until you reach the one you want works for small cases but fails when a question asks for the 40th term. The arithmetic formula is aₙ = a₁ + (n − 1)d, where the key detail is n − 1, not n, because you take the step d one fewer time than the term number. For 7, 11, 15 the 20th term is 7 + 19(4) = 7 + 76 = 83. The geometric formula is aₙ = a₁ · r^(n−1) for the same reason. For 3, 6, 12 the 8th term is 3 · 2⁷ = 3 · 128 = 384."
+      },
+      {
+        "heading": "Adding a Series",
+        "body": "The sum of a finite arithmetic series has an elegant shortcut: pair the first term with the last, the second with the second-to-last, and so on, since each pair has the same total. That gives S = n(a₁ + aₙ)/2, which is simply the number of terms times the average of the first and last. To add the first 30 terms of 5, 9, 13, first find the 30th term: 5 + 29(4) = 121. Then S = 30(5 + 121)/2 = 30 × 63 = 1890. If the problem does not tell you the last term, compute it before summing."
+      },
+      {
+        "heading": "Recursive Rules & Patterns",
+        "body": "Some sequences are defined recursively, meaning each term is described in terms of earlier ones, such as aₙ = aₙ₋₁ + aₙ₋₂ with the first two terms given. There is no shortcut here; you simply generate terms carefully until you reach the one requested. Other pattern questions involve repetition, like asking for the 100th letter in a block that repeats every 6 characters. Divide and use the remainder: 100 ÷ 6 leaves a remainder of 4, so the answer matches the 4th item in the block. Remainder reasoning also solves questions about the units digit of a large power."
+      }
+    ],
+    "keyFacts": [
+      "Arithmetic nth term: aₙ = a₁ + (n − 1)d",
+      "Geometric nth term: aₙ = a₁ · r^(n−1)",
+      "Arithmetic series sum: S = n(a₁ + aₙ)/2",
+      "Common difference d = any term minus the previous term",
+      "Common ratio r = any term divided by the previous term",
+      "For repeating patterns, divide by the cycle length and use the remainder"
+    ],
+    "examples": [
+      {
+        "problem": "Find the 20th term of the sequence 7, 11, 15, 19, ...",
+        "steps": [
+          "The common difference is 11 − 7 = 4, and a₁ = 7.",
+          "Apply aₙ = a₁ + (n − 1)d: a₂₀ = 7 + (20 − 1)(4).",
+          "Compute: 7 + 19(4) = 7 + 76 = 83."
+        ],
+        "answer": "83"
+      },
+      {
+        "problem": "Find the 8th term of the geometric sequence 3, 6, 12, 24, ...",
+        "steps": [
+          "The common ratio is 6 ÷ 3 = 2, and a₁ = 3.",
+          "Apply aₙ = a₁ · r^(n−1): a₈ = 3 · 2⁷.",
+          "Since 2⁷ = 128, the term is 3 × 128 = 384."
+        ],
+        "answer": "384"
+      },
+      {
+        "problem": "Find the sum of the first 30 terms of 5, 9, 13, 17, ...",
+        "steps": [
+          "The common difference is 4, so a₃₀ = 5 + 29(4) = 5 + 116 = 121.",
+          "Apply S = n(a₁ + aₙ)/2: S = 30(5 + 121)/2.",
+          "Compute: 30(126)/2 = 30 × 63 = 1890."
+        ],
+        "answer": "1890"
+      }
+    ],
+    "tips": [
+      "Use n − 1, not n, in the term formulas; off-by-one errors are the top mistake here.",
+      "For a sequence with fewer than about ten terms, just list them out and count.",
+      "Test for a constant difference first, then a constant ratio, before choosing a formula."
+    ]
+  },
+  {
+    "id": "mt-22",
+    "subject": "math",
+    "category": "Statistics & Probability",
+    "title": "Mean, Median, Mode & Range",
+    "symbolName": "sum",
+    "summary": "Compute and compare the measures of center, plus weighted and missing-value averages.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "The Four Measures",
+        "body": "The mean is the ordinary average: add all the values and divide by how many there are. The median is the middle value once the data is arranged in order, and with an even count you average the two middle numbers. The mode is the value that appears most often, and a data set can have several modes or none. The range is the largest value minus the smallest, and it measures spread rather than center. For 4, 8, 15, 16, 23, 42 the sum is 108, so the mean is 18, the median is (15 + 16)/2 = 15.5, and the range is 42 − 4 = 38."
+      },
+      {
+        "heading": "Mean vs Median",
+        "body": "The mean uses every value, so a single extreme number drags it noticeably. The median only cares about position, so it barely moves. That is why questions about income or house prices favor the median, and why the ACT likes to ask which measure changes when an outlier is added. If a data set is skewed high by a few large values, the mean sits above the median; if it is skewed low, the mean sits below. In a symmetric set they are equal. Reasoning about the shape of the data can answer these comparison questions without computing anything."
+      },
+      {
+        "heading": "Working Backward from an Average",
+        "body": "A very common question gives the average and asks for a missing value. The move is always the same: convert the average into a total, because the average times the count equals the sum. If four test scores must average 85, the total must be 4 × 85 = 340. If three of the scores are 82, 90, and 76, they sum to 248, so the missing score is 340 − 248 = 92. This total-first strategy also answers questions like how many points above the mean a student scored, or what score is needed to raise an average."
+      },
+      {
+        "heading": "Weighted Averages",
+        "body": "When groups have different sizes, you cannot simply average the group averages. Instead, weight each average by its group size, add the weighted totals, and divide by the overall count. If 20 students average 78 and 30 students average 88, the total points are 20 × 78 = 1560 and 30 × 88 = 2640, so the combined mean is (1560 + 2640) ÷ 50 = 4200 ÷ 50 = 84. Notice that 84 is closer to 88 than to 78, because the larger group pulls the result toward itself. Averaging 78 and 88 to get 83 would be the trap answer."
+      }
+    ],
+    "keyFacts": [
+      "mean = sum of values ÷ number of values",
+      "sum = mean × number of values",
+      "The median is the middle value of ordered data, or the average of the two middle values",
+      "range = maximum − minimum",
+      "Outliers move the mean much more than the median",
+      "Weighted average = (sum of all values) ÷ (total count), not the average of the averages"
+    ],
+    "examples": [
+      {
+        "problem": "Find the mean, median, and range of 4, 8, 15, 16, 23, 42.",
+        "steps": [
+          "Add the values: 4 + 8 + 15 + 16 + 23 + 42 = 108.",
+          "Divide by 6 for the mean: 108 ÷ 6 = 18.",
+          "With six values, average the two middle ones: (15 + 16)/2 = 15.5.",
+          "Range: 42 − 4 = 38."
+        ],
+        "answer": "Mean 18, median 15.5, range 38"
+      },
+      {
+        "problem": "Three test scores are 82, 90, and 76. What score on a fourth test gives an average of 85?",
+        "steps": [
+          "Convert the target average into a total: 4 × 85 = 340.",
+          "Add the known scores: 82 + 90 + 76 = 248.",
+          "Subtract: 340 − 248 = 92."
+        ],
+        "answer": "92"
+      },
+      {
+        "problem": "A class of 20 students averages 78 and a class of 30 students averages 88. What is the combined average?",
+        "steps": [
+          "Find each group total: 20 × 78 = 1560 and 30 × 88 = 2640.",
+          "Add totals and counts: 4200 points among 50 students.",
+          "Divide: 4200 ÷ 50 = 84."
+        ],
+        "answer": "84"
+      }
+    ],
+    "tips": [
+      "Sort the data before finding the median; the ACT often lists values out of order on purpose.",
+      "Turn any average into a sum right away, since totals are what you can add and subtract.",
+      "For combined groups, the answer always leans toward the larger group's average."
+    ]
+  },
+  {
+    "id": "mt-23",
+    "subject": "math",
+    "category": "Statistics & Probability",
+    "title": "Data Displays & Interpreting Graphs",
+    "symbolName": "chart.bar.fill",
+    "summary": "Pull numbers accurately out of tables, bar graphs, pie charts, and scatterplots.",
+    "estimatedMinutes": 5,
+    "sections": [
+      {
+        "heading": "Read the Labels First",
+        "body": "Data questions are usually easy arithmetic wrapped in a display, and the mistakes come from misreading rather than miscalculating. Before looking for a number, read the title, both axis labels, and the units, and check whether the scale counts by ones, fives, or thousands. Notice whether an axis starts at zero, since a truncated axis can make a small difference look dramatic. Then find exactly what the question asks for. Many ACT data questions attach two or three separate questions to a single chart, and each one only needs a couple of values from it."
+      },
+      {
+        "heading": "Tables & Frequency Data",
+        "body": "A frequency table lists each value alongside how many times it occurred, and the trap is treating the frequencies as if they were the data. To find the mean, multiply each value by its frequency, add those products, then divide by the total frequency. If the value 1 occurs 3 times, 2 occurs 5 times, and 3 occurs 2 times, the products are 3, 10, and 6, totaling 19, and the total frequency is 10, so the mean is 1.9. For the median, count into the cumulative frequencies until you reach the middle position rather than averaging the listed values."
+      },
+      {
+        "heading": "Pie Charts & Percent Displays",
+        "body": "A pie chart divides 360° among the categories, so each sector is both an angle and a percent, connected by the fraction angle/360. A 90° sector is one quarter of the whole, or 25%, so out of 240 total responses it represents 60 of them. Working the other way, a category holding 40% of the data takes 0.40 × 360 = 144°. Always check whether the question wants a percent or an actual count, and remember that percents in a pie chart must total 100%, which lets you find a missing category by subtraction."
+      },
+      {
+        "heading": "Scatterplots & Trend Lines",
+        "body": "A scatterplot shows paired data, and a line of best fit summarizes the trend. A positive correlation means the points drift upward together, a negative correlation means one rises while the other falls, and scattered points with no direction mean little or no correlation. The line of best fit is used for prediction: substitute the x-value into its equation. With a fit line of y = 2.5x + 12, the prediction at x = 8 is 2.5(8) + 12 = 32. Remember that correlation does not prove causation, a distinction the ACT tests in its wording."
+      }
+    ],
+    "keyFacts": [
+      "Frequency table mean = Σ(value × frequency) ÷ total frequency",
+      "Pie chart: sector angle/360 = the category's fraction of the whole",
+      "A pie chart's percents always total 100%",
+      "Positive correlation trends up; negative correlation trends down",
+      "Use the line of best fit equation to predict a value"
+    ],
+    "examples": [
+      {
+        "problem": "A pie chart of 240 survey responses shows one sector with a central angle of 90°. How many responses are in that category?",
+        "steps": [
+          "Convert the angle to a fraction: 90/360 = 1/4, which is 25%.",
+          "Apply the fraction to the total: (1/4) × 240.",
+          "Compute: 60 responses."
+        ],
+        "answer": "60"
+      },
+      {
+        "problem": "A frequency table shows the value 1 occurring 3 times, 2 occurring 5 times, and 3 occurring 2 times. Find the mean.",
+        "steps": [
+          "Multiply each value by its frequency: 1(3) = 3, 2(5) = 10, 3(2) = 6.",
+          "Add the products: 3 + 10 + 6 = 19.",
+          "Divide by the total frequency of 10: 19 ÷ 10 = 1.9."
+        ],
+        "answer": "1.9"
+      },
+      {
+        "problem": "A scatterplot has a line of best fit y = 2.5x + 12. Predict y when x = 8.",
+        "steps": [
+          "Substitute x = 8 into the equation: y = 2.5(8) + 12.",
+          "Multiply: 2.5 × 8 = 20.",
+          "Add: 20 + 12 = 32."
+        ],
+        "answer": "32"
+      }
+    ],
+    "tips": [
+      "Check the axis scale before reading any value off a graph.",
+      "In a frequency table, never average the values themselves; weight them by frequency.",
+      "A strong correlation never proves that one variable causes the other."
+    ]
+  },
+  {
+    "id": "mt-24",
+    "subject": "math",
+    "category": "Statistics & Probability",
+    "title": "Probability & Counting",
+    "symbolName": "die.face.5",
+    "summary": "Compute simple and compound probabilities and count outcomes with the multiplication rule.",
+    "estimatedMinutes": 6,
+    "sections": [
+      {
+        "heading": "Basic Probability",
+        "body": "Probability is the number of favorable outcomes divided by the total number of equally likely outcomes, and it always lands between 0 and 1. A jar with 5 red, 3 blue, and 4 green marbles holds 12 marbles in all, so the probability of drawing red is 5/12. The complement rule is the biggest time-saver in this topic: the probability that something does not happen is 1 minus the probability that it does. Rather than counting the 5 red plus 4 green marbles individually, note that P(not blue) = 1 − 3/12 = 9/12 = 3/4."
+      },
+      {
+        "heading": "Independent & Dependent Events",
+        "body": "For two events to both happen, multiply their probabilities. If the events are independent, meaning the first does not change the second, use the same probability twice. Drawing with replacement is independent. Drawing without replacement is dependent, and you must shrink both the favorable count and the total for the second draw. Picking two red marbles from that jar without replacement gives 5/12 for the first draw and then 4/11 for the second, since one red is gone and only 11 marbles remain. The product is 20/132, which reduces to 5/33."
+      },
+      {
+        "heading": "Either-Or Probability",
+        "body": "When a question asks for the probability of one event or another, add the probabilities, but subtract any overlap so it is not counted twice. Formally, P(A or B) = P(A) + P(B) − P(A and B). If the two events cannot happen together, the overlap is zero and you simply add. Rolling a die and asking for a 2 or a 5 gives 1/6 + 1/6 = 1/3, with no overlap. But drawing a card that is a heart or a face card requires subtracting the three cards that are both, because they would otherwise be double counted."
+      },
+      {
+        "heading": "Counting Outcomes",
+        "body": "The fundamental counting principle says that if one choice can be made in m ways and a second independent choice in n ways, the pair can be made in m × n ways. Four shirts, three pairs of pants, and two pairs of shoes therefore produce 4 × 3 × 2 = 24 different outfits. The same idea handles license plates and passcodes, with one adjustment: if repeats are not allowed, reduce the count by one at each stage, so arranging 5 books on a shelf gives 5 × 4 × 3 × 2 × 1 = 120 orders. Ask yourself whether order matters and whether repetition is allowed."
+      }
+    ],
+    "keyFacts": [
+      "P(event) = favorable outcomes ÷ total outcomes",
+      "P(not A) = 1 − P(A)",
+      "P(A and B) = P(A) × P(B) for independent events",
+      "For dependent draws, reduce the totals after each selection",
+      "P(A or B) = P(A) + P(B) − P(A and B)",
+      "Counting principle: multiply the number of choices at each stage"
+    ],
+    "examples": [
+      {
+        "problem": "A jar holds 5 red, 3 blue, and 4 green marbles. What is the probability that a randomly drawn marble is not blue?",
+        "steps": [
+          "Find the total: 5 + 3 + 4 = 12 marbles.",
+          "Use the complement: P(blue) = 3/12, so P(not blue) = 1 − 3/12 = 9/12.",
+          "Reduce: 9/12 = 3/4."
+        ],
+        "answer": "3/4"
+      },
+      {
+        "problem": "From the same jar, two marbles are drawn without replacement. What is the probability that both are red?",
+        "steps": [
+          "First draw: 5 red out of 12, so 5/12.",
+          "Second draw: one red is gone, so 4 red out of 11, giving 4/11.",
+          "Multiply: (5/12)(4/11) = 20/132.",
+          "Reduce by 4: 5/33."
+        ],
+        "answer": "5/33"
+      },
+      {
+        "problem": "A student has 4 shirts, 3 pairs of pants, and 2 pairs of shoes. How many different outfits are possible?",
+        "steps": [
+          "Multiply the number of choices at each stage: 4 × 3 × 2.",
+          "Compute: 4 × 3 = 12, then 12 × 2 = 24."
+        ],
+        "answer": "24 outfits"
+      }
+    ],
+    "tips": [
+      "If a question says at least one, compute the complement instead; it is almost always faster.",
+      "Watch for the phrase without replacement, which changes the denominator on the second draw.",
+      "Every probability must fall between 0 and 1, so eliminate any answer greater than 1."
+    ]
+  }
+]
