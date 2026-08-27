@@ -78,9 +78,9 @@ struct PaywallView: View {
 
     private var featureList: some View {
         VStack(alignment: .leading, spacing: 14) {
-            feature("books.vertical.fill", "All 520 practice questions with step-by-step explanations")
-            feature("book.fill", "40 Math & Science tutorials with worked examples")
-            feature("timer", "All 15 mock exams — Quick and Full-Length timing")
+            feature("books.vertical.fill", "All \(QuestionBank.shared.formattedCount) practice questions with step-by-step explanations")
+            feature("book.fill", "\(TutorialLibrary.shared.tutorials.count) Math & Science tutorials with worked examples")
+            feature("timer", "All \(MockExam.all.count) mock exams — Quick and Full-Length timing")
             feature("chart.line.uptrend.xyaxis", "Score history, streaks, and subject analytics")
         }
         .frame(maxWidth: .infinity, alignment: .leading)

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "sc-121",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the germination percentage of Species A in soil at pH 6.0 was:",
+    "choices": [
+      "41%",
+      "58%",
+      "66%",
+      "71%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists Species A germination at pH 6.0 as 58%."
+  },
+  {
+    "id": "sc-122",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, at a soil temperature of 15°C, the first Species B seedling emerged after:",
+    "choices": [
+      "11 days",
+      "14 days",
+      "15 days",
+      "17 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Table 2, the Species B column shows 11 days at 15°C."
+  },
+  {
+    "id": "sc-123",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "As soil pH increased from 4.5 to 7.0, the germination percentage of Species B:",
+    "choices": [
+      "increased only",
+      "decreased only",
+      "increased, then decreased",
+      "decreased, then increased"
+    ],
+    "correctIndex": 0,
+    "explanation": "Species B rose from 3% at pH 4.5 through 11%, 26%, 49%, and 72% to 80% at pH 7.0, an increase at every step."
+  },
+  {
+    "id": "sc-124",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, Species B germination first exceeded Species A germination at a soil pH of:",
+    "choices": [
+      "5.5",
+      "6.0",
+      "6.5",
+      "7.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "At pH 6.0 Species A led 58% to 49%. At pH 6.5 Species B led for the first time, 72% to 66%."
+  },
+  {
+    "id": "sc-125",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "A student claims that, for Species A, mean shoot height increases steadily as soil pH increases from 5.0 to 8.0. Is this claim supported by Table 3?",
+    "choices": [
+      "Supported; height increased at every pH tested",
+      "Supported; root mass also increased at every pH tested",
+      "Not supported; height decreased between pH 7.0 and pH 8.0",
+      "Not supported; height was identical at pH 6.0 and pH 7.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Height rose from 4.1 cm to 9.6 cm to 13.2 cm but then fell to 7.8 cm at pH 8.0, so the increase was not steady."
+  },
+  {
+    "id": "sc-126",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In the first trial, all trays were kept at 20°C and watered daily. This was done primarily to:",
+    "choices": [
+      "ensure that seeds of both species were the same age",
+      "keep temperature and water constant so that pH was the only factor varied",
+      "raise the germination percentage of both species",
+      "measure how temperature affects the rate of germination"
+    ],
+    "correctIndex": 1,
+    "explanation": "Holding temperature and watering constant leaves soil pH as the only variable that differed among trays, so differences in germination can be attributed to pH."
+  },
+  {
+    "id": "sc-127",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If the first trial were repeated at pH 8.5, the germination percentage of Species A would most likely be:",
+    "choices": [
+      "greater than 71%",
+      "between 63% and 71%",
+      "between 44% and 63%",
+      "less than 44%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Species A germination fell from 71% at pH 7.0 to 63% at pH 7.5 and 44% at pH 8.0, so a further increase in pH should push it below 44%."
+  },
+  {
+    "id": "sc-128",
+    "subject": "science",
+    "passageId": "sc-p16",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A grower whose field measures pH 5.0 adds limestone to raise the soil to pH 7.0. Based on Tables 1 and 3, this change should:",
+    "choices": [
+      "decrease Species A germination while increasing shoot height",
+      "increase Species A germination by about 49 percentage points and more than triple mean shoot height",
+      "increase Species A germination by about 13 percentage points and roughly double mean shoot height",
+      "leave germination unchanged while decreasing mean root mass"
+    ],
+    "correctIndex": 1,
+    "explanation": "Species A germination rises from 22% to 71%, a gain of 49 percentage points, and mean shoot height rises from 4.1 cm to 13.2 cm, slightly more than three times as tall."
+  },
+  {
+    "id": "sc-129",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, at a wind speed of 9 m/s, Turbine Y produced:",
+    "choices": [
+      "95 kW",
+      "130 kW",
+      "210 kW",
+      "285 kW"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists 210 kW for Turbine Y at 9 m/s."
+  },
+  {
+    "id": "sc-130",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, the lowest mean wind speed was recorded in:",
+    "choices": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "correctIndex": 2,
+    "explanation": "July had a mean wind speed of 5.6 m/s, lower than January (9.4), April (8.1), and October (7.9)."
+  },
+  {
+    "id": "sc-131",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "As wind speed increased from 3 m/s to 13 m/s, the power produced by Turbine X:",
+    "choices": [
+      "increased at every step",
+      "decreased at every step",
+      "remained constant",
+      "increased, then decreased"
+    ],
+    "correctIndex": 0,
+    "explanation": "Turbine X output rose 0, 45, 130, 285, 480, 600 kW across those speeds, an increase at every step."
+  },
+  {
+    "id": "sc-132",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "At which of the following wind speeds did Turbine Y produce more power than Turbine X?",
+    "choices": [
+      "7 m/s",
+      "11 m/s",
+      "13 m/s",
+      "17 m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "At 17 m/s Turbine Y produced 620 kW while Turbine X produced 600 kW. At the three lower speeds listed, Turbine X produced more."
+  },
+  {
+    "id": "sc-133",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Do the data in Table 3 support the statement that no rotor captures more than about 59% of the power in the wind?",
+    "choices": [
+      "Yes; the largest value in Table 3 is 41%",
+      "Yes; the largest value in Table 3 is exactly 59%",
+      "No; Turbine X exceeded 59% at 7 m/s",
+      "No; Turbine Y exceeded 59% at 15 m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The greatest capture fraction in Table 3 is 41%, for Turbine X at 7 m/s, well below the 59% limit."
+  },
+  {
+    "id": "sc-134",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Testing both turbines on the same tower site was intended to control for:",
+    "choices": [
+      "the number of blades on each rotor",
+      "differences in wind conditions between locations",
+      "the rated power of each generator",
+      "the monthly capacity factor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using one site ensures both turbines meet the same winds, so output differences reflect the designs rather than the locations."
+  },
+  {
+    "id": "sc-135",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Table 2, a month with a mean wind speed of 8.6 m/s would most likely have a Turbine X capacity factor of:",
+    "choices": [
+      "less than 18%",
+      "between 18% and 31%",
+      "between 33% and 41%",
+      "greater than 41%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Capacity factor rises with mean wind speed. A speed of 8.6 m/s lies between April (8.1 m/s, 33%) and January (9.4 m/s, 41%), so the capacity factor should fall between those values."
+  },
+  {
+    "id": "sc-136",
+    "subject": "science",
+    "passageId": "sc-p17",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A developer plans a site where wind blows steadily near 16 m/s year-round. Based on Table 1, which turbine should be chosen, and why?",
+    "choices": [
+      "Turbine X, because it produces more power at 9 m/s",
+      "Turbine Y, because its maximum output of 620 kW exceeds Turbine X's 600 kW",
+      "Turbine X, because it captures a greater percentage of wind power at 15 m/s",
+      "Turbine Y, because it begins producing power at a lower wind speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Above 13 m/s both turbines run at their rated ceilings, and Turbine Y's ceiling of 620 kW is higher than Turbine X's 600 kW. At 16 m/s only the ceiling matters."
+  },
+  {
+    "id": "sc-137",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the greatest water height recorded at Harbor A that day was:",
+    "choices": [
+      "0.4 m",
+      "0.6 m",
+      "2.8 m",
+      "3.1 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "High tide 2, at 15:40, reached 3.1 m, the largest height in Table 1."
+  },
+  {
+    "id": "sc-138",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, the greatest mean tidal range at Harbor A occurred at:",
+    "choices": [
+      "new moon",
+      "first quarter",
+      "full moon",
+      "last quarter"
+    ],
+    "correctIndex": 0,
+    "explanation": "New moon had a mean range of 3.0 m, slightly greater than full moon's 2.9 m and far greater than either quarter phase."
+  },
+  {
+    "id": "sc-139",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 3, as depth at the mouth of a station increased, mean tidal range:",
+    "choices": [
+      "increased only",
+      "decreased only",
+      "stayed the same",
+      "varied with no clear pattern"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ordering by depth gives 8 m/5.4 m, 12 m/2.4 m, 30 m/1.2 m, and 46 m/0.5 m: range falls as depth rises."
+  },
+  {
+    "id": "sc-140",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 1, the time that elapsed between high tide 1 and high tide 2 was closest to:",
+    "choices": [
+      "6 h 14 min",
+      "9 h 26 min",
+      "12 h 28 min",
+      "15 h 40 min"
+    ],
+    "correctIndex": 2,
+    "explanation": "High tide 1 occurred at 03:12 and high tide 2 at 15:40, an interval of 12 h 28 min."
+  },
+  {
+    "id": "sc-141",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Do the data in Table 2 support the passage's statement that spring tides occur at new and full moon?",
+    "choices": [
+      "Yes; the ranges at new moon (3.0 m) and full moon (2.9 m) exceed those at both quarter phases",
+      "Yes; the ranges at the quarter phases exceed those at new and full moon",
+      "No; the four phases produced nearly identical ranges",
+      "No; the greatest range occurred at first quarter"
+    ],
+    "correctIndex": 0,
+    "explanation": "New moon (3.0 m) and full moon (2.9 m) both produced larger ranges than first quarter (1.8 m) and last quarter (1.7 m), exactly as spring tides predict."
+  },
+  {
+    "id": "sc-142",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "A student wants to compare basin shapes while keeping depth at the mouth as similar as possible. Which pair of stations in Table 3 best serves this purpose?",
+    "choices": [
+      "Harbor A and Harbor C",
+      "Harbor A and Harbor B",
+      "Harbor B and Harbor D",
+      "Harbor C and Harbor D"
+    ],
+    "correctIndex": 1,
+    "explanation": "Harbors A and B differ in basin shape (narrow versus open) and their mouth depths, 12 m and 30 m, are closer together than any other narrow-open pairing."
+  },
+  {
+    "id": "sc-143",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "Based on Table 1, the next high tide after low tide 2 would most likely occur closest to:",
+    "choices": [
+      "23:00",
+      "01:30",
+      "04:00",
+      "09:00"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each high tide followed the preceding low by about 6 h 14 min. Adding that to 21:52 gives roughly 04:06 the next morning."
+  },
+  {
+    "id": "sc-144",
+    "subject": "science",
+    "passageId": "sc-p18",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A fifth station on the same coast has a narrow basin and a mouth depth of 6 m. Based on Table 3, its mean tidal range would most likely be:",
+    "choices": [
+      "less than 0.5 m",
+      "between 0.5 m and 1.2 m",
+      "between 1.2 m and 2.4 m",
+      "greater than 5.4 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "Harbor C, the narrowest and shallowest station listed (8 m), had the largest range, 5.4 m. A narrow basin only 6 m deep should funnel the tide even more strongly."
+  },
+  {
+    "id": "sc-145",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the S−P interval at a distance of 2,000 km is:",
+    "choices": [
+      "108 s",
+      "198 s",
+      "246 s",
+      "281 s"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 gives an S−P interval of 198 s at 2,000 km."
+  },
+  {
+    "id": "sc-146",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 3, P waves travel fastest through:",
+    "choices": [
+      "granite",
+      "basalt",
+      "the upper mantle",
+      "the outer core"
+    ],
+    "correctIndex": 2,
+    "explanation": "The upper mantle transmits P waves at 8.1 km/s, the greatest speed listed."
+  },
+  {
+    "id": "sc-147",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "Based on Table 1, as distance from the epicenter increases, the S−P interval:",
+    "choices": [
+      "increases",
+      "decreases",
+      "remains constant",
+      "increases, then decreases"
+    ],
+    "correctIndex": 0,
+    "explanation": "The S−P interval grows from 60 s at 500 km to 359 s at 4,000 km."
+  },
+  {
+    "id": "sc-148",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Tables 1 and 2, which station was closest to the epicenter?",
+    "choices": [
+      "Denton",
+      "Ellis",
+      "Fairmont",
+      "The three stations were equally distant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Denton's S−P interval of 60 s corresponds to 500 km in Table 1, nearer than Ellis (198 s, 2,000 km) or Fairmont (281 s, 3,000 km)."
+  },
+  {
+    "id": "sc-149",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "The data in Table 2 show that, as the S−P interval increased, the maximum ground motion:",
+    "choices": [
+      "increased as well",
+      "decreased",
+      "remained unchanged",
+      "showed no relationship to the interval"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ground motion fell from 24.0 mm at 60 s to 3.6 mm at 198 s to 1.5 mm at 281 s."
+  },
+  {
+    "id": "sc-150",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "The passage states that at least three stations are needed to locate an epicenter. This is because a single station:",
+    "choices": [
+      "cannot record S waves at all",
+      "measures P-wave speeds that vary with rock type",
+      "can determine the distance to the epicenter but not the direction",
+      "records ground motion that depends on local soil"
+    ],
+    "correctIndex": 2,
+    "explanation": "One S−P interval converts to a distance, which places the epicenter somewhere on a circle. Additional stations are needed to fix the point where the circles intersect."
+  },
+  {
+    "id": "sc-151",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "A fourth station records an S−P interval of 150 s. That station is most likely located:",
+    "choices": [
+      "between 500 km and 1,000 km from the epicenter",
+      "between 1,000 km and 2,000 km from the epicenter",
+      "between 2,000 km and 3,000 km from the epicenter",
+      "more than 3,000 km from the epicenter"
+    ],
+    "correctIndex": 1,
+    "explanation": "An interval of 150 s falls between the 108 s listed at 1,000 km and the 198 s listed at 2,000 km."
+  },
+  {
+    "id": "sc-152",
+    "subject": "science",
+    "passageId": "sc-p19",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Which of the following best explains why an S-wave shadow zone exists on the side of Earth opposite an epicenter?",
+    "choices": [
+      "P waves travel more slowly than S waves within the outer core",
+      "The outer core transmits P waves at 8.0 km/s, so S waves are absorbed by the mantle",
+      "S waves speed up in liquid and pass beyond the far side of the planet",
+      "The outer core is liquid, and S waves cannot travel through liquids"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states that a liquid offers no resistance to shear, so S waves cannot cross the liquid outer core and never reach the far side."
+  },
+  {
+    "id": "sc-153",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, which surface reflects the smallest fraction of the sunlight striking it?",
+    "choices": [
+      "grassland",
+      "conifer forest",
+      "open ocean",
+      "sea ice"
+    ],
+    "correctIndex": 2,
+    "explanation": "Open ocean has an albedo of 0.06, the lowest value in Table 2."
+  },
+  {
+    "id": "sc-154",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the mean surface temperature of Mars is:",
+    "choices": [
+      "−20°C",
+      "−63°C",
+      "15°C",
+      "167°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists −63°C for Mars."
+  },
+  {
+    "id": "sc-155",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Table 3, as planetary albedo increased, the modeled global mean temperature:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained the same",
+      "increased, then decreased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Modeled temperature fell from 20.4°C at albedo 0.25 to 3.1°C at albedo 0.43."
+  },
+  {
+    "id": "sc-156",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "According to Table 1, which body has a lower albedo than Earth but a higher mean surface temperature than Earth?",
+    "choices": [
+      "Mercury",
+      "Venus",
+      "the Moon",
+      "Mars"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mercury's albedo of 0.11 is below Earth's 0.31, and its mean temperature of 167°C is above Earth's 15°C. Venus has a higher albedo, while the Moon (−20°C) and Mars (−63°C) are both colder than Earth."
+  },
+  {
+    "id": "sc-157",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "According to the model results in Table 3, raising Earth's planetary albedo from 0.31 to 0.37 would produce:",
+    "choices": [
+      "a rise of about 5.4°C",
+      "a drop of about 5.7°C",
+      "a drop of about 11.9°C",
+      "no change in temperature"
+    ],
+    "correctIndex": 1,
+    "explanation": "The model gives 15.0°C at albedo 0.31 and 9.3°C at albedo 0.37, a decrease of 5.7°C."
+  },
+  {
+    "id": "sc-158",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In producing Table 3, every factor other than albedo was held fixed. This was done so that:",
+    "choices": [
+      "any modeled temperature change could be attributed to albedo alone",
+      "the model would reproduce conditions on Venus",
+      "albedo would not have to be measured directly",
+      "fewer surface types would be needed in Table 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Varying one input at a time isolates its effect, so each temperature difference in Table 3 reflects the albedo change and nothing else."
+  },
+  {
+    "id": "sc-159",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If large areas of sea ice melted and were replaced by open ocean, then based on Tables 2 and 3 one would expect that:",
+    "choices": [
+      "planetary albedo would increase and temperature would fall",
+      "planetary albedo would increase and temperature would rise",
+      "planetary albedo would decrease and temperature would rise",
+      "planetary albedo would decrease and temperature would fall"
+    ],
+    "correctIndex": 2,
+    "explanation": "Open ocean (0.06) is far darker than sea ice (0.60), so albedo falls. Table 3 shows temperature rising as albedo falls."
+  },
+  {
+    "id": "sc-160",
+    "subject": "science",
+    "passageId": "sc-p20",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A student claims that a body's mean surface temperature is determined solely by its distance from the Sun. Which evidence in Table 1 most directly contradicts this claim?",
+    "choices": [
+      "Mercury is the closest body listed and is very hot",
+      "Mars is the most distant body listed and is very cold",
+      "Venus has a higher albedo than Mercury does",
+      "Earth and the Moon are both at 1.00 AU yet differ by 35°C"
+    ],
+    "correctIndex": 3,
+    "explanation": "Two bodies at identical distance, Earth at 15°C and the Moon at −20°C, differ by 35°C, so distance cannot be the only factor."
+  },
+  {
+    "id": "sc-161",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the stomata density of Species Q at 800 m was:",
+    "choices": [
+      "108 stomata/mm²",
+      "121 stomata/mm²",
+      "139 stomata/mm²",
+      "152 stomata/mm²"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 121 stomata/mm² for Species Q at 800 m."
+  },
+  {
+    "id": "sc-162",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 3, Species P grown at 700 ppm CO₂ had a stomata density of:",
+    "choices": [
+      "109 stomata/mm²",
+      "128 stomata/mm²",
+      "152 stomata/mm²",
+      "186 stomata/mm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Table 3 gives 109 stomata/mm² at 700 ppm."
+  },
+  {
+    "id": "sc-163",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, as elevation increased, air pressure:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "decreased, then increased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Air pressure fell from 100.1 kPa at 100 m to 83.5 kPa at 1,600 m."
+  },
+  {
+    "id": "sc-164",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Table 1, which of the following statements about the two species is accurate?",
+    "choices": [
+      "Species P had the greater stomata density at every elevation sampled",
+      "Species Q had the greater stomata density at every elevation sampled",
+      "Species P had the greater density only below 800 m",
+      "Species Q had the greater density only above 1,200 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "At each of the five elevations the Species P value exceeds the Species Q value (118 vs 96, 134 vs 108, 152 vs 121, 173 vs 139, 195 vs 150)."
+  },
+  {
+    "id": "sc-165",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "The increase in Species P stomata density from 100 m to 1,600 m was:",
+    "choices": [
+      "43 stomata/mm²",
+      "54 stomata/mm²",
+      "77 stomata/mm²",
+      "96 stomata/mm²"
+    ],
+    "correctIndex": 2,
+    "explanation": "Density rose from 118 to 195 stomata/mm², a difference of 77."
+  },
+  {
+    "id": "sc-166",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "All four greenhouse chambers were held at 20°C and 100 kPa. This design feature ensured that:",
+    "choices": [
+      "conditions matched those found at 1,600 m",
+      "daily water loss would increase",
+      "Species Q could be tested at the same time",
+      "carbon dioxide concentration was the only condition that differed among chambers"
+    ],
+    "correctIndex": 3,
+    "explanation": "Fixing temperature, pressure, light, and water leaves CO₂ as the sole variable, so differences in density and water loss can be attributed to CO₂."
+  },
+  {
+    "id": "sc-167",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If leaves of Species P were collected from a sixth site at 2,000 m on the same mountainside, the mean stomata density would most likely be:",
+    "choices": [
+      "less than 118 stomata/mm²",
+      "between 118 and 152 stomata/mm²",
+      "between 152 and 195 stomata/mm²",
+      "greater than 195 stomata/mm²"
+    ],
+    "correctIndex": 3,
+    "explanation": "Species P density rose steadily with elevation, reaching 195 stomata/mm² at 1,600 m, so a higher site should exceed that value."
+  },
+  {
+    "id": "sc-168",
+    "subject": "science",
+    "passageId": "sc-p21",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Do the results in Tables 1, 2, and 3 together support the idea that limited carbon dioxide availability leads to higher stomata density?",
+    "choices": [
+      "Yes; density rose as air pressure fell in the field and fell as chamber CO₂ rose",
+      "Yes; density rose as chamber CO₂ rose and fell as air pressure fell",
+      "No; density showed no relationship to elevation",
+      "No; water loss increased as chamber CO₂ increased"
+    ],
+    "correctIndex": 0,
+    "explanation": "Falling pressure at high elevation reduces available CO₂, and density rose there. In the chambers, adding CO₂ lowered density. Both results point the same way."
+  },
+  {
+    "id": "sc-169",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the runtime of the nickel-cadmium cell was:",
+    "choices": [
+      "1.8 h",
+      "4.5 h",
+      "9.0 h",
+      "10.5 h"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists a runtime of 4.5 h for the nickel-cadmium cell at 200 mA."
+  },
+  {
+    "id": "sc-170",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 3, the greatest capacity was delivered at a temperature of:",
+    "choices": [
+      "0°C",
+      "10°C",
+      "25°C",
+      "40°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 25°C the cell delivered 1,800 mAh, more than at 0°C (1,220), 10°C (1,540), or 40°C (1,720)."
+  },
+  {
+    "id": "sc-171",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 2, as the discharge current increased, the runtime:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "increased, then decreased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Runtime fell from 18.4 h at 100 mA to 1.8 h at 800 mA."
+  },
+  {
+    "id": "sc-172",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "In Experiment 2, as discharge current increased from 100 mA to 800 mA, the capacity delivered:",
+    "choices": [
+      "increased steadily",
+      "decreased steadily",
+      "remained constant",
+      "increased, then decreased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Capacity fell from 1,840 mAh to 1,800 mAh to 1,680 mAh to 1,440 mAh as current rose."
+  },
+  {
+    "id": "sc-173",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which of the following was the variable deliberately changed in Experiment 3?",
+    "choices": [
+      "the discharge current",
+      "the cell chemistry",
+      "the chamber temperature",
+      "the cutoff voltage"
+    ],
+    "correctIndex": 2,
+    "explanation": "Experiment 3 used one chemistry at one current (200 mA) and varied only the chamber temperature."
+  },
+  {
+    "id": "sc-174",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "A student proposes that a cell delivers the same total capacity no matter how quickly it is discharged. Do the Experiment 2 results support this model?",
+    "choices": [
+      "Yes; capacity was 1,800 mAh in every trial",
+      "Yes; runtime fell in exact proportion to current",
+      "No; capacity fell from 1,840 mAh to 1,440 mAh as current rose",
+      "No; capacity rose as current rose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Capacity was not constant. It declined by 400 mAh as current increased eightfold, which the passage attributes to internal resistance losses."
+  },
+  {
+    "id": "sc-175",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If a nickel-metal hydride cell were discharged at 300 mA at 25°C, its runtime would most likely be:",
+    "choices": [
+      "less than 1.8 h",
+      "between 1.8 h and 4.2 h",
+      "between 4.2 h and 9.0 h",
+      "greater than 9.0 h"
+    ],
+    "correctIndex": 2,
+    "explanation": "A current of 300 mA lies between 200 mA (9.0 h) and 400 mA (4.2 h), so the runtime should fall between those two values."
+  },
+  {
+    "id": "sc-176",
+    "subject": "science",
+    "passageId": "sc-p22",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A device draws a steady 200 mA at 25°C and must run for 10 continuous hours. Based on Table 1, which cell should be used?",
+    "choices": [
+      "nickel-cadmium",
+      "nickel-metal hydride",
+      "alkaline",
+      "None of the three would last 10 h"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only the alkaline cell, at 10.5 h, exceeds 10 h at 200 mA. Nickel-cadmium lasted 4.5 h and nickel-metal hydride 9.0 h."
+  },
+  {
+    "id": "sc-177",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the interior temperature 60 minutes after the heater was switched off, with 5 cm of insulation, was:",
+    "choices": [
+      "9°C",
+      "21°C",
+      "29°C",
+      "33°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 21°C after 60 min for the 5 cm box."
+  },
+  {
+    "id": "sc-178",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, which material kept the box above 25°C for the longest time?",
+    "choices": [
+      "fiberglass",
+      "cellulose",
+      "rigid foam board",
+      "straw bale"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rigid foam board took 112 min to fall to 25°C, longer than fiberglass (88), cellulose (80), or straw bale (68)."
+  },
+  {
+    "id": "sc-179",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, as insulation thickness increased, the time required to reach 25°C:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "increased, then decreased"
+    ],
+    "correctIndex": 0,
+    "explanation": "The time rose from 14 min with no insulation to 121 min with 15 cm."
+  },
+  {
+    "id": "sc-180",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "In Experiment 3, how much longer did the box take to cool to 25°C when the cold room was at 15°C than when it was at −5°C?",
+    "choices": [
+      "60 min",
+      "80 min",
+      "108 min",
+      "228 min"
+    ],
+    "correctIndex": 2,
+    "explanation": "The times were 168 min and 60 min, a difference of 108 min."
+  },
+  {
+    "id": "sc-181",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In Experiment 2 every material was applied at a thickness of 10 cm so that:",
+    "choices": [
+      "the boxes would warm to 45°C more quickly",
+      "the cold room could be maintained at 5°C",
+      "the heater would consume less energy",
+      "differences in the results could be attributed to material rather than to thickness"
+    ],
+    "correctIndex": 3,
+    "explanation": "Holding thickness constant isolates the material as the variable, so the performance differences in Table 2 reflect the materials themselves."
+  },
+  {
+    "id": "sc-182",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "A student claims that at equal thickness straw bale insulates better than cellulose. Do the Experiment 2 data support this claim?",
+    "choices": [
+      "No; the straw bale box cooled faster than the cellulose box",
+      "Yes; the straw bale box stayed warmer after 60 min",
+      "No; the two materials produced identical results",
+      "Yes; the straw bale box took longer to reach 25°C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Straw bale left the box at 24°C after 60 min and reached 25°C in 68 min, while cellulose gave 27°C and 80 min. Straw bale performed worse."
+  },
+  {
+    "id": "sc-183",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If Experiment 1 were repeated with 20 cm of fiberglass, the interior temperature after 60 minutes would most likely be:",
+    "choices": [
+      "less than 29°C",
+      "between 29°C and 33°C",
+      "between 33°C and 45°C",
+      "greater than 45°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 60 min temperature rose with thickness (9, 21, 29, 33°C), so 20 cm should exceed 33°C. It cannot exceed the 45°C starting temperature."
+  },
+  {
+    "id": "sc-184",
+    "subject": "science",
+    "passageId": "sc-p23",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Which of the following best explains why, in Experiment 3, the box cooled more slowly when the cold room was warmer?",
+    "choices": [
+      "The heater remained on for a longer time",
+      "The temperature difference across the insulated wall was smaller",
+      "The thermal conductivity of fiberglass decreased",
+      "The box began each trial at a higher temperature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Every trial started at 45°C, so a warmer cold room means a smaller temperature difference across the wall, and the passage states that heat loss depends on that difference."
+  },
+  {
+    "id": "sc-185",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the flask containing 10 g of glucose produced how much CO₂ in 30 minutes?",
+    "choices": [
+      "108 mL",
+      "187 mL",
+      "198 mL",
+      "231 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 187 mL for the 10 g flask."
+  },
+  {
+    "id": "sc-186",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 3, which sugar yielded the least CO₂?",
+    "choices": [
+      "glucose",
+      "sucrose",
+      "fructose",
+      "lactose"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lactose produced only 5 mL, far below the other three sugars."
+  },
+  {
+    "id": "sc-187",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 2, as temperature increased from 10°C to 40°C, the volume of CO₂ collected:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "decreased, then increased"
+    ],
+    "correctIndex": 0,
+    "explanation": "CO₂ rose from 31 mL to 96 mL to 187 mL to 205 mL across that range."
+  },
+  {
+    "id": "sc-188",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "In Experiment 1, the greatest volume of CO₂ was collected from the flask containing:",
+    "choices": [
+      "5 g of glucose",
+      "10 g of glucose",
+      "20 g of glucose",
+      "40 g of glucose"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 20 g flask produced 231 mL, more than the 40 g flask (198 mL) or any smaller mass."
+  },
+  {
+    "id": "sc-189",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "The flask that received no glucose was included in Experiment 1 primarily to:",
+    "choices": [
+      "serve as a control showing how much CO₂ forms without added glucose",
+      "test whether yeast can survive without water",
+      "measure the temperature of the water bath",
+      "calibrate the graduated cylinder"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 0 g flask establishes a baseline (2 mL) so that gas produced in the other flasks can be attributed to the added glucose."
+  },
+  {
+    "id": "sc-190",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "The passage states that very concentrated sugar solutions slow yeast by drawing water out of the cells. Which result most directly supports this statement?",
+    "choices": [
+      "The 0 g flask produced only 2 mL of CO₂",
+      "The 2 g flask took 95 s to produce its first bubble",
+      "The 40 g flask produced less CO₂ than the 20 g flask",
+      "Lactose produced only 5 mL of CO₂"
+    ],
+    "correctIndex": 2,
+    "explanation": "Output rose with glucose up to 20 g (231 mL) but fell at 40 g (198 mL) even though more fuel was present, which is what osmotic stress predicts."
+  },
+  {
+    "id": "sc-191",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If Experiment 2 were repeated at 45°C, the volume of CO₂ collected would most likely be:",
+    "choices": [
+      "less than 31 mL",
+      "between 44 mL and 205 mL",
+      "exactly 205 mL",
+      "greater than 205 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Output peaked at 205 mL at 40°C and collapsed to 44 mL at 50°C, so a trial at 45°C should land somewhere between those two values."
+  },
+  {
+    "id": "sc-192",
+    "subject": "science",
+    "passageId": "sc-p24",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose Experiment 3 were repeated with lactose after the enzyme that splits lactose was added to the flask. Based on the passage, the CO₂ collected would most likely:",
+    "choices": [
+      "remain near 5 mL",
+      "increase substantially, approaching the volume produced by glucose",
+      "fall below 5 mL",
+      "depend only on raising the temperature above 50°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage attributes lactose's poor showing to yeast lacking the enzyme that splits it. Supplying that enzyme would make the sugar usable."
+  },
+  {
+    "id": "sc-193",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the volume of soap needed to lather the 120 mg/L sample was:",
+    "choices": [
+      "2.0 mL",
+      "4.5 mL",
+      "7.0 mL",
+      "11.5 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 4.5 mL of soap for the 120 mg/L sample."
+  },
+  {
+    "id": "sc-194",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, which treatment produced the lowest final hardness?",
+    "choices": [
+      "no treatment",
+      "boiling for 15 min",
+      "passing through ion-exchange resin",
+      "adding washing soda"
+    ],
+    "correctIndex": 2,
+    "explanation": "The ion-exchange resin lowered hardness to 12 mg/L, below washing soda (45) and boiling (140)."
+  },
+  {
+    "id": "sc-195",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, as water hardness increased, the mass of scum produced:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "increased, then decreased"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scum mass rose from 0 mg at 0 mg/L to 128 mg at 340 mg/L."
+  },
+  {
+    "id": "sc-196",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "For the 340 mg/L sample, how much more cleaning product was required with soap than with detergent?",
+    "choices": [
+      "0.5 mL",
+      "1.0 mL",
+      "10.5 mL",
+      "11.5 mL"
+    ],
+    "correctIndex": 2,
+    "explanation": "Soap required 11.5 mL and detergent 1.0 mL, a difference of 10.5 mL."
+  },
+  {
+    "id": "sc-197",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Each flask was shaken for 10 s after every addition. This step was included in order to:",
+    "choices": [
+      "raise the temperature of the water sample",
+      "dissolve the scum that had already formed",
+      "remove calcium ions from the sample",
+      "give every sample the same opportunity to form lather"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shaking each flask for the same fixed time standardizes the test, so the endpoint depends on hardness rather than on how vigorously a sample was mixed."
+  },
+  {
+    "id": "sc-198",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Boiling reduced the hardness of the 200 mg/L sample only to 140 mg/L. Based on the passage, this result indicates that the sample contained:",
+    "choices": [
+      "only temporary hardness",
+      "both temporary and permanent hardness",
+      "no calcium ions at all",
+      "only sulfate compounds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boiling removes temporary (bicarbonate) hardness. The 60 mg/L that was removed was temporary, and the 140 mg/L that remained was permanent."
+  },
+  {
+    "id": "sc-199",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If a 450 mg/L sample were tested as in Experiment 1, the soap required would most likely be:",
+    "choices": [
+      "less than 0.5 mL",
+      "between 4.5 mL and 7.0 mL",
+      "between 7.0 mL and 11.5 mL",
+      "greater than 11.5 mL"
+    ],
+    "correctIndex": 3,
+    "explanation": "Soap demand rose steadily with hardness, reaching 11.5 mL at 340 mg/L, so a harder sample should require more than that."
+  },
+  {
+    "id": "sc-200",
+    "subject": "science",
+    "passageId": "sc-p25",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "A commercial laundry in a region supplied with 340 mg/L water wants to use the smallest possible volume of cleaning product. Based on Tables 1 and 3, it should:",
+    "choices": [
+      "use detergent, which required only 1.0 mL at 340 mg/L",
+      "use soap, which produced no scum at 340 mg/L",
+      "boil the water, which lowered hardness to 12 mg/L",
+      "add washing soda, which raised hardness to 200 mg/L"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 340 mg/L, detergent needed 1.0 mL and produced no scum, while soap needed 11.5 mL and produced 128 mg of scum."
+  },
+  {
+    "id": "sc-201",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the MIC at generation 30 was:",
+    "choices": [
+      "26 µg/mL",
+      "61 µg/mL",
+      "88 µg/mL",
+      "96 µg/mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists an MIC of 61 µg/mL at generation 30."
+  },
+  {
+    "id": "sc-202",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 3, the growth rate of the culture that had never been exposed to ampicillin was:",
+    "choices": [
+      "1.42 doublings/h",
+      "1.78 doublings/h",
+      "2.05 doublings/h",
+      "2.50 doublings/h"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 3 gives 2.05 doublings/h for the never-exposed culture."
+  },
+  {
+    "id": "sc-203",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 1, as the number of generations increased, the MIC:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "decreased, then increased"
+    ],
+    "correctIndex": 0,
+    "explanation": "MIC climbed from 4 µg/mL at generation 0 to 96 µg/mL at generation 50."
+  },
+  {
+    "id": "sc-204",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "From generation 0 to generation 50 in Experiment 1, the MIC increased by a factor of about:",
+    "choices": [
+      "4",
+      "12",
+      "24",
+      "96"
+    ],
+    "correctIndex": 2,
+    "explanation": "MIC rose from 4 µg/mL to 96 µg/mL, and 96 ÷ 4 = 24."
+  },
+  {
+    "id": "sc-205",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Experiment 2 was performed primarily in order to:",
+    "choices": [
+      "serve as a control showing that MIC stays near 4 µg/mL without antibiotic exposure",
+      "determine the MIC of a second antibiotic",
+      "measure how colony counts change with temperature",
+      "confirm that ampicillin kills every cell in a culture"
+    ],
+    "correctIndex": 0,
+    "explanation": "The unexposed culture, from the same stock, shows that mere passage of generations does not raise MIC, so the rise in Experiment 1 must be tied to ampicillin exposure."
+  },
+  {
+    "id": "sc-206",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "The passage states that resistance genes impose a cost on the cell. Which result in Table 3 most directly supports that statement?",
+    "choices": [
+      "MIC fell from 96 to 71 µg/mL after 40 antibiotic-free generations",
+      "The generation 50 culture grew at 1.42 doublings/h while the never-exposed culture grew at 2.05",
+      "Colony counts stayed near 200 throughout Experiment 1",
+      "MIC rose most steeply between generations 10 and 30"
+    ],
+    "correctIndex": 1,
+    "explanation": "The highly resistant culture divided far more slowly than the sensitive one, which is exactly the energetic cost the passage describes."
+  },
+  {
+    "id": "sc-207",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If Experiment 1 had continued to generation 60, the MIC would most likely have been:",
+    "choices": [
+      "below 61 µg/mL",
+      "about 61 µg/mL",
+      "slightly above 96 µg/mL",
+      "about 200 µg/mL"
+    ],
+    "correctIndex": 2,
+    "explanation": "MIC gains were shrinking near the end (61 to 88 to 96 µg/mL), so a further 10 generations should raise it only a little above 96."
+  },
+  {
+    "id": "sc-208",
+    "subject": "science",
+    "passageId": "sc-p26",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Colony counts in Experiment 1 stayed between 190 and 210 at every generation sampled. This indicates that:",
+    "choices": [
+      "resistance did not actually change over the 50 generations",
+      "the antibiotic killed most of the cells at each transfer",
+      "colony count is a more reliable measure of resistance than MIC",
+      "population size remained roughly constant even as resistance rose"
+    ],
+    "correctIndex": 3,
+    "explanation": "Steady colony counts show the cultures were not being decimated. The population stayed about the same size while its MIC increased 24-fold."
+  },
+  {
+    "id": "sc-209",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the turbidity measured after 15 mm of rainfall was:",
+    "choices": [
+      "18 NTU",
+      "74 NTU",
+      "210 NTU",
+      "465 NTU"
+    ],
+    "correctIndex": 1,
+    "explanation": "Table 1 lists 74 NTU following 15 mm of rain."
+  },
+  {
+    "id": "sc-210",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 2, the turbidity of the column after 6 hours of settling was:",
+    "choices": [
+      "44 NTU",
+      "52 NTU",
+      "79 NTU",
+      "141 NTU"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 2 gives 79 NTU at 6 h."
+  },
+  {
+    "id": "sc-211",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 1,
+    "prompt": "In Experiment 2, as settling time increased, turbidity:",
+    "choices": [
+      "increased",
+      "decreased",
+      "remained constant",
+      "decreased, then increased"
+    ],
+    "correctIndex": 1,
+    "explanation": "Turbidity fell from 465 NTU at 0 h to 44 NTU at 24 h."
+  },
+  {
+    "id": "sc-212",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Based on Table 3, which filter produced water meeting the utility's 1 NTU permit limit for all three input turbidities?",
+    "choices": [
+      "sand",
+      "sand + anthracite",
+      "membrane",
+      "none of the three filters"
+    ],
+    "correctIndex": 2,
+    "explanation": "The membrane filter produced 0.4, 0.5, and 0.9 NTU, all below 1 NTU. The other filters left 4 NTU or more."
+  },
+  {
+    "id": "sc-213",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "In Experiment 1, samples were always collected at the same midstream point so that:",
+    "choices": [
+      "river discharge could be measured more accurately",
+      "fish in the river would not be disturbed",
+      "particles would not settle inside the sample bottle",
+      "differences in turbidity would not be caused by a change in sampling location"
+    ],
+    "correctIndex": 3,
+    "explanation": "Fixing the sampling point removes location as a variable, so the turbidity differences can be linked to rainfall and discharge."
+  },
+  {
+    "id": "sc-214",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "The passage states that settling alone never fully clears water. Which result in Table 2 best supports this statement?",
+    "choices": [
+      "Turbidity fell from 465 NTU to 288 NTU during the first hour",
+      "Turbidity was still 44 NTU after 24 h, far above the 1 NTU limit",
+      "Turbidity reached 0.9 NTU after 24 h",
+      "Turbidity rose between 12 h and 24 h"
+    ],
+    "correctIndex": 1,
+    "explanation": "After a full day of undisturbed settling the water remained at 44 NTU, dropping only 8 NTU over the final 12 h, so settling had nearly stalled well short of 1 NTU."
+  },
+  {
+    "id": "sc-215",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 3,
+    "prompt": "If a sample were collected after 45 mm of rainfall in the previous 24 h, its turbidity would most likely be:",
+    "choices": [
+      "less than 74 NTU",
+      "between 74 NTU and 210 NTU",
+      "between 210 NTU and 465 NTU",
+      "greater than 465 NTU"
+    ],
+    "correctIndex": 2,
+    "explanation": "Turbidity rose with rainfall, and 45 mm lies between the 30 mm event (210 NTU) and the 55 mm event (465 NTU)."
+  },
+  {
+    "id": "sc-216",
+    "subject": "science",
+    "passageId": "sc-p27",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "The plant receives river water at 465 NTU and must deliver water below 1 NTU. Based on Tables 2 and 3, which single step would be sufficient?",
+    "choices": [
+      "24 h of settling alone",
+      "sand filtration alone",
+      "sand + anthracite filtration alone",
+      "membrane filtration alone"
+    ],
+    "correctIndex": 3,
+    "explanation": "Membrane filtration brought 465 NTU water to 0.9 NTU in one pass. Settling left 44 NTU, sand left 88 NTU, and sand + anthracite left 35 NTU."
+  },
+  {
+    "id": "sc-217",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the greatest percentage of bleached colonies was recorded in:",
+    "choices": [
+      "2016",
+      "2018",
+      "2020",
+      "2024"
+    ],
+    "correctIndex": 3,
+    "explanation": "Table 1 shows 63% of colonies bleached in 2024, more than in any other survey year."
+  },
+  {
+    "id": "sc-218",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Scientist 1, the long-term average peak summer temperature at Ridge Reef is:",
+    "choices": [
+      "29.1°C",
+      "29.5°C",
+      "30.5°C",
+      "31.6°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 states that the long-term summer average is 29.5°C and that trouble begins about 1°C above it."
+  },
+  {
+    "id": "sc-219",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Which of the following statements would both scientists most likely accept?",
+    "choices": [
+      "Elevated water temperature can trigger coral bleaching",
+      "Nutrient runoff sets the temperature at which a colony bleaches",
+      "Local conservation action cannot help reefs",
+      "Nitrate was measured during the warmest weeks of each year"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 1 treats heat as the sole driver and Scientist 2 calls heat a trigger, so both agree that warming can set off bleaching."
+  },
+  {
+    "id": "sc-220",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Scientist 2's main criticism of the Ridge Reef survey is that:",
+    "choices": [
+      "temperatures were measured with an inaccurate instrument",
+      "too many years were included in the survey",
+      "nitrate was sampled too infrequently and at the wrong time of year",
+      "bleaching percentages were estimated rather than counted"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientist 2 argues the survey cannot separate heat from nutrients because nitrate was sampled once a year and never during the warmest weeks."
+  },
+  {
+    "id": "sc-221",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Which single year in Table 1 provides the strongest evidence for Scientist 1's position?",
+    "choices": [
+      "2016, when nitrate measured 0.9 µmol/L",
+      "2018, when 12% of colonies bleached",
+      "2020, when peak temperature reached 31.3°C",
+      "2022, which had the highest nitrate (2.4 µmol/L) but the least bleaching (9%)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Scientist 1 argues nitrate is irrelevant. The year with the most nitrate had the least bleaching and the coolest water, which fits temperature control and not nutrient control."
+  },
+  {
+    "id": "sc-222",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which additional study would best test Scientist 2's explanation?",
+    "choices": [
+      "measuring peak summer temperature at Ridge Reef more frequently",
+      "comparing bleaching on nearshore and offshore reefs that reached the same peak temperature but differ in nitrate",
+      "counting zooxanthellae in laboratory cultures held at 25°C",
+      "recording annual rainfall over the region"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 2 claims nutrients lower the bleaching threshold. Holding peak temperature constant while varying nutrient load isolates exactly that effect."
+  },
+  {
+    "id": "sc-223",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose a heavily fertilized reef with 3.0 µmol/L nitrate bleached 45% of its colonies in a year when peak temperature reached only 29.6°C. This finding would:",
+    "choices": [
+      "support Scientist 1 only",
+      "support both scientists equally",
+      "weaken Scientist 1 and support Scientist 2",
+      "weaken the positions of both scientists"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientist 1 predicts fewer than 15% bleaching at or near 29.5°C. Heavy bleaching at 29.6°C on a nutrient-rich reef is what Scientist 2's lowered-threshold idea predicts."
+  },
+  {
+    "id": "sc-224",
+    "subject": "science",
+    "passageId": "sc-p28",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Which policy would follow from Scientist 2's viewpoint but not from Scientist 1's?",
+    "choices": [
+      "reducing greenhouse gas emissions worldwide",
+      "reducing fertilizer and sewage runoff into coastal waters",
+      "monitoring sea surface temperature by satellite",
+      "moving coral fragments to deeper, cooler water"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 holds that only emissions cuts matter because local action cannot cool the ocean. Scientist 2 argues local runoff control raises the bleaching threshold."
+  },
+  {
+    "id": "sc-225",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, pumping during the 2015-2025 interval was:",
+    "choices": [
+      "18 million m³/yr",
+      "30 million m³/yr",
+      "34 million m³/yr",
+      "46 million m³/yr"
+    ],
+    "correctIndex": 3,
+    "explanation": "Table 1 lists 46 million m³/yr for 2015-2025."
+  },
+  {
+    "id": "sc-226",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "Student 2 attributes the falling water table primarily to:",
+    "choices": [
+      "increased pumping",
+      "reduced precipitation",
+      "expanded paving",
+      "diversion of the river"
+    ],
+    "correctIndex": 1,
+    "explanation": "Student 2 argues the cause is drought, noting that precipitation fell 80 mm and that recharge drops faster than rainfall does."
+  },
+  {
+    "id": "sc-227",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Student 1's argument rests mainly on a comparison between:",
+    "choices": [
+      "paved area and precipitation",
+      "water table depth and county population",
+      "the annual pumping rate and the natural recharge rate",
+      "precipitation and river flow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Student 1 contrasts pumping, which rose from 18 to 46 million m³/yr, with recharge, which stayed near 30 million m³/yr."
+  },
+  {
+    "id": "sc-228",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "All three students would agree that:",
+    "choices": [
+      "the water table beneath the county declined between 1995 and 2025",
+      "pumping is the single largest cause of the decline",
+      "paving is the single largest cause of the decline",
+      "precipitation has no effect on aquifer recharge"
+    ],
+    "correctIndex": 0,
+    "explanation": "The students disagree about the cause but all begin from the observed 14 m decline reported in the introduction and Table 1."
+  },
+  {
+    "id": "sc-229",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Scientific Investigation",
+    "difficulty": 2,
+    "prompt": "Which measurement would best distinguish Student 3's explanation from Student 2's?",
+    "choices": [
+      "measuring the total volume pumped from the aquifer each year",
+      "measuring how much rain infiltrates on paved versus unpaved plots that receive identical rainfall",
+      "measuring the depth to the water table more frequently",
+      "surveying the county's population every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Holding rainfall constant while varying only the surface tests whether paving blocks infiltration, which is Student 3's claim and not Student 2's."
+  },
+  {
+    "id": "sc-230",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "According to Table 1, the decline in the water table over successive intervals:",
+    "choices": [
+      "became larger in each successive interval",
+      "became smaller in each successive interval",
+      "was the same in each interval",
+      "reversed during 2015-2025"
+    ],
+    "correctIndex": 0,
+    "explanation": "The water table fell 2 m, then 5 m, then 7 m, so each interval's decline exceeded the one before it."
+  },
+  {
+    "id": "sc-231",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose annual precipitation returned to 880 mm for a decade while the water table continued to fall at the same rate. This result would most weaken the position of:",
+    "choices": [
+      "Student 1",
+      "Student 2",
+      "Student 3",
+      "none of the three students"
+    ],
+    "correctIndex": 1,
+    "explanation": "Student 2 predicts the water table would stabilize if rainfall recovered, even at current pumping rates. Continued decline would contradict that prediction directly."
+  },
+  {
+    "id": "sc-232",
+    "subject": "science",
+    "passageId": "sc-p29",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Suppose measurements showed that natural recharge remained near 30 million m³/yr in every interval despite the growth in paved area. This finding would most weaken the position of:",
+    "choices": [
+      "Student 1",
+      "Student 2",
+      "Student 3",
+      "all three students equally"
+    ],
+    "correctIndex": 2,
+    "explanation": "Student 3 argues that paving cut recharge substantially. Recharge holding steady while paving tripled would undercut that argument, while Student 1 actually assumes recharge stayed near 30 million m³/yr."
+  },
+  {
+    "id": "sc-233",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the number of lichen species recorded in the outer suburb group was:",
+    "choices": [
+      "7",
+      "11",
+      "14",
+      "23"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 1 lists 14 lichen species for the outer suburb sites."
+  },
+  {
+    "id": "sc-234",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Data Interpretation",
+    "difficulty": 1,
+    "prompt": "According to Table 1, the greatest nitrogen deposition was recorded in the:",
+    "choices": [
+      "urban core",
+      "inner suburb",
+      "rural farmland",
+      "remote upland"
+    ],
+    "correctIndex": 0,
+    "explanation": "The urban core received 31 kg/ha/yr, more than rural farmland (27), inner suburb (24), outer suburb (16), or remote upland (5)."
+  },
+  {
+    "id": "sc-235",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "According to Scientist 1, sulfur dioxide harms lichens because it:",
+    "choices": [
+      "raises the pH of tree bark",
+      "dissolves in surface moisture to form acid that destroys chlorophyll in the algal partner",
+      "blocks sunlight from reaching the lichen surface",
+      "adds nitrogen to the bark that lichens grow on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 describes SO₂ dissolving in the film of water on the lichen, forming acid, and shutting down photosynthesis by destroying chlorophyll."
+  },
+  {
+    "id": "sc-236",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Evaluation of Models",
+    "difficulty": 2,
+    "prompt": "Scientist 2 objects to species counts on the grounds that they:",
+    "choices": [
+      "are usually recorded inaccurately in the field",
+      "ignore the acidity of tree bark",
+      "systematically overestimate sulfur dioxide levels",
+      "cannot reveal that sensitive species have been replaced by nitrogen-tolerant ones"
+    ],
+    "correctIndex": 3,
+    "explanation": "Scientist 2 argues nitrogen substitutes one set of species for another, a change a raw count cannot detect unless the species are identified."
+  },
+  {
+    "id": "sc-237",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Data Interpretation",
+    "difficulty": 2,
+    "prompt": "Which site group does Scientist 2 cite as evidence that low SO₂ does not guarantee high lichen richness?",
+    "choices": [
+      "urban core",
+      "inner suburb",
+      "rural farmland",
+      "remote upland"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientist 2 points to rural farmland, where SO₂ is only 3 µg/m³, yet just 11 species occur while nitrogen deposition is 27 kg/ha/yr."
+  },
+  {
+    "id": "sc-238",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Trends & Extrapolation",
+    "difficulty": 2,
+    "prompt": "Considering all five site groups, as mean SO₂ increased, the number of lichen species:",
+    "choices": [
+      "decreased without exception",
+      "generally decreased, although the rural farmland group breaks the pattern",
+      "increased without exception",
+      "showed no relationship at all"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ordered by SO₂, richness runs 23, 11, 14, 7, 3. The overall trend is downward, but rural farmland (3 µg/m³, 11 species) falls below outer suburb (7 µg/m³, 14 species)."
+  },
+  {
+    "id": "sc-239",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Scientific Investigation",
+    "difficulty": 3,
+    "prompt": "Which study would best distinguish between the two scientists' explanations?",
+    "choices": [
+      "identifying every lichen species at sites that share uniformly low SO₂ but differ widely in nitrogen deposition",
+      "counting total lichen cover at sites where SO₂ is highest",
+      "measuring bark pH within the urban core only",
+      "comparing regional SO₂ readings from the 1970s with those of today"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scientist 2 predicts species composition shifts with nitrogen even where SO₂ is uniformly low. Identifying species along a nitrogen gradient with SO₂ held low tests that prediction against Scientist 1's."
+  },
+  {
+    "id": "sc-240",
+    "subject": "science",
+    "passageId": "sc-p30",
+    "topic": "Evaluation of Models",
+    "difficulty": 3,
+    "prompt": "Scientist 1 cites the return of lichens to European cities after coal smoke controls. That history supports Scientist 1 because it shows that:",
+    "choices": [
+      "richness recovered only after nitrogen emissions fell first",
+      "richness recovered when SO₂ fell even though nitrogen emissions had not yet declined",
+      "bark pH rose in cities before lichens returned",
+      "no measurements of air chemistry were available at the time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scientist 1 notes the recovery came within a decade of SO₂ controls and long before nitrogen emissions fell, pointing to SO₂ as the limiting factor."
+  }
+]

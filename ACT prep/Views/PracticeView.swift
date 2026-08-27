@@ -65,7 +65,7 @@ struct PracticeView: View {
                     Text("Practice by Subject")
                 } footer: {
                     if !store.isPro {
-                        Text("The free plan includes the first \(StoreManager.freePracticeLimit) questions in each subject. Subscribe for all 520.")
+                        Text("The free plan includes the first \(StoreManager.freePracticeLimit) questions in each subject. Subscribe for all \(QuestionBank.shared.formattedCount).")
                     }
                 }
             }
@@ -397,7 +397,7 @@ struct PracticeSessionView: View {
         ContentUnavailableView {
             Label("Subscribe to Continue", systemImage: "lock.fill")
         } description: {
-            Text("You've finished the \(StoreManager.freePracticeLimit) free questions in \(subject.displayName). ACT Prep Pro unlocks all 520 questions, 40 tutorials, and 15 mock exams.")
+            Text("You've finished the \(StoreManager.freePracticeLimit) free questions in \(subject.displayName). ACT Prep Pro unlocks all \(QuestionBank.shared.formattedCount) questions, \(TutorialLibrary.shared.tutorials.count) tutorials, and \(MockExam.all.count) mock exams.")
         } actions: {
             Button("See Plans") { showPaywall = true }
                 .buttonStyle(.borderedProminent)

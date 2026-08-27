@@ -122,7 +122,7 @@ Then on the product page:
      ```
    - Description:
      ```
-     Full access to all 520 practice questions, 40 tutorials, and 15 mock exams. Billed monthly.
+     Full access to all 1,040 practice questions, 40 tutorials, and 15 mock exams. Billed monthly.
      ```
 4. **Review Information** → upload a screenshot of your paywall (see Part 7) and leave review notes blank.
 
@@ -144,7 +144,7 @@ Click **Create** again in the same group:
      ```
    - Description:
      ```
-     Full access to all 520 practice questions, 40 tutorials, and 15 mock exams. Billed yearly.
+     Full access to all 1,040 practice questions, 40 tutorials, and 15 mock exams. Billed yearly.
      ```
 4. **Review Information** → upload the same paywall screenshot.
 
@@ -248,7 +248,7 @@ Paste these into the **iOS App** → **1.0 Prepare for Submission** page.
 ### Promotional Text (170 char max, editable without review)
 
 ```
-Start free with 10 questions per subject. Unlock 520 questions, 40 Math and Science tutorials, and 15 timed mock exams on iPhone, iPad, and Mac.
+Start free with 10 questions per subject. Unlock 1,040 questions, 40 Math and Science tutorials, and 15 timed mock exams on iPhone, iPad, and Mac.
 ```
 
 ### Description
@@ -260,7 +260,7 @@ ACT Prep combines targeted practice, clear tutorials, and realistic timed exams 
 
 WHAT'S INSIDE
 
-• 520 practice questions across English, Math, Reading, and Science — every one with a written explanation
+• 1,040 practice questions across English, Math, Reading, and Science — every one with a written explanation
 • 40 tutorials covering Math and Science, each with worked examples, key facts, and test-day tips
 • 15 mock exams, each available in two formats
 

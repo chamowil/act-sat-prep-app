@@ -120,8 +120,19 @@ final class QuestionBank {
     }
 
     private func load() {
-        let questionFiles = ["english_questions", "math_questions", "reading_questions", "science_questions"]
-        let passageFiles = ["english_passages", "reading_passages", "science_passages"]
+        // Content ships in numbered sets so new material can be added without
+        // rewriting existing files. Add a file here to include it.
+        let questionFiles = [
+            "english_questions", "english_questions_2",
+            "math_questions", "math_questions_2",
+            "reading_questions", "reading_questions_2",
+            "science_questions", "science_questions_2"
+        ]
+        let passageFiles = [
+            "english_passages", "english_passages_2",
+            "reading_passages", "reading_passages_2",
+            "science_passages", "science_passages_2"
+        ]
         let decoder = JSONDecoder()
 
         for name in questionFiles {
@@ -142,6 +153,15 @@ final class QuestionBank {
     func questions(for subject: Subject) -> [Question] {
         bySubject[subject] ?? []
     }
+
+    /// Total question count, grouped for display ("1,040"). Marketing copy and
+    /// paywall text read this rather than hard-coding a number, so counts can
+    /// never drift out of sync with the bundled content.
+    var formattedCount: String {
+        questionCount.formatted(.number.grouping(.automatic))
+    }
+
+    var questionCount: Int { questions.count }
 
     func topics(for subject: Subject) -> [String] {
         Array(Set(questions(for: subject).map(\.topic))).sorted()

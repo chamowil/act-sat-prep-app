@@ -94,7 +94,7 @@ struct SettingsView: View {
                             Text("Upgrade to Pro")
                                 .font(.headline)
                                 .foregroundStyle(.primary)
-                            Text("All 520 questions, 40 tutorials, 15 mock exams")
+                            Text("All \(QuestionBank.shared.formattedCount) questions, \(TutorialLibrary.shared.tutorials.count) tutorials, \(MockExam.all.count) mock exams")
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
                         }

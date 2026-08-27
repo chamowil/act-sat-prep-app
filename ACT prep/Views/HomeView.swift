@@ -304,7 +304,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Go Pro")
                         .font(.headline)
-                    Text("All 520 questions, 40 tutorials, and 15 mock exams")
+                    Text("All \(QuestionBank.shared.formattedCount) questions, \(TutorialLibrary.shared.tutorials.count) tutorials, and \(MockExam.all.count) mock exams")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.leading)

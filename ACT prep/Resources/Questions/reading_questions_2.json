@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "re-121",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "trace how the narrator came to understand the value of her grandmother's habit of close, recorded attention",
+      "argue that small orchards are more profitable than large commercial operations",
+      "explain the biological causes of late-spring frost damage in apple trees",
+      "describe the technical methods county extension offices use to advise fruit growers"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrator begins convinced the extension bulletins have solved everything and ends taking the pencil herself, realizing 'the hard part was learning to see something worth writing down.'"
+  },
+  {
+    "id": "re-122",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the grandmother's ledger contained:",
+    "choices": [
+      "detailed columns of income and expenses for each row",
+      "spray calendars copied from county bulletins",
+      "photographs of each tree taken at blossom time",
+      "dates, weather, and sentences, with almost no money"
+    ],
+    "correctIndex": 3,
+    "explanation": "The narrator says she expected columns of money but the ledger 'had almost no money in it. It had dates, and weather, and sentences.'"
+  },
+  {
+    "id": "re-123",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The grandmother's response to the narrator's praise of the extension bulletins was to point out that:",
+    "choices": [
+      "the phone number listed in the bulletins was no longer in service",
+      "the bulletins were usually printed too late in the season to be useful",
+      "the bulletins were written for the county while she farmed eleven acres of it",
+      "she had never learned to read the graphs the bulletins contained"
+    ],
+    "correctIndex": 2,
+    "explanation": "She 'did not argue,' saying only that the bulletins were written for the county 'and that she farmed eleven acres of it.'"
+  },
+  {
+    "id": "re-124",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The grandmother's practice of naming individual trees suggests that she:",
+    "choices": [
+      "had trouble remembering the standard varietal names for apples",
+      "believed each tree behaved particularly rather than like a statistical average",
+      "wanted visitors to find the orchard charming and old-fashioned",
+      "considered the orchard's trees to be members of her family"
+    ],
+    "correctIndex": 1,
+    "explanation": "She explains that a name is 'a way of remembering that a thing was itself and not an average.'"
+  },
+  {
+    "id": "re-125",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As it is used in the passage, the phrase 'a habit the land had' most nearly means:",
+    "choices": [
+      "a recurring local tendency observable only over long attention",
+      "a farming routine the grandmother had imposed on the property",
+      "a scientific law governing all orchards in the region",
+      "a superstition the grandmother could not defend"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrator says 'the pattern was not a law' but something learned 'by paying attention over a long time,' like a person's habits."
+  },
+  {
+    "id": "re-126",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The grandmother expected the low ground to freeze because:",
+    "choices": [
+      "the radio forecast had predicted a temperature of twenty-eight degrees",
+      "the trees in the low ground had bloomed earlier than the rest",
+      "the extension bulletin that spring had warned of a hard frost",
+      "cold air runs downhill and pools, and her notebook recorded three such nights in forty years"
+    ],
+    "correctIndex": 3,
+    "explanation": "She explains cold air 'runs downhill and pools' and that the low ground had frozen three times in forty years when the town had not."
+  },
+  {
+    "id": "re-127",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "Which of the following best describes the order of events in the passage?",
+    "choices": [
+      "The naming of the trees, then the narrator's departure, then her return years later",
+      "The frost night, then the narrator's arrival, then the sorting of drops in the packing shed",
+      "The narrator's skepticism, then the May frost night, then her October attempt at an entry",
+      "The October entry, then the argument in the packing shed, then the blossom loss"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage moves from the narrator's early certainty about the bulletins, to the frost in the second week of May, to October when she is handed the pencil."
+  },
+  {
+    "id": "re-128",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The narrator includes the detail that she and her grandmother 'stood in the smoke until dawn like two people waiting for a train' most likely to:",
+    "choices": [
+      "suggest that the smudge barrels produced dangerous levels of smoke",
+      "convey the patient, uneventful ordinariness of an act of care",
+      "imply that the grandmother was planning to leave the orchard",
+      "show that the narrator resented being woken in the night"
+    ],
+    "correctIndex": 1,
+    "explanation": "The simile emphasizes quiet waiting rather than drama, matching the passage's view of attention as patient and unglamorous."
+  },
+  {
+    "id": "re-129",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The loss of blossoms on the western slope serves in the passage to:",
+    "choices": [
+      "show that the grandmother's knowledge was real but limited to what she had recorded",
+      "demonstrate that the extension bulletins had been correct after all",
+      "explain why the narrator decided not to return the following year",
+      "prove that the grandmother's notebook was unreliable"
+    ],
+    "correctIndex": 0,
+    "explanation": "They lost the slope 'where we had not gone' while the low ground held, showing her knowledge worked exactly where her long attention had been directed."
+  },
+  {
+    "id": "re-130",
+    "subject": "reading",
+    "passageId": "re-p13",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The narrator's final written line, 'Row seven still dropping. Ask her why,' most strongly suggests that she has:",
+    "choices": [
+      "concluded that row seven should be removed and replanted",
+      "given up on understanding the orchard and deferred entirely to her grandmother",
+      "decided that the ledger should be used to record questions rather than facts",
+      "begun to notice a particular puzzle and to see the ledger as an ongoing inquiry"
+    ],
+    "correctIndex": 3,
+    "explanation": "Having realized the hard part is noticing, she records the anomaly she has noticed and commits to pursuing it."
+  },
+  {
+    "id": "re-131",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is best described as:",
+    "choices": [
+      "an account of the narrator's years working the overnight desk at a hotel",
+      "an argument that cities should expand overnight bus service",
+      "a critique of transit agencies that publish unrealistic timetables",
+      "a recollection of a night bus route and the lesson its driver taught the narrator"
+    ],
+    "correctIndex": 3,
+    "explanation": "The narrator recalls riding the 61 and centers the memory on Marguerite's explanation of why she waits for Ivy."
+  },
+  {
+    "id": "re-132",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the term 'owl route' refers to:",
+    "choices": [
+      "the last bus of the evening",
+      "a bus line named after a neighborhood",
+      "a bus line that runs all night",
+      "a route that circles the city without stopping"
+    ],
+    "correctIndex": 2,
+    "explanation": "The opening sentence explains that because the 61 ran all night, the transit authority called it an owl route."
+  },
+  {
+    "id": "re-133",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Marguerite's name was known to the narrator because:",
+    "choices": [
+      "the two sisters who cleaned offices downtown mentioned it",
+      "it appeared on a placard she had made herself and taped by the fare box",
+      "it was printed on the official operator badge above the windshield",
+      "she introduced herself to every new passenger"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage notes the homemade placard taped beside the fare box, under the official one reading OPERATOR 3312."
+  },
+  {
+    "id": "re-134",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Marguerite explains that she is able to wait for Ivy without making the route late because she:",
+    "choices": [
+      "makes up time at Hollis and on the viaduct, and considers the rest of the timetable unrealistic",
+      "skips two stops later in the route when no one is waiting",
+      "has permission from the transit authority to alter the schedule",
+      "leaves the terminal several minutes ahead of schedule each night"
+    ],
+    "correctIndex": 0,
+    "explanation": "She says she makes up ninety seconds on Hollis and forty on the viaduct, and that the rest 'was never real to begin with.'"
+  },
+  {
+    "id": "re-135",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As used in the passage, the narrator's belief that 'a schedule was a kind of moral fact' most nearly means that he:",
+    "choices": [
+      "thought bus schedules were determined by ethical committees",
+      "believed that being late was a crime that should be punished",
+      "assumed the timetable had been calculated with great precision",
+      "treated the posted times as a rule that ought to be obeyed on principle"
+    ],
+    "correctIndex": 3,
+    "explanation": "The phrase introduces his youthful conviction that departing on time was right in itself, which Marguerite's answer complicates."
+  },
+  {
+    "id": "re-136",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "Marguerite's remark that Ivy 'has three stops after mine before she's home' suggests that Marguerite:",
+    "choices": [
+      "is required by policy to coordinate with connecting routes",
+      "wishes the route were extended closer to Ivy's apartment",
+      "understands her decision in terms of its consequences for one rider's whole night",
+      "believes Ivy should find a job closer to where she lives"
+    ],
+    "correctIndex": 2,
+    "explanation": "She points out that missing her bus means Ivy 'misses all of it,' framing the wait by its downstream effect on a person."
+  },
+  {
+    "id": "re-137",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The narrator most likely mentions the church with the broken clock 'that said ten past two in every season' in order to:",
+    "choices": [
+      "suggest that the neighborhood had been abandoned by the city",
+      "give a concrete, unchanging landmark that fixes the route in his memory",
+      "hint that the narrator had lost track of time during those years",
+      "explain why passengers could not tell whether the bus was late"
+    ],
+    "correctIndex": 1,
+    "explanation": "It appears in the list of details he could 'still draw from memory,' anchoring the route he remembers better than any later city."
+  },
+  {
+    "id": "re-138",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage is organized as:",
+    "choices": [
+      "an introduction to the route and its regulars, a central exchange with the driver, and a later reflection",
+      "a comparison of four cities in which the narrator has lived",
+      "an argument followed by evidence drawn from transit records",
+      "a chronological account of a single night on the 61"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage sets the scene and the regulars, presents the February conversation, and closes with the narrator years later at a bus shelter."
+  },
+  {
+    "id": "re-139",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The narrator's closing advice, 'and if you're running, run anyway,' primarily conveys his belief that:",
+    "choices": [
+      "passengers should always sprint for a bus that is pulling away",
+      "the 61 is unreliable and passengers must expect to miss it",
+      "transit systems can be made to run more efficiently by their riders",
+      "a system may hold room for a person watching out for you"
+    ],
+    "correctIndex": 3,
+    "explanation": "He adds 'somebody might be watching the mirror,' echoing Marguerite's habit and the human allowance inside the schedule."
+  },
+  {
+    "id": "re-140",
+    "subject": "reading",
+    "passageId": "re-p14",
+    "topic": "Vocabulary in Context",
+    "difficulty": 1,
+    "prompt": "In the passage, the word 'regulars' most nearly means:",
+    "choices": [
+      "stops that appeared on the printed timetable",
+      "passengers who paid the full fare",
+      "people who rode the bus habitually",
+      "drivers assigned to the route permanently"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 'maybe fifteen regulars' are then described as recurring riders such as the man in the wool coat and the two sisters."
+  },
+  {
+    "id": "re-141",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The central conflict of the passage is between:",
+    "choices": [
+      "the narrator's training in another city and her homesickness for the family shop",
+      "a daughter's ambition to expand the bakery and her father's wish to keep it small",
+      "the precision of measurement and the judgment that responds to what measurement cannot capture",
+      "traditional sourdough baking and the commercial yeast used by competitors"
+    ],
+    "correctIndex": 2,
+    "explanation": "The proofing cabinet controls the room perfectly, but the father catches the change in flour that the cabinet cannot know."
+  },
+  {
+    "id": "re-142",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Ondine is:",
+    "choices": [
+      "the name of the family bakery",
+      "the sourdough starter kept by the family",
+      "the brand name of the proofing cabinet",
+      "the narrator's great-grandmother"
+    ],
+    "correctIndex": 1,
+    "explanation": "The starter 'had a name,' Ondine, and the narrator fed it flour and water each evening."
+  },
+  {
+    "id": "re-143",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Before the cabinet arrived, the father regulated dough temperature by:",
+    "choices": [
+      "moving the dough among a warm window bench, a cold corner, and a hot shelf above the oven",
+      "adjusting the water temperature according to a conversion chart",
+      "opening the walk-in cooler door for measured intervals",
+      "mixing smaller batches during the hottest months"
+    ],
+    "correctIndex": 0,
+    "explanation": "The bakery's three locations are described, and the father 'moved the dough among these places the way a chess player moves pieces.'"
+  },
+  {
+    "id": "re-144",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "During the July heat wave, the bread made by the old method was:",
+    "choices": [
+      "burned because the oven could not be regulated",
+      "unavailable, because the shop closed for two days",
+      "dense and underrisen because the dough was too cold",
+      "flat and sour because the dough went past its window and turned slack"
+    ],
+    "correctIndex": 3,
+    "explanation": "Batches 'blew past their window,' the dough 'went slack and gassy,' and they 'sold flat, sour bread for two days.'"
+  },
+  {
+    "id": "re-145",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "When the father says the new flour is 'thirstier,' he means that it:",
+    "choices": [
+      "requires a longer rest before it can be mixed",
+      "has been stored in a damp room and must be dried",
+      "absorbs more water, changing how the dough behaves",
+      "was milled from a drought-stressed harvest and should be rejected"
+    ],
+    "correctIndex": 2,
+    "explanation": "He uses the word to explain why the same recipe and temperature produced dough that was ready twenty minutes early."
+  },
+  {
+    "id": "re-146",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The father's initial remark, 'It's a box that costs money to be a room,' primarily expresses his view that:",
+    "choices": [
+      "the cabinet was too small for the bakery's daily volume",
+      "the cabinet duplicated at expense what the shop already provided for free",
+      "the narrator had been misled by a dishonest equipment dealer",
+      "the cabinet was purchased with money the bakery could not spare"
+    ],
+    "correctIndex": 1,
+    "explanation": "The bakery already had warm, cold, and hot places; he objects that the machine buys what the building supplies."
+  },
+  {
+    "id": "re-147",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The narrator's admission that she 'was insufferable about it for approximately four hours' functions in the passage to:",
+    "choices": [
+      "signal a reversal, using self-mockery to set up the second mix that complicates her victory",
+      "suggest that the narrator and her father rarely spoke to each other",
+      "explain why she eventually left the bakery for another city",
+      "establish that the father never acknowledged her contribution"
+    ],
+    "correctIndex": 0,
+    "explanation": "The precise, comic time limit points forward to the second mix, where the cabinet's success proves incomplete."
+  },
+  {
+    "id": "re-148",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "Which sequence correctly orders the events of the passage?",
+    "choices": [
+      "The second mix, the heat wave, the narrator's return, her childhood at the bench",
+      "The purchase of the cabinet, the second mix, the heat wave, the father's approval",
+      "The heat wave, the narrator's schooling, the purchase of the cabinet, the father's first look at it",
+      "The narrator's childhood feeding of Ondine, her return with the cabinet, the heat wave, the second mix"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage moves from age eleven, to her June return with the cabinet, to the third week of July, to the second mix that morning."
+  },
+  {
+    "id": "re-149",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage suggests that the limitation of the proofing cabinet is that it:",
+    "choices": [
+      "is too slow to be useful during the busiest hours of the morning",
+      "cannot hold a stable temperature when the shop is above ninety degrees",
+      "answers only the question it was built to answer and cannot register changes in the ingredients",
+      "requires more electricity than the bakery's wiring can supply"
+    ],
+    "correctIndex": 2,
+    "explanation": "The narrator concludes that the cabinet 'controlled the room' but could not know about the wheat field or the new pallet."
+  },
+  {
+    "id": "re-150",
+    "subject": "reading",
+    "passageId": "re-p15",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The final sentence indicates that the father objected not to measurement itself but to:",
+    "choices": [
+      "the schooling the narrator received in another city",
+      "the assumption that measurement could ever be complete",
+      "the use of numbers to describe something made by hand",
+      "the expense of the equipment the narrator had bought"
+    ],
+    "correctIndex": 1,
+    "explanation": "The narrator states he 'was opposed to the idea that measurement could be finished.'"
+  },
+  {
+    "id": "re-151",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main idea of the passage is that urban heat:",
+    "choices": [
+      "is caused primarily by waste heat from air conditioners and vehicles",
+      "is a physical phenomenon whose distribution reflects past policy and whose remedies must combine slow and fast measures",
+      "can be eliminated within a decade by large-scale tree planting",
+      "affects all neighborhoods of a city roughly equally on the hottest days"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explains the physics, links the hot-neighborhood map to historic disinvestment, and argues for pairing canopy work with immediate measures."
+  },
+  {
+    "id": "re-152",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, trees cool their surroundings by:",
+    "choices": [
+      "casting shade and moving water from soil into the air through their leaves",
+      "reflecting sunlight from their pale bark",
+      "blocking wind that would otherwise carry heat into the street",
+      "absorbing heat into their trunks and releasing it at night"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage states trees 'cool their surroundings twice over': shade, plus moving water into the air, which consumes heat."
+  },
+  {
+    "id": "re-153",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage says researchers gathered street-level temperature data by:",
+    "choices": [
+      "averaging readings from airport weather stations over a full summer",
+      "installing permanent sensors on utility poles throughout each city",
+      "using satellite thermal imagery collected at midnight",
+      "having volunteers drive fixed routes on one hot day with sensors on car windows"
+    ],
+    "correctIndex": 3,
+    "explanation": "Volunteers drove fixed routes carrying window-mounted sensors, sampling every second in morning, afternoon, and evening."
+  },
+  {
+    "id": "re-154",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage criticizes fixed weather stations as a data source mainly because they are:",
+    "choices": [
+      "operated by volunteers who report inconsistently",
+      "too expensive for most municipal budgets to maintain",
+      "sparse and often located at airports, which are flat, open, and unrepresentative",
+      "unable to record temperatures above one hundred degrees"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says they are sparse and often sited at airports, which are 'flat, open, and unrepresentative.'"
+  },
+  {
+    "id": "re-155",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage's statement that tree canopy is 'one of the most durable records a city keeps of how it once distributed money' most nearly means that:",
+    "choices": [
+      "trees are the most expensive item in a typical municipal budget",
+      "the present distribution of trees preserves the effects of past investment decisions",
+      "wealthy residents have historically donated trees to their own neighborhoods",
+      "cities file their historical budgets alongside their forestry inventories"
+    ],
+    "correctIndex": 1,
+    "explanation": "The preceding sentences describe a chain of past decisions about parks, zoning, and roads that 'are still on the ground eighty years later.'"
+  },
+  {
+    "id": "re-156",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Comparative",
+    "difficulty": 2,
+    "prompt": "Compared with reflective roof coatings, shade trees are presented as:",
+    "choices": [
+      "slower to help and dependent on maintenance, but better at cooling the street itself",
+      "equally fast to take effect but harder to obtain permits for",
+      "more effective at night and less effective during the afternoon",
+      "cheaper to install but less effective at cooling the building beneath"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coatings are 'cheap and work immediately' but cool the building more than the sidewalk; trees cool the street but need fifteen to twenty-five years and watering."
+  },
+  {
+    "id": "re-157",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, some residents are wary of tree-planting campaigns because they:",
+    "choices": [
+      "believe the planting crews damage underground utility lines",
+      "doubt that trees have any measurable effect on temperature",
+      "prefer reflective roof coatings, which require no upkeep",
+      "expect to bear the maintenance themselves and fear that greening may precede rising rents"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage cites objections to leaf litter and sidewalk damage residents must manage, and the observation that greening elsewhere preceded rising rents."
+  },
+  {
+    "id": "re-158",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author includes the detail that the best programs are 'less photogenic than a row of saplings' primarily to:",
+    "choices": [
+      "explain why funding for cooling programs is usually denied",
+      "criticize journalists for failing to cover heat emergencies",
+      "suggest that effective heat policy is judged by results rather than by visible symbolism",
+      "argue that cities should stop planting trees along streets"
+    ],
+    "correctIndex": 2,
+    "explanation": "The remark sets up the 'unglamorous finding' that heat kills on specific afternoons, favoring measures that help now over visible gestures."
+  },
+  {
+    "id": "re-159",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "As used in the passage, 'tenure' most nearly refers to:",
+    "choices": [
+      "the number of years required for a tree to mature",
+      "whether residents will be able to remain in the neighborhood they are helping to cool",
+      "the warranty period offered on reflective roof coatings",
+      "the length of time a public official remains in office"
+    ],
+    "correctIndex": 1,
+    "explanation": "It answers the residents' concern about whether 'the shade will still be theirs when it arrives,' which is a question about staying put."
+  },
+  {
+    "id": "re-160",
+    "subject": "reading",
+    "passageId": "re-p16",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage moves through which sequence of concerns?",
+    "choices": [
+      "Physical mechanism, spatial pattern and its history, measurement method, and responses",
+      "Policy failures, resident interviews, physical mechanism, and cost estimates",
+      "Measurement method, resident objections, and a proposal to abandon tree planting",
+      "History of lending maps, satellite data, and building codes"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage explains the physics, then the map and its historical roots, then the volunteer-driving method, then the mix of remedies."
+  },
+  {
+    "id": "re-161",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "trace how the public park was argued into existence and how the idea has since changed",
+      "argue that modern cities should build more large landscape parks",
+      "explain how park land is purchased and financed by municipal governments",
+      "describe the design principles used in nineteenth-century landscape architecture"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage presents the park as a nineteenth-century invention, reviews the arguments made for it, and follows the idea to vacant-lot projects."
+  },
+  {
+    "id": "re-162",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, before the nineteenth century, open ground in a town was typically:",
+    "choices": [
+      "maintained by charitable societies for public recreation",
+      "left undeveloped because of poor drainage",
+      "owned by the municipality but rarely visited",
+      "private, agricultural, or sacred"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage lists a hunting preserve, a common with grazing rights, and a churchyard as the usual categories."
+  },
+  {
+    "id": "re-163",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage indicates that the argument that most often persuaded city councils was that parks would:",
+    "choices": [
+      "improve public morals by reducing drinking",
+      "provide ventilation that prevented epidemics",
+      "raise the value of surrounding land and repay their cost through taxes",
+      "give children safe places to play away from traffic"
+    ],
+    "correctIndex": 2,
+    "explanation": "The financial argument is identified as 'the one that most often persuaded councils.'"
+  },
+  {
+    "id": "re-164",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "The passage indicates that when reformers called parks 'the lungs of the city,' the phrase was:",
+    "choices": [
+      "purely decorative language borrowed from poetry",
+      "understood almost literally, since foul air was then blamed for epidemics",
+      "a criticism of factories that polluted the urban atmosphere",
+      "a reference to the shape of the earliest park designs"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage says the phrase 'was more than metaphor to its users' because many physicians blamed epidemics on foul air."
+  },
+  {
+    "id": "re-165",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage suggests that the many rules in early parks reveal that:",
+    "choices": [
+      "the parks were meant for a particular kind of decorous use rather than for all activities",
+      "cities lacked the police resources to supervise large crowds",
+      "working-class residents were legally barred from entering the parks",
+      "park designers were concerned chiefly about damage to expensive plantings"
+    ],
+    "correctIndex": 0,
+    "explanation": "The rules 'reveal that the park was intended for a particular kind of use: strolling, looking, and being seen behaving well.'"
+  },
+  {
+    "id": "re-166",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The passage contrasts nineteenth-century advocates with contemporary planners by noting that rising land values around a park are now:",
+    "choices": [
+      "considered too small an effect to influence planning decisions",
+      "measured more accurately than they were in the past",
+      "regarded as pure benefit by both groups alike",
+      "treated as a design constraint rather than as an unmixed good"
+    ],
+    "correctIndex": 3,
+    "explanation": "Advocates 'treated the rise in value as pure benefit'; planners now treat it as a constraint, coupling open space with housing commitments."
+  },
+  {
+    "id": "re-167",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Studies of the smallest recent interventions, such as cleaned and seeded vacant lots, are described as reporting:",
+    "choices": [
+      "improvements in air quality that exceeded those of large parks",
+      "no measurable effect on residents or surrounding blocks",
+      "reductions in reported stress and in certain kinds of crime, with cautions about attribution",
+      "increases in property crime immediately after the lots were fenced"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage reports those two findings and adds that researchers caution such results are hard to separate from simultaneous changes."
+  },
+  {
+    "id": "re-168",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "According to the passage, the forms of public open space appeared in roughly which order?",
+    "choices": [
+      "Playgrounds, large landscape parks, converted rail lines, playing fields",
+      "Large landscape parks, neighborhood playgrounds, playing fields, converted rail lines and vacant lots",
+      "Converted rail lines, large landscape parks, playgrounds, plazas",
+      "Vacant-lot greening, playing fields, playgrounds, large landscape parks"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage lists large landscape parks 'followed by small neighborhood playgrounds, then by playing fields, then, more recently' by rail lines, plazas, and lots."
+  },
+  {
+    "id": "re-169",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author ends by calling the least measurable part of the original argument the one that survives in order to:",
+    "choices": [
+      "emphasize that a park's essential value is unconditional public access rather than a quantified effect",
+      "suggest that nineteenth-century reformers were mistaken about everything",
+      "concede that no benefits of parks can be demonstrated with evidence",
+      "recommend that cities stop funding studies of park use"
+    ],
+    "correctIndex": 0,
+    "explanation": "The closing defines a park as a place enterable 'without paying, buying, belonging, or explaining why.'"
+  },
+  {
+    "id": "re-170",
+    "subject": "reading",
+    "passageId": "re-p17",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The passage implies that campaigns by working-class visitors for ball fields were necessary because early parks:",
+    "choices": [
+      "closed on Sundays, the only free day such visitors had",
+      "charged admission fees that many families could not afford",
+      "were located far from the districts where such visitors lived",
+      "had rules and layouts designed for promenading rather than for games"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage notes bans on ball games and says those wanting a field 'rather than a lawn for promenading' had to campaign to change the rules."
+  },
+  {
+    "id": "re-171",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is primarily concerned with:",
+    "choices": [
+      "the history of archaeology as an academic discipline",
+      "proposals for reducing household food waste",
+      "the environmental damage caused by modern landfills",
+      "the value of studying discarded material rather than relying on what people report"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage opens on the unreliability of self-report and argues that the gap between report and material evidence is itself the key finding."
+  },
+  {
+    "id": "re-172",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The founding insight of garbology was borrowed from:",
+    "choices": [
+      "epidemiology, which traces disease through populations",
+      "chemistry, which identifies materials by composition",
+      "archaeology, which draws conclusions from refuse rather than testimony",
+      "economics, which models consumption from price data"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage credits archaeology, noting that a midden 'tells you what a settlement actually ate and used.'"
+  },
+  {
+    "id": "re-173",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Comparing surveys with sorted waste, researchers found that households:",
+    "choices": [
+      "accurately reported alcohol consumption but underreported produce",
+      "reported drinking less alcohol and eating more fresh produce than their waste indicated",
+      "overreported alcohol consumption and underreported packaged foods",
+      "reported their food waste accurately but misjudged its composition"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage states households 'consistently reported drinking less alcohol' and 'eating more fresh produce' than the waste stream confirmed."
+  },
+  {
+    "id": "re-174",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, when a shortage or price spike made a staple item newsworthy, waste of that item:",
+    "choices": [
+      "rose, because households bought unfamiliar substitutes and unusual quantities",
+      "could not be measured, because the item disappeared from bins",
+      "fell sharply as households rationed carefully",
+      "remained unchanged, since habits adjust slowly"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage calls this the most counterintuitive finding and gives exactly that explanation."
+  },
+  {
+    "id": "re-175",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "The passage describes landfill excavations as revealing 'something closer to a sealed archive' in order to convey that buried waste:",
+    "choices": [
+      "must be kept permanently closed to prevent contamination",
+      "contains mostly documents and printed paper products",
+      "is carefully catalogued by landfill operators as it is deposited",
+      "is preserved rather than decomposed, so it still carries readable information"
+    ],
+    "correctIndex": 3,
+    "explanation": "Deprived of oxygen and moisture, materials decomposed slowly; forty-year-old newspapers were legible enough to date the layer."
+  },
+  {
+    "id": "re-176",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The landfill findings were 'uncomfortable for waste policy' most likely because they suggested that:",
+    "choices": [
+      "landfills should be reopened and their contents re-sorted",
+      "food and yard debris were the main drivers of landfill volume after all",
+      "reducing landfill volume required addressing paper, packaging, and construction debris rather than organics alone",
+      "surveys of household behavior should be discontinued entirely"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage states the volume problem was 'driven less by food and yard debris than by paper, packaging, and construction debris.'"
+  },
+  {
+    "id": "re-177",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "The passage says records in these studies are aggregated to a route or census tract rather than a household both for ethical reasons and because:",
+    "choices": [
+      "households frequently place waste in a neighbor's bin",
+      "a single week's bin is a poor sample",
+      "sorting crews cannot work quickly enough at the household level",
+      "municipal collection schedules vary by household"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage gives both reasons explicitly: ethics, and that one week's bin is a poor sample."
+  },
+  {
+    "id": "re-178",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Comparative",
+    "difficulty": 2,
+    "prompt": "According to the passage, one advantage that survey data has over waste data is that surveys can:",
+    "choices": [
+      "capture items that are given away, repaired, or composted at home",
+      "identify the brand of every product a household consumed",
+      "reveal how long materials take to decompose",
+      "measure quantities more precisely by weight"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage lists those items as 'invisible' to waste analysis, which reports only what is discarded."
+  },
+  {
+    "id": "re-179",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author opens with the claim that people are 'unreliable narrators of their own habits' mainly to:",
+    "choices": [
+      "argue that social science should abandon quantitative methods",
+      "introduce a debate among archaeologists about testimony",
+      "accuse survey respondents of deliberate dishonesty",
+      "establish the problem that the material method was developed to address"
+    ],
+    "correctIndex": 3,
+    "explanation": "The author immediately notes this 'is not usually dishonesty' and then describes turning to what people had already thrown out."
+  },
+  {
+    "id": "re-180",
+    "subject": "reading",
+    "passageId": "re-p18",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage concludes that the field's most durable contribution is:",
+    "choices": [
+      "regulatory, in that it led to bans on certain kinds of packaging",
+      "topical, in that it identified which foods households waste most",
+      "methodological, in that disagreement between self-report and material evidence is itself data",
+      "technological, in that it produced better tools for sampling landfills"
+    ],
+    "correctIndex": 2,
+    "explanation": "The final paragraph calls the contribution 'methodological rather than topical' and says the disagreement 'is itself data.'"
+  },
+  {
+    "id": "re-181",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main idea of the passage is that conservation is:",
+    "choices": [
+      "primarily a matter of matching color and texture as closely as possible",
+      "a technical craft whose problems have been solved by modern materials",
+      "an interpretive practice governed by principles that protect the choices of future conservators",
+      "an outdated field that museums are gradually replacing with digital imaging"
+    ],
+    "correctIndex": 2,
+    "explanation": "The conservator says she is 'arguing with the future,' and the passage frames reversibility and detectability as duties to successors."
+  },
+  {
+    "id": "re-182",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, the panel's cracks and losses occurred because:",
+    "choices": [
+      "the panel was stored in a damp environment for several decades",
+      "the wooden support shrank across the grain while the paint layer did not",
+      "the painting was cleaned too aggressively in the twentieth century",
+      "the gesso was applied too thickly when the panel was made"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage names this as a problem common to panels of that age and the cause of the network of cracks and three losses."
+  },
+  {
+    "id": "re-183",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The principle of reversibility requires that materials added by a conservator be:",
+    "choices": [
+      "removable later without harming what lies beneath",
+      "applied only by conservators who documented the original damage",
+      "as durable as the original paint so that they will never need replacing",
+      "identical in chemical composition to the artist's own materials"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage defines reversibility as removability 'by a future colleague without harming what lies beneath.'"
+  },
+  {
+    "id": "re-184",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The technique using fine parallel strokes of pure color is designed so that the retouching is:",
+    "choices": [
+      "chemically inert and therefore permanent",
+      "applied over both the loss and the surrounding original paint",
+      "visible from any distance as a clearly different color",
+      "invisible at normal viewing distance but obvious on close inspection"
+    ],
+    "correctIndex": 3,
+    "explanation": "The strokes 'fuse into the surrounding tone when you step back, but resolve into obvious hatching when you lean in.'"
+  },
+  {
+    "id": "re-185",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "In presenting the choice about how to treat a loss, the author argues that filling it invisibly and leaving it blank are alike in that both:",
+    "choices": [
+      "require the conservator to paint over original brushwork",
+      "violate the principle of reversibility",
+      "are interpretations that will be inherited by people who did not consent to them",
+      "are now prohibited by professional standards"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage states that neither choice is neutral: 'Both are interpretations, and both will be inherited by people who did not consent to them.'"
+  },
+  {
+    "id": "re-186",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "In the mid-twentieth-century cleaning controversies, critics of the museums argued that:",
+    "choices": [
+      "the solvents used were damaging the underlying paint layer",
+      "the darkened varnish had become part of how the works were experienced and had its own legitimacy",
+      "the cleanings were performed by untrained staff without documentation",
+      "the paintings should have been left in private collections"
+    ],
+    "correctIndex": 1,
+    "explanation": "Critics argued the brownish tone 'was part of how the work had been experienced for generations and had acquired a legitimacy of its own.'"
+  },
+  {
+    "id": "re-187",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "Conservators' reply that 'the accumulated gloom was an accident being mistaken for a style' implies that they viewed the darkening as:",
+    "choices": [
+      "an unintended byproduct of aging materials rather than an artistic decision",
+      "evidence that the painting had been previously restored",
+      "too subtle for most viewers to perceive",
+      "a deliberate effect the artist created with tinted varnish"
+    ],
+    "correctIndex": 0,
+    "explanation": "They argued varnish 'is not the artist's work' and yellows unevenly, making the tone an accident of aging."
+  },
+  {
+    "id": "re-188",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author describes the cleaning controversies primarily to show that:",
+    "choices": [
+      "museums have generally been careless with the works they own",
+      "conservation is less scientific than it claims to be",
+      "the field has reached full agreement about how to treat varnish",
+      "public disputes forced the field to articulate principles it had previously followed by instinct"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage says the controversies 'forced the field to articulate what it had previously done by instinct' and produced the habit of documentation."
+  },
+  {
+    "id": "re-189",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "In the final sentence, 'restraint' is called 'a form of generosity extended forward in time' because holding back:",
+    "choices": [
+      "allows the painting to darken naturally as intended",
+      "reduces the cost of the treatment for the museum",
+      "preserves more options for conservators who come later",
+      "keeps the conservator from being blamed for mistakes"
+    ],
+    "correctIndex": 2,
+    "explanation": "She aims to 'leave the next conservator more choices than she had been left herself.'"
+  },
+  {
+    "id": "re-190",
+    "subject": "reading",
+    "passageId": "re-p19",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage is structured as:",
+    "choices": [
+      "a chronological history of conservation from antiquity to the present",
+      "an opening remark, the concrete problem, the governing principles, the historical dispute that produced them, and a return to the remark",
+      "a debate presented as alternating arguments from two named conservators",
+      "a technical manual describing the steps of a single treatment"
+    ],
+    "correctIndex": 1,
+    "explanation": "It opens with the 'arguing with the future' remark, describes the panel, lists three principles, recounts the cleaning controversies, and closes by explaining the remark."
+  },
+  {
+    "id": "re-191",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is primarily concerned with establishing that sign languages:",
+    "choices": [
+      "should be taught in schools alongside spoken foreign languages",
+      "are full natural languages with their own structure, literature, and history of survival",
+      "were invented by linguists in the twentieth century",
+      "are easier for children to acquire than spoken languages"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage dismantles two misconceptions, describes structure and poetry, and closes on the consensus that these are full natural languages."
+  },
+  {
+    "id": "re-192",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage cites the relationship between American Sign Language and British Sign Language to show that:",
+    "choices": [
+      "sign languages are not determined by the surrounding spoken language and are not universal",
+      "British Sign Language is older than American Sign Language",
+      "both were derived from a single earlier signing system",
+      "sign languages change more rapidly than spoken languages"
+    ],
+    "correctIndex": 0,
+    "explanation": "They are mutually unintelligible 'despite the shared spoken language of their surrounding hearing communities.'"
+  },
+  {
+    "id": "re-193",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, a sign can be analyzed into which components?",
+    "choices": [
+      "Vowels, consonants, and tone",
+      "Subject, verb, and object",
+      "Speed, amplitude, and repetition only",
+      "Handshape, location, movement, orientation, and non-manual markers"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage lists exactly these parameters, along with non-manual markers carried by face and posture."
+  },
+  {
+    "id": "re-194",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "As used in the passage, 'minimal pairs' are signs that:",
+    "choices": [
+      "are performed with two hands rather than one",
+      "have nearly identical meanings but different registers",
+      "differ in exactly one parameter, demonstrating structure below the word",
+      "can be produced in the smallest possible signing space"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage defines them as pairs differing in a single parameter and calls them 'the classic evidence that a system has structure below the level of the word.'"
+  },
+  {
+    "id": "re-195",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage states that non-manual markers such as brow configuration are grammatical because:",
+    "choices": [
+      "they convey the signer's emotional attitude toward the topic",
+      "omitting one can make a sentence ungrammatical rather than merely flat",
+      "they are the only element that distinguishes one sign language from another",
+      "they replace handshape in rapid conversation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage says dropping the held brow marker 'makes the sentence ungrammatical rather than simply flat.'"
+  },
+  {
+    "id": "re-196",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Comparative",
+    "difficulty": 2,
+    "prompt": "The passage contrasts rhyme in spoken poetry with rhyme in signed poetry by explaining that signed poems may repeat:",
+    "choices": [
+      "a handshape across successive signs occurring in different locations",
+      "a facial expression at regular intervals",
+      "the movement of the non-dominant hand only",
+      "the same sign in the same location at the end of each line"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage gives the example of a single closed fist recurring in different locations to unify a passage."
+  },
+  {
+    "id": "re-197",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage suggests that translating a signed poem into written English is unsatisfying chiefly because it:",
+    "choices": [
+      "cannot preserve the poem's line lengths",
+      "requires a translator who is fluent in both languages",
+      "loses the vocabulary specific to the signing community",
+      "converts a simultaneous art into a sequential one"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states the conversion from simultaneous to sequential leaves 'a paraphrase of something that happened rather than the thing itself.'"
+  },
+  {
+    "id": "re-198",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author mentions video recording in order to explain:",
+    "choices": [
+      "how signers learn poetry from tutors at a distance",
+      "how linguists first proved that signs have internal structure",
+      "why signed poetry could be preserved rather than lost within a generation",
+      "why signing was suppressed in schools"
+    ],
+    "correctIndex": 2,
+    "explanation": "Before recording, 'a signed poem existed only in performance and memory, and a tradition could be lost within a generation.'"
+  },
+  {
+    "id": "re-199",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "According to the passage, sign languages survived periods of educational suppression because they were transmitted:",
+    "choices": [
+      "through published dictionaries and grammars",
+      "in dormitories, playgrounds, clubs, and families",
+      "by hearing teachers who defied official policy",
+      "by government-funded institutes for the deaf"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage names those settings and concludes the languages were preserved 'by communities rather than institutions.'"
+  },
+  {
+    "id": "re-200",
+    "subject": "reading",
+    "passageId": "re-p20",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The author calls the modern consensus 'unremarkable as science and remarkable as history' most likely because:",
+    "choices": [
+      "the linguistic findings are ordinary, while the survival of these languages against policy is extraordinary",
+      "historians have contributed more to the field than linguists have",
+      "the scientific evidence remains disputed even though the history is settled",
+      "the consensus was reached only recently and may soon be revised"
+    ],
+    "correctIndex": 0,
+    "explanation": "The findings describe ordinary language properties, but the passage has just shown the languages endured despite punishment and suppression."
+  },
+  {
+    "id": "re-201",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "show that typeface design involves long-running arguments about imitation, legibility, meaning, and revival",
+      "trace the invention of printing from its origins to the digital era",
+      "argue that modern typefaces are inferior to those cut by hand",
+      "recommend specific typefaces for use in books and on road signs"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage organizes itself around three questions designers have quarreled about, then closes on the difficulty of revivals."
+  },
+  {
+    "id": "re-202",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, early European printers imitated manuscript hands because:",
+    "choices": [
+      "scribes retained legal control over letterforms",
+      "readers could not yet read printed text quickly",
+      "the tools available could not produce other shapes",
+      "a book that looked unfamiliar looked untrustworthy"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage gives exactly this reason for imitating the hands customers already read."
+  },
+  {
+    "id": "re-203",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage describes type design as moving away from the pen through which changes?",
+    "choices": [
+      "Letters grew wider, spacing tightened, and serifs disappeared",
+      "Capitals replaced lowercase, and letters were cut smaller",
+      "Strokes became more even, thick-thin contrast sharpened, and stress rotated upright",
+      "Strokes became more irregular, contrast lessened, and stress became more slanted"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage lists these three changes as the steady pull away from the slanted nib."
+  },
+  {
+    "id": "re-204",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The claim that 'much of what we call legibility is familiarity' implies that a face may feel readable because:",
+    "choices": [
+      "it has been scientifically optimized for reading speed",
+      "readers have had extensive prior exposure to it",
+      "it uses larger letter sizes than its competitors",
+      "it was designed by a well-known type designer"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage says readers 'are fast with what they read often' and that a face feels readable 'because we have read it, not the other way around.'"
+  },
+  {
+    "id": "re-205",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Comparative",
+    "difficulty": 2,
+    "prompt": "The passage contrasts ordinary reading conditions with extreme conditions by noting that under extreme conditions:",
+    "choices": [
+      "differences between designs become measurable and sometimes large",
+      "reading speed can no longer be measured reliably",
+      "all competent text faces perform about equally well",
+      "aesthetic preference becomes the only useful guide"
+    ],
+    "correctIndex": 0,
+    "explanation": "For signage, medication labels, and glanced-at instruments, 'differences between designs are measurable and sometimes large.'"
+  },
+  {
+    "id": "re-206",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Designers of road-sign alphabets favored open apertures and generous spacing because letters must be:",
+    "choices": [
+      "readable when printed in very small sizes",
+      "narrow enough to fit more words on a sign",
+      "compatible with older manuscript traditions",
+      "distinguished at low resolution and from far away"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states these features suit shapes that 'stay distinct when blurred' at distance and low resolution."
+  },
+  {
+    "id": "re-207",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Author's Purpose",
+    "difficulty": 2,
+    "prompt": "The author mentions the lowercase l, the capital I, and the digit 1 primarily to:",
+    "choices": [
+      "demonstrate that road signs should avoid numerals entirely",
+      "illustrate how designers create visual harmony within a font",
+      "show that some legibility failures are safety problems rather than matters of taste",
+      "explain why digits are usually set in a separate typeface"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says forms that converge at a distance are 'a safety problem, not a matter of taste.'"
+  },
+  {
+    "id": "re-208",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage indicates that the associations a typeface carries are:",
+    "choices": [
+      "intrinsic to its shapes and therefore permanent",
+      "accumulated through use and capable of fading over time",
+      "assigned deliberately by the designer at the time of creation",
+      "identical for all readers regardless of era"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage says such meaning 'is not intrinsic to the shapes. It is accumulated, and it can fade.'"
+  },
+  {
+    "id": "re-209",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Detail",
+    "difficulty": 3,
+    "prompt": "According to the passage, a digital revival that reproduces a historical drawing exactly will look thin and mechanical because it has:",
+    "choices": [
+      "removed the effects of ink spreading into damp paper",
+      "eliminated the serifs found in the original",
+      "reduced the size at which the letters are set",
+      "combined several different historical sources"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage says such a revival 'has removed the ink,' referring to how ink spread and softened every corner."
+  },
+  {
+    "id": "re-210",
+    "subject": "reading",
+    "passageId": "re-p21",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "In the final sentence, saying that faithfulness 'requires deliberate departure' most nearly means that a reviver must:",
+    "choices": [
+      "publish an explanation of every decision alongside the typeface",
+      "restrict the revival to the sizes at which the original was cut",
+      "abandon historical models and design something entirely new",
+      "change the drawing on purpose in order to reproduce the original's effect"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because exact reproduction looks wrong once ink spread is gone, matching the original's appearance requires intentional alteration."
+  },
+  {
+    "id": "re-211",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The passage is mainly about:",
+    "choices": [
+      "how biologists record and archive bird vocalizations in the field",
+      "why sparrows in coastal ranges sing more often at dawn than at dusk",
+      "how traffic noise is driving several sparrow species toward extinction",
+      "how birdsong dialects arise through learning and what their cultural transmission implies"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage explains dialects as products of song learning, traces their cultural evolution, and closes on the flexibility and fragility that follow."
+  },
+  {
+    "id": "re-212",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, songs from neighboring valleys differ in:",
+    "choices": [
+      "the season during which they are sung",
+      "overall architecture, with some valleys lacking a trill entirely",
+      "pitch details, the number of trill notes, and the ordering of parts",
+      "loudness only, since the acoustic structure is identical"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says the songs share an architecture but differ in exactly those three details."
+  },
+  {
+    "id": "re-213",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "The passage describes song development in which order?",
+    "choices": [
+      "Listening, crystallization, subsong, and renewed learning each spring",
+      "Innate template, listening during a sensitive period, subsong practice, crystallized adult song",
+      "Subsong, innate template, tutoring by a parent, crystallized adult song",
+      "Crystallized adult song, sensitive period, subsong, template loss"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage gives the template first, then acquisition during the sensitive period, then subsong, then crystallization."
+  },
+  {
+    "id": "re-214",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "As used in the passage, 'crystallizes' most nearly means:",
+    "choices": [
+      "settles into a stable, unchanging adult form",
+      "breaks apart into separate reusable phrases",
+      "is stored in memory without being performed",
+      "becomes audible to other birds for the first time"
+    ],
+    "correctIndex": 0,
+    "explanation": "It follows the 'rambling and variable practice phase' and yields 'a stable adult version that it will keep.'"
+  },
+  {
+    "id": "re-215",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "Birds raised in isolation are described as producing songs that are:",
+    "choices": [
+      "louder but shorter than normal",
+      "indistinguishable from those of wild birds",
+      "borrowed from other species nearby",
+      "abnormal and simplified"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states directly that isolated birds 'produce abnormal, simplified songs.'"
+  },
+  {
+    "id": "re-216",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The comparison of archival recordings across decades supports the conclusion that song:",
+    "choices": [
+      "is identical across a species' entire range",
+      "is fixed by genes and changes only when populations are isolated",
+      "evolves culturally and faster than the birds' genes do",
+      "has become simpler in every population studied"
+    ],
+    "correctIndex": 2,
+    "explanation": "Moving dialect boundaries and spreading or vanishing variants lead the passage to call song 'culturally transmitted' and faster-changing than genes."
+  },
+  {
+    "id": "re-217",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "In playback experiments, territorial males typically respond to a foreign dialect by:",
+    "choices": [
+      "attacking the speaker more aggressively than for a local song",
+      "responding less strongly than to a local dialect",
+      "abandoning the territory immediately",
+      "matching the foreign song note for note"
+    ],
+    "correctIndex": 1,
+    "explanation": "Males approach and answer more for local dialects, suggesting they treat an unfamiliar dialect as a less immediate threat."
+  },
+  {
+    "id": "re-218",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The passage notes a tension between acoustic and genetic evidence in that genetic markers show:",
+    "choices": [
+      "less separation between dialect regions than the acoustic differences might suggest",
+      "that dialects correspond precisely to distinct subspecies",
+      "that song learning is controlled by a single gene",
+      "greater separation between dialect regions than the songs suggest"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage says genetic studies 'have generally found less separation than the acoustic differences might suggest,' partly because birds move and adjust."
+  },
+  {
+    "id": "re-219",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "Birds in noisy areas have been recorded adjusting their songs by:",
+    "choices": [
+      "abandoning song in favor of visual displays",
+      "lowering the minimum frequency to travel beneath traffic noise",
+      "shortening songs to a single note",
+      "singing at higher minimum frequencies, more loudly, and sometimes at quieter hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage lists exactly these three adjustments in response to low-frequency human noise."
+  },
+  {
+    "id": "re-220",
+    "subject": "reading",
+    "passageId": "re-p22",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The final paragraph emphasizes that learned song is both flexible and fragile in order to:",
+    "choices": [
+      "suggest that captive breeding can restore lost dialects",
+      "argue that birdsong research should focus on genetics instead",
+      "show that the same mechanism that permits rapid adjustment also allows a tradition to disappear",
+      "claim that noise pollution has no lasting effect on populations"
+    ],
+    "correctIndex": 2,
+    "explanation": "Learning makes song adaptable in a changing acoustic world but means a tradition 'can be lost in a few generations' if singers grow scarce."
+  },
+  {
+    "id": "re-221",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main idea of the passage is that in desert basins:",
+    "choices": [
+      "average annual rainfall is the best predictor of available water",
+      "dry riverbeds are relics of a wetter climate and no longer serve a function",
+      "water moves and is replenished through rare, concentrated flood events, which shapes how it must be managed",
+      "groundwater is abundant enough to support large-scale irrigated agriculture"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage argues that recharge is concentrated in time and space along channels during floods, and that management should work with that pattern."
+  },
+  {
+    "id": "re-222",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage says average annual rainfall is nearly useless as a guide in arid basins because:",
+    "choices": [
+      "rain gauges are too sparsely distributed in deserts",
+      "most small storms evaporate or are taken up by shallow-rooted plants before penetrating far",
+      "rainfall is measured differently in arid regions",
+      "deserts receive no measurable rainfall in most years"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explains that the small storms making up the average never penetrate more than a few inches."
+  },
+  {
+    "id": "re-223",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, flash floods often arrive under a clear sky because:",
+    "choices": [
+      "the storm fell on high ground far upstream",
+      "groundwater rises suddenly through the channel bed",
+      "playa lakes overflow after long periods of evaporation",
+      "the floods are released from upstream reservoirs"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage gives exactly this explanation for floods appearing without local rain."
+  },
+  {
+    "id": "re-224",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Vocabulary in Context",
+    "difficulty": 3,
+    "prompt": "The passage calls 'transmission loss' a misleading name because the water in question is:",
+    "choices": [
+      "transmitted downstream rather than absorbed",
+      "too small in volume to be worth naming",
+      "lost to evaporation rather than to the streambed",
+      "not lost but delivered into the aquifer below"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage says the term is misleading 'from the perspective of the aquifer, since the water is not lost but delivered.'"
+  },
+  {
+    "id": "re-225",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The streambed functions as a funnel into the aquifer because its sediments are:",
+    "choices": [
+      "fine-grained and slow to drain",
+      "cemented into an impermeable crust",
+      "the most permeable material in the basin",
+      "kept saturated year-round by shallow groundwater"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage identifies coarse channel sediments as 'the most permeable material in the basin.'"
+  },
+  {
+    "id": "re-226",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage compares certain groundwater withdrawals to mining rather than harvesting in order to convey that:",
+    "choices": [
+      "the water is extracted using equipment developed for mineral extraction",
+      "the water is a nonrenewable deposit being removed faster than it is replaced",
+      "the water contains dissolved minerals that must be removed before use",
+      "the wells are drilled into hard rock rather than sediment"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deep groundwater dating to the Pleistocene is 'essentially a nonrenewable deposit,' and withdrawals exceed modern recharge."
+  },
+  {
+    "id": "re-227",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "Hydrologists can estimate the age of deep groundwater because water carries:",
+    "choices": [
+      "isotopic ratios and radioactive constituents that decay at known rates",
+      "sediment grains traceable to particular flood years",
+      "traces of vegetation from the surface above",
+      "a record of the temperature of the aquifer rock"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage names isotopes reflecting formation temperature and radioactive constituents with known decay rates."
+  },
+  {
+    "id": "re-228",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Comparative",
+    "difficulty": 3,
+    "prompt": "The passage presents removal of phreatophytes as a poor bargain because, although it increases water available for wells, it also:",
+    "choices": [
+      "prevents floodwater from reaching the spreading basins",
+      "raises the salinity of the remaining groundwater",
+      "increases evaporation from the water table surface",
+      "removes shade and root structure that stabilize banks and shelter wildlife"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage lists exactly those costs in judging the once-proposed strategy."
+  },
+  {
+    "id": "re-229",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "Managed recharge, as described in the passage, works by:",
+    "choices": [
+      "importing water from wetter watersheds during dry years",
+      "pumping treated wastewater directly into deep wells",
+      "diverting floodwater into shallow basins so it can infiltrate over days rather than hours",
+      "lining channels to keep water from soaking into the bed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage describes spreading basins and check structures that slow flows so more water enters the bed."
+  },
+  {
+    "id": "re-230",
+    "subject": "reading",
+    "passageId": "re-p23",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The closing statement that these methods 'do not create water' primarily serves to:",
+    "choices": [
+      "argue that managed recharge projects are not worth their cost",
+      "set a realistic limit on what management can achieve while still endorsing it",
+      "suggest that desalination is a better alternative",
+      "criticize hydrologists for exaggerating the value of floods"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage immediately adds that capturing more of what arrives 'is the only kind of gain available' in a desert."
+  },
+  {
+    "id": "re-231",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Main Idea",
+    "difficulty": 2,
+    "prompt": "The main purpose of the passage is to:",
+    "choices": [
+      "warn against agricultural settlement near active volcanoes",
+      "explain why volcanic soils are fertile, how that fertility develops, and why ash layers also serve science",
+      "describe the chemical process by which magma becomes glass",
+      "compare volcanic soils with soils formed on sedimentary rock"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explains the chemistry and structure of ash soils, the sequence by which they become fertile, and the value of tephra layers as time markers."
+  },
+  {
+    "id": "re-232",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "According to the passage, volcanic ash weathers quickly because it:",
+    "choices": [
+      "is glass, cooled too fast for its atoms to form crystals, and is unstable at the surface",
+      "is deposited in very thin layers exposed to wind",
+      "contains large amounts of organic matter from the eruption",
+      "is coarser than the sand found in ordinary soils"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage describes ash as rapidly quenched glass that is 'chemically unstable at the earth's surface.'"
+  },
+  {
+    "id": "re-233",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Detail",
+    "difficulty": 1,
+    "prompt": "The passage says weathered ash soils hold two or three times more water than comparable sandy soils while:",
+    "choices": [
+      "sealing the surface against further infiltration",
+      "becoming increasingly compacted with each rainfall",
+      "requiring frequent irrigation during short droughts",
+      "remaining loose enough for roots and air to move through easily"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage attributes this to enormous internal surface area and a fluffy, low-density texture that resists compaction."
+  },
+  {
+    "id": "re-234",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Vocabulary in Context",
+    "difficulty": 2,
+    "prompt": "The passage calls these soils 'forgiving' to indicate that they:",
+    "choices": [
+      "can be farmed without regard for slope or erosion",
+      "recover quickly after being contaminated by eruption gases",
+      "tolerate both excess water and shortage of it better than most soils",
+      "require no fertilizer of any kind"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says the description is accurate because such soils 'tolerate both too much water and too little better than most soils do.'"
+  },
+  {
+    "id": "re-235",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Detail",
+    "difficulty": 3,
+    "prompt": "A drawback of the reactive minerals in volcanic soils is that they:",
+    "choices": [
+      "raise soil acidity to levels that kill most crops",
+      "bind phosphorus tightly in forms plants cannot take up",
+      "prevent nitrogen-fixing plants from establishing",
+      "release potassium too rapidly for crops to use"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage notes growers may need far more phosphate fertilizer than the soil's total phosphorus content would suggest."
+  },
+  {
+    "id": "re-236",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Sequence & Structure",
+    "difficulty": 2,
+    "prompt": "According to the passage, the development of soil from fresh ash proceeds in which order?",
+    "choices": [
+      "Sterile ash, lichens and mosses, nitrogen-fixing plants, accumulation of organic matter",
+      "Nitrogen-fixing plants, sterile ash, lichens, crop failure",
+      "Organic matter accumulation, lichens, sterile ash, agricultural fertility",
+      "Crops, lichens, nitrogen fixation, mineral release"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage describes sterile ash, then lichens and mosses etching the glass, then nitrogen fixers, then decomposition binding the particles."
+  },
+  {
+    "id": "re-237",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Inference",
+    "difficulty": 3,
+    "prompt": "The passage indicates that nitrogen-fixing plants are important in this sequence because nitrogen is:",
+    "choices": [
+      "required to break down volcanic glass into clay",
+      "toxic to lichens and mosses in high concentrations",
+      "the nutrient most quickly leached from ash by rainfall",
+      "the one major nutrient that ash does not supply"
+    ],
+    "correctIndex": 3,
+    "explanation": "The passage states plainly that nitrogen 'is the one major nutrient ash does not supply.'"
+  },
+  {
+    "id": "re-238",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Detail",
+    "difficulty": 2,
+    "prompt": "Buried ash layers are valuable to geologists chiefly because they:",
+    "choices": [
+      "contain fossils preserved by the heat of the eruption",
+      "can be dated only by counting annual layers above them",
+      "provide precise time markers whose chemistry identifies the source eruption",
+      "indicate the direction of ancient prevailing winds"
+    ],
+    "correctIndex": 2,
+    "explanation": "The passage says everything below a layer is older and everything above younger, and its chemistry identifies which eruption produced it."
+  },
+  {
+    "id": "re-239",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Author's Purpose",
+    "difficulty": 3,
+    "prompt": "The statement that a layer in a farmer's field and the same layer in a distant bog 'record the same afternoon' is meant to emphasize:",
+    "choices": [
+      "that bogs preserve ash better than fields do",
+      "how quickly ash fell during a single eruption and how precisely such layers correlate distant sites",
+      "that ash deposits are too thin to be measured accurately",
+      "that farmers and geologists rarely cooperate in the field"
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage notes a large eruption spreads ash 'within days,' making the layer a shared marker tying separate records to one timeline."
+  },
+  {
+    "id": "re-240",
+    "subject": "reading",
+    "passageId": "re-p24",
+    "topic": "Inference",
+    "difficulty": 2,
+    "prompt": "The passage's conclusion that settlements near volcanoes reflect 'a bargain' suggests that residents:",
+    "choices": [
+      "accept a hazard because the same events supply the fertility they depend on",
+      "expect government compensation after each eruption",
+      "farm there only because no other land is available",
+      "have been misled about the frequency of eruptions"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passage says the eruption that buries a village replenishes the ground that fed it, and that this is not misjudgment but a bargain."
+  }
+]

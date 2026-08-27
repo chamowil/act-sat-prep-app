@@ -3,7 +3,7 @@
 A SwiftUI study app for the ACT, built for **iPhone, iPad, and Mac** (Mac Catalyst) from a single
 target.
 
-- **520 original practice questions** across English, Math, Reading, and Science, each with an
+- **1,040 original practice questions** across English, Math, Reading, and Science, each with an
   explanation.
 - **40 tutorials** covering Math and Science, with worked examples, key facts, and test-day tips.
 - **200 flashcards** in 5 decks, scheduled by spaced repetition.
@@ -64,7 +64,7 @@ ACT prep/
 ├── Views/                     Home, Learn, Practice, Exam runner, Progress, Settings,
 │                              Onboarding, Scratchpad (PencilKit)
 └── Resources/
-    ├── Questions/             520 questions + 41 passages (JSON)
+    ├── Questions/             1,040 questions + 82 passages (JSON, numbered sets)
     ├── Tutorials/             40 tutorials (JSON)
     ├── Study/                 200 flashcards + 60 reference entries (JSON)
     └── Writing/               12 prompts, 6 sample essays, 6 guides (JSON)
