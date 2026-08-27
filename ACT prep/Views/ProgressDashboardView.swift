@@ -85,7 +85,7 @@ struct ProgressDashboardView: View {
                     .foregroundStyle(.secondary)
             }
             VStack(alignment: .leading, spacing: 5) {
-                if let predicted {
+                if predicted != nil {
                     Text("Target \(target)")
                         .font(.subheadline.weight(.medium))
                     if let gap, gap > 0 {
