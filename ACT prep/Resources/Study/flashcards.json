@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "fc-001",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the basic rule of subject-verb agreement?",
+    "back": "A singular subject takes a singular verb; a plural subject takes a plural verb. Example: The dog barks, but The dogs bark.",
+    "hint": "Match the number of the doer to the number of the action word."
+  },
+  {
+    "id": "fc-002",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do prepositional phrases affect subject-verb agreement?",
+    "back": "They do not. Cross out the phrase and match the verb to the real subject. Example: The box of old letters was heavy, not were heavy, because box is the subject.",
+    "hint": "Try covering up everything between the noun and the verb."
+  },
+  {
+    "id": "fc-003",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What verb form do two subjects joined by \"and\" take?",
+    "back": "A plural verb, because the subjects add together. Example: Marisol and her brother run the shop on weekends.",
+    "hint": "Two people doing something equals more than one."
+  },
+  {
+    "id": "fc-004",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "With subjects joined by \"or\" or \"nor,\" which one does the verb match?",
+    "back": "The verb matches the subject closest to it. Example: Neither the coaches nor the captain was told about the schedule change.",
+    "hint": "Look at the noun sitting right next to the verb."
+  },
+  {
+    "id": "fc-005",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "Are indefinite pronouns like each, either, everyone, and nobody singular or plural?",
+    "back": "They are singular and take singular verbs and pronouns. Example: Each of the runners carries her own water bottle.",
+    "hint": "Words built on -one, -body, and -thing act like one item."
+  },
+  {
+    "id": "fc-006",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What verb do collective nouns such as team, jury, and committee usually take?",
+    "back": "A singular verb, because the group acts as one unit. Example: The committee votes on the proposal tomorrow.",
+    "hint": "Think of the group as a single body, not as its members."
+  },
+  {
+    "id": "fc-007",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you choose between \"there is\" and \"there are\"?",
+    "back": "Match the verb to the noun that follows it, since \"there\" is never the subject. Example: There are three reasons for the delay.",
+    "hint": "The real subject comes after the verb in these sentences."
+  },
+  {
+    "id": "fc-008",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How must a pronoun agree with its antecedent?",
+    "back": "In number and gender. A singular antecedent needs a singular pronoun. Example: Every student must bring his or her own calculator, not their calculator.",
+    "hint": "Find the noun the pronoun replaces, then count it."
+  },
+  {
+    "id": "fc-009",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What makes a pronoun reference ambiguous, and how do you fix it?",
+    "back": "A pronoun is ambiguous when it could point to more than one noun. Replace it with the noun. Example: Change \"Dana told Rae that she was late\" to \"Dana told Rae that Rae was late.\"",
+    "hint": "Ask whether a reader could point to exactly one noun."
+  },
+  {
+    "id": "fc-010",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you decide between \"who\" and \"whom\"?",
+    "back": "Use who for subjects and whom for objects. Substitute he or him: if him fits, use whom. Example: To whom did you send the file? (You sent it to him.)",
+    "hint": "The m in whom matches the m in him."
+  },
+  {
+    "id": "fc-011",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you use \"who\" versus \"that\" or \"which\"?",
+    "back": "Use who for people and that or which for things and animals. Example: The scientist who designed the sensor works in the lab that we toured.",
+    "hint": "One of these three is reserved for human beings."
+  },
+  {
+    "id": "fc-012",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you pick the right pronoun in a compound like \"my sister and I/me\"?",
+    "back": "Drop the other person and see which pronoun still sounds right. Example: The coach thanked my sister and me, because you would say The coach thanked me.",
+    "hint": "Temporarily remove the other name from the sentence."
+  },
+  {
+    "id": "fc-013",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"its\" and \"it's\"?",
+    "back": "Its shows possession; it's is a contraction of it is or it has. Example: It's clear that the robot lost its balance.",
+    "hint": "Try expanding the word into two words and see if it still works."
+  },
+  {
+    "id": "fc-014",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do \"their,\" \"there,\" and \"they're\" differ?",
+    "back": "Their shows possession, there indicates place, and they're means they are. Example: They're leaving their coats over there.",
+    "hint": "One is a place, one is ownership, one is a contraction."
+  },
+  {
+    "id": "fc-015",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"your\" and \"you're\"?",
+    "back": "Your shows possession; you're means you are. Example: You're going to need your permission slip signed.",
+    "hint": "Expand the contraction and listen to whether the sentence still works."
+  },
+  {
+    "id": "fc-016",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"whose\" and \"who's\"?",
+    "back": "Whose shows possession; who's means who is or who has. Example: Who's the student whose project won the prize?",
+    "hint": "Only one of the two can be replaced by who is."
+  },
+  {
+    "id": "fc-017",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"than\" and \"then\"?",
+    "back": "Than makes comparisons; then refers to time or sequence. Example: The second trial took longer than the first, and then the team recalibrated the scale.",
+    "hint": "One of the two is about clocks and order."
+  },
+  {
+    "id": "fc-018",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you use \"affect\" versus \"effect\"?",
+    "back": "Affect is usually the verb meaning to influence; effect is usually the noun meaning result. Example: The drought affected the harvest, and the effect lasted two seasons.",
+    "hint": "A for action, E for end result."
+  },
+  {
+    "id": "fc-019",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you use \"fewer\" instead of \"less\"?",
+    "back": "Use fewer for things you can count and less for quantities you measure. Example: Fewer volunteers signed up this year, so we had less time to prepare.",
+    "hint": "Can you put a number in front of the noun?"
+  },
+  {
+    "id": "fc-020",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you use \"number of\" instead of \"amount of\"?",
+    "back": "Use number of with countable nouns and amount of with uncountable ones. Example: A large number of samples required a small amount of dye.",
+    "hint": "Same logic as fewer versus less."
+  },
+  {
+    "id": "fc-021",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"between\" and \"among\"?",
+    "back": "Use between for two items and among for three or more. Example: The prize was split between the two finalists, but the snacks were shared among the whole team.",
+    "hint": "Count how many things are involved."
+  },
+  {
+    "id": "fc-022",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"good\" and \"well\"?",
+    "back": "Good is an adjective describing a noun; well is an adverb describing how an action is done. Example: She is a good violinist because she plays well.",
+    "hint": "One of them can modify a verb."
+  },
+  {
+    "id": "fc-023",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you know whether a sentence needs an adjective or an adverb?",
+    "back": "Adjectives modify nouns; adverbs modify verbs, adjectives, or other adverbs. Example: The quick chemist worked quickly, where quick describes the chemist and quickly describes worked.",
+    "hint": "Ask what word is being described."
+  },
+  {
+    "id": "fc-024",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you use the comparative form instead of the superlative?",
+    "back": "Use the comparative for two items and the superlative for three or more. Example: Of the two routes, the northern one is faster, but of all five, the coastal route is the fastest.",
+    "hint": "Count the items being compared."
+  },
+  {
+    "id": "fc-025",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is an illogical comparison, and how do you fix it?",
+    "back": "It compares unlike things. Fix it so both sides match. Example: Change \"Her essay was longer than Ben\" to \"Her essay was longer than Ben's essay.\"",
+    "hint": "Check that both halves of the comparison are the same kind of thing."
+  },
+  {
+    "id": "fc-026",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is verb tense consistency?",
+    "back": "Verbs in a passage should stay in the same time frame unless the meaning requires a shift. Example: She opened the notebook and wrote the date, not opened and writes.",
+    "hint": "Look at the verbs in the surrounding sentences first."
+  },
+  {
+    "id": "fc-027",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you use the past perfect tense (had + past participle)?",
+    "back": "For an action completed before another past action. Example: By the time the bell rang, the class had already finished the lab.",
+    "hint": "It marks the earlier of two past events."
+  },
+  {
+    "id": "fc-028",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How does the present perfect differ from the simple past?",
+    "back": "Present perfect links the past to now; simple past names a finished moment. Example: She has studied Latin for three years, but She studied Latin in 2019.",
+    "hint": "One tense keeps the action connected to the present."
+  },
+  {
+    "id": "fc-029",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "Why is \"had went\" wrong?",
+    "back": "Helping verbs need the past participle, not the simple past. Example: Correct it to had gone. Likewise use had seen, not had saw, and had done, not had did.",
+    "hint": "After have, has, or had, the verb changes form."
+  },
+  {
+    "id": "fc-030",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"lie\" and \"lay\"?",
+    "back": "Lie means to recline and takes no object; lay means to place something and needs an object. Example: I lie down at noon, but I lay the book on the desk.",
+    "hint": "One of them always needs a direct object."
+  },
+  {
+    "id": "fc-031",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is the difference between \"rise\" and \"raise\"?",
+    "back": "Rise means to go up on its own; raise means to lift something. Example: The bread rises in the oven, but the baker raises the shelf.",
+    "hint": "Only one of them acts on an object."
+  },
+  {
+    "id": "fc-032",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "Why is \"could of\" always incorrect?",
+    "back": "The correct form is could have; \"of\" is a preposition, not a helping verb. Example: We could have finished sooner, not could of finished. The same applies to should have and would have.",
+    "hint": "The contraction that sounds like it hides a real verb."
+  },
+  {
+    "id": "fc-033",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When do you write \"If I were\" instead of \"If I was\"?",
+    "back": "Use were for hypothetical or contrary-to-fact situations. Example: If I were the editor, I would cut the last paragraph.",
+    "hint": "Is the situation imaginary or actually true?"
+  },
+  {
+    "id": "fc-034",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is a dangling modifier?",
+    "back": "An opening phrase whose intended subject is missing from the sentence. Example: Fix \"Running late, the bus was missed\" to \"Running late, Jamal missed the bus.\"",
+    "hint": "Ask who or what is actually doing the opening action."
+  },
+  {
+    "id": "fc-035",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is a misplaced modifier?",
+    "back": "A descriptive phrase sitting too far from the word it describes. Example: Fix \"She served cookies to the children on paper plates\" to \"She served the children cookies on paper plates.\"",
+    "hint": "Modifiers should sit next to what they describe."
+  },
+  {
+    "id": "fc-036",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "Why does the placement of the word \"only\" matter?",
+    "back": "Only modifies whatever follows it, so moving it changes the meaning. Example: \"I only ate the salad\" means I did nothing but eat it; \"I ate only the salad\" means I ate nothing else.",
+    "hint": "Put it directly before the word you mean to limit."
+  },
+  {
+    "id": "fc-037",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is parallel structure in a list?",
+    "back": "Items in a series must share the same grammatical form. Example: She likes hiking, swimming, and cycling, not hiking, swimming, and to cycle.",
+    "hint": "Check whether every item in the list has the same shape."
+  },
+  {
+    "id": "fc-038",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How does parallelism work with pairs like \"not only ... but also\"?",
+    "back": "The words after each half of the pair must match in form. Example: She not only wrote the script but also directed the play, since wrote and directed are both past-tense verbs.",
+    "hint": "Look at the word right after each half of the pair."
+  },
+  {
+    "id": "fc-039",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What makes a group of words a sentence fragment?",
+    "back": "It lacks a subject, a verb, or a complete thought. Example: \"Because the results were unclear\" is a fragment; add a main clause: Because the results were unclear, we ran the test again.",
+    "hint": "Can the words stand alone without leaving you waiting?"
+  },
+  {
+    "id": "fc-040",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "What is a run-on (fused) sentence?",
+    "back": "Two independent clauses joined with no punctuation or conjunction. Example: Fix \"The rain stopped we went outside\" with a period, a semicolon, or a comma plus so.",
+    "hint": "Two complete thoughts crashing together with nothing between them."
+  },
+  {
+    "id": "fc-041",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How does the ACT treat wordiness and redundancy?",
+    "back": "The shortest choice that keeps the meaning and is grammatical is usually correct. Example: Replace \"at this point in time\" with \"now\" and drop \"repeat again\" to just \"repeat.\"",
+    "hint": "If two words say the same thing, one of them must go."
+  },
+  {
+    "id": "fc-042",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you choose the right transition word?",
+    "back": "Match the transition to the logical relationship between the ideas. Example: Use however for contrast and therefore for cause and effect: The data were noisy; therefore, we repeated the trial.",
+    "hint": "Decide the relationship first, then pick the word."
+  },
+  {
+    "id": "fc-043",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "Why are double negatives incorrect in standard written English?",
+    "back": "Two negatives cancel each other and confuse the meaning. Example: Change \"We didn't see nothing\" to \"We didn't see anything\" or \"We saw nothing.\"",
+    "hint": "Count how many negative words are in the sentence."
+  },
+  {
+    "id": "fc-044",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "How do you handle \"one of the students who\" in subject-verb agreement?",
+    "back": "The verb in the who-clause matches the plural noun before who. Example: She is one of the students who volunteer at the clinic, since students volunteer.",
+    "hint": "Ask which noun the who-clause is actually describing."
+  },
+  {
+    "id": "fc-045",
+    "deck": "Grammar Rules",
+    "subject": "english",
+    "front": "When should you prefer active voice over passive voice?",
+    "back": "Prefer active voice when the doer is known, since it is shorter and clearer. Example: Change \"The samples were labeled by the intern\" to \"The intern labeled the samples.\"",
+    "hint": "Put the doer of the action at the front."
+  },
+  {
+    "id": "fc-046",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When do you use a semicolon?",
+    "back": "To join two independent clauses that are closely related, without a conjunction. Example: The lab closed early; we finished the report at home.",
+    "hint": "Could a period go there instead?"
+  },
+  {
+    "id": "fc-047",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What punctuation goes before words like \"however\" and \"therefore\" joining two clauses?",
+    "back": "A semicolon before the transition and a comma after it. Example: The trail was flooded; therefore, we took the ridge route.",
+    "hint": "These words cannot join clauses the way and or but can."
+  },
+  {
+    "id": "fc-048",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When do semicolons separate items in a list?",
+    "back": "When the items themselves contain commas. Example: The tour stops in Lima, Peru; Quito, Ecuador; and Bogota, Colombia.",
+    "hint": "Use them when regular commas would get confusing."
+  },
+  {
+    "id": "fc-049",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What must come before a colon that introduces a list?",
+    "back": "A complete sentence. Example: Correct is \"We packed three things: rope, water, and a map.\" Incorrect is \"We packed: rope, water, and a map.\"",
+    "hint": "Cover everything after the mark and see if a full sentence remains."
+  },
+  {
+    "id": "fc-050",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Besides lists, what else can a colon introduce?",
+    "back": "An explanation, a definition, or a single word that completes the thought. Example: The cause was obvious: corrosion had eaten through the bracket.",
+    "hint": "Think of it as an arrow pointing to what follows."
+  },
+  {
+    "id": "fc-051",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What is the difference between a colon and a semicolon?",
+    "back": "A colon points forward to an explanation or list; a semicolon links two equal independent clauses. Example: We knew the answer: the pump had failed. The pump failed; the tank overflowed.",
+    "hint": "One announces, the other balances."
+  },
+  {
+    "id": "fc-052",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What is a comma splice, and what are three ways to fix it?",
+    "back": "Two independent clauses joined by only a comma. Fix it with a period, a semicolon, or a comma plus a conjunction. Example: The wind rose, the kite climbed becomes The wind rose, and the kite climbed.",
+    "hint": "A comma alone is too weak to hold two full sentences."
+  },
+  {
+    "id": "fc-053",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When do you put a comma before and, but, or, so, for, nor, or yet?",
+    "back": "When the conjunction joins two independent clauses. Example: The alarm sounded, and everyone left the building.",
+    "hint": "Check whether both sides could stand alone as sentences."
+  },
+  {
+    "id": "fc-054",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Should you put a comma before \"and\" in a compound predicate?",
+    "back": "No, because the second half is not a full sentence. Example: She opened the report and highlighted the totals, with no comma before and.",
+    "hint": "Is there a new subject after the conjunction?"
+  },
+  {
+    "id": "fc-055",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When does a comma follow an introductory word or phrase?",
+    "back": "When the phrase comes before the main clause. Example: After the storm passed, the crew inspected the roof.",
+    "hint": "Listen for the natural pause before the main idea starts."
+  },
+  {
+    "id": "fc-056",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you punctuate a nonessential clause in the middle of a sentence?",
+    "back": "Surround it with a pair of commas. Example: My cousin, who lives in Reno, restores old bicycles.",
+    "hint": "If you can delete it and keep the meaning, fence it off on both sides."
+  },
+  {
+    "id": "fc-057",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Do essential (restrictive) clauses take commas?",
+    "back": "No, because removing them changes the meaning. Example: Students who finish early may leave, with no commas, since only those students may leave.",
+    "hint": "Ask whether the sentence still means the same thing without it."
+  },
+  {
+    "id": "fc-058",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How does punctuation differ between \"that\" clauses and \"which\" clauses?",
+    "back": "That introduces essential clauses with no comma; which introduces nonessential clauses set off by commas. Example: The bike that I bought is red. My bike, which is red, needs new tires.",
+    "hint": "One of the two words almost always follows a comma."
+  },
+  {
+    "id": "fc-059",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you punctuate three or more items in a series?",
+    "back": "Separate them with commas, including one before the final conjunction. Example: We tested soil, water, and air samples.",
+    "hint": "Every item gets a divider, including the last pair."
+  },
+  {
+    "id": "fc-060",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you test whether two adjectives need a comma between them?",
+    "back": "If you can insert \"and\" or reverse them and it still sounds right, use a comma. Example: a long, tedious meeting works, but a bright red coat takes no comma.",
+    "hint": "Try slipping the word and between them."
+  },
+  {
+    "id": "fc-061",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Can a single comma separate a subject from its verb?",
+    "back": "No. Example: Incorrect is \"The report on migratory birds, was late.\" Correct is \"The report on migratory birds was late.\"",
+    "hint": "A lone comma should never break the core of the sentence."
+  },
+  {
+    "id": "fc-062",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you punctuate an appositive?",
+    "back": "Set a nonessential appositive off with commas. Example: Dr. Alvarez, our biology teacher, designed the greenhouse.",
+    "hint": "It renames the noun right beside it."
+  },
+  {
+    "id": "fc-063",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you punctuate direct address?",
+    "back": "Separate the name being addressed with a comma or a pair of commas. Example: Kayla, please close the valve. Or: Please, Kayla, close the valve.",
+    "hint": "You are talking to the person, not about them."
+  },
+  {
+    "id": "fc-064",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do commas work in a full date?",
+    "back": "Put a comma between the day and the year, and another after the year if the sentence continues. Example: On March 4, 2019, the bridge reopened.",
+    "hint": "The year gets fenced in on both sides."
+  },
+  {
+    "id": "fc-065",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do commas work with a city and state?",
+    "back": "Place a comma between the city and the state and another after the state if the sentence continues. Example: She grew up in Austin, Texas, before moving north.",
+    "hint": "Treat the state the way you treat a year in a date."
+  },
+  {
+    "id": "fc-066",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How does a pair of dashes function in a sentence?",
+    "back": "Like a pair of commas or parentheses, it sets off nonessential information with more emphasis. Example: The prototype — the third one that year — took months to build. Never mix a dash on one side with a comma on the other.",
+    "hint": "Whatever mark opens the interruption must also close it."
+  },
+  {
+    "id": "fc-067",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What does a single dash do at the end of a sentence?",
+    "back": "It sets off a final phrase for emphasis or surprise. Example: We searched for hours and found only one thing worth keeping — a rusted brass key.",
+    "hint": "It creates a pause heavier than a comma before the last idea."
+  },
+  {
+    "id": "fc-068",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When do you use parentheses?",
+    "back": "To enclose extra information the sentence does not need. Example: The survey (conducted in April) reached 400 households.",
+    "hint": "The sentence must still work perfectly if you delete what is inside."
+  },
+  {
+    "id": "fc-069",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you form the possessive of a singular noun?",
+    "back": "Add apostrophe plus s. Example: the student's locker refers to one student's locker.",
+    "hint": "One owner, so the mark comes before the s."
+  },
+  {
+    "id": "fc-070",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you form the possessive of a plural noun ending in s?",
+    "back": "Add only an apostrophe after the s. Example: the students' lockers refers to lockers belonging to many students.",
+    "hint": "The s is already there, so nothing follows the mark."
+  },
+  {
+    "id": "fc-071",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "How do you form the possessive of an irregular plural like children or women?",
+    "back": "Add apostrophe plus s, because the plural does not end in s. Example: the children's books and the women's team.",
+    "hint": "Make the word plural first, then look at its last letter."
+  },
+  {
+    "id": "fc-072",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Do possessive pronouns take apostrophes?",
+    "back": "Never. Its, hers, ours, yours, and theirs are already possessive. Example: The decision was theirs, not their's.",
+    "hint": "These words show ownership all on their own."
+  },
+  {
+    "id": "fc-073",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "What does an apostrophe mark in a contraction?",
+    "back": "It replaces the missing letters. Example: do not becomes don't, and they are becomes they're, with the apostrophe standing in for the dropped letters.",
+    "hint": "It fills the gap where letters used to be."
+  },
+  {
+    "id": "fc-074",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "When do you hyphenate a compound modifier?",
+    "back": "When two or more words act as one adjective before a noun. Example: a well-known author, but the author is well known after the noun.",
+    "hint": "Position relative to the noun decides it."
+  },
+  {
+    "id": "fc-075",
+    "deck": "Punctuation",
+    "subject": "english",
+    "front": "Where do periods and commas go relative to closing quotation marks?",
+    "back": "Inside the quotation marks in American usage. Example: She called the result \"unexpected,\" and the team agreed it was \"a fluke.\"",
+    "hint": "In American style these two small marks tuck in."
+  },
+  {
+    "id": "fc-076",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the area and perimeter of a rectangle?",
+    "back": "Area = length × width and Perimeter = 2(length + width). Example: a 7 by 3 rectangle has area 21 and perimeter 20.",
+    "hint": "One measures the inside, the other the outside edge."
+  },
+  {
+    "id": "fc-077",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the area of a triangle?",
+    "back": "Area = ½ × base × height, where the height is perpendicular to the base. Example: base 8 and height 5 gives area 20.",
+    "hint": "It is half of the rectangle that would surround it."
+  },
+  {
+    "id": "fc-078",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the area of a trapezoid?",
+    "back": "Area = ½(b₁ + b₂) × h, the average of the parallel sides times the height. Example: bases 5 and 9 with height 4 give ½(14)(4) = 28.",
+    "hint": "Average the two parallel sides first."
+  },
+  {
+    "id": "fc-079",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the area of a parallelogram?",
+    "back": "Area = base × height, using the perpendicular height, not the slanted side. Example: base 10 and height 3 give area 30.",
+    "hint": "Same shape as a rectangle formula, but watch which height you use."
+  },
+  {
+    "id": "fc-080",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the circumference of a circle?",
+    "back": "C = 2πr, or equivalently C = πd. Example: a circle with radius 5 has circumference 10π ≈ 31.4.",
+    "hint": "It is the distance all the way around the edge."
+  },
+  {
+    "id": "fc-081",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the area of a circle?",
+    "back": "A = πr². Example: a circle with radius 5 has area 25π ≈ 78.5. If you are given the diameter, halve it first.",
+    "hint": "The radius gets squared, not doubled."
+  },
+  {
+    "id": "fc-082",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find arc length for a central angle in degrees?",
+    "back": "Arc length = (θ/360) × 2πr. Example: with r = 6 and θ = 60°, the arc is (1/6)(12π) = 2π.",
+    "hint": "Take the fraction of the full circle, then multiply by the whole circumference."
+  },
+  {
+    "id": "fc-083",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the area of a sector?",
+    "back": "Sector area = (θ/360) × πr². Example: with r = 6 and θ = 60°, the sector area is (1/6)(36π) = 6π.",
+    "hint": "Same fraction idea as arc length, but with the area formula."
+  },
+  {
+    "id": "fc-084",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the volume of a rectangular prism?",
+    "back": "V = length × width × height. Example: a box measuring 2 by 3 by 4 has volume 24 cubic units.",
+    "hint": "Multiply all three dimensions together."
+  },
+  {
+    "id": "fc-085",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the volume of a cylinder?",
+    "back": "V = πr²h, the circular base area times the height. Example: r = 3 and h = 5 give 45π ≈ 141.4.",
+    "hint": "Find the area of the circular base, then stack it upward."
+  },
+  {
+    "id": "fc-086",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the volume of a cone?",
+    "back": "V = ⅓πr²h, one third of the cylinder with the same base and height. Example: r = 3 and h = 5 give 15π.",
+    "hint": "It is a fraction of the matching cylinder."
+  },
+  {
+    "id": "fc-087",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the volume of a sphere?",
+    "back": "V = (4/3)πr³. Example: a sphere of radius 3 has volume (4/3)π(27) = 36π ≈ 113.1.",
+    "hint": "The radius is cubed here, not squared."
+  },
+  {
+    "id": "fc-088",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the Pythagorean theorem?",
+    "back": "In a right triangle, a² + b² = c², where c is the hypotenuse. Example: legs 6 and 8 give 36 + 64 = 100, so c = 10.",
+    "hint": "It only works when one angle is exactly 90°."
+  },
+  {
+    "id": "fc-089",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the four Pythagorean triples worth memorizing?",
+    "back": "3-4-5, 5-12-13, 8-15-17, and 7-24-25, plus all their multiples. Example: legs of 9 and 12 form a 3-4-5 triple tripled, so the hypotenuse is 15.",
+    "hint": "Look for a familiar ratio before doing any squaring."
+  },
+  {
+    "id": "fc-090",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the side ratios of a 45-45-90 triangle?",
+    "back": "The legs are equal and the hypotenuse is leg × √2, giving x : x : x√2. Example: legs of 5 give a hypotenuse of 5√2 ≈ 7.07.",
+    "hint": "It is half of a square cut along the diagonal."
+  },
+  {
+    "id": "fc-091",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the side ratios of a 30-60-90 triangle?",
+    "back": "They are x : x√3 : 2x, where x is opposite the 30° angle. Example: a short leg of 4 gives a long leg of 4√3 and a hypotenuse of 8.",
+    "hint": "The smallest side sits across from the smallest angle."
+  },
+  {
+    "id": "fc-092",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the slope formula?",
+    "back": "m = (y₂ − y₁)/(x₂ − x₁), the change in y over the change in x. Example: through (1, 2) and (3, 8), m = 6/2 = 3.",
+    "hint": "Rise over run, and keep the points in the same order on top and bottom."
+  },
+  {
+    "id": "fc-093",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is slope-intercept form?",
+    "back": "y = mx + b, where m is the slope and b is the y-intercept. Example: y = −2x + 5 falls 2 units for every 1 unit right and crosses the y-axis at 5.",
+    "hint": "The two key features of the line are sitting right in the equation."
+  },
+  {
+    "id": "fc-094",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is point-slope form?",
+    "back": "y − y₁ = m(x − x₁), using any known point and the slope. Example: slope 3 through (2, −1) gives y + 1 = 3(x − 2).",
+    "hint": "Best when you know one point and the steepness."
+  },
+  {
+    "id": "fc-095",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do the slopes of parallel and perpendicular lines compare?",
+    "back": "Parallel lines have equal slopes; perpendicular slopes are negative reciprocals whose product is −1. Example: a line with slope 2/3 is perpendicular to one with slope −3/2.",
+    "hint": "For the perpendicular case, flip it and change the sign."
+  },
+  {
+    "id": "fc-096",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the distance formula between two points?",
+    "back": "d = √((x₂ − x₁)² + (y₂ − y₁)²). Example: from (1, 2) to (4, 6), d = √(9 + 16) = √25 = 5.",
+    "hint": "It is the Pythagorean theorem applied to the coordinate plane."
+  },
+  {
+    "id": "fc-097",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the midpoint formula?",
+    "back": "Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2). Example: the midpoint of (2, 4) and (6, 10) is (4, 7).",
+    "hint": "You are just averaging each coordinate."
+  },
+  {
+    "id": "fc-098",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the standard equation of a circle?",
+    "back": "(x − h)² + (y − k)² = r², with center (h, k) and radius r. Example: center (3, −2) and radius 5 give (x − 3)² + (y + 2)² = 25.",
+    "hint": "Watch the sign flip between the equation and the center."
+  },
+  {
+    "id": "fc-099",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the center and radius of x² + y² − 6x + 4y − 12 = 0?",
+    "back": "Complete the square on each variable: (x − 3)² + (y + 2)² = 25. The center is (3, −2) and the radius is 5.",
+    "hint": "Group the x terms and the y terms, then complete the square."
+  },
+  {
+    "id": "fc-100",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the quadratic formula?",
+    "back": "x = (−b ± √(b² − 4ac))/(2a) for ax² + bx + c = 0. Example: x² − 5x + 6 = 0 gives x = (5 ± 1)/2, so x = 3 or x = 2.",
+    "hint": "Everything, including −b, sits over 2a."
+  },
+  {
+    "id": "fc-101",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What does the discriminant tell you?",
+    "back": "b² − 4ac reveals the number of real solutions: positive gives two, zero gives one, negative gives none. Example: x² + 2x + 5 has 4 − 20 = −16, so there are no real solutions.",
+    "hint": "It is the piece hiding under the square root sign."
+  },
+  {
+    "id": "fc-102",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the vertex of y = ax² + bx + c?",
+    "back": "The vertex x-coordinate is x = −b/(2a); substitute to get y. Example: y = 2x² − 8x + 1 gives x = 2 and y = −7, so the vertex is (2, −7).",
+    "hint": "It is the first half of the quadratic formula."
+  },
+  {
+    "id": "fc-103",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is vertex form of a parabola?",
+    "back": "y = a(x − h)² + k, with vertex (h, k). Example: y = (x − 4)² − 3 has vertex (4, −3) and opens upward because a is positive.",
+    "hint": "The vertex is readable straight from the equation, with one sign flip."
+  },
+  {
+    "id": "fc-104",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the product rule for exponents?",
+    "back": "When multiplying like bases, add the exponents: xᵃ × xᵇ = x⁽ᵃ⁺ᵇ⁾. Example: 2³ × 2⁴ = 2⁷ = 128.",
+    "hint": "The bases must match before you can combine them."
+  },
+  {
+    "id": "fc-105",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the quotient rule for exponents?",
+    "back": "When dividing like bases, subtract the exponents: xᵃ ÷ xᵇ = x⁽ᵃ⁻ᵇ⁾. Example: 5⁶ ÷ 5² = 5⁴ = 625.",
+    "hint": "Division undoes what multiplication did to the exponents."
+  },
+  {
+    "id": "fc-106",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the power of a power rule?",
+    "back": "Raising a power to a power multiplies the exponents: (xᵃ)ᵇ = x⁽ᵃᵇ⁾. Example: (3²)⁴ = 3⁸ = 6561.",
+    "hint": "Two layers of exponents combine by multiplying."
+  },
+  {
+    "id": "fc-107",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What does a negative exponent mean?",
+    "back": "x⁻ⁿ = 1/xⁿ, so a negative exponent means take the reciprocal. Example: 2⁻³ = 1/2³ = 1/8.",
+    "hint": "Move the term to the other side of the fraction bar."
+  },
+  {
+    "id": "fc-108",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is any nonzero number raised to the zero power?",
+    "back": "It equals 1. Example: 7⁰ = 1 and (−4)⁰ = 1, though 0⁰ is undefined.",
+    "hint": "The answer is the same no matter which base you pick."
+  },
+  {
+    "id": "fc-109",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What does a fractional exponent like x^(m/n) mean?",
+    "back": "The denominator is the root and the numerator is the power: x^(m/n) is the nth root of x raised to m. Example: 8^(2/3) = (∛8)² = 2² = 4.",
+    "hint": "Bottom number roots it, top number powers it."
+  },
+  {
+    "id": "fc-110",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What does log base b of x equal y mean?",
+    "back": "It means bʸ = x, so a logarithm asks what exponent produces x. Example: log₂ 32 = 5 because 2⁵ = 32.",
+    "hint": "A log is just an exponent in disguise."
+  },
+  {
+    "id": "fc-111",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the product and quotient rules for logarithms?",
+    "back": "log(mn) = log m + log n and log(m/n) = log m − log n. Example: log₃ 9 + log₃ 3 = log₃ 27 = 3.",
+    "hint": "Multiplying inside becomes adding outside."
+  },
+  {
+    "id": "fc-112",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the power rule for logarithms?",
+    "back": "log_b(mᵖ) = p × log_b(m), so an exponent inside moves out front. Example: log₅(25³) = 3 × log₅ 25 = 3 × 2 = 6.",
+    "hint": "The exponent can step outside as a multiplier."
+  },
+  {
+    "id": "fc-113",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What does SOHCAHTOA stand for?",
+    "back": "sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. Example: in a 3-4-5 right triangle with 3 opposite the angle, sin = 3/5, cos = 4/5, tan = 3/4.",
+    "hint": "Three ratios, each built from two of the three sides."
+  },
+  {
+    "id": "fc-114",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the Pythagorean trigonometric identity?",
+    "back": "sin²θ + cos²θ = 1 for any angle θ. Example: if sin θ = 3/5, then cos²θ = 1 − 9/25 = 16/25, so cos θ = ±4/5.",
+    "hint": "It comes straight from a right triangle with hypotenuse 1."
+  },
+  {
+    "id": "fc-115",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How is tangent related to sine and cosine?",
+    "back": "tan θ = sin θ / cos θ, and it is undefined where cos θ = 0. Example: sin 45° and cos 45° both equal √2/2, so tan 45° = 1.",
+    "hint": "It is a ratio of the other two functions."
+  },
+  {
+    "id": "fc-116",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What are the sine and cosine values at 30°, 45°, and 60°?",
+    "back": "sin 30° = 1/2, sin 45° = √2/2, sin 60° = √3/2, and the cosine values run in reverse: cos 30° = √3/2, cos 45° = √2/2, cos 60° = 1/2.",
+    "hint": "The three sine values climb while the cosine values fall."
+  },
+  {
+    "id": "fc-117",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you convert between degrees and radians?",
+    "back": "Multiply degrees by π/180 to get radians, or radians by 180/π to get degrees, since π radians = 180°. Example: 60° = 60 × π/180 = π/3.",
+    "hint": "A half circle is the conversion anchor."
+  },
+  {
+    "id": "fc-118",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the law of sines?",
+    "back": "a/sin A = b/sin B = c/sin C, where each side is paired with its opposite angle. Example: with A = 30°, a = 5, and B = 90°, b = 5 × sin 90° / sin 30° = 10.",
+    "hint": "Use it when you have a matched side-and-angle pair."
+  },
+  {
+    "id": "fc-119",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the law of cosines?",
+    "back": "c² = a² + b² − 2ab·cos C. Example: with a = 3, b = 4, and C = 60°, c² = 9 + 16 − 12 = 13, so c = √13 ≈ 3.61.",
+    "hint": "It is the Pythagorean theorem with a correction term for non-right angles."
+  },
+  {
+    "id": "fc-120",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the nth term of an arithmetic sequence?",
+    "back": "aₙ = a₁ + (n − 1)d, where d is the common difference. Example: for 3, 7, 11, ... with d = 4, a₁₀ = 3 + 9(4) = 39.",
+    "hint": "You take one fewer step than the term number."
+  },
+  {
+    "id": "fc-121",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the sum of an arithmetic series?",
+    "back": "Sₙ = n(a₁ + aₙ)/2, the number of terms times the average of the first and last. Example: 1 + 2 + ... + 100 = 100(1 + 100)/2 = 5050.",
+    "hint": "Average the ends, then multiply by how many terms there are."
+  },
+  {
+    "id": "fc-122",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the nth term of a geometric sequence?",
+    "back": "aₙ = a₁ × r⁽ⁿ⁻¹⁾, where r is the common ratio. Example: for 2, 6, 18, ... with r = 3, a₅ = 2 × 3⁴ = 162.",
+    "hint": "Each term multiplies rather than adds."
+  },
+  {
+    "id": "fc-123",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the basic probability formula?",
+    "back": "P(event) = favorable outcomes / total outcomes. Example: a bag with 3 red marbles out of 12 total gives P(red) = 3/12 = 1/4.",
+    "hint": "Part over whole, and the answer is always between 0 and 1."
+  },
+  {
+    "id": "fc-124",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the probability of A and B, or of A or B?",
+    "back": "For independent events, P(A and B) = P(A) × P(B). In general, P(A or B) = P(A) + P(B) − P(A and B). Example: two coin flips landing heads is ½ × ½ = ¼.",
+    "hint": "And means multiply; or means add and remove the overlap."
+  },
+  {
+    "id": "fc-125",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the permutation formula, and when do you use it?",
+    "back": "nPr = n! / (n − r)!, used when order matters. Example: arranging 3 of 5 books on a shelf gives 5P3 = 5!/2! = 60 arrangements.",
+    "hint": "Use it when rearranging the same items counts as a new result."
+  },
+  {
+    "id": "fc-126",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the combination formula, and when do you use it?",
+    "back": "nCr = n! / (r!(n − r)!), used when order does not matter. Example: choosing 3 students from 5 gives 5C3 = 10 groups.",
+    "hint": "Use it when the group is the same no matter the order picked."
+  },
+  {
+    "id": "fc-127",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "How do you find the mean, median, and mode of a data set?",
+    "back": "Mean is the sum divided by the count, median is the middle of the sorted list, and mode is the most frequent value. Example: for 2, 4, 4, 9, 11 the mean is 6, the median is 4, and the mode is 4.",
+    "hint": "One averages, one ranks, one counts repeats."
+  },
+  {
+    "id": "fc-128",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is the percent change formula?",
+    "back": "Percent change = (new − original) / original × 100. Example: a price going from 40 to 50 is 10/40 = 25% increase.",
+    "hint": "The original value always sits in the denominator."
+  },
+  {
+    "id": "fc-129",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is direct variation?",
+    "back": "y = kx, so y grows proportionally with x. Example: if y = 12 when x = 3, then k = 4, so x = 5 gives y = 20.",
+    "hint": "Both quantities move in the same direction at a fixed ratio."
+  },
+  {
+    "id": "fc-130",
+    "deck": "Math Formulas",
+    "subject": "math",
+    "front": "What is inverse variation?",
+    "back": "y = k/x, so xy stays constant and y falls as x rises. Example: if y = 6 when x = 2, then k = 12, so x = 4 gives y = 3.",
+    "hint": "The product of the two quantities never changes."
+  },
+  {
+    "id": "fc-131",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the independent variable in an experiment?",
+    "back": "The factor the researcher deliberately changes. Example: in a test of plant growth at different light levels, the light level is the independent variable.",
+    "hint": "It is the one the experimenter controls on purpose."
+  },
+  {
+    "id": "fc-132",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the dependent variable?",
+    "back": "The factor that is measured to see how it responds to the change. Example: in a plant-and-light study, the measured stem height is the dependent variable.",
+    "hint": "It depends on what the experimenter changed."
+  },
+  {
+    "id": "fc-133",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a control group?",
+    "back": "The group that receives no experimental treatment, providing a baseline for comparison. Example: plants given no fertilizer while other groups receive varying doses.",
+    "hint": "It is the group you compare everything else against."
+  },
+  {
+    "id": "fc-134",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a controlled variable (constant)?",
+    "back": "A factor deliberately held the same across all trials so it cannot affect the results. Example: keeping every plant at 22°C while only light varies.",
+    "hint": "These are the things you refuse to let change."
+  },
+  {
+    "id": "fc-135",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a hypothesis?",
+    "back": "A testable, falsifiable prediction made before an experiment. Example: If seedlings receive more light, then their stems will grow taller within two weeks.",
+    "hint": "It must be possible to prove it wrong."
+  },
+  {
+    "id": "fc-136",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a direct relationship between two variables?",
+    "back": "As one variable increases, the other also increases. Example: on a graph of temperature versus reaction rate, the line rises from left to right.",
+    "hint": "Both values move the same way."
+  },
+  {
+    "id": "fc-137",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is an inverse relationship between two variables?",
+    "back": "As one variable increases, the other decreases. Example: for a fixed amount of gas at constant temperature, raising the pressure lowers the volume.",
+    "hint": "The graph slopes downward from left to right."
+  },
+  {
+    "id": "fc-138",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What does it mean to extrapolate from data?",
+    "back": "To extend a trend beyond the range of the measured data. Example: if readings run from 10°C to 40°C, predicting the value at 60°C is extrapolation.",
+    "hint": "You are reading past the edge of the graph."
+  },
+  {
+    "id": "fc-139",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What does it mean to interpolate data?",
+    "back": "To estimate a value that falls between two measured data points. Example: with readings at 20°C and 30°C, estimating the value at 25°C is interpolation.",
+    "hint": "You stay inside the range you already measured."
+  },
+  {
+    "id": "fc-140",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "Why does correlation not prove causation?",
+    "back": "Two variables can move together because of a third factor or coincidence. Example: ice cream sales and drowning rates both rise in summer, but neither causes the other.",
+    "hint": "Look for a hidden third factor driving both."
+  },
+  {
+    "id": "fc-141",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is an outlier in a data set?",
+    "back": "A data point that falls far outside the pattern of the rest. Example: in the readings 5.1, 5.3, 5.2, and 19.8, the value 19.8 is an outlier and may signal an error.",
+    "hint": "It is the point that does not fit the trend."
+  },
+  {
+    "id": "fc-142",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "Why do scientists replicate experiments?",
+    "back": "Repeating trials checks whether results are consistent and reduces the effect of random error. Example: running a titration five times and averaging the volumes.",
+    "hint": "One measurement could always be a fluke."
+  },
+  {
+    "id": "fc-143",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What does the pH scale measure?",
+    "back": "The acidity or basicity of a solution from 0 to 14, with 7 neutral, below 7 acidic, and above 7 basic. Example: lemon juice near pH 2 is acidic, and baking soda near pH 9 is basic.",
+    "hint": "Seven sits right in the middle."
+  },
+  {
+    "id": "fc-144",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is density, and how is it calculated?",
+    "back": "Density = mass ÷ volume, describing how much matter fits in a given space. Example: 20 g occupying 4 cm³ gives a density of 5 g/cm³, so the object sinks in water.",
+    "hint": "It compares how heavy something is to how much room it takes up."
+  },
+  {
+    "id": "fc-145",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is solubility?",
+    "back": "The maximum amount of a substance that dissolves in a given amount of solvent at a set temperature. Example: more sugar dissolves in hot tea than in iced tea.",
+    "hint": "It usually depends on temperature."
+  },
+  {
+    "id": "fc-146",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is photosynthesis?",
+    "back": "The process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen. Example: a leaf in sunlight releases oxygen bubbles underwater.",
+    "hint": "Light goes in, sugar and a breathable gas come out."
+  },
+  {
+    "id": "fc-147",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is cellular respiration?",
+    "back": "The process that breaks down glucose using oxygen to release energy as ATP, producing carbon dioxide and water. Example: muscle cells burning sugar during a sprint.",
+    "hint": "It is roughly the reverse of photosynthesis."
+  },
+  {
+    "id": "fc-148",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is osmosis?",
+    "back": "The movement of water across a semipermeable membrane from lower to higher solute concentration. Example: a raisin placed in fresh water swells as water moves in.",
+    "hint": "It is diffusion, but specifically of water."
+  },
+  {
+    "id": "fc-149",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is diffusion?",
+    "back": "The net movement of particles from an area of higher concentration to one of lower concentration. Example: perfume sprayed in one corner spreads through the whole room.",
+    "hint": "Particles spread out until they are evenly mixed."
+  },
+  {
+    "id": "fc-150",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a catalyst?",
+    "back": "A substance that speeds up a reaction by lowering its activation energy without being consumed. Example: the enzyme amylase breaks down starch in saliva and is reused.",
+    "hint": "It helps the reaction along but survives unchanged."
+  },
+  {
+    "id": "fc-151",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is wavelength?",
+    "back": "The distance between two consecutive matching points on a wave, such as crest to crest. Example: red light has a longer wavelength, near 700 nm, than blue light near 450 nm.",
+    "hint": "Measure from one peak to the next."
+  },
+  {
+    "id": "fc-152",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is frequency, and how does it relate to wavelength?",
+    "back": "Frequency is the number of wave cycles per second, and it is inversely related to wavelength. Example: at a fixed speed, doubling the wavelength halves the frequency.",
+    "hint": "As one goes up, the other goes down."
+  },
+  {
+    "id": "fc-153",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What does the amplitude of a wave represent?",
+    "back": "The height of the wave from its rest position, which corresponds to its energy. Example: a louder sound wave has greater amplitude than a quiet one at the same pitch.",
+    "hint": "Taller waves carry more energy."
+  },
+  {
+    "id": "fc-154",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the difference between kinetic and potential energy?",
+    "back": "Kinetic energy is energy of motion; potential energy is stored energy from position or condition. Example: a ball at the top of a ramp has potential energy that becomes kinetic as it rolls.",
+    "hint": "One is moving, one is waiting."
+  },
+  {
+    "id": "fc-155",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What does the law of conservation of energy state?",
+    "back": "Energy cannot be created or destroyed, only converted from one form to another. Example: a swinging pendulum trades potential energy for kinetic energy and back again.",
+    "hint": "The total never changes, only the form does."
+  },
+  {
+    "id": "fc-156",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a half-life?",
+    "back": "The time it takes for half of a radioactive sample to decay. Example: after two half-lives, 100 g of a sample leaves 25 g of the original isotope.",
+    "hint": "Each interval cuts the remaining amount in half."
+  },
+  {
+    "id": "fc-157",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is an isotope?",
+    "back": "An atom of the same element with a different number of neutrons. Example: carbon-12 and carbon-14 both have 6 protons but 6 and 8 neutrons respectively.",
+    "hint": "Same element, different mass."
+  },
+  {
+    "id": "fc-158",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the difference between atomic number and mass number?",
+    "back": "Atomic number counts protons and identifies the element; mass number counts protons plus neutrons. Example: sodium-23 has atomic number 11 and 12 neutrons.",
+    "hint": "One identifies the element, the other weighs it."
+  },
+  {
+    "id": "fc-159",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "How does mitosis differ from meiosis?",
+    "back": "Mitosis produces two identical body cells; meiosis produces four genetically varied sex cells with half the chromosomes. Example: skin repair uses mitosis, while sperm and egg formation uses meiosis.",
+    "hint": "One copies, the other halves and shuffles."
+  },
+  {
+    "id": "fc-160",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is natural selection?",
+    "back": "The process by which organisms with traits better suited to their environment survive and reproduce more. Example: dark moths surviving better on soot-darkened bark than pale moths.",
+    "hint": "The environment does the choosing."
+  },
+  {
+    "id": "fc-161",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the difference between a gene and an allele?",
+    "back": "A gene is a stretch of DNA coding for a trait; an allele is one of its alternate versions. Example: the gene for pea flower color has purple and white alleles.",
+    "hint": "One is the category, the other is the variant."
+  },
+  {
+    "id": "fc-162",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is homeostasis?",
+    "back": "An organism's maintenance of stable internal conditions despite external changes. Example: sweating cools the body to hold its temperature near 37°C on a hot day.",
+    "hint": "The body works to stay the same inside."
+  },
+  {
+    "id": "fc-163",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "How does energy move through trophic levels in a food chain?",
+    "back": "Energy flows from producers upward, with roughly 10% passed to each next level. Example: grass to grasshopper to frog to hawk, losing most energy as heat at each step.",
+    "hint": "Most of the energy is lost at every step upward."
+  },
+  {
+    "id": "fc-164",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is a phase change, and does temperature change during one?",
+    "back": "A phase change is a shift between solid, liquid, and gas, and the temperature stays constant while it occurs. Example: ice and water sit together at 0°C until all the ice melts.",
+    "hint": "Watch what a heating curve does during the flat part."
+  },
+  {
+    "id": "fc-165",
+    "deck": "Science Terms",
+    "subject": "science",
+    "front": "What is the difference between accuracy and precision?",
+    "back": "Accuracy is closeness to the true value; precision is closeness of repeated measurements to each other. Example: readings of 8.1, 8.1, and 8.2 for a true value of 5.0 are precise but not accurate.",
+    "hint": "One compares to truth, the other compares to itself."
+  },
+  {
+    "id": "fc-166",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The vaccine arrested the spread of the outbreak within weeks.\" What does \"arrested\" mean here?",
+    "back": "Stopped or halted. The sentence describes the outbreak being brought to a stop, not anyone being taken into police custody.",
+    "hint": "Nobody is being taken to jail in this sentence."
+  },
+  {
+    "id": "fc-167",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"New levees checked the river's advance across the farmland.\" What does \"checked\" mean here?",
+    "back": "Restrained or held back. The levees limited the river's movement rather than examining or marking anything.",
+    "hint": "Think of what a barrier does to a moving force."
+  },
+  {
+    "id": "fc-168",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Her novel approach to the problem surprised the senior engineers.\" What does \"novel\" mean here?",
+    "back": "New or original. It is functioning as an adjective describing an unfamiliar method, not as a noun meaning a book.",
+    "hint": "It is describing the approach, not naming a kind of book."
+  },
+  {
+    "id": "fc-169",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The board had reservations about funding a second expedition.\" What does \"reservations\" mean here?",
+    "back": "Doubts or misgivings. The board was hesitant about the plan, not holding a table or booking seats.",
+    "hint": "No restaurant or hotel is involved."
+  },
+  {
+    "id": "fc-170",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The soil study yields results that contradict earlier surveys.\" What does \"yields\" mean here?",
+    "back": "Produces or gives. The study generates findings; it is not surrendering or slowing down at an intersection.",
+    "hint": "Think about what a study gives you at the end."
+  },
+  {
+    "id": "fc-171",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Even critics admitted the proposal rested on sound reasoning.\" What does \"sound\" mean here?",
+    "back": "Valid, solid, or well-founded. It describes reasoning that holds up, and has nothing to do with noise.",
+    "hint": "It is not about anything you hear."
+  },
+  {
+    "id": "fc-172",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The mayor refused to address the flooding until spring.\" What does \"address\" mean here?",
+    "back": "To deal with or confront. The mayor avoided taking action on the problem; no speech or mailing location is meant.",
+    "hint": "It is an action taken toward a problem."
+  },
+  {
+    "id": "fc-173",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"A single contaminated sample could compromise the entire trial.\" What does \"compromise\" mean here?",
+    "back": "To weaken or undermine. The sample would damage the trial's validity, rather than settle a disagreement.",
+    "hint": "Nobody is meeting in the middle here."
+  },
+  {
+    "id": "fc-174",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"She qualified her claim by noting the small sample size.\" What does \"qualified\" mean here?",
+    "back": "Limited or moderated. She narrowed the scope of her claim rather than becoming eligible for something.",
+    "hint": "It is not about meeting requirements."
+  },
+  {
+    "id": "fc-175",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Visitors are asked to observe the village's midday quiet.\" What does \"observe\" mean here?",
+    "back": "To follow or respect. Visitors are expected to comply with the custom, not simply watch it happen.",
+    "hint": "It asks for behavior, not just attention."
+  },
+  {
+    "id": "fc-176",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The committee would not entertain any changes to the deadline.\" What does \"entertain\" mean here?",
+    "back": "To consider or give thought to. The committee refused to weigh the idea; no amusement is involved.",
+    "hint": "Nothing here is meant to be enjoyable."
+  },
+  {
+    "id": "fc-177",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The council voted to table the proposal until the next session.\" What does \"table\" mean here?",
+    "back": "To postpone or set aside. The proposal was delayed rather than placed on a piece of furniture.",
+    "hint": "It is a verb about timing, not a noun."
+  },
+  {
+    "id": "fc-178",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"By August the crew had exhausted every reasonable explanation.\" What does \"exhausted\" mean here?",
+    "back": "Used up completely. They had run through all the options, rather than becoming physically tired.",
+    "hint": "It applies to the explanations, not to the people."
+  },
+  {
+    "id": "fc-179",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"His reserved manner made him seem cold to new colleagues.\" What does \"reserved\" mean here?",
+    "back": "Restrained or reticent. He kept his feelings private, which is unrelated to booking something in advance.",
+    "hint": "It describes a personality, not a booking."
+  },
+  {
+    "id": "fc-180",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The small press weathered three recessions without closing.\" What does \"weathered\" mean here?",
+    "back": "Endured or survived. The press came through hard times intact; no rain or erosion is meant.",
+    "hint": "It is about lasting through difficulty."
+  },
+  {
+    "id": "fc-181",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Critics praised the poet's economy of language.\" What does \"economy\" mean here?",
+    "back": "Sparing, efficient use. The poet said much with few words; no financial system is meant.",
+    "hint": "It has nothing to do with money."
+  },
+  {
+    "id": "fc-182",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The results tempered his enthusiasm for the new method.\" What does \"tempered\" mean here?",
+    "back": "Moderated or toned down. The results made him less eager, rather than referring to a mood or to hardening metal.",
+    "hint": "Think of turning something down rather than off."
+  },
+  {
+    "id": "fc-183",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Only a trained ear can appreciate the difference between the two recordings.\" What does \"appreciate\" mean here?",
+    "back": "To recognize or perceive. The sentence is about detecting a subtle difference, not about being grateful or gaining value.",
+    "hint": "It is a matter of noticing, not of thanking."
+  },
+  {
+    "id": "fc-184",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Her grandmother would relate the same story every winter.\" What does \"relate\" mean here?",
+    "back": "To tell or narrate. The grandmother recounted the story; she was not connecting to it emotionally.",
+    "hint": "It takes a story as its object."
+  },
+  {
+    "id": "fc-185",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The witness's testimony had no bearing on the verdict.\" What does \"bearing\" mean here?",
+    "back": "Relevance or influence. The testimony did not affect the outcome; the word does not mean posture or a machine part here.",
+    "hint": "Ask whether it mattered to the result."
+  },
+  {
+    "id": "fc-186",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"She has a discriminating eye for eighteenth-century furniture.\" What does \"discriminating\" mean here?",
+    "back": "Discerning or able to judge fine differences. It is a compliment about her taste, not a reference to unfair treatment.",
+    "hint": "Here the word is praise, not an accusation."
+  },
+  {
+    "id": "fc-187",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"He affected an air of indifference he clearly did not feel.\" What does \"affected\" mean here?",
+    "back": "Put on or pretended. He deliberately adopted a false attitude, so the word is a verb meaning to feign.",
+    "hint": "It is about pretending, not influencing."
+  },
+  {
+    "id": "fc-188",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"A slight tremor in her voice betrayed her nervousness.\" What does \"betrayed\" mean here?",
+    "back": "Revealed or gave away unintentionally. The tremor exposed her feelings; no disloyalty is involved.",
+    "hint": "No one is being disloyal in this sentence."
+  },
+  {
+    "id": "fc-189",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"His command of Portuguese impressed the delegation.\" What does \"command\" mean here?",
+    "back": "Mastery or skilled control. He knew the language very well; no order is being given.",
+    "hint": "It is a level of ability, not an instruction."
+  },
+  {
+    "id": "fc-190",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"By the fourth hour the search party's energy flagged.\" What does \"flagged\" mean here?",
+    "back": "Weakened or declined. Their energy ran low, which has nothing to do with a banner or with marking an item.",
+    "hint": "Think of what happens after hours of effort."
+  },
+  {
+    "id": "fc-191",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Her argument is grounded in decades of field observation.\" What does \"grounded\" mean here?",
+    "back": "Based or firmly founded. Her argument rests on evidence, rather than being punished or landed.",
+    "hint": "It describes a foundation."
+  },
+  {
+    "id": "fc-192",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"Several editors harbored doubts about the manuscript's authenticity.\" What does \"harbored\" mean here?",
+    "back": "Held or kept privately. The editors quietly maintained their doubts; no port or shelter is meant.",
+    "hint": "The doubts were kept, not spoken."
+  },
+  {
+    "id": "fc-193",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The tenants lodged a complaint with the housing board.\" What does \"lodged\" mean here?",
+    "back": "Formally submitted or filed. The complaint was officially registered; nobody stayed overnight anywhere.",
+    "hint": "It is a formal action, not a place to sleep."
+  },
+  {
+    "id": "fc-194",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"There was a marked improvement in air quality after the ban.\" What does \"marked\" mean here?",
+    "back": "Noticeable or significant. The improvement was clearly visible in the data; nothing was written on or graded.",
+    "hint": "It describes how obvious the change was."
+  },
+  {
+    "id": "fc-195",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The 1920s trumpet arrived in mint condition.\" What does \"mint\" mean here?",
+    "back": "Pristine or as new. The instrument showed no wear, so the word has nothing to do with the herb or with coining money.",
+    "hint": "It describes the state of the object."
+  },
+  {
+    "id": "fc-196",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"A pointed question from the audience unsettled the speaker.\" What does \"pointed\" mean here?",
+    "back": "Sharp and deliberately direct. The question was pressing and aimed at a weak spot, not physically sharp.",
+    "hint": "It describes intent, not shape."
+  },
+  {
+    "id": "fc-197",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The trustees finally sanctioned the renovation plan.\" What does \"sanctioned\" mean here?",
+    "back": "Approved or authorized. The trustees gave permission, which is the opposite of the word's other sense of penalizing.",
+    "hint": "This word can mean two opposite things; the trustees said yes."
+  },
+  {
+    "id": "fc-198",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"His spare prose leaves no room for decoration.\" What does \"spare\" mean here?",
+    "back": "Plain, lean, and unadorned. The prose is stripped down, not extra or held in reserve.",
+    "hint": "Think minimal rather than leftover."
+  },
+  {
+    "id": "fc-199",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The speech was built from stock phrases and safe conclusions.\" What does \"stock\" mean here?",
+    "back": "Standard, routine, and overused. The phrases were unoriginal; no inventory or shares are meant.",
+    "hint": "It describes how familiar the phrases were."
+  },
+  {
+    "id": "fc-200",
+    "deck": "Vocabulary in Context",
+    "subject": "reading",
+    "front": "\"The proposal was weighed carefully and found wanting.\" What does \"wanting\" mean here?",
+    "back": "Deficient or falling short. The proposal did not measure up, rather than desiring anything.",
+    "hint": "Nothing in this sentence desires anything."
+  }
+]

@@ -65,6 +65,26 @@ enum Subject: String, Codable, CaseIterable, Identifiable {
         case .science: return 10
         }
     }
+
+    /// Baseline diagnostic: short enough to finish in one sitting, long enough
+    /// to place the student in each section.
+    var diagnosticCount: Int {
+        switch self {
+        case .english: return 10
+        case .math: return 10
+        case .reading: return 8
+        case .science: return 8
+        }
+    }
+
+    var diagnosticMinutes: Int {
+        switch self {
+        case .english: return 7
+        case .math: return 11
+        case .reading: return 9
+        case .science: return 8
+        }
+    }
 }
 
 struct Question: Codable, Identifiable, Hashable {

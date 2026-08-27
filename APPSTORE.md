@@ -15,8 +15,8 @@ Work top to bottom; each part depends on the one before it.
 | Paid Applications Agreement signed | **Required for any paid app or subscription** | See Part 1 — subscriptions cannot be sold until this is active |
 | Team ID | Already set | `WYS4LUJSP6` is configured in the project |
 | Bundle ID | Already set | `Wuilmer.Ponte.ACT-prep` |
-| App icon | **You must add this** | See Part 6 |
-| Screenshots | **You must add these** | See Part 7 |
+| App icon | Done | 1024px light, dark, and tinted variants are in the asset catalog |
+| Screenshots | **You must add these** | See Part 7 — the only remaining blocker |
 
 > **The single most common cause of "my subscription doesn't load in TestFlight/production"** is an
 > unsigned Paid Applications Agreement or missing banking/tax details. Do Part 1 first, before anything else.
@@ -201,20 +201,15 @@ static let yearlyID  = "actprep.pro.yearly"
 
 ---
 
-## Part 6 — App icon (you must create this)
+## Part 6 — App icon (done)
 
-**This is currently missing and will block your build from uploading.**
+`ACT prep/Assets.xcassets/AppIcon.appiconset` contains three 1024×1024 PNGs — the light icon plus
+the dark and tinted variants iOS 18+ uses on the Home Screen. All are full-bleed squares with no
+alpha channel and no baked-in rounded corners, which is what Apple requires; the system applies the
+mask and the corner radius itself.
 
-`ACT prep/Assets.xcassets/AppIcon.appiconset` has no images. You need a single **1024×1024 PNG**,
-no alpha channel, no transparency, no rounded corners (Apple rounds it for you).
-
-1. Design or commission a square 1024×1024 icon. A graduation cap or a stylized "ACT" on a solid
-   background matches the app's look.
-2. In Xcode: **Assets** → **AppIcon** → drag the PNG into the single large well.
-3. Xcode 26 generates every derived size automatically from that one image.
-
-> Icons containing the word "ACT" in a way that mimics official ACT, Inc. branding risk rejection.
-> Keep it visually distinct.
+To change the artwork later, replace `AppIcon-1024.png` and regenerate the two variants. Keep the
+design visually distinct from official ACT, Inc. branding to avoid a Guideline 5.2.1 rejection.
 
 ---
 
@@ -364,7 +359,6 @@ tracking and no collected data types.
 
 Processing takes 15–60 minutes. You'll get an email when each build is ready.
 
-> **If upload fails on the icon**, you skipped Part 6.
 > **If it fails on "missing compliance"**, see Part 11.
 
 ---
@@ -423,8 +417,8 @@ Do not submit blind. Install the real build and verify the purchase flow end to 
      No account or login is required. To review the subscription:
      Open the Settings tab and tap "Upgrade to Pro", or open any locked tutorial or mock exam.
 
-     Free tier available without purchase: 10 practice questions per subject, 2 tutorials per
-     subject, and Mock Exam 1.
+     Free tier available without purchase: the diagnostic test, a daily question, 10 practice
+     questions per subject, 2 tutorials per subject, the English flashcard decks, and Mock Exam 1.
      ```
 5. **Version Release**: `Automatically release this version` (or hold it if you want to coordinate a launch).
 6. **Add for Review** → **Submit**.

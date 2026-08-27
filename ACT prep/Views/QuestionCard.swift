@@ -13,6 +13,9 @@ struct QuestionCard: View {
     let question: Question
     let selectedIndex: Int?
     let showFeedback: Bool
+    /// Choice indices ruled out by the "Narrow it down" hint, drawn dimmed and
+    /// struck through but still selectable.
+    var eliminated: Set<Int> = []
     let onSelect: (Int) -> Void
 
     private let letters = ["A", "B", "C", "D", "E"]
@@ -56,7 +59,8 @@ struct QuestionCard: View {
                     .foregroundStyle(state.badgeTextColor)
                 Text(question.choices[i])
                     .font(.subheadline)
-                    .foregroundStyle(.primary)
+                    .foregroundStyle(isRuledOut(i) ? .secondary : .primary)
+                    .strikethrough(isRuledOut(i), color: .secondary)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .fixedSize(horizontal: false, vertical: true)
                 if let symbol = state.trailingSymbol {
@@ -84,9 +88,20 @@ struct QuestionCard: View {
         var trailingColor: Color = .clear
     }
 
+    /// A choice is "ruled out" only while the answer is still hidden — once
+    /// feedback is showing, correct/incorrect styling takes over.
+    private func isRuledOut(_ i: Int) -> Bool {
+        eliminated.contains(i) && !(showFeedback && selectedIndex != nil)
+    }
+
     private func choiceState(_ i: Int) -> ChoiceState {
         var state = ChoiceState()
         let isSelected = selectedIndex == i
+
+        if isRuledOut(i) {
+            state.badgeColor = Color.appFill
+            state.badgeTextColor = .secondary
+        }
 
         if showFeedback, let selected = selectedIndex {
             if i == question.correctIndex {

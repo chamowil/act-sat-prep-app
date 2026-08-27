@@ -11,22 +11,48 @@ struct PracticeView: View {
     @State private var store = StoreManager.shared
     @State private var progress = ProgressStore.shared
 
+    @State private var settings = UserSettings.shared
+    @State private var scheduler = FlashcardScheduler.shared
+
     private enum Route: Hashable {
         case subject(Subject)
         case mockExams
+        case diagnostic
+        case flashcards
     }
 
     var body: some View {
         NavigationStack {
             List {
+                if !settings.hasTakenDiagnostic {
+                    Section {
+                        NavigationLink(value: Route.diagnostic) {
+                            diagnosticRow
+                        }
+                    } header: {
+                        Text("Start Here")
+                    } footer: {
+                        Text("A short placement test that finds your starting score and your weakest topics.")
+                    }
+                }
+
                 Section {
                     NavigationLink(value: Route.mockExams) {
                         mockExamRow
                     }
+                    NavigationLink(value: Route.flashcards) {
+                        flashcardRow
+                    }
+                    if settings.hasTakenDiagnostic {
+                        NavigationLink(value: Route.diagnostic) {
+                            Label("Retake Diagnostic", systemImage: "stethoscope")
+                                .font(.subheadline)
+                        }
+                    }
                 } header: {
-                    Text("Mock Exams")
+                    Text("Drills")
                 } footer: {
-                    Text("15 timed exams. Choose a Quick run or a Full-Length exam with real ACT timing.")
+                    Text("Quick: 47 questions in 44 minutes. Full-Length: real ACT timing.")
                 }
 
                 Section {
@@ -48,9 +74,60 @@ struct PracticeView: View {
                 switch route {
                 case .subject(let subject): PracticeSetupView(subject: subject)
                 case .mockExams: MockExamsView()
+                case .diagnostic: DiagnosticIntroView()
+                case .flashcards: FlashcardsView()
                 }
             }
         }
+    }
+
+    private var diagnosticRow: some View {
+        HStack(spacing: 14) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.orange.opacity(0.18))
+                    .frame(width: 40, height: 40)
+                Image(systemName: "stethoscope")
+                    .font(.title3)
+                    .foregroundStyle(.orange)
+            }
+            .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 3) {
+                Text("Take the Diagnostic")
+                    .font(.headline)
+                Text("Find your baseline score in about 35 minutes")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .padding(.vertical, 4)
+    }
+
+    private var flashcardRow: some View {
+        let due = scheduler.totalDue
+        return HStack(spacing: 14) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.accentColor.opacity(0.15))
+                    .frame(width: 40, height: 40)
+                Image(systemName: "rectangle.on.rectangle.angled")
+                    .font(.title3)
+                    .foregroundStyle(.tint)
+            }
+            .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 3) {
+                Text("Flashcards")
+                    .font(.headline)
+                Text("\(StudyLibrary.shared.flashcards.count) cards · spaced repetition")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            if due > 0 {
+                TagPill(text: "\(due) due", tint: .orange)
+            }
+        }
+        .padding(.vertical, 4)
     }
 
     private var mockExamRow: some View {
@@ -189,6 +266,8 @@ struct PracticeSessionView: View {
     @State private var sessionCorrect = 0
     @State private var sessionAnswered = 0
     @State private var startedAt = Date()
+    @State private var eliminated: Set<Int> = []
+    @State private var usedHint = false
 
     private var questions: [Question] {
         let all = QuestionBank.shared.questions(for: subject)
@@ -247,7 +326,8 @@ struct PracticeSessionView: View {
                 QuestionCard(
                     question: question,
                     selectedIndex: selected,
-                    showFeedback: true
+                    showFeedback: true,
+                    eliminated: eliminated
                 ) { choice in
                     guard selected == nil else { return }
                     selected = choice
@@ -261,14 +341,26 @@ struct PracticeSessionView: View {
             .readableWidth()
         }
         .safeAreaInset(edge: .bottom) {
-            HStack {
+            HStack(spacing: 12) {
                 Button {
                     goTo(index - 1)
                 } label: {
                     Label("Previous", systemImage: "chevron.left")
                 }
                 .disabled(index == 0)
+
                 Spacer()
+
+                if selected == nil {
+                    Button {
+                        narrowDown(question)
+                    } label: {
+                        Label(usedHint ? "Hint used" : "Narrow it down", systemImage: "lightbulb")
+                    }
+                    .buttonStyle(.bordered)
+                    .disabled(usedHint)
+                }
+
                 Button {
                     goTo(index + 1)
                 } label: {
@@ -280,6 +372,19 @@ struct PracticeSessionView: View {
             }
             .padding()
             .background(.bar)
+        }
+    }
+
+    /// Rules out one wrong answer, so a stuck student gets a nudge rather than
+    /// the answer.
+    private func narrowDown(_ question: Question) {
+        let wrong = question.choices.indices.filter {
+            $0 != question.correctIndex && !eliminated.contains($0)
+        }
+        guard let toRemove = wrong.randomElement() else { return }
+        withAnimation(.snappy) {
+            eliminated.insert(toRemove)
+            usedHint = true
         }
     }
 
@@ -299,5 +404,7 @@ struct PracticeSessionView: View {
         guard questions.indices.contains(newIndex) else { return }
         index = newIndex
         selected = nil
+        eliminated = []
+        usedHint = false
     }
 }

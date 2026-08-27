@@ -18,7 +18,7 @@ struct ContentView: View {
             Tab("Home", systemImage: "house.fill", value: AppTab.home) {
                 HomeView(selectedTab: $selectedTab)
             }
-            Tab("Tutorials", systemImage: "book.fill", value: AppTab.learn) {
+            Tab("Learn", systemImage: "book.fill", value: AppTab.learn) {
                 LearnView()
             }
             Tab("Practice", systemImage: "pencil.and.list.clipboard", value: AppTab.practice) {

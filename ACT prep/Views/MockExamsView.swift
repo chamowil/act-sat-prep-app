@@ -110,7 +110,7 @@ struct ExamModeSheet: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 16) {
-                ForEach(ExamMode.allCases) { mode in
+                ForEach(ExamMode.selectable) { mode in
                     modeCard(mode)
                 }
                 Spacer()
@@ -176,7 +176,10 @@ struct ExamModeSheet: View {
         case .quick:
             return "\(q) questions · \(time). A condensed run through all four sections."
         case .full:
-            return "\(q) questions · \(time). Real ACT structure and timing: English, Math, Reading, Science."
+            let sections = UserSettings.shared.activeSubjects.map(\.displayName).joined(separator: ", ")
+            return "\(q) questions · \(time). Real ACT structure and timing: \(sections)."
+        case .diagnostic:
+            return "\(q) questions · \(time). A short baseline placement test."
         }
     }
 }

@@ -6,8 +6,15 @@ target.
 - **520 original practice questions** across English, Math, Reading, and Science, each with an
   explanation.
 - **40 tutorials** covering Math and Science, with worked examples, key facts, and test-day tips.
+- **200 flashcards** in 5 decks, scheduled by spaced repetition.
+- **60-entry quick-reference rulebook** — grammar rules, formula sheets, and strategy, searchable.
+- **Writing section** — 6 essay guides, 12 three-perspective prompts, a timed 40-minute editor with
+  autosave, and 6 scored sample essays with grader comments.
 - **15 mock exams**, each runnable in **Quick** (47 questions / 44 min) or **Full-Length**
-  (171 questions / 2 hr 45 min, real ACT section timing) mode.
+  (171 questions / 2 hr 45 min, real ACT section timing) mode, plus a **diagnostic** placement test.
+- **Adaptive feedback** — topic-level weakness heatmap, predicted composite score, 15 badges,
+  daily goal streaks, and a question of the day.
+- **ACT with or without Science**, switchable in Settings.
 - **Auto-renewing subscription** (StoreKit 2) with a free tier.
 
 All questions, passages, and tutorials are original material. ACT Prep is not affiliated with ACT, Inc.
@@ -41,18 +48,23 @@ ACT prep/
 ├── Models/
 │   ├── Models.swift           Subject, Question, Passage, QuestionBank, ACT scoring
 │   ├── MockExam.swift         Exam definitions, modes, results
-│   └── Tutorial.swift         Tutorial model, library, completion tracking
+│   ├── Tutorial.swift         Tutorial model, library, completion tracking
+│   └── StudyContent.swift     Flashcards, reference entries, writing content
 ├── Engine/
 │   ├── ExamSession.swift      Section timers, answers, scoring
-│   ├── ProgressStore.swift    Persisted exam results & practice history
-│   └── UserSettings.swift     Study plan, daily goal, streak
+│   ├── ProgressStore.swift    Exam results, practice history, topic stats, prediction
+│   ├── UserSettings.swift     Study plan, daily goal, streak, Science toggle
+│   ├── FlashcardScheduler.swift  SM-2-style spaced repetition
+│   └── Achievements.swift     Badges derived from stored progress
 ├── Store/
 │   ├── StoreManager.swift     StoreKit 2 products, entitlements, gating
 │   └── PaywallView.swift      Subscription paywall
 ├── Views/                     Home, Learn, Practice, Exam runner, Progress, Settings, Onboarding
 └── Resources/
     ├── Questions/             520 questions + 41 passages (JSON)
-    └── Tutorials/             40 tutorials (JSON)
+    ├── Tutorials/             40 tutorials (JSON)
+    ├── Study/                 200 flashcards + 60 reference entries (JSON)
+    └── Writing/               12 prompts, 6 sample essays, 6 guides (JSON)
 ```
 
 ## Content format
@@ -84,7 +96,8 @@ Two auto-renewing products in one subscription group (`ACT Prep Pro`):
 | `actprep.pro.yearly` | Yearly (7-day free trial) |
 
 Free tier, defined in `StoreManager`: 10 practice questions per subject, 2 tutorials per subject,
-and Mock Exam 1.
+3 reference entries per category, the English flashcard decks, the first essay prompt, and
+Mock Exam 1. The diagnostic test and the question of the day are always free.
 
 See [`APPSTORE.md`](APPSTORE.md) for the full App Store Connect setup and submission walkthrough.
 

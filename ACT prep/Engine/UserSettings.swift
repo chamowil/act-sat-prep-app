@@ -20,6 +20,9 @@ final class UserSettings {
         static let testDate = "testDate"
         static let name = "studentName"
         static let practiceLog = "practiceLog"
+        static let includesScience = "includesScience"
+        static let hasTakenDiagnostic = "hasTakenDiagnostic"
+        static let dailyQuestionDate = "dailyQuestionDate"
     }
 
     /// Allowed daily-practice choices, in minutes.
@@ -56,6 +59,32 @@ final class UserSettings {
         didSet { defaults.set(name, forKey: Key.name) }
     }
 
+    /// Whether the student is taking the ACT with the Science section.
+    /// Turning this off removes Science from mock exams and score predictions.
+    var includesScience: Bool {
+        didSet { defaults.set(includesScience, forKey: Key.includesScience) }
+    }
+
+    var hasTakenDiagnostic: Bool {
+        didSet { defaults.set(hasTakenDiagnostic, forKey: Key.hasTakenDiagnostic) }
+    }
+
+    /// The day the daily question was last answered, for the Home streak card.
+    var dailyQuestionDate: Date? {
+        didSet {
+            if let dailyQuestionDate {
+                defaults.set(dailyQuestionDate, forKey: Key.dailyQuestionDate)
+            } else {
+                defaults.removeObject(forKey: Key.dailyQuestionDate)
+            }
+        }
+    }
+
+    /// Subjects that count toward this student's exam, honoring the Science toggle.
+    var activeSubjects: [Subject] {
+        includesScience ? Subject.allCases : Subject.allCases.filter { $0 != .science }
+    }
+
     /// Minutes practiced, keyed by day (start of day).
     private(set) var practiceLog: [Date: Int]
 
@@ -67,6 +96,9 @@ final class UserSettings {
         dailyMinutes = storedMinutes == 0 ? 20 : storedMinutes
         testDate = defaults.object(forKey: Key.testDate) as? Date
         name = defaults.string(forKey: Key.name) ?? ""
+        includesScience = defaults.object(forKey: Key.includesScience) as? Bool ?? true
+        hasTakenDiagnostic = defaults.bool(forKey: Key.hasTakenDiagnostic)
+        dailyQuestionDate = defaults.object(forKey: Key.dailyQuestionDate) as? Date
 
         if let raw = defaults.dictionary(forKey: Key.practiceLog) as? [String: Int] {
             var log: [Date: Int] = [:]
@@ -138,12 +170,35 @@ final class UserSettings {
         return days
     }
 
+    var answeredDailyQuestionToday: Bool {
+        guard let dailyQuestionDate else { return false }
+        return Calendar.current.isDateInToday(dailyQuestionDate)
+    }
+
+    /// A stable "question of the day": the same question all day, a new one
+    /// tomorrow, derived from the date so it needs no stored schedule.
+    func dailyQuestion() -> Question? {
+        let pool = activeSubjects.flatMap { QuestionBank.shared.questions(for: $0) }
+        guard !pool.isEmpty else { return nil }
+        let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
+        return pool[day % pool.count]
+    }
+
+    /// A suggested weekly workload derived from the test date and daily goal.
+    var weeklyPlan: (sessionsPerWeek: Int, minutesPerWeek: Int, weeksLeft: Int?) {
+        let weeks = daysUntilTest.map { max(1, Int(ceil(Double($0) / 7.0))) }
+        return (7, dailyMinutes * 7, weeks)
+    }
+
     func reset() {
         hasCompletedOnboarding = false
         targetScore = 30
         dailyMinutes = 20
         testDate = nil
         name = ""
+        includesScience = true
+        hasTakenDiagnostic = false
+        dailyQuestionDate = nil
         practiceLog = [:]
         defaults.removeObject(forKey: Key.practiceLog)
     }

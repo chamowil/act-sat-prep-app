@@ -52,7 +52,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../ACT prep/ACTprep.storekit">
+         identifier = "../../ACT prep/ACTprep.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

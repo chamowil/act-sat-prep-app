@@ -1,0 +1,134 @@
+[
+  {
+    "id": "wp-01",
+    "title": "Automation in the Workplace",
+    "context": "Machines have taken over tasks that people once did by hand, from assembling cars to scanning groceries to sorting packages in warehouses. Newer systems can now draft documents, answer customer questions, and diagnose equipment failures. Supporters point out that automated tools work quickly, cheaply, and without fatigue, and that they remove dangerous or repetitive labor from human hands. Critics answer that every machine installed is a paycheck withdrawn from a household, and that entire towns have been reshaped by decisions made in distant offices. As automation reaches further into offices, classrooms, and hospitals, it is worth asking what we gain and what we quietly give up.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Automation should be embraced without hesitation. Machines free people from dull, dangerous work and lower the cost of goods for everyone. Every past wave of technology destroyed some jobs and created better ones, and this wave will be no different."},
+      {"label": "Perspective Two", "text": "Automation should be slowed and restricted. Work gives people income, structure, and dignity, and no retraining program has ever moved a whole community into new careers fast enough. Protecting existing jobs matters more than shaving costs."},
+      {"label": "Perspective Three", "text": "The real question is not how much to automate but who decides. Workers and communities should have a formal say in which tasks machines take over, so the savings are shared rather than captured by a few owners."}
+    ],
+    "task": "Write a unified, coherent essay about automation in the workplace. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-02",
+    "title": "Standardized Testing in High School",
+    "context": "For decades, American high schools have measured learning with standardized tests. A single score can shape which classes a student takes, which colleges consider an application, and how much funding a district receives. Defenders argue that a common measure is the only fair way to compare students from very different schools, and that without it, admissions rest on connections and reputation. Opponents counter that scores track family income more closely than talent, and that months of test preparation crowd out science labs, art, and debate. Some districts have made tests optional; others have doubled down. The debate over what these numbers actually measure remains unsettled.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Standardized tests should remain central. They are the only common yardstick across thousands of schools with different grading standards, and removing them replaces measurable achievement with vague impressions that favor students who already have advantages."},
+      {"label": "Perspective Two", "text": "Standardized tests should be eliminated from admissions and funding decisions. They reward expensive coaching rather than learning, narrow the curriculum to whatever appears on the exam, and turn teenagers into anxious score chasers."},
+      {"label": "Perspective Three", "text": "Tests should stay but shrink. Used as one signal among portfolios, projects, and transcripts, a score adds useful information. The damage comes from treating a single number as the summary of a student's worth."}
+    ],
+    "task": "Write a unified, coherent essay about the role of standardized testing in high school. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-03",
+    "title": "Phones in the Classroom",
+    "context": "Nearly every high school student carries a device that can translate a sentence, graph an equation, or summon a video lecture in seconds. That same device buzzes with messages, videos, and games during third period. Schools have responded in very different ways. Some require phones to be locked in pouches from the first bell to the last; others build lessons around them, arguing that students must learn to manage the tools they will use for the rest of their lives. Teachers report both remarkable research projects and classrooms where half the room is scrolling. What schools decide shapes how students learn to pay attention.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Phones should be banned during the school day. Attention is the raw material of learning, and a device engineered to interrupt makes deep thinking nearly impossible. Students cannot resist what adults with more self-control cannot resist either."},
+      {"label": "Perspective Two", "text": "Phones should be welcomed as learning tools. Banning them teaches nothing except that school is disconnected from real life, where every adult researches, calculates, and collaborates on the same devices we confiscate."},
+      {"label": "Perspective Three", "text": "The device is not the problem; the design of the class is. Students reach for phones when a lesson gives them nothing to do. Fix the teaching, and the phones mostly take care of themselves."}
+    ],
+    "task": "Write a unified, coherent essay about the place of phones in the classroom. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-04",
+    "title": "Required Community Service for Graduation",
+    "context": "A growing number of high schools require students to complete a set number of volunteer hours before they can graduate. Students tutor younger children, stock food pantries, restore trails, and staff community events. Administrators say the requirement introduces teenagers to needs they would otherwise never see and builds habits that outlast graduation. Skeptics reply that service performed under threat of a withheld diploma is not really service at all, and that students already stretched by jobs and family responsibilities are the ones most burdened by the rule. Others question whether a few dozen supervised hours can teach anything durable about civic life.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Schools should require service hours. Left to choose, most teenagers never encounter the parts of their community that need help. A requirement creates the first experience, and the habit often survives long after the diploma."},
+      {"label": "Perspective Two", "text": "Requirements ruin service. Compelled volunteering produces hour-counting and signature-hunting, not generosity. Worse, it punishes students who already work paid jobs or care for younger siblings, treating their real obligations as if they did not exist."},
+      {"label": "Perspective Three", "text": "Schools should teach civic life inside the curriculum instead. Studying local budgets, attending a council meeting, and analyzing a neighborhood problem builds more understanding than sorting cans for a required afternoon."}
+    ],
+    "task": "Write a unified, coherent essay about required community service for graduation. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-05",
+    "title": "How We Get Our News",
+    "context": "A generation ago, most people learned about the world from a handful of newspapers and evening broadcasts. Today the majority of Americans encounter news through feeds assembled by software that predicts what will hold their attention. Anyone with a phone can report from the scene of an event, and stories reach the public in minutes rather than hours. Yet the same systems spread rumors as efficiently as facts, and local newsrooms that once covered school boards and courthouses have closed by the hundreds. The question is not whether the way we get news has changed, but what that change costs and what it makes possible.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "The shift is a gain for democracy. Gatekeepers once decided which stories mattered, and they routinely ignored ordinary people. Now anyone can publish, and important events reach the public faster than any newsroom could manage."},
+      {"label": "Perspective Two", "text": "The shift is a serious loss. Verification takes time and money that feeds do not reward, so falsehoods outrun corrections. Without paid reporters covering local government, corruption goes unnoticed for years."},
+      {"label": "Perspective Three", "text": "The technology is neutral; our habits are the problem. Readers who deliberately seek out multiple sources, check dates, and pay for reporting get better information than any previous generation could have imagined."}
+    ],
+    "task": "Write a unified, coherent essay about how we get our news. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-06",
+    "title": "Preserving Historic Buildings",
+    "context": "Cities constantly face a choice about their older buildings. A century-old theater, factory, or row of storefronts may sit on land that developers want for apartments, clinics, or offices. Preservation groups argue that these structures carry the memory of a place and that once demolished, they cannot be recovered at any price. Housing advocates respond that protecting empty buildings while people cannot afford rent gets the priorities backward. Between the two positions lie compromises: converting a warehouse into apartments, keeping a facade while rebuilding behind it, or documenting a building thoroughly before it falls. Every choice trades something for something else.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Historic buildings should be protected strongly. A city that erases its past becomes indistinguishable from every other city. Old structures anchor identity, draw visitors, and remind residents that their neighborhood existed before them."},
+      {"label": "Perspective Two", "text": "Preservation rules should yield to present needs. Sentiment about brickwork should not outweigh families who need somewhere to live. Cities are for the people in them now, not for photographs of who lived there in 1910."},
+      {"label": "Perspective Three", "text": "Adaptation beats both preservation and demolition. Reusing an old shell for new purposes keeps the character of a street while serving current needs, and it usually wastes less material than tearing everything down."}
+    ],
+    "task": "Write a unified, coherent essay about preserving historic buildings. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-07",
+    "title": "The Value of Learning a Second Language",
+    "context": "Many high schools require two or three years of a world language, and many students ask why. Translation software now handles menus, signs, and even conversations with reasonable accuracy, and improves each year. Supporters of language requirements argue that translation delivers words while learning a language delivers a way of thinking, along with access to people who will never be reached through a screen. Others believe the hours would be better spent on statistics, personal finance, or computer science. A third view holds that the requirement is fine but the teaching is not, since years of vocabulary drills rarely produce anyone who can hold a conversation.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Every student should study a second language. Learning one rewires how a person hears their own speech and opens a culture from the inside. No translation app can build a friendship or catch a joke."},
+      {"label": "Perspective Two", "text": "Language requirements have outlived their purpose. Software translates well enough for nearly every practical situation, and the hundreds of hours spent conjugating verbs would serve students better in statistics or personal finance."},
+      {"label": "Perspective Three", "text": "The requirement is sound but the method is broken. Two years of worksheets teach almost no one to speak. Schools should keep the requirement only if they rebuild it around real conversation and immersion."}
+    ],
+    "task": "Write a unified, coherent essay about the value of learning a second language. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-08",
+    "title": "Public Spaces and Private Development",
+    "context": "Parks, libraries, plazas, and public pools once formed the shared living room of American towns. In recent decades, many of these spaces have been sold, closed, or replaced by private alternatives: gyms instead of pools, coffee shops instead of squares, subscription streaming instead of the library's film collection. Private versions are often cleaner and better maintained, since paying customers demand it. But they admit only those who can pay, and they can close or change hands overnight. Supporters of public investment argue that a town without free shared space stops being a community at all. The tradeoffs are visible on nearly every main street.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Towns should invest heavily in free public space. A library or park is one of the few places where people of different incomes stand in the same room, and that ordinary contact is what makes a community real."},
+      {"label": "Perspective Two", "text": "Private businesses serve people better. A cafe or gym stays clean and open because its survival depends on satisfied customers, while public facilities decay for decades with no consequence to anyone in charge."},
+      {"label": "Perspective Three", "text": "The dividing line matters less than access. Whether a space is publicly or privately owned, what counts is whether an ordinary resident can enter, linger, and belong without spending money to justify being there."}
+    ],
+    "task": "Write a unified, coherent essay about public spaces and private development. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-09",
+    "title": "Student Athletes and Academic Demands",
+    "context": "A high school athlete in a competitive program may practice fifteen or twenty hours a week, travel on school nights, and still be expected to keep grades that satisfy eligibility rules. Coaches and families describe sports as a source of discipline, belonging, and sometimes the only reason a student stays enrolled. Teachers point to students falling asleep in fourth period and to seasons that consume the months when the hardest material is taught. Schools have tried practice-hour caps, mandatory study halls, and stricter grade minimums, with mixed results. Underneath the scheduling arguments sits a harder question about what schools are actually for.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Academics must come first, and schools should enforce that with strict limits on practice hours and travel. A school exists to educate. When athletics consume the week, the institution has quietly changed its purpose."},
+      {"label": "Perspective Two", "text": "Sports deserve their demanding place. For many students, a team supplies the structure, coaching, and belonging that classrooms never provide, and the discipline learned in a season carries into everything else."},
+      {"label": "Perspective Three", "text": "The conflict is manufactured by bad scheduling, not by sports themselves. Programs that build tutoring into practice time and protect exam weeks show that athletes can compete hard without falling behind."}
+    ],
+    "task": "Write a unified, coherent essay about student athletes and academic demands. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-10",
+    "title": "Individual Action and Environmental Change",
+    "context": "Public campaigns urge people to carry reusable bags, shorten showers, sort recycling, and drive less. Meanwhile, researchers point out that a small number of industries and utilities account for the large majority of emissions, and that no amount of household sorting changes what a power plant burns. Some argue that focusing on personal habits distracts from the policies that would actually matter. Others reply that laws follow culture, and cultures are built out of daily habits. Still others say the argument itself is the problem, since time spent debating which lever matters most is time nobody spends pulling either one.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Individual choices matter most. Habits spread through families and neighborhoods, and politicians respond to voters who already live the change. Waiting for institutions to move first guarantees that nothing moves at all."},
+      {"label": "Perspective Two", "text": "Individual action is a distraction. When a handful of industries produce most emissions, asking households to sort plastic shifts responsibility onto people with almost no power and away from those who hold nearly all of it."},
+      {"label": "Perspective Three", "text": "The two are not rivals. Personal habits build the constituency that makes strong policy possible, and policy makes good habits affordable and ordinary. Choosing between them is a false and costly choice."}
+    ],
+    "task": "Write a unified, coherent essay about individual action and environmental change. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-11",
+    "title": "Art and Music in the School Budget",
+    "context": "When a district's budget tightens, art rooms, bands, and theater programs are often the first items reviewed. Administrators face a hard arithmetic: a reading specialist or a smaller math class may raise the scores that determine funding, while a ceramics course will not. Advocates for the arts argue that these classes are where some students first discover they are good at something, and that a school stripped to tested subjects becomes a place students merely endure. Others answer that a student who cannot read fluently will be limited for life, and that difficult budgets require honest priorities rather than sentiment about the value of chorus.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Arts programs should be protected as firmly as math and reading. For many students, the band room or studio is the reason they come to school, and no test score captures what that belonging makes possible."},
+      {"label": "Perspective Two", "text": "When money is short, core academics come first. A student who cannot read or handle basic algebra faces limits that no amount of ceramics will offset. Honest priorities beat sentimental ones."},
+      {"label": "Perspective Three", "text": "The separation is the mistake. Design, composition, and performance teach measurement, revision, and analysis directly, so integrating arts into academic courses serves both goals better than defending either budget line alone."}
+    ],
+    "task": "Write a unified, coherent essay about the place of art and music in the school budget. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  },
+  {
+    "id": "wp-12",
+    "title": "Working During High School",
+    "context": "Many students hold part-time jobs while enrolled in school, stocking shelves, taking orders, or watching younger children. For some, the paycheck covers necessities; for others, it buys a car or savings for college. Supporters say a job teaches punctuality, money management, and how to work with people you did not choose, lessons no classroom delivers as sharply. Critics point to research linking long hours to lower grades and less sleep, and note that the students working the most hours are often those with the least academic support at home. Schools rarely take a clear position, though the effects show up in every classroom.",
+    "perspectives": [
+      {"label": "Perspective One", "text": "Part-time work is valuable and schools should encourage it. Handling a shift, a schedule, and a difficult customer teaches responsibility with a directness no assignment matches, and earning money changes how a student understands it."},
+      {"label": "Perspective Two", "text": "Long hours of teenage work do real harm. Grades slip, sleep disappears, and the students working hardest are usually those who can least afford to fall behind academically. School should be the full-time job."},
+      {"label": "Perspective Three", "text": "The number of hours decides everything. Ten hours a week builds discipline; thirty erodes health and grades. Schools should set clear guidance around that threshold instead of praising or condemning work in general."}
+    ],
+    "task": "Write a unified, coherent essay about working during high school. In your essay, be sure to: clearly state your own perspective on the issue and analyze the relationship between your perspective and at least one other perspective; develop and support your ideas with reasoning and examples; organize your ideas clearly and logically; communicate your ideas effectively in standard written English."
+  }
+]

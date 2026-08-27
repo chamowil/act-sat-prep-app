@@ -6,22 +6,35 @@
 import Foundation
 
 enum ExamMode: String, Codable, CaseIterable, Identifiable {
-    case quick, full
+    case quick, full, diagnostic
     var id: String { rawValue }
+
+    /// Modes a student picks from when starting a mock exam. The diagnostic is
+    /// launched from its own entry point, not the mode chooser.
+    static var selectable: [ExamMode] { [.quick, .full] }
 
     var displayName: String {
         switch self {
         case .quick: return "Quick"
         case .full: return "Full-Length"
+        case .diagnostic: return "Diagnostic"
         }
     }
 
     func count(for subject: Subject) -> Int {
-        self == .full ? subject.fullCount : subject.quickCount
+        switch self {
+        case .full: return subject.fullCount
+        case .quick: return subject.quickCount
+        case .diagnostic: return subject.diagnosticCount
+        }
     }
 
     func minutes(for subject: Subject) -> Int {
-        self == .full ? subject.fullMinutes : subject.quickMinutes
+        switch self {
+        case .full: return subject.fullMinutes
+        case .quick: return subject.quickMinutes
+        case .diagnostic: return subject.diagnosticMinutes
+        }
     }
 }
 
@@ -37,12 +50,15 @@ struct MockExam: Identifiable, Hashable {
     static let all: [MockExam] = (0..<15).map(MockExam.init)
 
     func totalMinutes(mode: ExamMode) -> Int {
-        Subject.allCases.reduce(0) { $0 + mode.minutes(for: $1) }
+        UserSettings.shared.activeSubjects.reduce(0) { $0 + mode.minutes(for: $1) }
     }
 
     func totalQuestions(mode: ExamMode) -> Int {
-        Subject.allCases.reduce(0) { $0 + mode.count(for: $1) }
+        UserSettings.shared.activeSubjects.reduce(0) { $0 + mode.count(for: $1) }
     }
+
+    /// The synthetic exam used for the baseline diagnostic.
+    static let diagnostic = MockExam(index: 0)
 }
 
 // MARK: - Results

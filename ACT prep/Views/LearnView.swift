@@ -2,16 +2,162 @@
 //  LearnView.swift
 //  ACT prep
 //
-//  Math & Science tutorial review, presented as an icon grid grouped by
-//  subsection.
+//  Hub for everything you read rather than answer: Math & Science tutorials,
+//  the Writing section, and the quick-reference rulebook.
 //
 
 import SwiftUI
 
+enum LearnRoute: Hashable {
+    case tutorials(Subject)
+    case writing
+    case reference
+}
+
 struct LearnView: View {
+    @State private var progress = TutorialProgress.shared
+
+    private var library: TutorialLibrary { .shared }
+    private var study: StudyLibrary { .shared }
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 22) {
+                    section("Subject Review") {
+                        ForEach(library.subjects) { subject in
+                            NavigationLink(value: LearnRoute.tutorials(subject)) {
+                                tutorialHubCard(subject)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+
+                    section("The Essay") {
+                        NavigationLink(value: LearnRoute.writing) {
+                            hubCard(
+                                symbol: "square.and.pencil",
+                                title: "Writing",
+                                subtitle: "\(study.guides.count) guides · \(study.prompts.count) timed prompts · graded samples",
+                                tint: .purple
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    }
+
+                    section("Look It Up") {
+                        NavigationLink(value: LearnRoute.reference) {
+                            hubCard(
+                                symbol: "text.book.closed.fill",
+                                title: "Quick Reference",
+                                subtitle: "\(study.reference.count) rules and formula sheets, searchable",
+                                tint: .teal
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding()
+                .readableWidth(760)
+            }
+            .background(Color.appGroupedBackground)
+            .navigationTitle("Learn")
+            .navigationDestination(for: LearnRoute.self) { route in
+                switch route {
+                case .tutorials(let subject): TutorialListView(subject: subject)
+                case .writing: WritingView()
+                case .reference: ReferenceView()
+                }
+            }
+            .navigationDestination(for: Tutorial.self) { TutorialDetailView(tutorial: $0) }
+        }
+    }
+
+    private func section<Content: View>(
+        _ title: String,
+        @ViewBuilder content: () -> Content
+    ) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title)
+                .font(.headline)
+            content()
+        }
+    }
+
+    private func tutorialHubCard(_ subject: Subject) -> some View {
+        let all = library.tutorials(for: subject)
+        let done = progress.completedCount(for: subject)
+        let fraction = all.isEmpty ? 0 : Double(done) / Double(all.count)
+
+        return VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 12) {
+                Image(systemName: subject.symbolName)
+                    .font(.title3)
+                    .foregroundStyle(.tint)
+                    .frame(width: 40, height: 40)
+                    .background(Color.accentColor.opacity(0.15), in: RoundedRectangle(cornerRadius: 10))
+                    .accessibilityHidden(true)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("\(subject.displayName) Tutorials")
+                        .font(.headline)
+                        .foregroundStyle(.primary)
+                    Text("\(all.count) tutorials · \(done) completed")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Text("\(Int((fraction * 100).rounded()))%")
+                    .font(.subheadline.bold().monospacedDigit())
+                    .foregroundStyle(.tint)
+                Image(systemName: "chevron.right")
+                    .font(.caption.bold())
+                    .foregroundStyle(.tertiary)
+            }
+            ProgressView(value: fraction)
+                .tint(fraction >= 1 ? .green : .accentColor)
+        }
+        .padding(14)
+        .cardBackground()
+        .contentShape(Rectangle())
+        .accessibilityElement(children: .combine)
+    }
+
+    private func hubCard(symbol: String, title: String, subtitle: String, tint: Color) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: symbol)
+                .font(.title3)
+                .foregroundStyle(tint)
+                .frame(width: 40, height: 40)
+                .background(tint.opacity(0.15), in: RoundedRectangle(cornerRadius: 10))
+                .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.headline)
+                    .foregroundStyle(.primary)
+                Text(subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.leading)
+            }
+            Spacer()
+            Image(systemName: "chevron.right")
+                .font(.caption.bold())
+                .foregroundStyle(.tertiary)
+        }
+        .padding(14)
+        .cardBackground()
+        .contentShape(Rectangle())
+        .accessibilityElement(children: .combine)
+    }
+}
+
+// MARK: - Tutorial grid for one subject
+
+struct TutorialListView: View {
+    let subject: Subject
+
     @State private var store = StoreManager.shared
     @State private var progress = TutorialProgress.shared
-    @State private var subject: Subject = .math
     @State private var searchText = ""
     @State private var showPaywall = false
 
@@ -22,92 +168,39 @@ struct LearnView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    subjectPicker
-                    headerCard
-
-                    if searchText.isEmpty {
-                        ForEach(library.categories(for: subject)) { category in
-                            categorySection(category)
-                        }
-                    } else {
-                        searchSection
+        ScrollView {
+            VStack(alignment: .leading, spacing: 24) {
+                if searchText.isEmpty {
+                    ForEach(library.categories(for: subject)) { category in
+                        categorySection(category)
                     }
+                } else {
+                    searchSection
                 }
-                .padding()
-                .readableWidth(900)
             }
-            .background(Color.appGroupedBackground)
-            .navigationTitle("Tutorials")
-            .searchable(text: $searchText, prompt: "Search tutorials")
-            .navigationDestination(for: Tutorial.self) { tutorial in
-                TutorialDetailView(tutorial: tutorial)
-            }
-            .sheet(isPresented: $showPaywall) { PaywallView() }
+            .padding()
+            .readableWidth(900)
         }
+        .background(Color.appGroupedBackground)
+        .navigationTitle("\(subject.displayName) Tutorials")
+        #if !targetEnvironment(macCatalyst)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
+        .searchable(text: $searchText, prompt: "Search tutorials")
+        .sheet(isPresented: $showPaywall) { PaywallView() }
     }
-
-    // MARK: Header
-
-    private var subjectPicker: some View {
-        Picker("Subject", selection: $subject.animation(.snappy)) {
-            ForEach(library.subjects) { subject in
-                Text(subject.displayName).tag(subject)
-            }
-        }
-        .pickerStyle(.segmented)
-    }
-
-    private var headerCard: some View {
-        let all = library.tutorials(for: subject)
-        let done = progress.completedCount(for: subject)
-        let fraction = all.isEmpty ? 0 : Double(done) / Double(all.count)
-
-        return VStack(alignment: .leading, spacing: 10) {
-            HStack {
-                Image(systemName: subject.symbolName)
-                    .font(.title2)
-                    .foregroundStyle(.tint)
-                    .accessibilityHidden(true)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("\(subject.displayName) Review")
-                        .font(.headline)
-                    Text("\(all.count) tutorials · \(done) completed")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                Spacer()
-                Text("\(Int((fraction * 100).rounded()))%")
-                    .font(.title3.bold().monospacedDigit())
-                    .foregroundStyle(.tint)
-            }
-            ProgressView(value: fraction)
-                .tint(.accentColor)
-        }
-        .padding()
-        .cardBackground()
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(subject.displayName) review, \(done) of \(all.count) tutorials completed")
-    }
-
-    // MARK: Sections
 
     private func categorySection(_ category: TutorialCategory) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .firstTextBaseline) {
-                Text(category.name)
-                    .font(.title3.bold())
+                Text(category.name).font(.title3.bold())
                 Spacer()
                 Text("\(category.tutorials.count)")
                     .font(.caption.bold())
                     .foregroundStyle(.secondary)
             }
             LazyVGrid(columns: AdaptiveGrid.columns(minWidth: 158), spacing: 12) {
-                ForEach(category.tutorials) { tutorial in
-                    tile(tutorial)
-                }
+                ForEach(category.tutorials) { tile($0) }
             }
         }
     }
@@ -122,35 +215,27 @@ struct LearnView: View {
                 Text("\(searchResults.count) result\(searchResults.count == 1 ? "" : "s")")
                     .font(.subheadline.bold())
                 LazyVGrid(columns: AdaptiveGrid.columns(minWidth: 158), spacing: 12) {
-                    ForEach(searchResults) { tutorial in
-                        tile(tutorial)
-                    }
+                    ForEach(searchResults) { tile($0) }
                 }
             }
         }
     }
-
-    // MARK: Tile
 
     @ViewBuilder
     private func tile(_ tutorial: Tutorial) -> some View {
         let unlocked = store.isTutorialUnlocked(tutorial)
         let done = progress.isCompleted(tutorial.id)
 
-        Group {
-            if unlocked {
-                NavigationLink(value: tutorial) {
-                    tileContent(tutorial, unlocked: true, done: done)
-                }
-                .buttonStyle(.plain)
-            } else {
-                Button {
-                    showPaywall = true
-                } label: {
-                    tileContent(tutorial, unlocked: false, done: done)
-                }
-                .buttonStyle(.plain)
+        if unlocked {
+            NavigationLink(value: tutorial) {
+                tileContent(tutorial, unlocked: true, done: done)
             }
+            .buttonStyle(.plain)
+        } else {
+            Button { showPaywall = true } label: {
+                tileContent(tutorial, unlocked: false, done: done)
+            }
+            .buttonStyle(.plain)
         }
     }
 
@@ -208,8 +293,4 @@ struct LearnView: View {
         )
         .accessibilityAddTraits(.isButton)
     }
-}
-
-#Preview {
-    LearnView()
 }

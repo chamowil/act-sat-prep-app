@@ -39,15 +39,19 @@ struct SettingsView: View {
                 Button("Reset", role: .destructive) {
                     ProgressStore.shared.resetAll()
                     TutorialProgress.shared.reset()
+                    FlashcardScheduler.shared.reset()
+                    EssayDrafts.shared.reset()
                 }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("This deletes your exam results, practice history, and completed tutorials. Your subscription is not affected.")
+                Text("This deletes your exam results, practice history, flashcard schedule, essay drafts, and completed tutorials. Your subscription is not affected.")
             }
             .alert("Reset everything?", isPresented: $showResetAllAlert) {
                 Button("Reset", role: .destructive) {
                     ProgressStore.shared.resetAll()
                     TutorialProgress.shared.reset()
+                    FlashcardScheduler.shared.reset()
+                    EssayDrafts.shared.reset()
                     settings.reset()
                 }
                 Button("Cancel", role: .cancel) {}
@@ -163,6 +167,16 @@ struct SettingsView: View {
                 Label("Daily Goal", systemImage: "clock.badge.checkmark")
             }
 
+            Picker(selection: Binding(
+                get: { settings.includesScience },
+                set: { settings.includesScience = $0 }
+            )) {
+                Text("With Science").tag(true)
+                Text("Without Science").tag(false)
+            } label: {
+                Label("Exam Format", systemImage: "atom")
+            }
+
             Toggle(isOn: $hasTestDate.animation(.snappy)) {
                 Label("Test Date", systemImage: "calendar")
             }
@@ -204,6 +218,26 @@ struct SettingsView: View {
                 Text("\(MockExam.all.count)")
             } label: {
                 Label("Mock exams", systemImage: "timer")
+            }
+            LabeledContent {
+                Text("\(StudyLibrary.shared.flashcards.count)")
+            } label: {
+                Label("Flashcards", systemImage: "rectangle.on.rectangle.angled")
+            }
+            LabeledContent {
+                Text("\(StudyLibrary.shared.reference.count)")
+            } label: {
+                Label("Reference entries", systemImage: "text.book.closed.fill")
+            }
+            LabeledContent {
+                Text("\(StudyLibrary.shared.prompts.count)")
+            } label: {
+                Label("Essay prompts", systemImage: "square.and.pencil")
+            }
+            LabeledContent {
+                Text("\(Achievements.earnedCount) of \(Achievements.totalCount)")
+            } label: {
+                Label("Badges earned", systemImage: "rosette")
             }
         }
     }

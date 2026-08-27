@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "rf-01",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Joining two independent clauses",
+    "summary": "Two complete sentences need a comma plus a FANBOYS conjunction, a semicolon, or a period.",
+    "body": "An independent clause has a subject and a verb and could stand alone as a sentence. When two of them appear back to back, a comma by itself is not strong enough to hold them together. You have four legal joins: a comma plus one of the FANBOYS conjunctions (for, and, nor, but, or, yet, so), a semicolon, a colon when the second clause explains the first, or a period that splits them into separate sentences. On the ACT, first decide whether the material on each side of the punctuation can stand alone. If both sides can, a lone comma is always wrong, no matter how short or closely related the clauses are.",
+    "examples": [
+      {
+        "wrong": "The lab closed early, we finished the write-up at home.",
+        "right": "The lab closed early, so we finished the write-up at home.",
+        "why": "Two independent clauses need a comma plus a conjunction, or else a semicolon or period."
+      },
+      {
+        "wrong": "Marisol trains before dawn, she says the quiet helps her focus.",
+        "right": "Marisol trains before dawn; she says the quiet helps her focus.",
+        "why": "A semicolon can replace the comma-plus-conjunction join between two complete thoughts."
+      }
+    ],
+    "trap": "Short, tightly related clauses still count as two sentences, so a lone comma between them is a comma splice."
+  },
+  {
+    "id": "rf-02",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Semicolons",
+    "summary": "A semicolon links two complete sentences, or separates list items that already contain commas.",
+    "body": "A semicolon does the work of a period, so the material on both sides must be able to stand alone. That is the entire test on the ACT: cover the semicolon, read the left side, read the right side, and confirm each is a full sentence. A semicolon never introduces a list and never attaches a fragment to a sentence. The one exception is the so-called super comma, which separates items in a series when the items themselves contain commas. Watch for words such as however, therefore, moreover, and nevertheless; these are adverbs, not conjunctions, so they need a semicolon before them, not a comma, when they begin a second independent clause.",
+    "examples": [
+      {
+        "wrong": "The storm knocked out power for three days; leaving the freezer full of spoiled food.",
+        "right": "The storm knocked out power for three days, leaving the freezer full of spoiled food.",
+        "why": "The material after the semicolon is a fragment, so a comma is correct instead."
+      },
+      {
+        "wrong": "We invited delegates from Lima, Peru, Quito, Ecuador, and Bogota, Colombia.",
+        "right": "We invited delegates from Lima, Peru; Quito, Ecuador; and Bogota, Colombia.",
+        "why": "Semicolons separate list items that already contain internal commas."
+      }
+    ],
+    "trap": "However at the start of a second clause needs a semicolon before it; a comma there creates a splice."
+  },
+  {
+    "id": "rf-03",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Colons",
+    "summary": "A colon needs a complete sentence before it and introduces a list, example, or explanation.",
+    "body": "The rule that decides almost every ACT colon question is what comes before the colon, not what comes after. The words to the left of a colon must form a complete sentence. What follows can be a list, a single word, a phrase, or another full sentence, and any of those is acceptable. Because of this, a colon must not interrupt a sentence in progress: it cannot sit between a verb and its objects, or between a preposition and its object. Phrases such as including, such as, and for example already do the introducing, so a colon after them is redundant. A dash can substitute for a colon in most of these positions.",
+    "examples": [
+      {
+        "wrong": "The kit contains: a compass, a whistle, and a mylar blanket.",
+        "right": "The kit contains three items: a compass, a whistle, and a mylar blanket.",
+        "why": "The words before a colon must be a complete sentence, and contains cannot end one."
+      },
+      {
+        "wrong": "She had one goal in mind: to finish the marathon upright.",
+        "right": "She had one goal in mind: to finish the marathon upright.",
+        "why": "This one is already correct; the clause before the colon stands alone, so the colon is legal."
+      }
+    ],
+    "trap": "A colon placed right after a verb or a preposition is wrong even when the list that follows looks tidy."
+  },
+  {
+    "id": "rf-04",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Dashes",
+    "summary": "Dashes set off interruptions in pairs, or attach an emphatic addition at the end of a sentence.",
+    "body": "The ACT uses the dash in two ways. A single dash near the end of a sentence introduces an explanation, a list, or an emphatic afterthought, exactly where a colon could also work. A pair of dashes brackets an interruption in the middle of a sentence, exactly where a pair of commas or a pair of parentheses could work. The critical rule is matching: an interruption that opens with a dash must close with a dash, never with a comma or a parenthesis. Test any bracketed material by removing it; the remaining sentence should still be complete and sensible. Dashes signal a sharper break than commas, but on the ACT the punctuation match matters far more than the tone.",
+    "examples": [
+      {
+        "wrong": "The oldest map in the archive - drawn in 1590, shows a coastline that no longer exists.",
+        "right": "The oldest map in the archive - drawn in 1590 - shows a coastline that no longer exists.",
+        "why": "An interruption opened with a dash must be closed with a dash, not a comma."
+      },
+      {
+        "wrong": "Only one thing kept the crew going, strong coffee and stubbornness.",
+        "right": "Only one thing kept the crew going - strong coffee and stubbornness.",
+        "why": "A dash can introduce an emphatic addition after a complete sentence, where a comma cannot."
+      }
+    ],
+    "trap": "Mixing punctuation marks around an interruption, such as a dash on one side and a comma on the other, is always wrong."
+  },
+  {
+    "id": "rf-05",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Apostrophes for possession",
+    "summary": "Add apostrophe plus s for singular owners and an apostrophe after the s for plural owners.",
+    "body": "Apostrophes show possession, not plurality. A singular noun takes apostrophe plus s, including singular nouns that already end in s. A regular plural noun that already ends in s takes only a trailing apostrophe. An irregular plural that does not end in s, such as children or women, takes apostrophe plus s like a singular. To choose between forms on the ACT, flip the phrase into an of construction and see how many owners there are: the dogs leash becomes the leash of one dog, so it is the dog's leash. Never add an apostrophe simply because a word ends in s; ordinary plurals and ordinary present-tense verbs take no apostrophe at all.",
+    "examples": [
+      {
+        "wrong": "Both scientist's samples were stored in the same freezer.",
+        "right": "Both scientists' samples were stored in the same freezer.",
+        "why": "Both signals more than one owner, so the plural possessive takes the apostrophe after the s."
+      },
+      {
+        "wrong": "The childrens' mural covers the entire north wall.",
+        "right": "The children's mural covers the entire north wall.",
+        "why": "Children is already plural without an s, so it takes apostrophe plus s."
+      }
+    ],
+    "trap": "Answer choices often differ only in apostrophe placement, so count the owners before you read anything else."
+  },
+  {
+    "id": "rf-06",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Its, it's, and the possessive pronouns",
+    "summary": "Possessive pronouns never take apostrophes; it's, they're, and who's are contractions only.",
+    "body": "Possessive pronouns are already possessive, so they never take an apostrophe: its, yours, hers, ours, theirs, and whose. Every apostrophe form in this family is a contraction of two words. It's means it is or it has. They're means they are. Who's means who is or who has. You're means you are. The test is mechanical and never fails: read the sentence with the two-word version substituted in. If it is the antenna broke sounds wrong, you need its. This single question type appears on nearly every ACT English section, and it is decided entirely by the expansion test, not by meaning or by ear.",
+    "examples": [
+      {
+        "wrong": "The satellite lost it's signal during the eclipse.",
+        "right": "The satellite lost its signal during the eclipse.",
+        "why": "Expanding to it is signal makes no sense, so the possessive its is required."
+      },
+      {
+        "wrong": "The team that wins gets to choose their own uniforms, whoever they're captain is.",
+        "right": "The team that wins gets to choose its uniforms, whoever its captain is.",
+        "why": "They're expands to they are, and the possessive form is needed here instead."
+      }
+    ],
+    "trap": "The apostrophe looks like possession, which is exactly backward for pronouns."
+  },
+  {
+    "id": "rf-07",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Essential versus nonessential elements",
+    "summary": "Set off nonessential information with paired commas; essential identifying information takes none.",
+    "body": "Information that merely adds detail is nonessential and gets commas on both sides. Information that identifies which one you mean is essential and gets no commas. Apply the deletion test: read the sentence without the phrase. If the core meaning survives intact, the phrase is nonessential and needs commas. If removing it leaves you unable to tell which person or thing is meant, the phrase is essential and the commas must go. Names are a common case. My sister Elena takes no commas when you have several sisters, because the name specifies which one. My oldest sister, Elena, takes commas because oldest already narrows it to one person. The same logic governs which and that clauses.",
+    "examples": [
+      {
+        "wrong": "The novelist, who won the prize in 2019, lives in Reykjavik and writes only in longhand.",
+        "right": "The novelist who won the prize in 2019 lives in Reykjavik and writes only in longhand.",
+        "why": "The clause identifies which novelist is meant, so it is essential and takes no commas."
+      },
+      {
+        "wrong": "Our neighbor Mr. Alvarez who repairs clocks, has a workshop in his garage.",
+        "right": "Our neighbor Mr. Alvarez, who repairs clocks, has a workshop in his garage.",
+        "why": "The name already identifies him, so the clause is nonessential and needs commas on both sides."
+      }
+    ],
+    "trap": "One comma on only one side of an interrupting phrase is the most common wrong answer in this family."
+  },
+  {
+    "id": "rf-08",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Unnecessary commas",
+    "summary": "Never place a comma between a subject and its verb or between a verb and its object.",
+    "body": "The ACT rewards leaving commas out. A comma may not separate a subject from its verb, a verb from its object, or a preposition from its object, no matter how long the subject phrase grows. It also does not belong before a preposition, before the word that, or between a compound subject or compound verb joined by and. Compound verbs are the biggest trap: she rinsed the beakers and labeled them takes no comma, because labeled has no new subject. Only when a real subject appears after the conjunction do you have two clauses and a legal comma. When no rule requires a comma, the version without it is correct.",
+    "examples": [
+      {
+        "wrong": "The crate of rusted tools that had sat in the barn for decades, finally sold at auction.",
+        "right": "The crate of rusted tools that had sat in the barn for decades finally sold at auction.",
+        "why": "A long subject is still a subject, and no comma may separate it from its verb."
+      },
+      {
+        "wrong": "She rinsed the beakers, and labeled each one with tape.",
+        "right": "She rinsed the beakers and labeled each one with tape.",
+        "why": "Labeled shares the subject she, so this is a compound verb, not two clauses."
+      }
+    ],
+    "trap": "A pause you would make out loud is not evidence that a comma belongs there."
+  },
+  {
+    "id": "rf-09",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Commas in series and after introductions",
+    "summary": "Separate three or more list items with commas, and follow an introductory element with one comma.",
+    "body": "Three or more items in a series are separated by commas, including one before the final and, which the ACT consistently uses. Two items joined by and take no comma. An introductory word, phrase, or dependent clause is followed by a single comma before the main clause begins: After the tide went out, we walked to the sandbar. Short introductions such as however, in fact, and by then follow the same pattern. The dependent clause rule reverses when the order flips; a dependent clause that comes second usually takes no comma before it. Do not add a comma after the last item in a series, since that would cut the list off from the verb.",
+    "examples": [
+      {
+        "wrong": "We packed rope water a stove and two headlamps.",
+        "right": "We packed rope, water, a stove, and two headlamps.",
+        "why": "Items in a series of three or more are separated by commas, including before the final and."
+      },
+      {
+        "wrong": "Because the trail was flooded we took the ridge route instead.",
+        "right": "Because the trail was flooded, we took the ridge route instead.",
+        "why": "An introductory dependent clause is followed by one comma before the main clause."
+      }
+    ],
+    "trap": "Adding a comma after the final list item wrongly separates the whole list from the verb that follows."
+  },
+  {
+    "id": "rf-10",
+    "subject": "english",
+    "category": "Punctuation",
+    "title": "Commas between adjectives",
+    "summary": "Use a comma between adjectives only when they can swap order or take and between them.",
+    "body": "Two adjectives are coordinate when each modifies the noun independently, and coordinate adjectives take a comma between them. Two quick checks confirm it: insert and between the adjectives, or reverse their order. If the phrase still sounds natural both ways, the comma belongs. A dark, humid basement passes both tests. Cumulative adjectives stack instead, with each modifying the whole phrase that follows, and they take no comma. Three battered leather trunks fails both tests, so it stays comma-free. Adjectives of number, age, color, and material almost always behave cumulatively. Never place a comma between the final adjective and the noun itself, regardless of how many adjectives precede it.",
+    "examples": [
+      {
+        "wrong": "A cold damp wind pushed in from the harbor.",
+        "right": "A cold, damp wind pushed in from the harbor.",
+        "why": "Cold and damp modify wind independently and can be reversed, so they are coordinate."
+      },
+      {
+        "wrong": "She restored two, antique brass lanterns.",
+        "right": "She restored two antique brass lanterns.",
+        "why": "These adjectives stack cumulatively and cannot be reversed, so no comma belongs between them."
+      }
+    ],
+    "trap": "A comma is never correct between the last adjective and the noun it describes."
+  },
+  {
+    "id": "rf-11",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Subject-verb agreement across interrupters",
+    "summary": "Match the verb to the true subject, ignoring prepositional phrases and clauses in between.",
+    "body": "The ACT hides the subject by stuffing material between it and the verb. Cross out every prepositional phrase, every nonessential clause, and every phrase starting with along with, as well as, in addition to, or including. Whatever noun remains is the subject, and the verb must match it. The noun sitting closest to the verb is almost never the right one to match. A box of old letters was found in the attic: the subject is box, singular, not letters. Phrases such as as well as do not create a compound subject, so a singular subject stays singular even when the interrupter names several additional things.",
+    "examples": [
+      {
+        "wrong": "A crate of dusty encyclopedias were left on the loading dock.",
+        "right": "A crate of dusty encyclopedias was left on the loading dock.",
+        "why": "The subject is crate, and of dusty encyclopedias is a prepositional phrase to be ignored."
+      },
+      {
+        "wrong": "The conductor, along with the four soloists, are waiting backstage.",
+        "right": "The conductor, along with the four soloists, is waiting backstage.",
+        "why": "Along with does not form a compound subject, so the verb matches the singular conductor."
+      }
+    ],
+    "trap": "The plural noun immediately before the verb is bait; the real subject sits further left."
+  },
+  {
+    "id": "rf-12",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Tricky subjects and agreement",
+    "summary": "Either-or matches the nearer subject; collective nouns and each are singular.",
+    "body": "Several subject types have their own agreement rules. Subjects joined by and are plural. Subjects joined by or, either-or, or neither-nor take a verb matching whichever subject is nearer to the verb. Indefinite pronouns such as each, every, either, neither, everyone, anyone, somebody, and nobody are singular, even when a plural phrase follows them. Collective nouns like team, jury, family, and committee are treated as singular on the ACT because they name one unit. Sentences that begin with there or here take their number from the noun that follows the verb: there are three reasons, there is one reason. Quantities of money and time also usually take singular verbs.",
+    "examples": [
+      {
+        "wrong": "Neither the coaches nor the trainer have seen the new footage.",
+        "right": "Neither the coaches nor the trainer has seen the new footage.",
+        "why": "With neither-nor the verb agrees with the nearer subject, which is the singular trainer."
+      },
+      {
+        "wrong": "Each of the applicants were asked to submit a portfolio.",
+        "right": "Each of the applicants was asked to submit a portfolio.",
+        "why": "Each is singular, and of the applicants is a prepositional phrase, not the subject."
+      }
+    ],
+    "trap": "Each and every make a subject singular even when the words around them are plural."
+  },
+  {
+    "id": "rf-13",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Pronoun-antecedent agreement",
+    "summary": "A pronoun must match its antecedent in number, and singular antecedents take singular pronouns.",
+    "body": "Every pronoun points back to a specific noun called its antecedent, and the two must agree in number. Singular antecedents take singular pronouns, plural take plural. The ACT most often tests this with indefinite pronouns and collective nouns, which look plural but are singular: everyone brought his or her own gear, the committee published its findings. A company, a school, or a country is an it, never a they. When the singular his or her construction sounds clumsy, the test usually offers a rewrite that makes the antecedent plural instead. Also confirm the antecedent actually exists as a noun in the sentence rather than as an implied idea.",
+    "examples": [
+      {
+        "wrong": "Every runner should check their shoe treads before the race.",
+        "right": "Every runner should check his or her shoe treads before the race.",
+        "why": "Every runner is singular, so the pronoun that refers to it must be singular too."
+      },
+      {
+        "wrong": "The museum reopened after they finished the renovation.",
+        "right": "The museum reopened after it finished the renovation.",
+        "why": "A single organization is an it, not a they, on the ACT."
+      }
+    ],
+    "trap": "Organizations and groups feel plural in speech but count as singular units in ACT grammar."
+  },
+  {
+    "id": "rf-14",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Pronoun case and who versus whom",
+    "summary": "Use subject pronouns for subjects and object pronouns after verbs and prepositions.",
+    "body": "Subject pronouns are I, he, she, we, they, and who. Object pronouns are me, him, her, us, them, and whom. When a pronoun is paired with a noun, drop the noun and read the sentence with the pronoun alone: the award went to Tomas and me becomes the award went to me, which confirms the object form. For who and whom, substitute he or him into the clause. If he fits, use who. If him fits, use whom, and remember that both whom and him end in m. A pronoun following a preposition is always in the object case, which makes between you and I incorrect.",
+    "examples": [
+      {
+        "wrong": "The organizers sent the schedule to Priya and I.",
+        "right": "The organizers sent the schedule to Priya and me.",
+        "why": "Dropping Priya leaves sent the schedule to me, so the object pronoun is correct."
+      },
+      {
+        "wrong": "The violinist who the orchestra hired trained in Budapest.",
+        "right": "The violinist whom the orchestra hired trained in Budapest.",
+        "why": "The orchestra hired him, so the object form whom is required."
+      }
+    ],
+    "trap": "And I sounds more formal than and me, which makes the object case seem wrong when it is right."
+  },
+  {
+    "id": "rf-15",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Vague and ambiguous pronoun reference",
+    "summary": "Every pronoun needs one clear noun to point to, or it must be replaced by that noun.",
+    "body": "A pronoun fails when it has two possible antecedents or none at all. If a sentence names two women and then says she resigned, the reader cannot tell who resigned, and the sentence must name her. The words this, that, which, and it are frequent offenders because writers use them to refer to a whole preceding idea rather than to a noun. On the ACT, an answer choice that replaces a floating pronoun with a specific noun phrase is usually the correct one, even though it is longer. This is one of the few places where the test prefers extra words, because clarity outranks brevity when meaning is genuinely at stake.",
+    "examples": [
+      {
+        "wrong": "The city cut bus routes and raised fares, which angered commuters all winter.",
+        "right": "The city cut bus routes and raised fares, decisions that angered commuters all winter.",
+        "why": "Which had no single noun to refer to, so a specific noun phrase replaces it."
+      },
+      {
+        "wrong": "When Dana met Rosa, she had just returned from Nairobi.",
+        "right": "When Dana met Rosa, Rosa had just returned from Nairobi.",
+        "why": "She could point to either woman, so naming the person removes the ambiguity."
+      }
+    ],
+    "trap": "This and which pointing at an entire previous clause is a reference error, not a style preference."
+  },
+  {
+    "id": "rf-16",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Verb tense consistency",
+    "summary": "Keep tense consistent within a passage unless the timeline genuinely shifts.",
+    "body": "Verbs in a passage should stay in one tense unless the meaning requires a change. The strongest clue is always the surrounding sentences: scan the verbs immediately before and after the underlined portion and match them. Time markers such as last year, since 1998, by the time, and currently signal which tense is needed. Use the past perfect, had plus a past participle, only for an action completed before another past action. Use the present perfect, has or have plus a past participle, for something that began in the past and continues now. Do not switch tenses in the middle of describing a single continuous event just because the sentence is long.",
+    "examples": [
+      {
+        "wrong": "She sorted the fossils, cataloged each one, and then labels the drawers.",
+        "right": "She sorted the fossils, cataloged each one, and then labeled the drawers.",
+        "why": "All three actions belong to the same past sequence, so all three verbs stay in past tense."
+      },
+      {
+        "wrong": "By the time the ferry docked, the crowd already left the pier.",
+        "right": "By the time the ferry docked, the crowd had already left the pier.",
+        "why": "The leaving happened before the docking, which calls for the past perfect."
+      }
+    ],
+    "trap": "The tense that sounds natural in isolation may clash with the tense used everywhere else in the paragraph."
+  },
+  {
+    "id": "rf-17",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Irregular verb forms",
+    "summary": "Use the past participle after have, has, had, and any form of be, not the simple past.",
+    "body": "Irregular verbs have three principal parts, and the ACT tests whether you use the right one. The simple past stands alone: she went, he drank, they saw. The past participle requires a helping verb: she has gone, he had drunk, they were seen. Mixing them produces errors like had went and have drank. Watch the lie and lay pair especially. Lie means to recline and takes no object, with forms lie, lay, lain. Lay means to place something and takes an object, with forms lay, laid, laid. Rise and raise and sit and set follow the same object-versus-no-object split, and the ACT reuses these three pairs constantly.",
+    "examples": [
+      {
+        "wrong": "By Friday the pipes had froze and the basement had flooded.",
+        "right": "By Friday the pipes had frozen and the basement had flooded.",
+        "why": "Had requires the past participle frozen, not the simple past froze."
+      },
+      {
+        "wrong": "He laid on the couch for an hour after the hike.",
+        "right": "He lay on the couch for an hour after the hike.",
+        "why": "No object follows, so the verb is lie, whose past tense is lay."
+      }
+    ],
+    "trap": "Forms like had went and have drank sound acceptable in speech but are never correct in writing."
+  },
+  {
+    "id": "rf-18",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Adjectives versus adverbs",
+    "summary": "Adjectives modify nouns; adverbs modify verbs, adjectives, and other adverbs.",
+    "body": "An adjective describes a noun or pronoun. An adverb describes a verb, an adjective, or another adverb, and it usually ends in ly. Ask what the word is describing: if it is describing how an action is performed, you need the adverb. The pair good and well is the classic test case. Good is an adjective, so she plays well, not she plays good. Well doubles as an adjective only when it refers to health. Linking verbs such as be, seem, feel, become, and appear are the exception, because they connect back to the subject and take an adjective: the soup tastes salty, not tastes saltily.",
+    "examples": [
+      {
+        "wrong": "The engine ran smooth after the tune-up.",
+        "right": "The engine ran smoothly after the tune-up.",
+        "why": "The word describes how the engine ran, so the adverb form is required."
+      },
+      {
+        "wrong": "After a week of rest she felt very well about the decision.",
+        "right": "After a week of rest she felt very good about the decision.",
+        "why": "Felt is a linking verb here, so the adjective good describes the subject."
+      }
+    ],
+    "trap": "Linking verbs take adjectives, so adding ly after tastes, feels, or seems is usually the wrong choice."
+  },
+  {
+    "id": "rf-19",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Comparisons",
+    "summary": "Use comparative forms for two things, superlative for three or more, and compare like to like.",
+    "body": "Comparative forms end in er or use more, and they compare exactly two things. Superlative forms end in est or use most, and they require three or more. Never double them up, as in more faster or most brightest. Beyond form, the ACT checks logic: a comparison must match categories. The population of Denver is larger than Boise compares a population to a city, which is illogical. The fix is a parallel marker such as that of or those of, giving larger than that of Boise. When comparing a member against its own group, add else or other: she runs faster than anyone else on the team.",
+    "examples": [
+      {
+        "wrong": "Of the two routes, the northern one is the steepest.",
+        "right": "Of the two routes, the northern one is steeper.",
+        "why": "Only two items are compared, which calls for the comparative form."
+      },
+      {
+        "wrong": "The rainfall in Manaus is heavier than Cairo.",
+        "right": "The rainfall in Manaus is heavier than that of Cairo.",
+        "why": "Rainfall must be compared with rainfall, not with a city."
+      }
+    ],
+    "trap": "Comparisons that drop that of or those of quietly compare two unlike categories."
+  },
+  {
+    "id": "rf-20",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Idiomatic prepositions",
+    "summary": "Certain words demand specific prepositions, and only the conventional pairing is correct.",
+    "body": "Idiom questions have no rule to derive; the pairing is simply fixed by convention, and the ACT expects you to recognize it. Common pairings include different from, prefer to, capable of, interested in, consist of, comply with, insist on, responsible for, superior to, and preoccupied with. Watch for pairs where the preposition changes the meaning: agree with a person, agree to a plan, agree on a price. When a question underlines only a short preposition and the answer choices differ solely in that word, you are looking at an idiom question. Read each choice with the surrounding phrase and pick the one that matches standard usage rather than reasoning it out.",
+    "examples": [
+      {
+        "wrong": "Her method is different than the one described in the manual.",
+        "right": "Her method is different from the one described in the manual.",
+        "why": "Standard written idiom pairs different with from."
+      },
+      {
+        "wrong": "The board insisted about reviewing the budget line by line.",
+        "right": "The board insisted on reviewing the budget line by line.",
+        "why": "Insist takes the preposition on in this construction."
+      }
+    ],
+    "trap": "Idioms cannot be reasoned out from rules, so trust the familiar pairing rather than logic."
+  },
+  {
+    "id": "rf-21",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Commonly confused words",
+    "summary": "Homophones such as their, there, and they're are chosen by meaning, not by sound.",
+    "body": "The ACT includes word pairs that sound alike but differ in function. Their is possessive, there indicates place or begins a sentence, and they're means they are. Than makes comparisons while then marks time or sequence. Affect is usually a verb meaning to influence, and effect is usually a noun meaning a result. Accept means to receive, and except means excluding. Lose is a verb, and loose is an adjective meaning not tight. Passed is a verb, while past refers to earlier time or means beyond. Because these choices are decided entirely by meaning, substitute the definition into the sentence and see which one actually makes sense.",
+    "examples": [
+      {
+        "wrong": "The heavy rain had a noticeable affect on the harvest.",
+        "right": "The heavy rain had a noticeable effect on the harvest.",
+        "why": "A noun meaning result is needed here, and that noun is effect."
+      },
+      {
+        "wrong": "She would rather bike then drive to campus.",
+        "right": "She would rather bike than drive to campus.",
+        "why": "The sentence compares two options, which requires than."
+      }
+    ],
+    "trap": "These words sound identical when read aloud, so the error survives an ear-based check."
+  },
+  {
+    "id": "rf-22",
+    "subject": "english",
+    "category": "Grammar & Usage",
+    "title": "Quantity words",
+    "summary": "Use fewer and number for countable things, less and amount for uncountable quantities.",
+    "body": "Some quantity words depend on whether the noun can be counted individually. Use fewer, number, and many with countable nouns such as bottles, students, and errors. Use less, amount, and much with uncountable nouns such as water, traffic, and evidence. Money and time often behave as uncountable in these constructions. Between compares exactly two things, while among involves three or more. Similar pairs include each for two and every for larger groups, and both for two versus all for more. On the ACT these words often appear in answer choices that are otherwise identical, so identify the noun being measured before selecting.",
+    "examples": [
+      {
+        "wrong": "This year the program received less applications than last year.",
+        "right": "This year the program received fewer applications than last year.",
+        "why": "Applications are countable, so fewer is the correct word."
+      },
+      {
+        "wrong": "The prize was divided between the four finalists.",
+        "right": "The prize was divided among the four finalists.",
+        "why": "Among is used for three or more parties; between is for exactly two."
+      }
+    ],
+    "trap": "Less has spread into everyday speech for countable nouns, which makes the error hard to hear."
+  },
+  {
+    "id": "rf-23",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Sentence fragments",
+    "summary": "A sentence needs a subject and a main verb and must not be left dangling by a subordinator.",
+    "body": "A fragment is missing a subject, missing a main verb, or begins with a subordinating word that never gets resolved. The most common fragment on the ACT uses an ing word where a real verb belongs: The team practicing every morning before dawn has no main verb, because practicing alone cannot serve as one. Adding a helping verb fixes it: The team was practicing. A second common type opens with because, although, since, while, or when and then stops without an independent clause. Fix a fragment by supplying the missing part or by attaching it to the neighboring sentence with a comma rather than a period.",
+    "examples": [
+      {
+        "wrong": "The rangers clearing brush along the ridge for most of September.",
+        "right": "The rangers were clearing brush along the ridge for most of September.",
+        "why": "An ing word alone is not a main verb; a helping verb turns the fragment into a sentence."
+      },
+      {
+        "wrong": "Although the report arrived on time. The committee postponed the vote.",
+        "right": "Although the report arrived on time, the committee postponed the vote.",
+        "why": "A clause opening with although must attach to an independent clause."
+      }
+    ],
+    "trap": "A long, detailed string of words can still be a fragment if it contains no main verb."
+  },
+  {
+    "id": "rf-24",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Run-ons and comma splices",
+    "summary": "Two independent clauses fused with nothing or with only a comma must be properly separated.",
+    "body": "A run-on jams two independent clauses together with no punctuation. A comma splice joins them with only a comma. Both are errors, and both have the same four fixes: insert a period, insert a semicolon, add a coordinating conjunction after the comma, or subordinate one clause with a word such as because, although, or while. Choose the fix that best fits the logical relationship the passage establishes. Be alert to transitional adverbs, since however, therefore, consequently, and instead do not join clauses; placing one after a comma between two full sentences still leaves a splice.",
+    "examples": [
+      {
+        "wrong": "The grant expired in June the research continued anyway.",
+        "right": "Although the grant expired in June, the research continued anyway.",
+        "why": "Subordinating the first clause resolves the run-on and shows the contrast."
+      },
+      {
+        "wrong": "The samples degraded quickly, therefore we repeated the trial.",
+        "right": "The samples degraded quickly; therefore, we repeated the trial.",
+        "why": "Therefore is an adverb, not a conjunction, so a semicolon is needed before it."
+      }
+    ],
+    "trap": "Transition words like however and therefore look like conjunctions but cannot join two sentences."
+  },
+  {
+    "id": "rf-25",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Misplaced modifiers",
+    "summary": "Place every modifying word or phrase directly beside the word it is meant to describe.",
+    "body": "A modifier attaches to whatever it sits next to, so putting it in the wrong spot changes the meaning. Descriptive phrases must be adjacent to their targets: We saw a hawk driving through the canyon suggests the hawk was driving. Moving the phrase fixes it. Limiting words such as only, almost, nearly, just, and even are especially sensitive, because shifting them shifts the meaning of the whole sentence. She only ate the crackers means eating was all she did; she ate only the crackers means she ate nothing else. When an ACT question moves a short word among four positions, it is testing exactly this.",
+    "examples": [
+      {
+        "wrong": "The archivist found a letter in the cabinet written in 1812.",
+        "right": "The archivist found a letter written in 1812 in the cabinet.",
+        "why": "The modifier belongs next to letter, not next to cabinet."
+      },
+      {
+        "wrong": "The clinic almost treated five hundred patients that week.",
+        "right": "The clinic treated almost five hundred patients that week.",
+        "why": "Almost should limit the number, not the act of treating."
+      }
+    ],
+    "trap": "Placement questions with four identical-looking choices are decided by meaning, not by sound."
+  },
+  {
+    "id": "rf-26",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Dangling modifiers",
+    "summary": "An opening descriptive phrase must be followed immediately by the noun it describes.",
+    "body": "When a sentence opens with a descriptive phrase set off by a comma, the very first noun after that comma must be the thing the phrase describes. If it is not, the modifier dangles and the sentence describes the wrong subject. Walking to the bus stop, the rain soaked my jacket claims the rain was walking. There are two repairs: change the main clause so the correct subject comes first, or expand the opening phrase into a full clause with its own subject, such as While I was walking to the bus stop. Passive-voice main clauses are a frequent source of dangling openers.",
+    "examples": [
+      {
+        "wrong": "After studying the migration data, the conclusion became obvious.",
+        "right": "After studying the migration data, the researchers reached an obvious conclusion.",
+        "why": "A conclusion cannot study data, so the subject that did the studying must come first."
+      },
+      {
+        "wrong": "Buried under decades of sediment, the divers located the wreck.",
+        "right": "Buried under decades of sediment, the wreck was located by the divers.",
+        "why": "The wreck was buried, so it must be the noun that follows the opening phrase."
+      }
+    ],
+    "trap": "Check the first noun after the comma, since a dangling modifier reads smoothly until you do."
+  },
+  {
+    "id": "rf-27",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Parallel structure",
+    "summary": "Items in a list or comparison must share the same grammatical form.",
+    "body": "When two or more elements are joined by and, or, or a comparison word, each must take the same grammatical shape. If the first item is an ing word, all should be ing words. If the first is an infinitive with to, the rest should follow. If the first is a noun phrase, so are the others. Parallelism also governs prepositions and articles: repeat them for every item or for none. The easiest check is to read the sentence separately with each item alone attached to the shared opening. Any version that sounds broken identifies the item that has drifted out of form.",
+    "examples": [
+      {
+        "wrong": "The internship involves drafting memos, research on case law, and to attend hearings.",
+        "right": "The internship involves drafting memos, researching case law, and attending hearings.",
+        "why": "All three items in the list must take the same ing form."
+      },
+      {
+        "wrong": "She was praised for her patience, her precision, and because she worked hard.",
+        "right": "She was praised for her patience, her precision, and her hard work.",
+        "why": "Three noun phrases keep the list parallel; a clause breaks the pattern."
+      }
+    ],
+    "trap": "The mismatch usually hides in the last item, after the first two have set a pattern you stop checking."
+  },
+  {
+    "id": "rf-28",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Correlative conjunction pairs",
+    "summary": "Paired conjunctions must use their fixed partners and join elements of matching form.",
+    "body": "Correlative conjunctions come in fixed pairs: not only with but also, either with or, neither with nor, both with and, and whether with or. Substituting a partner, such as writing not only followed by but instead of but also, is an error. These pairs also carry a strict parallelism requirement: whatever grammatical structure follows the first half must also follow the second half. If not only is followed by a verb, but also must be followed by a verb too. A useful technique is to place each half of the pair as close as possible to the elements being joined, which usually makes the parallel match obvious.",
+    "examples": [
+      {
+        "wrong": "The bridge is neither the longest in the state or the oldest.",
+        "right": "The bridge is neither the longest in the state nor the oldest.",
+        "why": "Neither must pair with nor, not with or."
+      },
+      {
+        "wrong": "She not only repaired the telescope but also its mount was rebuilt by her.",
+        "right": "She not only repaired the telescope but also rebuilt its mount.",
+        "why": "Both halves of the pair must be followed by matching verb phrases."
+      }
+    ],
+    "trap": "The pairing may be correct while the structures after each half still fail to match."
+  },
+  {
+    "id": "rf-29",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Relative clauses",
+    "summary": "Use who for people, which for nonessential things, and that for essential things.",
+    "body": "Relative pronouns introduce clauses that describe a noun, and they must sit directly after the noun they describe. Use who and whom for people, which and that for things, whose for possession by either, and where and when only for actual places and times. On the ACT, that introduces essential clauses and takes no commas, while which introduces nonessential clauses and takes a comma before it. Do not use where to describe a situation or a text; a book where the narrator lies should be a book in which the narrator lies. A relative clause placed far from its noun creates the same problem as any misplaced modifier.",
+    "examples": [
+      {
+        "wrong": "The technician which calibrated the sensors filed a report.",
+        "right": "The technician who calibrated the sensors filed a report.",
+        "why": "Who is used for people; which is reserved for things."
+      },
+      {
+        "wrong": "She cited a study where the sample size was too small.",
+        "right": "She cited a study in which the sample size was too small.",
+        "why": "Where refers only to physical places, not to studies or arguments."
+      }
+    ],
+    "trap": "Which without a preceding comma is nearly always wrong on the ACT."
+  },
+  {
+    "id": "rf-30",
+    "subject": "english",
+    "category": "Sentence Structure",
+    "title": "Dependent clauses and subordinators",
+    "summary": "A subordinator turns a clause into a fragment unless an independent clause completes it.",
+    "body": "Subordinating conjunctions include because, although, since, unless, while, if, when, after, before, whereas, and until. Attaching one to a clause makes that clause dependent, so it can no longer stand alone. Punctuation depends on order. When the dependent clause comes first, follow it with a comma before the independent clause. When it comes second, usually use no comma at all. Adding a subordinator is also the cleanest fix for a comma splice, because it converts one of the two independent clauses into a dependent one. Never pair a subordinator with a coordinating conjunction across the same join, as in although the storm passed, but the roads stayed closed.",
+    "examples": [
+      {
+        "wrong": "We waited on the platform, because the eastbound train was delayed.",
+        "right": "We waited on the platform because the eastbound train was delayed.",
+        "why": "A dependent clause in second position normally takes no comma before it."
+      },
+      {
+        "wrong": "Although the samples arrived frozen, but the seals had cracked.",
+        "right": "Although the samples arrived frozen, the seals had cracked.",
+        "why": "One subordinator is enough; adding but doubles the connection."
+      }
+    ],
+    "trap": "Doubling connectors, as in although with but, feels emphatic but is a structural error."
+  },
+  {
+    "id": "rf-31",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Adding or deleting a sentence",
+    "summary": "Keep material only if it supports the paragraph's specific point; otherwise delete it.",
+    "body": "Add and delete questions give you a yes-yes-no-no answer structure, and the reasoning attached to each choice decides the answer, not the yes or no itself. Read the paragraph and identify its single main point. Then ask whether the proposed sentence develops that point. If it introduces a new topic, repeats information already stated, or is merely interesting, it should be deleted. Eliminate any reason that is factually wrong about the passage, even if its yes or no matches your instinct. A common wrong reason claims the sentence is off topic when it clearly is not, or claims it repeats something the passage never said.",
+    "examples": [
+      {
+        "wrong": "Keeping a sentence about the author's favorite restaurant in a paragraph about her research method.",
+        "right": "Deleting it because it does not develop the paragraph's focus on how the research was conducted.",
+        "why": "Relevance to the paragraph's specific point, not general interest, decides whether material stays."
+      }
+    ],
+    "trap": "Judge the reason attached to each choice, not just whether the answer says yes or no."
+  },
+  {
+    "id": "rf-32",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Wordiness and redundancy",
+    "summary": "When all choices are grammatical and say the same thing, pick the shortest one.",
+    "body": "The ACT consistently prefers concise writing. Redundancy means saying the same thing twice in different words, as in a new innovation, returned back, at this point in time, or the reason is because. Wordiness means using several words where one works, as in due to the fact that instead of because. When the answer choices differ mainly in length and all are grammatically acceptable, the shortest choice is correct far more often than not. OMIT the underlined portion is also a real answer choice, and it wins whenever the sentence remains complete and clear without those words. Check that removing the phrase does not delete necessary information first.",
+    "examples": [
+      {
+        "wrong": "The committee gathered together to discuss future plans for the upcoming year.",
+        "right": "The committee gathered to discuss plans for the coming year.",
+        "why": "Gathered already means together, and future plans for the upcoming year repeats itself."
+      },
+      {
+        "wrong": "Due to the fact that the road was closed, we took a detour.",
+        "right": "Because the road was closed, we took a detour.",
+        "why": "One word carries the same meaning as the five-word phrase."
+      }
+    ],
+    "trap": "A longer choice that adds a detail you find interesting is still wrong if the detail is already implied."
+  },
+  {
+    "id": "rf-33",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Transitions",
+    "summary": "Choose the transition that matches the actual logical relationship between the two ideas.",
+    "body": "Transition questions are decided by logic, not by sound. Cover the transition, read the sentence before it and the sentence after it, and name the relationship yourself: contrast, addition, cause, result, example, or sequence. Then find the choice that matches. However, nevertheless, and on the other hand signal contrast. Therefore, thus, and consequently signal result. Furthermore, moreover, and in addition signal addition. For instance and for example introduce illustrations. Meanwhile and subsequently signal time. A frequent trap offers a contrast word where the two ideas actually agree, since a strong-sounding transition can feel authoritative even when the relationship is wrong.",
+    "examples": [
+      {
+        "wrong": "The alloy resists corrosion. However, it is also lighter than steel.",
+        "right": "The alloy resists corrosion. Moreover, it is lighter than steel.",
+        "why": "Both sentences state advantages, so the relationship is addition, not contrast."
+      },
+      {
+        "wrong": "Rain fell for six straight days. Similarly, the trail washed out.",
+        "right": "Rain fell for six straight days. As a result, the trail washed out.",
+        "why": "The second sentence is the consequence of the first, which calls for a result transition."
+      }
+    ],
+    "trap": "However is the default-sounding transition, and it is wrong whenever the two ideas actually agree."
+  },
+  {
+    "id": "rf-34",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Sentence and paragraph order",
+    "summary": "Place a sentence where its pronouns, transitions, and references connect to nearby text.",
+    "body": "Order questions ask where a sentence belongs, and the answer is fixed by internal clues rather than by general flow. Look inside the sentence for words that point backward, such as this method, these findings, such changes, another reason, or a pronoun with no antecedent yet. That sentence must come after whatever those words refer to. Look for words that point forward, such as first or the following. A sentence that introduces a term must precede any sentence that uses the term casually. When testing a position, read the sentence before and after your candidate spot and confirm nothing refers to something the reader has not met yet.",
+    "examples": [
+      {
+        "wrong": "Placing a sentence beginning This technique before the paragraph has described any technique.",
+        "right": "Placing it immediately after the sentence that describes the technique.",
+        "why": "Backward-pointing words must follow the material they refer to."
+      }
+    ],
+    "trap": "A sentence can read smoothly in the wrong slot; only the backward references reveal the correct one."
+  },
+  {
+    "id": "rf-35",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Word choice and tone",
+    "summary": "Match the vocabulary to the passage's level of formality and its precise meaning.",
+    "body": "Word choice questions offer several words with similar dictionary meanings, and only one fits the context. Two things decide it: connotation and register. Connotation is the attitude a word carries, so describing a careful scientist as picky is wrong where meticulous is right. Register is the level of formality; most ACT passages are moderately formal, which rules out slang and casual phrasing as well as inflated, overly ornate vocabulary. Also verify literal accuracy, since a word may fit the tone yet misstate the fact, such as saying a number plummeted when the passage describes a gradual decline. Read the full sentence with each candidate before choosing.",
+    "examples": [
+      {
+        "wrong": "The geologist was nosy about the unusual rock formations along the ridge.",
+        "right": "The geologist was curious about the unusual rock formations along the ridge.",
+        "why": "Nosy carries a negative connotation that does not fit a scientist's professional interest."
+      },
+      {
+        "wrong": "Enrollment plummeted from 412 students to 405 over the decade.",
+        "right": "Enrollment dipped slightly from 412 students to 405 over the decade.",
+        "why": "The word must match the size of the change the passage actually reports."
+      }
+    ],
+    "trap": "The most impressive-sounding word is often too strong for the modest fact the passage describes."
+  },
+  {
+    "id": "rf-36",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Writer's goal questions",
+    "summary": "Judge the choice against the stated goal, not against whether the writing sounds good.",
+    "body": "Some questions state a specific purpose, such as to emphasize the difficulty of the process or to provide a concrete detail about the equipment. Your job is narrow: find the choice that accomplishes that stated goal. All four choices are typically grammatical, and three of them will be perfectly reasonable sentences that simply do not do the assigned job. Underline the key words in the question stem before reading the choices, then check each choice against those words specifically. A whole-essay version of this question asks whether the passage would fulfill a given assignment, and the reasoning attached to yes or no again decides the answer.",
+    "examples": [
+      {
+        "wrong": "Answering a question that asks for a specific sensory detail with a general statement about the weather being bad.",
+        "right": "Choosing the option that names the sleet rattling against the tent fabric.",
+        "why": "The stated goal asked for a concrete sensory detail, so only the specific option qualifies."
+      }
+    ],
+    "trap": "Three wrong choices are usually well written; only the stated goal separates them from the right one."
+  },
+  {
+    "id": "rf-37",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Openings and closings",
+    "summary": "An effective opening previews the passage's subject; a closing echoes it without adding new topics.",
+    "body": "Questions about the first or last sentence of a passage or paragraph are testing scope. An opening sentence should introduce the subject the passage actually develops, at roughly the same level of generality. Too narrow an opening leaves the rest of the passage unconnected; too broad an opening promises material the passage never covers. A closing sentence should resolve the discussion, often by returning to an idea from the opening, and it must not raise a brand-new topic the passage will never address. When choosing, ask what the passage as a whole is about, then test each choice for that same scope rather than for how appealing it sounds.",
+    "examples": [
+      {
+        "wrong": "Ending an essay about restoring one lighthouse with a sentence about the future of global shipping.",
+        "right": "Ending it with a sentence about what the restored lighthouse now means to the town.",
+        "why": "A conclusion should close the passage's own subject rather than open a much larger new one."
+      }
+    ],
+    "trap": "A sweeping closing sentence feels profound but usually fails because it introduces a topic the essay never discussed."
+  },
+  {
+    "id": "rf-38",
+    "subject": "english",
+    "category": "Rhetorical Skills",
+    "title": "Specific versus vague answers",
+    "summary": "When a question asks for detail or illustration, choose the most concrete option.",
+    "body": "Many rhetorical questions ask which choice best illustrates, best specifies, or best provides a concrete example. In those cases the right answer names something particular: a number, an object, an action, or a sensory detail. Vague choices repeat the idea in general terms, using words such as things, aspects, various factors, or in many ways, and they are wrong precisely because they add no information. Note that this preference for detail applies only when the question asks for it. If the question instead asks only for a grammatically acceptable revision, the concise choice usually wins. Read the stem first to know which standard applies.",
+    "examples": [
+      {
+        "wrong": "The restoration required various different materials and a number of specialized things.",
+        "right": "The restoration required lime mortar, hand-cut slate, and a lead-lined gutter.",
+        "why": "A question asking for concrete detail is answered by naming specifics, not categories."
+      }
+    ],
+    "trap": "Detail wins only when the question asks for it; otherwise the shortest correct choice is still preferred."
+  },
+  {
+    "id": "rf-39",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Slope and linear equations",
+    "summary": "Slope is rise over run, and slope-intercept form is y = mx + b.",
+    "body": "Slope between two points is m = (y₂ - y₁) ÷ (x₂ - x₁). Slope-intercept form is y = mx + b, where m is slope and b is the y-intercept. Point-slope form is y - y₁ = m(x - x₁), which is fastest when you know one point and the slope. Standard form is Ax + By = C, whose slope is -A ÷ B. Parallel lines have equal slopes. Perpendicular lines have slopes that are negative reciprocals, so their product is -1. A horizontal line has slope 0 and the form y = k. A vertical line has undefined slope and the form x = k.",
+    "examples": [
+      {
+        "wrong": "Computing the slope through (2, 3) and (6, 11) as (6 - 2) ÷ (11 - 3) = 0.5.",
+        "right": "Slope = (11 - 3) ÷ (6 - 2) = 8 ÷ 4 = 2.",
+        "why": "Slope is the change in y over the change in x, so the differences must not be flipped."
+      },
+      {
+        "wrong": "Saying a line perpendicular to y = 2x + 1 has slope 2 or -2.",
+        "right": "The perpendicular slope is -1/2, since 2 × (-1/2) = -1.",
+        "why": "Perpendicular slopes are negative reciprocals, not just sign changes."
+      }
+    ],
+    "trap": "A vertical line has undefined slope, not zero slope; zero belongs to horizontal lines."
+  },
+  {
+    "id": "rf-40",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Coordinate geometry: distance, midpoint, circles",
+    "summary": "Distance uses the Pythagorean theorem; midpoint averages the coordinates.",
+    "body": "The distance between (x₁, y₁) and (x₂, y₂) is d = √((x₂ - x₁)² + (y₂ - y₁)²), which is just the Pythagorean theorem applied to the horizontal and vertical legs. The midpoint is M = ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2), an average of each coordinate. The standard equation of a circle is (x - h)² + (y - k)² = r², with center (h, k) and radius r. Note the signs: (x - 3)² means h = 3, while (x + 2)² means h = -2. The radius is r, not r², so a right side of 25 gives a radius of 5.",
+    "examples": [
+      {
+        "wrong": "Finding the distance from (1, 2) to (4, 6) as 3 + 4 = 7.",
+        "right": "d = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+        "why": "Distance is the hypotenuse, so the legs are squared and summed before taking the root."
+      },
+      {
+        "wrong": "Reading (x - 3)² + (y + 2)² = 25 as center (-3, 2) with radius 25.",
+        "right": "The center is (3, -2) and the radius is 5.",
+        "why": "The signs inside the parentheses flip, and the right side equals r², not r."
+      }
+    ],
+    "trap": "Forgetting to take the square root of the right side turns a radius of 5 into 25."
+  },
+  {
+    "id": "rf-41",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Circle measurement formulas",
+    "summary": "Area is πr², circumference is 2πr, and arcs and sectors are fractions of each.",
+    "body": "For a circle of radius r: area A = πr², circumference C = 2πr = πd. A central angle of θ degrees cuts off a fraction θ ÷ 360 of the whole circle. So arc length = (θ ÷ 360) × 2πr, and sector area = (θ ÷ 360) × πr². An inscribed angle measures half the central angle that subtends the same arc, so an inscribed angle of 40° cuts an arc of 80°. Any angle inscribed in a semicircle is 90°. A tangent line meets the radius at the point of tangency at 90°, which often creates a right triangle you can solve with the Pythagorean theorem.",
+    "examples": [
+      {
+        "wrong": "Finding the arc length for a 60° central angle in a circle of radius 6 as (60 ÷ 360) × 36π = 6π.",
+        "right": "Arc length = (60 ÷ 360) × 2π(6) = (1/6) × 12π = 2π.",
+        "why": "Arc length uses the circumference; πr² gives the sector area instead."
+      },
+      {
+        "wrong": "Saying the sector area for that same 60° angle is 2π.",
+        "right": "Sector area = (60 ÷ 360) × π(6²) = (1/6) × 36π = 6π.",
+        "why": "Sector area scales the area formula, so it uses πr² rather than 2πr."
+      }
+    ],
+    "trap": "Arc length and sector area use the same fraction but different base formulas, and swapping them is easy."
+  },
+  {
+    "id": "rf-42",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Triangle formulas and special right triangles",
+    "summary": "Area is half base times height, and the 30-60-90 and 45-45-90 ratios save time.",
+    "body": "Triangle area is A = (1/2) × base × height, where the height is perpendicular to the chosen base. The three interior angles sum to 180°. An exterior angle equals the sum of the two remote interior angles. The Pythagorean theorem, a² + b² = c², applies only to right triangles, with c the hypotenuse. Memorize the triples 3-4-5, 5-12-13, 8-15-17, and 7-24-25, plus their multiples such as 6-8-10 and 9-12-15. In a 45-45-90 triangle the sides are x, x, x√2. In a 30-60-90 triangle they are x, x√3, 2x, where x is opposite the 30° angle. Similar triangles have proportional sides and equal angles.",
+    "examples": [
+      {
+        "wrong": "Calling the longer leg of a 30-60-90 triangle with short leg 5 equal to 10.",
+        "right": "The sides are 5, 5√3, and 10, so the longer leg is 5√3 ≈ 8.66 and the hypotenuse is 10.",
+        "why": "The ratio is x : x√3 : 2x, so 2x is the hypotenuse, not the longer leg."
+      },
+      {
+        "wrong": "Using the slanted side of an obtuse triangle as the height when finding area.",
+        "right": "Use the perpendicular distance from the vertex to the base line, even if it falls outside the triangle.",
+        "why": "The height in the area formula must be perpendicular to the base."
+      }
+    ],
+    "trap": "The Pythagorean theorem applies only to right triangles, yet it gets used on any triangle with a long side."
+  },
+  {
+    "id": "rf-43",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Right-triangle trigonometry",
+    "summary": "SOHCAHTOA gives sine, cosine, and tangent from the sides of a right triangle.",
+    "body": "In a right triangle, sin θ = opposite ÷ hypotenuse, cos θ = adjacent ÷ hypotenuse, and tan θ = opposite ÷ adjacent, remembered as SOHCAHTOA. The reciprocals are csc θ = 1 ÷ sin θ, sec θ = 1 ÷ cos θ, and cot θ = 1 ÷ tan θ. Two identities appear often: sin²θ + cos²θ = 1, and tan θ = sin θ ÷ cos θ. For non-right triangles the ACT occasionally supplies the law of sines, a ÷ sin A = b ÷ sin B = c ÷ sin C, or the law of cosines, c² = a² + b² - 2ab·cos C. Opposite and adjacent are always defined relative to the angle in question, not fixed to particular sides.",
+    "examples": [
+      {
+        "wrong": "In a triangle with legs 3 and 4 and hypotenuse 5, saying sin θ = 3/4 for the angle opposite the side of length 3.",
+        "right": "sin θ = 3/5 = 0.6, cos θ = 4/5 = 0.8, and tan θ = 3/4 = 0.75.",
+        "why": "Sine divides by the hypotenuse; the ratio 3/4 is the tangent."
+      },
+      {
+        "wrong": "Treating the same side as opposite for both acute angles of a right triangle.",
+        "right": "Identify opposite and adjacent separately for each angle before applying the ratio.",
+        "why": "Opposite and adjacent are defined relative to the angle you are working with."
+      }
+    ],
+    "trap": "The hypotenuse never counts as the adjacent side, even though it touches the angle."
+  },
+  {
+    "id": "rf-44",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Angles, parallel lines, and polygons",
+    "summary": "Interior angles of an n-sided polygon sum to (n - 2) × 180°, and exterior angles sum to 360°.",
+    "body": "A straight line measures 180° and a full rotation 360°. Vertical angles are equal, and angles on a straight line are supplementary. When parallel lines are cut by a transversal, corresponding angles are equal, alternate interior angles are equal, and same-side interior angles sum to 180°; in practice every angle formed is equal to one of just two values that add to 180°. For a polygon with n sides, the interior angles sum to (n - 2) × 180°, and the exterior angles always sum to 360° no matter how many sides. A regular polygon has each interior angle equal to (n - 2) × 180° ÷ n.",
+    "examples": [
+      {
+        "wrong": "Saying each interior angle of a regular octagon is 1080°.",
+        "right": "The sum is (8 - 2) × 180° = 1080°, so each of the eight angles is 1080° ÷ 8 = 135°.",
+        "why": "The formula gives the total for all angles, which must then be divided by n."
+      },
+      {
+        "wrong": "Assuming same-side interior angles formed by parallel lines are equal.",
+        "right": "Same-side interior angles are supplementary, so they add to 180°.",
+        "why": "Only corresponding and alternate angle pairs are equal; same-side pairs sum to a straight angle."
+      }
+    ],
+    "trap": "Confusing the sum of interior angles with the measure of a single interior angle."
+  },
+  {
+    "id": "rf-45",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Quadratic equations",
+    "summary": "Solve by factoring or with x = (-b ± √(b² - 4ac)) ÷ 2a, and the discriminant counts the roots.",
+    "body": "A quadratic has the form ax² + bx + c = 0. Factoring is fastest when it works: find two numbers that multiply to c and add to b when a = 1. Otherwise apply the quadratic formula, x = (-b ± √(b² - 4ac)) ÷ (2a). The discriminant b² - 4ac tells you the number of real solutions: positive gives two, zero gives one, and negative gives none. For y = ax² + bx + c, the vertex sits at x = -b ÷ (2a), and substituting that back gives the y-coordinate. The parabola opens upward when a > 0 and downward when a < 0. The sum of the roots is -b ÷ a and their product is c ÷ a.",
+    "examples": [
+      {
+        "wrong": "Solving x² - 5x + 6 = 0 as x = -2 and x = -3.",
+        "right": "Factoring gives (x - 2)(x - 3) = 0, so x = 2 and x = 3.",
+        "why": "The factors are (x - 2) and (x - 3), so the roots are the values that make each factor zero."
+      },
+      {
+        "wrong": "Reporting two real solutions for x² + 4x + 5 = 0.",
+        "right": "The discriminant is 4² - 4(1)(5) = 16 - 20 = -4, so there are no real solutions.",
+        "why": "A negative discriminant means the parabola never crosses the x-axis."
+      },
+      {
+        "wrong": "Giving the vertex of y = x² - 6x + 5 as (-3, 32).",
+        "right": "x = -(-6) ÷ 2 = 3, and y = 3² - 6(3) + 5 = -4, so the vertex is (3, -4).",
+        "why": "The vertex x-value is -b ÷ 2a, and here b = -6, which makes -b positive."
+      }
+    ],
+    "trap": "Sign errors in -b ÷ 2a and in the factored roots flip answers that are otherwise fully worked out."
+  },
+  {
+    "id": "rf-46",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Exponent and radical rules",
+    "summary": "Multiply exponents when raising a power, add them when multiplying like bases.",
+    "body": "With the same base: xᵃ × xᵇ = xᵃ⁺ᵇ, and xᵃ ÷ xᵇ = xᵃ⁻ᵇ. Raising a power to a power multiplies: (xᵃ)ᵇ = xᵃᵇ. A product inside parentheses distributes: (xy)ᵃ = xᵃyᵃ. Any nonzero number to the zero power is 1. A negative exponent means a reciprocal: x⁻ᵃ = 1 ÷ xᵃ. A fractional exponent is a root: x^(1/2) = √x and x^(m/n) is the nth root of xᵐ. For radicals, √(ab) = √a × √b, which lets you simplify by pulling out perfect squares. Radicals and exponents do not distribute over addition, so √(a + b) is not √a + √b.",
+    "examples": [
+      {
+        "wrong": "Simplifying (x³)⁴ as x⁷.",
+        "right": "(x³)⁴ = x¹², since a power raised to a power multiplies the exponents.",
+        "why": "Adding exponents applies to multiplying like bases, not to raising a power to a power."
+      },
+      {
+        "wrong": "Writing √50 as 25√2.",
+        "right": "√50 = √(25 × 2) = 5√2.",
+        "why": "The perfect square comes out as its own square root, so 25 leaves the radical as 5."
+      },
+      {
+        "wrong": "Simplifying (2x²)³ as 2x⁶.",
+        "right": "(2x²)³ = 2³ × x⁶ = 8x⁶.",
+        "why": "The exponent applies to every factor inside the parentheses, including the coefficient."
+      }
+    ],
+    "trap": "Forgetting to raise the coefficient to the outside power leaves the number unchanged when it should not be."
+  },
+  {
+    "id": "rf-47",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Percent, ratio, and proportion",
+    "summary": "Percent change is (new - old) ÷ old × 100, and ratios are solved by cross multiplication.",
+    "body": "Percent means per hundred, so convert by moving the decimal two places. To find a percent of a number, multiply by its decimal form. Percent change = (new value - original value) ÷ original value × 100, and the denominator is always the original. To increase by p percent, multiply by (1 + p ÷ 100); to decrease, multiply by (1 - p ÷ 100). Successive percent changes multiply rather than add. A ratio a : b can be written a ÷ b, and proportions are solved by cross multiplication. When a ratio describes parts of a whole, add the parts to get the total number of shares before dividing the actual total.",
+    "examples": [
+      {
+        "wrong": "Saying a 20% increase followed by a 20% decrease returns a price to its original value.",
+        "right": "100 × 1.20 = 120, then 120 × 0.80 = 96, a net decrease of 4%.",
+        "why": "Percent changes apply to different bases, so they multiply instead of canceling."
+      },
+      {
+        "wrong": "Splitting 60 objects in a 2 : 3 ratio as 20 and 30.",
+        "right": "There are 5 shares, so each share is 12, giving 24 and 36.",
+        "why": "Divide the total by the sum of the ratio parts, then scale each part."
+      }
+    ],
+    "trap": "Percent change uses the original value as the denominator, not the new one."
+  },
+  {
+    "id": "rf-48",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Mean, median, mode, and range",
+    "summary": "Mean is the total divided by the count; median is the middle of an ordered list.",
+    "body": "The mean is the sum of the values divided by how many there are, so sum = mean × count, a rearrangement that solves most missing-value problems. The median is the middle value once the data are sorted; with an even count, average the two middle values. The mode is the most frequent value, and a set can have more than one or none. The range is the largest value minus the smallest. A weighted average multiplies each value by its weight and divides by the total weight. Outliers move the mean substantially but barely affect the median, which is why the median is preferred for skewed data.",
+    "examples": [
+      {
+        "wrong": "Reporting the median of 12, 3, 9, 5 as 9 because it is in the middle of the list as written.",
+        "right": "Sorted, the list is 3, 5, 9, 12, so the median is (5 + 9) ÷ 2 = 7.",
+        "why": "The data must be ordered first, and an even count requires averaging the two middle values."
+      },
+      {
+        "wrong": "Averaging a 80 worth 70% and a 90 worth 30% as (80 + 90) ÷ 2 = 85.",
+        "right": "0.70 × 80 + 0.30 × 90 = 56 + 27 = 83.",
+        "why": "Weighted averages must account for the different weights rather than treating values equally."
+      }
+    ],
+    "trap": "Forgetting to sort the list before locating the median produces a wrong answer that still looks plausible."
+  },
+  {
+    "id": "rf-49",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Probability and counting",
+    "summary": "Probability is favorable outcomes over total outcomes; multiply for and, add for or.",
+    "body": "Probability of an event is favorable outcomes ÷ total possible outcomes, always between 0 and 1. The probability that an event does not happen is 1 minus the probability that it does, which is often the faster route for at least one problems. For independent events happening together, multiply the probabilities. For mutually exclusive events, add them. When drawing without replacement, reduce both the favorable count and the total for the second draw. Counting principle: if one choice has m options and the next has n, there are m × n combined outcomes. Permutations count arrangements where order matters; combinations count selections where order does not, with C(n, r) = n! ÷ (r!(n - r)!).",
+    "examples": [
+      {
+        "wrong": "Drawing 2 marbles from a bag of 5 that holds 2 red, and computing P(both red) as (2/5) × (2/5).",
+        "right": "Without replacement, P = (2/5) × (1/4) = 2/20 = 1/10.",
+        "why": "After the first red is removed, only 1 red remains among 4 marbles."
+      },
+      {
+        "wrong": "Saying the number of 2-person committees from 5 people is 20.",
+        "right": "C(5, 2) = 5! ÷ (2! × 3!) = 10.",
+        "why": "A committee has no order, so this is a combination; 20 is the permutation count."
+      }
+    ],
+    "trap": "Without replacement changes both the numerator and the denominator on the second draw."
+  },
+  {
+    "id": "rf-50",
+    "subject": "math",
+    "category": "Math Formulas",
+    "title": "Volume and surface area of solids",
+    "summary": "Volume of a prism or cylinder is base area times height; cones and pyramids take one third.",
+    "body": "For any prism or cylinder, volume = area of the base × height. A rectangular prism gives V = lwh with surface area 2(lw + lh + wh). A cylinder gives V = πr²h, lateral surface 2πrh, and total surface 2πr² + 2πrh. Cones and pyramids take one third of the corresponding prism: a cone is V = (1/3)πr²h, with lateral surface πrl where l is the slant height. A sphere has V = (4/3)πr³ and surface area 4πr². Watch for units: volume is cubic and area is square, and scaling every linear dimension by k multiplies area by k² and volume by k³.",
+    "examples": [
+      {
+        "wrong": "Finding the volume of a cylinder with radius 3 and height 5 as 2π(3)(5) = 30π.",
+        "right": "V = πr²h = π(3²)(5) = 45π.",
+        "why": "The expression 2πrh is the lateral surface area, not the volume."
+      },
+      {
+        "wrong": "Giving the volume of a cone with radius 3 and height 4 as 36π.",
+        "right": "V = (1/3)π(3²)(4) = (1/3)(36π) = 12π.",
+        "why": "A cone holds one third of the cylinder with the same base and height."
+      }
+    ],
+    "trap": "Doubling every dimension of a solid multiplies its volume by 8, not by 2."
+  },
+  {
+    "id": "rf-51",
+    "subject": "reading",
+    "category": "Reading Strategy",
+    "title": "Every answer comes from the passage",
+    "summary": "Correct answers are supported by specific text, never by outside knowledge or reasonable assumptions.",
+    "body": "ACT Reading is an evidence test. For each question you should be able to point to a line or short stretch of text that supports your answer. If you cannot, you are probably reasoning from general knowledge or from what seems likely rather than from what the passage says. Even inference questions stay close to the text; the ACT expects a small step from stated evidence, not a leap. Wrong answers commonly go too far, using absolute words such as always, never, only, or proves, when the passage was more measured. When two choices seem defensible, pick the one that requires the smaller assumption and has the clearer textual anchor.",
+    "examples": [
+      {
+        "wrong": "Choosing an answer because it matches what you know about the topic from science class.",
+        "right": "Choosing the answer you can trace to a specific sentence in the passage.",
+        "why": "Only the passage counts as evidence, even when outside knowledge is accurate."
+      }
+    ],
+    "trap": "A true statement about the world is still wrong if the passage never supports it."
+  },
+  {
+    "id": "rf-52",
+    "subject": "reading",
+    "category": "Reading Strategy",
+    "title": "Line references and context",
+    "summary": "Read several lines before and after any cited line, since the answer usually lies outside it.",
+    "body": "When a question cites a line number, the referenced line rarely contains the whole answer. Start reading about five lines above and continue about five lines below, because the surrounding sentences supply the reasoning, the contrast, or the example that the question is really about. For questions that give no line reference, use distinctive nouns or names from the question as search terms and scan for them, since passages are laid out in roughly the same order as the questions. Predict an answer in your own words before looking at the choices; this makes it much harder for a well-worded but unsupported option to pull you in.",
+    "examples": [
+      {
+        "wrong": "Reading only the cited line and picking the choice whose words appear in it.",
+        "right": "Reading the surrounding sentences to find the reason the cited line is there.",
+        "why": "Matching words is not the same as matching meaning, and context supplies the meaning."
+      }
+    ],
+    "trap": "A choice that repeats vocabulary from the cited line is often bait rather than evidence."
+  },
+  {
+    "id": "rf-53",
+    "subject": "reading",
+    "category": "Reading Strategy",
+    "title": "Main idea and point of view",
+    "summary": "The main idea covers the whole passage, and tone words reveal the author's attitude.",
+    "body": "A main idea answer must account for the entire passage, not one vivid paragraph. Test each choice for scope: too narrow describes only a section, too broad promises material the passage never covers. Building a one-sentence summary after reading, before you look at the choices, makes this quick. Point-of-view questions ask about attitude, so watch adjectives, adverbs, and any evaluative language the author uses. ACT authors are rarely extreme; answers such as contempt or unqualified enthusiasm are usually too strong, while measured options such as cautious admiration or mild skepticism fit more often. In fiction passages, keep the narrator's view separate from each character's view.",
+    "examples": [
+      {
+        "wrong": "Selecting a main idea that accurately describes only the third paragraph.",
+        "right": "Selecting the choice that covers the passage from beginning to end.",
+        "why": "A main idea must have the same scope as the whole passage."
+      }
+    ],
+    "trap": "Extreme tone words are almost always wrong because ACT authors write in a measured register."
+  },
+  {
+    "id": "rf-54",
+    "subject": "reading",
+    "category": "Reading Strategy",
+    "title": "Vocabulary in context",
+    "summary": "Cover the word, predict a replacement from context, then match it to a choice.",
+    "body": "Vocabulary-in-context questions test the meaning a word carries in one particular sentence, which is frequently not its most common meaning. The reliable method is to cover the word entirely, read the sentence, and supply your own replacement based on the surrounding logic. Then look for the choice closest to your prediction. Because the ACT often selects familiar words with several senses, the choice matching the everyday definition is a common trap. For example, the word check can mean examine, restrain, or a bank instrument, and only the context decides. After choosing, substitute your answer back into the sentence and confirm it reads naturally and preserves the meaning.",
+    "examples": [
+      {
+        "wrong": "Choosing halt for the word check in a sentence where the author checks the ledger for errors.",
+        "right": "Choosing examine, because the sentence describes inspecting the ledger.",
+        "why": "The common meaning of a word is often not the meaning the sentence requires."
+      }
+    ],
+    "trap": "The most familiar definition is deliberately offered as a wrong answer."
+  },
+  {
+    "id": "rf-55",
+    "subject": "reading",
+    "category": "Reading Strategy",
+    "title": "Pacing and paired passages",
+    "summary": "Budget about nine minutes per passage and handle paired passages one at a time.",
+    "body": "The Reading section gives four passages and a fixed time, so roughly eight to nine minutes each keeps you on schedule. Answer every question, since there is no penalty for guessing, and mark anything slow so you can return rather than stall. Many students do better by starting with the passage type they read fastest. For the paired-passage set, read Passage A and answer its questions, then read Passage B and answer its questions, and only then tackle the comparison questions. Comparison questions usually turn on how the two authors would react to each other's central claim, so note each author's main point in a few words as you finish.",
+    "examples": [
+      {
+        "wrong": "Reading both paired passages fully before answering anything.",
+        "right": "Answering Passage A questions first, then Passage B, then the comparison questions.",
+        "why": "Handling one passage at a time reduces how much you must hold in memory at once."
+      }
+    ],
+    "trap": "Spending extra minutes on one hard passage costs several easy points on the last one."
+  },
+  {
+    "id": "rf-56",
+    "subject": "science",
+    "category": "Science Strategy",
+    "title": "Read the figure before the text",
+    "summary": "Check axis labels, units, and direction of change before answering any data question.",
+    "body": "Most ACT Science questions are answered directly from figures. Before reading any question, spend a few seconds on each figure: identify what each axis measures, note the units, check the scale for anything unusual such as a logarithmic axis or a scale that does not start at zero, and read the legend for what each line or bar represents. Then note the overall direction of each trend in a single word, such as rising or falling. Many questions ask only whether a value increases or decreases as another changes, and that can be answered from the shape of the curve without any calculation at all.",
+    "examples": [
+      {
+        "wrong": "Comparing two curves without noticing that each uses a different y-axis with different units.",
+        "right": "Checking both axes and their units before comparing any values between the curves.",
+        "why": "Dual-axis figures place different scales side by side, so raw heights are not comparable."
+      }
+    ],
+    "trap": "A y-axis that does not begin at zero makes small differences look dramatic."
+  },
+  {
+    "id": "rf-57",
+    "subject": "science",
+    "category": "Science Strategy",
+    "title": "Reading between and beyond the data",
+    "summary": "Interpolate between listed points and extrapolate by continuing the established trend.",
+    "body": "Questions often ask for a value that does not appear in the table. If the target lies between two known points, interpolate: the answer must fall between the corresponding values, which alone eliminates most choices. If the target lies past the last data point, extrapolate by continuing the direction and rough rate of the existing trend. When answer choices come with ranges, use the bracketing values from the table to narrow them rather than trying to compute an exact figure. Always confirm you are reading the correct row and column, since data-reading errors, not reasoning errors, account for most missed questions in this category.",
+    "examples": [
+      {
+        "wrong": "Estimating a value at 35 units as larger than the value listed at 40 units on a rising curve.",
+        "right": "Estimating it between the values listed at 30 and 40 units.",
+        "why": "An interpolated value must lie between its two neighboring data points."
+      }
+    ],
+    "trap": "Extrapolated answers that reverse the established trend direction are always wrong."
+  },
+  {
+    "id": "rf-58",
+    "subject": "science",
+    "category": "Science Strategy",
+    "title": "Research summaries and variables",
+    "summary": "Identify what was changed, what was measured, and what was held constant in each experiment.",
+    "body": "Research summary passages describe two or more related experiments. For each one, name three things: the independent variable that the researchers deliberately changed, the dependent variable they measured, and the constants they held fixed. Then ask what differs between Experiment 1 and Experiment 2, since most questions about experimental design turn on that single difference. A control is the trial without the treatment, and it exists to provide a baseline for comparison. Questions asking why a particular step was included usually have the answer that the step isolates one variable so its effect can be attributed to that variable alone rather than to something else.",
+    "examples": [
+      {
+        "wrong": "Explaining a control trial as a way to increase the number of measurements taken.",
+        "right": "Explaining it as a baseline showing what happens without the treatment.",
+        "why": "A control isolates the effect of the treatment by showing the untreated outcome."
+      }
+    ],
+    "trap": "Noting what changed between experiments answers most design questions, but it is easy to skip."
+  },
+  {
+    "id": "rf-59",
+    "subject": "science",
+    "category": "Science Strategy",
+    "title": "Conflicting viewpoints",
+    "summary": "Summarize each viewpoint's central claim in one phrase, then locate where they disagree.",
+    "body": "The conflicting viewpoints passage presents two or more explanations of the same phenomenon and is the most reading-heavy part of the section. Read the introduction carefully, since it defines the phenomenon everyone is trying to explain. Then summarize each viewpoint in a single phrase and jot down what all of them agree on, because agreement questions are common and easy once you have noted the shared ground. Track each viewpoint separately when answering, and reread only that scientist's paragraph. Questions asking how one scientist would respond to a claim are answered by finding the specific statement in that scientist's own text that addresses it.",
+    "examples": [
+      {
+        "wrong": "Answering a question about Scientist 2 using a detail stated only by Scientist 1.",
+        "right": "Answering it from Scientist 2's own paragraph.",
+        "why": "Each viewpoint must be evaluated only against what that scientist actually claims."
+      }
+    ],
+    "trap": "The viewpoints share much of their vocabulary, which makes it easy to attribute a claim to the wrong scientist."
+  },
+  {
+    "id": "rf-60",
+    "subject": "science",
+    "category": "Science Strategy",
+    "title": "Pacing and when to read the text",
+    "summary": "Go to the figures first and read passage text only when a question forces you to.",
+    "body": "The Science section is a time test more than a knowledge test. For data representation and research summaries, skip the paragraphs on the first pass, go straight to the figures, and read the questions. Return to the text only when a question refers to something the figures do not show, such as a procedure detail or a defined term. Save conflicting viewpoints for last, since it takes the longest per point. Outside science knowledge is needed only occasionally and at a basic level, so if a question seems to demand specialized expertise, the information is almost certainly in the figures or the passage somewhere.",
+    "examples": [
+      {
+        "wrong": "Reading every word of all six passages before looking at any question.",
+        "right": "Scanning the figures, answering what you can, and reading the text only when required.",
+        "why": "Most questions are answered from the figures, so full reading spends time without adding points."
+      }
+    ],
+    "trap": "Unfamiliar technical terms usually never appear in the questions, so stopping to decode them wastes time."
+  }
+]

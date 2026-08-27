@@ -34,7 +34,8 @@ final class ExamSession {
     init(exam: MockExam, mode: ExamMode) {
         self.exam = exam
         self.mode = mode
-        self.sections = Subject.allCases.map { subject in
+        // Honors the student's ACT-with/without-Science setting.
+        self.sections = UserSettings.shared.activeSubjects.map { subject in
             Section(
                 subject: subject,
                 questions: QuestionBank.shared.examQuestions(
