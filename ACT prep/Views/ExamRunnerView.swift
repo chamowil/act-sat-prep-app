@@ -136,6 +136,11 @@ struct ExamRunnerView: View {
 
             Spacer()
 
+            if let question = session.currentQuestion {
+                ScratchpadButton(key: question.id, contextText: question.prompt, compact: true)
+                    .buttonStyle(.bordered)
+            }
+
             if session.isLastQuestionInSection {
                 Button {
                     showEndSectionAlert = true

@@ -14,6 +14,8 @@ target.
   (171 questions / 2 hr 45 min, real ACT section timing) mode, plus a **diagnostic** placement test.
 - **Adaptive feedback** — topic-level weakness heatmap, predicted composite score, 15 badges,
   daily goal streaks, and a question of the day.
+- **Apple Pencil scratchpad** (PencilKit) in practice and timed exams — pen, pencil, highlighter,
+  eraser, four inks, graph paper, undo/redo, saved per question.
 - **ACT with or without Science**, switchable in Settings.
 - **Auto-renewing subscription** (StoreKit 2) with a free tier.
 
@@ -59,7 +61,8 @@ ACT prep/
 ├── Store/
 │   ├── StoreManager.swift     StoreKit 2 products, entitlements, gating
 │   └── PaywallView.swift      Subscription paywall
-├── Views/                     Home, Learn, Practice, Exam runner, Progress, Settings, Onboarding
+├── Views/                     Home, Learn, Practice, Exam runner, Progress, Settings,
+│                              Onboarding, Scratchpad (PencilKit)
 └── Resources/
     ├── Questions/             520 questions + 41 passages (JSON)
     ├── Tutorials/             40 tutorials (JSON)

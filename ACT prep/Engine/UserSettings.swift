@@ -23,6 +23,7 @@ final class UserSettings {
         static let includesScience = "includesScience"
         static let hasTakenDiagnostic = "hasTakenDiagnostic"
         static let dailyQuestionDate = "dailyQuestionDate"
+        static let allowsFingerDrawing = "allowsFingerDrawing"
     }
 
     /// Allowed daily-practice choices, in minutes.
@@ -80,6 +81,14 @@ final class UserSettings {
         }
     }
 
+    /// Whether a finger draws on the scratchpad. Apple Pencil always draws;
+    /// with this off, a finger pans instead, which is the usual iPad
+    /// preference once a Pencil is paired. Defaults on, since most devices
+    /// have no Pencil at all.
+    var allowsFingerDrawing: Bool {
+        didSet { defaults.set(allowsFingerDrawing, forKey: Key.allowsFingerDrawing) }
+    }
+
     /// Subjects that count toward this student's exam, honoring the Science toggle.
     var activeSubjects: [Subject] {
         includesScience ? Subject.allCases : Subject.allCases.filter { $0 != .science }
@@ -99,6 +108,7 @@ final class UserSettings {
         includesScience = defaults.object(forKey: Key.includesScience) as? Bool ?? true
         hasTakenDiagnostic = defaults.bool(forKey: Key.hasTakenDiagnostic)
         dailyQuestionDate = defaults.object(forKey: Key.dailyQuestionDate) as? Date
+        allowsFingerDrawing = defaults.object(forKey: Key.allowsFingerDrawing) as? Bool ?? true
 
         if let raw = defaults.dictionary(forKey: Key.practiceLog) as? [String: Int] {
             var log: [Date: Int] = [:]
@@ -199,6 +209,7 @@ final class UserSettings {
         includesScience = true
         hasTakenDiagnostic = false
         dailyQuestionDate = nil
+        allowsFingerDrawing = true
         practiceLog = [:]
         defaults.removeObject(forKey: Key.practiceLog)
     }

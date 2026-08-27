@@ -351,14 +351,19 @@ struct PracticeSessionView: View {
 
                 Spacer()
 
+                ScratchpadButton(key: question.id, contextText: question.prompt, compact: true)
+                    .buttonStyle(.bordered)
+
                 if selected == nil {
                     Button {
                         narrowDown(question)
                     } label: {
                         Label(usedHint ? "Hint used" : "Narrow it down", systemImage: "lightbulb")
+                            .labelStyle(.iconOnly)
                     }
                     .buttonStyle(.bordered)
                     .disabled(usedHint)
+                    .accessibilityLabel(usedHint ? "Hint already used" : "Narrow it down")
                 }
 
                 Button {

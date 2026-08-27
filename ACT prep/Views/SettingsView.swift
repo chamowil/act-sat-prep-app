@@ -28,6 +28,7 @@ struct SettingsView: View {
             Form {
                 subscriptionSection
                 goalsSection
+                scratchpadSection
                 studySection
                 aboutSection
                 dataSection
@@ -41,10 +42,11 @@ struct SettingsView: View {
                     TutorialProgress.shared.reset()
                     FlashcardScheduler.shared.reset()
                     EssayDrafts.shared.reset()
+                    ScratchpadStore.shared.reset()
                 }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("This deletes your exam results, practice history, flashcard schedule, essay drafts, and completed tutorials. Your subscription is not affected.")
+                Text("This deletes your exam results, practice history, flashcard schedule, essay drafts, scratchpad notes, and completed tutorials. Your subscription is not affected.")
             }
             .alert("Reset everything?", isPresented: $showResetAllAlert) {
                 Button("Reset", role: .destructive) {
@@ -52,6 +54,7 @@ struct SettingsView: View {
                     TutorialProgress.shared.reset()
                     FlashcardScheduler.shared.reset()
                     EssayDrafts.shared.reset()
+                    ScratchpadStore.shared.reset()
                     settings.reset()
                 }
                 Button("Cancel", role: .cancel) {}
@@ -199,6 +202,21 @@ struct SettingsView: View {
             Text("Study Plan")
         } footer: {
             Text("Today: \(settings.minutesPracticedToday) of \(settings.dailyMinutes) minutes. Current streak: \(settings.streak) day\(settings.streak == 1 ? "" : "s").")
+        }
+    }
+
+    private var scratchpadSection: some View {
+        Section {
+            Toggle(isOn: Binding(
+                get: { settings.allowsFingerDrawing },
+                set: { settings.allowsFingerDrawing = $0 }
+            )) {
+                Label("Draw with Finger", systemImage: "hand.draw")
+            }
+        } header: {
+            Text("Scratchpad")
+        } footer: {
+            Text("Apple Pencil always draws. Turn this off to let a finger scroll the page instead — the usual preference once a Pencil is paired.")
         }
     }
 
