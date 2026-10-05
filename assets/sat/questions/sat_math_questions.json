@@ -2,1475 +2,35 @@
  {
   "id": "sm-001",
   "subject": "satmath",
-  "topic": "Algebra",
+  "topic": "Advanced Math",
   "difficulty": 2,
-  "prompt": "In the system of equations x + y = 6 and 4x - 4y = 40, what is the value of x + y?",
+  "prompt": "The function f is defined by f(x) = (x + 4)² - 6. What is the minimum value of f?",
   "choices": [
-   "6",
-   "4",
-   "10",
-   "-16"
+   "-6",
+   "-4",
+   "-10",
+   "-2"
   ],
   "correctIndex": 0,
-  "explanation": "Solving the system gives x = 8 and y = -2, which satisfy both equations. So x + y = 6."
+  "explanation": "A squared term is never negative, so the least value occurs when x = -4, where (x + 4)² = 0. The minimum is -6."
  },
  {
   "id": "sm-002",
   "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A line passes through the points (-2, -4) and (3, -19). What is the slope of the line?",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 5x + 4 and g(x) = 2x + 2, what is the value of f(g(1))?",
   "choices": [
-   "-2",
-   "-3",
-   "5",
-   "-4"
+   "4",
+   "20",
+   "24",
+   "14"
   ],
-  "correctIndex": 1,
-  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (-19 - (-4))/(3 - (-2)) = -15/5 = -3."
+  "correctIndex": 2,
+  "explanation": "First g(1) = 2(1) + 2 = 4. Then f(4) = 5(4) + 4 = 24."
  },
  {
   "id": "sm-003",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "60 is what percent of 80?",
-  "choices": [
-   "25%",
-   "75%",
-   "85%",
-   "65%"
-  ],
-  "correctIndex": 1,
-  "explanation": "Percent = 60/80 × 100 = 75%."
- },
- {
-  "id": "sm-004",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 3 to 4. If there are 21 books in all, how many are nonfiction?",
-  "choices": [
-   "9",
-   "12",
-   "5",
-   "17"
-  ],
-  "correctIndex": 1,
-  "explanation": "The parts total 3 + 4 = 7, so each part is 21/7 = 3. The nonfiction books are 4 × 3 = 12."
- },
- {
-  "id": "sm-005",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 2.5x + 8. According to the line, what is the predicted score for a student who studied 4 hours?",
-  "choices": [
-   "10",
-   "18",
-   "12.5",
-   "20.5"
-  ],
-  "correctIndex": 1,
-  "explanation": "Substitute x = 4: y = 2.5(4) + 8 = 18."
- },
- {
-  "id": "sm-006",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A student's scores on 4 tests are 72, 87, 61, 95. What score does the student need on one more test for the mean of all 5 scores to be 80?",
-  "choices": [
-   "75",
-   "90",
-   "79",
-   "85"
-  ],
-  "correctIndex": 3,
-  "explanation": "The total of all 5 scores must be 80 × 5 = 400. The first 4 sum to 315, so the last score is 400 - 315 = 85."
- },
- {
-  "id": "sm-007",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "An account earns 5% interest compounded annually. If $1,000 is deposited and no other deposits or withdrawals are made, what is the balance after 2 years?",
-  "choices": [
-   "$1,010",
-   "$1,100",
-   "$1,157.63",
-   "$1,102.50"
-  ],
-  "correctIndex": 3,
-  "explanation": "Balance = 1,000(1 + 0.05)^2 = $1,102.50. Compound interest grows faster than the simple-interest total of $1,100."
- },
- {
-  "id": "sm-008",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A survey asked 95 students whether they prefer morning or evening study sessions. Of the 47 seniors, 16 prefer morning and 31 prefer evening. Of the 48 juniors, 35 prefer morning and 13 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
-  "choices": [
-   "16/51",
-   "31/47",
-   "16/47",
-   "16/95"
-  ],
-  "correctIndex": 2,
-  "explanation": "There are 47 seniors and 16 of them prefer morning, so the probability is 16/47."
- },
- {
-  "id": "sm-009",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "Segment AB has endpoints A(3, -4) and B(5, 8). What is the midpoint of AB?",
-  "choices": [
-   "(4, 2)",
-   "(5, 2)",
-   "(2, 4)",
-   "(2, 12)"
-  ],
-  "correctIndex": 0,
-  "explanation": "The midpoint averages the coordinates: ((3 + 5)/2, (-4 + 8)/2) = (4, 2)."
- },
- {
-  "id": "sm-010",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "What is the distance between the points (2, 0) and (-1, -4) in the xy-plane?",
-  "choices": [
-   "5",
-   "7",
-   "1",
-   "25"
-  ],
-  "correctIndex": 0,
-  "explanation": "The horizontal change is 3 and the vertical change is 4, so the distance is √(3² + 4²) = √25 = 5."
- },
- {
-  "id": "sm-011",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "What is the distance between the points (-3, -1) and (-11, -16) in the xy-plane?",
-  "choices": [
-   "17",
-   "289",
-   "18",
-   "23"
-  ],
-  "correctIndex": 0,
-  "explanation": "The horizontal change is 8 and the vertical change is 15, so the distance is √(8² + 15²) = √289 = 17."
- },
- {
-  "id": "sm-012",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "In the system of equations x + 3y = 14 and 3x - 4y = 16, what is the value of x + y?",
-  "choices": [
-   "10",
-   "6",
-   "8",
-   "11"
-  ],
-  "correctIndex": 0,
-  "explanation": "Solving the system gives x = 8 and y = 2, which satisfy both equations. So x + y = 10."
- },
- {
-  "id": "sm-013",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the positive solution to x² - 5x - 24 = 0?",
-  "choices": [
-   "24",
-   "8",
-   "11",
-   "3"
-  ],
-  "correctIndex": 1,
-  "explanation": "The equation factors as (x + 3)(x - 8) = 0, so x = -3 or x = 8. The positive solution is 8."
- },
- {
-  "id": "sm-014",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "For x > 0, which of the following is equivalent to (x^5)^3 / x^5?",
-  "choices": [
-   "x^20",
-   "x^10",
-   "x^3",
-   "x^13"
-  ],
-  "correctIndex": 1,
-  "explanation": "Multiply exponents in the power: (x^5)^3 = x^15. Dividing by x^5 subtracts exponents: x^10."
- },
- {
-  "id": "sm-015",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 3 to 4. If there are 28 books in all, how many are nonfiction?",
-  "choices": [
-   "7",
-   "24",
-   "12",
-   "16"
-  ],
-  "correctIndex": 3,
-  "explanation": "The parts total 3 + 4 = 7, so each part is 28/7 = 4. The nonfiction books are 4 × 4 = 16."
- },
- {
-  "id": "sm-016",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "If 7(x + 8) = 35, what is the value of x?",
-  "choices": [
-   "3",
-   "13",
-   "27",
-   "-3"
-  ],
-  "correctIndex": 3,
-  "explanation": "Divide both sides by 7 to get x + 8 = 5. Then x = 5 - 8 = -3."
- },
- {
-  "id": "sm-017",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 1.5x + 10. According to the line, what is the predicted score for a student who studied 6 hours?",
-  "choices": [
-   "20.5",
-   "19",
-   "10.5",
-   "29"
-  ],
-  "correctIndex": 1,
-  "explanation": "Substitute x = 6: y = 1.5(6) + 10 = 19."
- },
- {
-  "id": "sm-018",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "A right triangle has legs of length 6 and 8. What is the length of its hypotenuse?",
-  "choices": [
-   "7",
-   "9",
-   "10",
-   "11"
-  ],
-  "correctIndex": 2,
-  "explanation": "By the Pythagorean theorem, c² = 6² + 8² = 100, so c = 10."
- },
- {
-  "id": "sm-019",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the sum of the solutions to the equation x² - 11x + 28 = 0?",
-  "choices": [
-   "11",
-   "10",
-   "28",
-   "-11"
-  ],
-  "correctIndex": 0,
-  "explanation": "The equation factors as (x - 7)(x - 4) = 0, so the solutions are 7 and 4, and their sum is 11."
- },
- {
-  "id": "sm-020",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the positive solution to x² + 2x - 24 = 0?",
-  "choices": [
-   "10",
-   "4",
-   "24",
-   "6"
-  ],
-  "correctIndex": 1,
-  "explanation": "The equation factors as (x + 6)(x - 4) = 0, so x = -6 or x = 4. The positive solution is 4."
- },
- {
-  "id": "sm-021",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "The price of a jacket is $80. The store raises the price by 50%, and later reduces the new price by 25%. What is the final price?",
-  "choices": [
-   "$90",
-   "$95",
-   "$80",
-   "$100"
-  ],
-  "correctIndex": 0,
-  "explanation": "After the increase the price is 80 × 1.5 = 120. After the decrease it is 120 × 0.75 = 90. Percent changes do not simply cancel."
- },
- {
-  "id": "sm-022",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "An angle measures 5π/6 radians. What is the measure of the angle in degrees?",
-  "choices": [
-   "120",
-   "300",
-   "150",
-   "180"
-  ],
-  "correctIndex": 2,
-  "explanation": "Multiply by 180/π: (5π/6)(180/π) = 150°."
- },
- {
-  "id": "sm-023",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 3,
-  "prompt": "A circle has a radius of 6 and a central angle measuring 90°. What is the length of the arc intercepted by this angle?",
-  "choices": [
-   "12π",
-   "3/2π",
-   "6π",
-   "3π"
-  ],
-  "correctIndex": 3,
-  "explanation": "Arc length = (90/360)(2π · 6) = 3π."
- },
- {
-  "id": "sm-024",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "The equation of a circle in the xy-plane is (x + 1)² + (y - 1)² = 25. What is the radius of the circle?",
-  "choices": [
-   "2",
-   "5",
-   "6",
-   "10"
-  ],
-  "correctIndex": 1,
-  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 25, so r = 5."
- },
- {
-  "id": "sm-025",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "A car travels at a constant speed of 72 miles per hour. How many feet does the car travel in 10 seconds? (1 mile = 5,280 feet)",
-  "choices": [
-   "1496",
-   "528",
-   "1056",
-   "720"
-  ],
-  "correctIndex": 2,
-  "explanation": "72 mph is 72 × 5,280 / 3,600 = 528/5 feet per second. In 10 seconds: 528/5 × 10 = 1056 feet."
- },
- {
-  "id": "sm-026",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "An account earns 5% interest compounded annually. If $2,000 is deposited and no other deposits or withdrawals are made, what is the balance after 3 years?",
-  "choices": [
-   "$2,300",
-   "$2,315.25",
-   "$2,431.01",
-   "$2,400"
-  ],
-  "correctIndex": 1,
-  "explanation": "Balance = 2,000(1 + 0.05)^3 = $2,315.25. Compound interest grows faster than the simple-interest total of $2,300."
- },
- {
-  "id": "sm-027",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "For what positive value of k does the equation x² + kx + 81 = 0 have exactly one real solution?",
-  "choices": [
-   "36",
-   "81",
-   "18",
-   "162"
-  ],
-  "correctIndex": 2,
-  "explanation": "One real solution means the discriminant is zero: k² - 4(81) = 0, so k² = 324 and k = 18 (positive)."
- },
- {
-  "id": "sm-028",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "If 3(x + 2) = 36, what is the value of x?",
-  "choices": [
-   "11",
-   "9",
-   "14",
-   "10"
-  ],
-  "correctIndex": 3,
-  "explanation": "Divide both sides by 3 to get x + 2 = 12. Then x = 12 - 2 = 10."
- },
- {
-  "id": "sm-029",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "In the system of equations 4x + 4y = -24 and 3x - 2y = -8, what is the value of x + y?",
-  "choices": [
-   "-5",
-   "-8",
-   "8",
-   "-6"
-  ],
-  "correctIndex": 3,
-  "explanation": "Solving the system gives x = -4 and y = -2, which satisfy both equations. So x + y = -6."
- },
- {
-  "id": "sm-030",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "The price of a jacket is $40. The store raises the price by 25%, and later reduces the new price by 20%. What is the final price?",
-  "choices": [
-   "$32",
-   "$40",
-   "$42",
-   "$45"
-  ],
-  "correctIndex": 1,
-  "explanation": "After the increase the price is 40 × 1.25 = 50. After the decrease it is 50 × 0.8 = 40. Percent changes do not simply cancel."
- },
- {
-  "id": "sm-031",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "What is the median of the following data set? 25, 37, 55, 53, 36, 57, 9",
-  "choices": [
-   "37",
-   "39",
-   "36",
-   "53"
-  ],
-  "correctIndex": 0,
-  "explanation": "Ordered, the values are 9, 25, 36, 37, 53, 55, 57. With 7 values the median is the 4th: 37."
- },
- {
-  "id": "sm-032",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "In the system of equations 3x + 4y = 30 and 3x - 4y = 6, what is the value of x + y?",
-  "choices": [
-   "9",
-   "7",
-   "18",
-   "3"
-  ],
-  "correctIndex": 0,
-  "explanation": "Solving the system gives x = 6 and y = 3, which satisfy both equations. So x + y = 9."
- },
- {
-  "id": "sm-033",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "A circle has a circumference of 8π. What is the area of the circle?",
-  "choices": [
-   "4π",
-   "16π",
-   "64π",
-   "32π"
-  ],
-  "correctIndex": 1,
-  "explanation": "Circumference = 2πr = 8π, so r = 4. Area = πr² = 16π."
- },
- {
-  "id": "sm-034",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 1,
-  "prompt": "When the expression (x - 6)(x + 1) is written in the form x² + px + q, what is the value of p?",
-  "choices": [
-   "-4",
-   "-5",
-   "-7",
-   "7"
-  ],
-  "correctIndex": 1,
-  "explanation": "Expanding gives x² + (-6 + 1)x - 6, so p = -5."
- },
- {
-  "id": "sm-035",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 3, BC = 6, and DE = 9. What is the length of EF?",
-  "choices": [
-   "15",
-   "17",
-   "18",
-   "9"
-  ],
-  "correctIndex": 2,
-  "explanation": "The scale factor is DE/AB = 9/3 = 3. So EF = 3 × BC = 3 × 6 = 18."
- },
- {
-  "id": "sm-036",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "The price of a jacket is $200. The store raises the price by 20%, and later reduces the new price by 20%. What is the final price?",
-  "choices": [
-   "$160",
-   "$197",
-   "$200",
-   "$192"
-  ],
-  "correctIndex": 3,
-  "explanation": "After the increase the price is 200 × 1.2 = 240. After the decrease it is 240 × 0.8 = 192. Percent changes do not simply cancel."
- },
- {
-  "id": "sm-037",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "The function f is defined by f(x) = 7x + 2. What is the value of f(6)?",
-  "choices": [
-   "44",
-   "56",
-   "51",
-   "40"
-  ],
-  "correctIndex": 0,
-  "explanation": "f(6) = 7(6) + 2 = 44."
- },
- {
-  "id": "sm-038",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If (x + 4)/(x - 2) = 4, what is the value of x?",
-  "choices": [
-   "5",
-   "6",
-   "4",
-   "3"
-  ],
-  "correctIndex": 2,
-  "explanation": "Multiply both sides by (x - 2): x + 4 = 4x - 8. So 12 = 3x, giving x = 4."
- },
- {
-  "id": "sm-039",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 80°. What is the measure, in degrees, of one of the other two angles?",
-  "choices": [
-   "100",
-   "50",
-   "80",
-   "60"
-  ],
-  "correctIndex": 1,
-  "explanation": "The angles sum to 180°, so the two equal base angles total 100°, and each measures 50°."
- },
- {
-  "id": "sm-040",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 4x + 5. According to the line, what is the predicted score for a student who studied 7 hours?",
-  "choices": [
-   "28",
-   "37",
-   "33",
-   "16"
-  ],
-  "correctIndex": 2,
-  "explanation": "Substitute x = 7: y = 4(7) + 5 = 33."
- },
- {
-  "id": "sm-041",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A print shop charges a one-time fee of $20 plus $12 per poster. A customer's total charge was $104. How many posters did the customer pay for?",
-  "choices": [
-   "84",
-   "6",
-   "8",
-   "7"
-  ],
-  "correctIndex": 3,
-  "explanation": "Write 20 + 12n = 104. Subtract 20: 12n = 84. So n = 7."
- },
- {
-  "id": "sm-042",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "The equation of a circle in the xy-plane is (x - 3)² + (y + 2)² = 4. What is the radius of the circle?",
-  "choices": [
-   "4",
-   "5",
-   "2",
-   "3"
-  ],
-  "correctIndex": 2,
-  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 4, so r = 2."
- },
- {
-  "id": "sm-043",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If f(x) = 5x + 1 and g(x) = 2x, what is the value of f(g(4))?",
-  "choices": [
-   "29",
-   "41",
-   "46",
-   "8"
-  ],
-  "correctIndex": 1,
-  "explanation": "First g(4) = 2(4) + 0 = 8. Then f(8) = 5(8) + 1 = 41."
- },
- {
-  "id": "sm-044",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "An angle measures 3π/2 radians. What is the measure of the angle in degrees?",
-  "choices": [
-   "300",
-   "240",
-   "540",
-   "270"
-  ],
-  "correctIndex": 3,
-  "explanation": "Multiply by 180/π: (3π/2)(180/π) = 270°."
- },
- {
-  "id": "sm-045",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If (x + 5)/(x - 2) = 2, what is the value of x?",
-  "choices": [
-   "10",
-   "8",
-   "7",
-   "9"
-  ],
-  "correctIndex": 3,
-  "explanation": "Multiply both sides by (x - 2): x + 5 = 2x - 4. So 9 = 1x, giving x = 9."
- },
- {
-  "id": "sm-046",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "In a collection, the ratio of red marbles to blue marbles is 3 to 5. If there are 88 marbles in all, how many are blue?",
-  "choices": [
-   "55",
-   "17",
-   "33",
-   "44"
-  ],
-  "correctIndex": 0,
-  "explanation": "The parts total 3 + 5 = 8, so each part is 88/8 = 11. The blue marbles are 5 × 11 = 55."
- },
- {
-  "id": "sm-047",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 1.5x + 8. According to the line, what is the predicted score for a student who studied 14 hours?",
-  "choices": [
-   "29",
-   "30.5",
-   "21",
-   "37"
-  ],
-  "correctIndex": 0,
-  "explanation": "Substitute x = 14: y = 1.5(14) + 8 = 29."
- },
- {
-  "id": "sm-048",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 15, BC = 8, and AC = 17. What is the value of sin A?",
-  "choices": [
-   "8/17",
-   "8/15",
-   "15/17",
-   "17/8"
-  ],
-  "correctIndex": 0,
-  "explanation": "Angle A is opposite side BC (8) and adjacent to side AB (15); the hypotenuse is 17. sin A = opposite/hypotenuse = 8/17."
- },
- {
-  "id": "sm-049",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "An account earns 10% interest compounded annually. If $2,000 is deposited and no other deposits or withdrawals are made, what is the balance after 3 years?",
-  "choices": [
-   "$2,030",
-   "$2,600",
-   "$2,800",
-   "$2,662"
-  ],
-  "correctIndex": 3,
-  "explanation": "Balance = 2,000(1 + 0.1)^3 = $2,662. Compound interest grows faster than the simple-interest total of $2,600."
- },
- {
-  "id": "sm-050",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "A line has slope -2 and passes through the point (3, -3). What is the y-coordinate of the point where the line crosses the y-axis?",
-  "choices": [
-   "3",
-   "-6",
-   "-9",
-   "-3"
-  ],
-  "correctIndex": 0,
-  "explanation": "Use y = -2x + b. Substituting (3, -3) gives -3 = -6 + b, so b = 3."
- },
- {
-  "id": "sm-051",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "If 9(x + 2) = -36, what is the value of x?",
-  "choices": [
-   "-5",
-   "-6",
-   "-38",
-   "6"
-  ],
-  "correctIndex": 1,
-  "explanation": "Divide both sides by 9 to get x + 2 = -4. Then x = -4 - 2 = -6."
- },
- {
-  "id": "sm-052",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "A bacteria culture starts with 1000 cells and doubles every 4 hours. Assuming this pattern continues, how many cells will there be after 16 hours?",
-  "choices": [
-   "16000",
-   "1016",
-   "32000",
-   "8000"
-  ],
-  "correctIndex": 0,
-  "explanation": "After 16 hours there have been 16/4 = 4 doublings, so the count is 1000 × 2^4 = 16000."
- },
- {
-  "id": "sm-053",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "For x > 0, which of the following is equivalent to (x^3)^3 / x^4?",
-  "choices": [
-   "x^5",
-   "x^13",
-   "x^2",
-   "x^10"
-  ],
-  "correctIndex": 0,
-  "explanation": "Multiply exponents in the power: (x^3)^3 = x^9. Dividing by x^4 subtracts exponents: x^5."
- },
- {
-  "id": "sm-054",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "Segment AB has endpoints A(-2, -4) and B(12, 10). What is the midpoint of AB?",
-  "choices": [
-   "(5, 3)",
-   "(3, 5)",
-   "(14, 14)",
-   "(6, 3)"
-  ],
-  "correctIndex": 0,
-  "explanation": "The midpoint averages the coordinates: ((-2 + 12)/2, (-4 + 10)/2) = (5, 3)."
- },
- {
-  "id": "sm-055",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "Segment AB has endpoints A(0, 0) and B(6, 6). What is the midpoint of AB?",
-  "choices": [
-   "(6, 6)",
-   "(3, 2)",
-   "(3, 3)",
-   "(4, 3)"
-  ],
-  "correctIndex": 2,
-  "explanation": "The midpoint averages the coordinates: ((0 + 6)/2, (0 + 6)/2) = (3, 3)."
- },
- {
-  "id": "sm-056",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A print shop charges a one-time fee of $20 plus $6 per poster. A customer's total charge was $98. How many posters did the customer pay for?",
-  "choices": [
-   "14",
-   "16",
-   "13",
-   "19"
-  ],
-  "correctIndex": 2,
-  "explanation": "Write 20 + 6n = 98. Subtract 20: 6n = 78. So n = 13."
- },
- {
-  "id": "sm-057",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If f(x) = 4x - 2 and g(x) = 4x + 1, what is the value of f(g(2))?",
-  "choices": [
-   "34",
-   "30",
-   "15",
-   "38"
-  ],
-  "correctIndex": 0,
-  "explanation": "First g(2) = 4(2) + 1 = 9. Then f(9) = 4(9) - 2 = 34."
- },
- {
-  "id": "sm-058",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "A bacteria culture starts with 250 cells and doubles every 3 hours. Assuming this pattern continues, how many cells will there be after 6 hours?",
-  "choices": [
-   "2000",
-   "254",
-   "1000",
-   "1500"
-  ],
-  "correctIndex": 2,
-  "explanation": "After 6 hours there have been 6/3 = 2 doublings, so the count is 250 × 2^2 = 1000."
- },
- {
-  "id": "sm-059",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "The function f is defined by f(x) = (x - 3)² + 7. What is the minimum value of f?",
-  "choices": [
-   "-7",
-   "7",
-   "10",
-   "3"
-  ],
-  "correctIndex": 1,
-  "explanation": "A squared term is never negative, so the least value occurs when x = 3, where (x - 3)² = 0. The minimum is 7."
- },
- {
-  "id": "sm-060",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "A line has slope -3 and passes through the point (5, 3). What is the y-coordinate of the point where the line crosses the y-axis?",
-  "choices": [
-   "-18",
-   "18",
-   "-12",
-   "15"
-  ],
-  "correctIndex": 1,
-  "explanation": "Use y = -3x + b. Substituting (5, 3) gives 3 = -15 + b, so b = 18."
- },
- {
-  "id": "sm-061",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "For what positive value of k does the equation x² + kx + 16 = 0 have exactly one real solution?",
-  "choices": [
-   "8",
-   "16",
-   "4",
-   "32"
-  ],
-  "correctIndex": 0,
-  "explanation": "One real solution means the discriminant is zero: k² - 4(16) = 0, so k² = 64 and k = 8 (positive)."
- },
- {
-  "id": "sm-062",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 3,
-  "prompt": "For what value of c does the system 4x + 2y = 7 and 8x + 4y = c have infinitely many solutions?",
-  "choices": [
-   "2",
-   "18",
-   "14",
-   "9"
-  ],
-  "correctIndex": 2,
-  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 8x + 4y = 14, so c = 14."
- },
- {
-  "id": "sm-063",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 15, BC = 8, and AC = 17. What is the value of tan A?",
-  "choices": [
-   "17/8",
-   "15/8",
-   "8/15",
-   "15/17"
-  ],
-  "correctIndex": 2,
-  "explanation": "Angle A is opposite side BC (8) and adjacent to side AB (15); the hypotenuse is 17. tan A = opposite/adjacent = 8/15."
- },
- {
-  "id": "sm-064",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "What is the least integer value of x that satisfies the inequality 2x - 4 > 17?",
-  "choices": [
-   "8",
-   "12",
-   "11",
-   "10"
-  ],
-  "correctIndex": 2,
-  "explanation": "Add 4 and divide by 2: x > 21/2. The least integer greater than that is 11."
- },
- {
-  "id": "sm-065",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "The function f is defined by f(x) = 4x + 4. What is the value of f(7)?",
-  "choices": [
-   "32",
-   "15",
-   "44",
-   "36"
-  ],
-  "correctIndex": 0,
-  "explanation": "f(7) = 4(7) + 4 = 32."
- },
- {
-  "id": "sm-066",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "What is the distance between the points (-2, 5) and (1, 9) in the xy-plane?",
-  "choices": [
-   "5",
-   "25",
-   "6",
-   "7"
-  ],
-  "correctIndex": 0,
-  "explanation": "The horizontal change is 3 and the vertical change is 4, so the distance is √(3² + 4²) = √25 = 5."
- },
- {
-  "id": "sm-067",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "What is the distance between the points (4, -1) and (9, -13) in the xy-plane?",
-  "choices": [
-   "7",
-   "169",
-   "14",
-   "13"
-  ],
-  "correctIndex": 3,
-  "explanation": "The horizontal change is 5 and the vertical change is 12, so the distance is √(5² + 12²) = √169 = 13."
- },
- {
-  "id": "sm-068",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the positive solution to x² - 1x - 72 = 0?",
-  "choices": [
-   "72",
-   "9",
-   "-9",
-   "17"
-  ],
-  "correctIndex": 1,
-  "explanation": "The equation factors as (x + 8)(x - 9) = 0, so x = -8 or x = 9. The positive solution is 9."
- },
- {
-  "id": "sm-069",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 3,
-  "prompt": "For what value of c does the system 3x + 1y = 7 and 9x + 3y = c have infinitely many solutions?",
-  "choices": [
-   "7",
-   "21",
-   "20",
-   "3"
-  ],
-  "correctIndex": 1,
-  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 9x + 3y = 21, so c = 21."
- },
- {
-  "id": "sm-070",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the sum of the solutions to the equation x² - 12x + 32 = 0?",
-  "choices": [
-   "32",
-   "12",
-   "13",
-   "-12"
-  ],
-  "correctIndex": 1,
-  "explanation": "The equation factors as (x - 4)(x - 8) = 0, so the solutions are 4 and 8, and their sum is 12."
- },
- {
-  "id": "sm-071",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 42, BC = 40, and AC = 58. What is the value of cos A?",
-  "choices": [
-   "21/29",
-   "29/21",
-   "20/29",
-   "20/21"
-  ],
-  "correctIndex": 0,
-  "explanation": "Angle A is opposite side BC (40) and adjacent to side AB (42); the hypotenuse is 58. cos A = adjacent/hypotenuse = 42/58 = 21/29."
- },
- {
-  "id": "sm-072",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "For x > 0, which of the following is equivalent to (x^3)^2 / x^4?",
-  "choices": [
-   "x^2",
-   "x^10",
-   "x^1",
-   "x^9"
-  ],
-  "correctIndex": 0,
-  "explanation": "Multiply exponents in the power: (x^3)^2 = x^6. Dividing by x^4 subtracts exponents: x^2."
- },
- {
-  "id": "sm-073",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If (x + 6)/(x - 4) = 3, what is the value of x?",
-  "choices": [
-   "9",
-   "8",
-   "6",
-   "10"
-  ],
-  "correctIndex": 0,
-  "explanation": "Multiply both sides by (x - 4): x + 6 = 3x - 12. So 18 = 2x, giving x = 9."
- },
- {
-  "id": "sm-074",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 6, BC = 10, and DE = 12. What is the length of EF?",
-  "choices": [
-   "26",
-   "20",
-   "12",
-   "22"
-  ],
-  "correctIndex": 1,
-  "explanation": "The scale factor is DE/AB = 12/6 = 2. So EF = 2 × BC = 2 × 10 = 20."
- },
- {
-  "id": "sm-075",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "The function f is defined by f(x) = (x + 5)² + 9. What is the minimum value of f?",
-  "choices": [
-   "-9",
-   "14",
-   "9",
-   "4"
-  ],
-  "correctIndex": 2,
-  "explanation": "A squared term is never negative, so the least value occurs when x = -5, where (x + 5)² = 0. The minimum is 9."
- },
- {
-  "id": "sm-076",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "The function f is defined by f(x) = (x - 1)² - 3. What is the minimum value of f?",
-  "choices": [
-   "-2",
-   "1",
-   "-3",
-   "3"
-  ],
-  "correctIndex": 2,
-  "explanation": "A squared term is never negative, so the least value occurs when x = 1, where (x - 1)² = 0. The minimum is -3."
- },
- {
-  "id": "sm-077",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 3,
-  "prompt": "A circle has a radius of 12 and a central angle measuring 40°. What is the length of the arc intercepted by this angle?",
-  "choices": [
-   "4/3π",
-   "8/3π",
-   "24π",
-   "16/3π"
-  ],
-  "correctIndex": 1,
-  "explanation": "Arc length = (40/360)(2π · 12) = 8/3π."
- },
- {
-  "id": "sm-078",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A line passes through the points (-3, 2) and (-2, -1). What is the slope of the line?",
-  "choices": [
-   "-4",
-   "-3",
-   "-2",
-   "3"
-  ],
-  "correctIndex": 1,
-  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (-1 - 2)/(-2 - (-3)) = -3/1 = -3."
- },
- {
-  "id": "sm-079",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "A car travels at a constant speed of 54 miles per hour. How many feet does the car travel in 20 seconds? (1 mile = 5,280 feet)",
-  "choices": [
-   "1584",
-   "4752",
-   "2024",
-   "1080"
-  ],
-  "correctIndex": 0,
-  "explanation": "54 mph is 54 × 5,280 / 3,600 = 396/5 feet per second. In 20 seconds: 396/5 × 20 = 1584 feet."
- },
- {
-  "id": "sm-080",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A student's scores on 3 tests are 75, 74, 91. What score does the student need on one more test for the mean of all 4 scores to be 81?",
-  "choices": [
-   "80",
-   "88",
-   "81",
-   "84"
-  ],
-  "correctIndex": 3,
-  "explanation": "The total of all 4 scores must be 81 × 4 = 324. The first 3 sum to 240, so the last score is 324 - 240 = 84."
- },
- {
-  "id": "sm-081",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If (x + 2)/(x - 5) = 2, what is the value of x?",
-  "choices": [
-   "13",
-   "11",
-   "8",
-   "12"
-  ],
-  "correctIndex": 3,
-  "explanation": "Multiply both sides by (x - 5): x + 2 = 2x - 10. So 12 = 1x, giving x = 12."
- },
- {
-  "id": "sm-082",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 30, BC = 16, and AC = 34. What is the value of tan A?",
-  "choices": [
-   "15/8",
-   "8/15",
-   "15/17",
-   "17/8"
-  ],
-  "correctIndex": 1,
-  "explanation": "Angle A is opposite side BC (16) and adjacent to side AB (30); the hypotenuse is 34. tan A = opposite/adjacent = 16/30 = 8/15."
- },
- {
-  "id": "sm-083",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "A right triangle has legs of length 15 and 36. What is the length of its hypotenuse?",
-  "choices": [
-   "38",
-   "39",
-   "23",
-   "51"
-  ],
-  "correctIndex": 1,
-  "explanation": "By the Pythagorean theorem, c² = 15² + 36² = 1521, so c = 39."
- },
- {
-  "id": "sm-084",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "The balance in dollars, d, of a savings account t months after opening is modeled by d = 7t + 51. What does the number 7 represent in the model?",
-  "choices": [
-   "The opening balance, in dollars",
-   "The number of dollars the balance increases each month",
-   "The number of months until the balance reaches $7",
-   "The total change over the whole period"
-  ],
-  "correctIndex": 1,
-  "explanation": "In y = mx + b form, the coefficient 7 is the rate of change per unit of time, and 51 is the starting value."
- },
- {
-  "id": "sm-085",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 1,
-  "prompt": "When the expression (x + 5)(x + 3) is written in the form x² + px + q, what is the value of p?",
-  "choices": [
-   "9",
-   "8",
-   "15",
-   "2"
-  ],
-  "correctIndex": 1,
-  "explanation": "Expanding gives x² + (5 + 3)x + 15, so p = 8."
- },
- {
-  "id": "sm-086",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the sum of the solutions to the equation x² - 5x + 6 = 0?",
-  "choices": [
-   "6",
-   "4",
-   "5",
-   "-5"
-  ],
-  "correctIndex": 2,
-  "explanation": "The equation factors as (x - 2)(x - 3) = 0, so the solutions are 2 and 3, and their sum is 5."
- },
- {
-  "id": "sm-087",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A survey asked 112 students whether they prefer morning or evening study sessions. Of the 69 seniors, 30 prefer morning and 39 prefer evening. Of the 43 juniors, 8 prefer morning and 35 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
-  "choices": [
-   "15/19",
-   "10/23",
-   "3/7",
-   "15/56"
-  ],
-  "correctIndex": 1,
-  "explanation": "There are 69 seniors and 30 of them prefer morning, so the probability is 30/69 = 10/23."
- },
- {
-  "id": "sm-088",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the sum of the solutions to the equation x² - 12x + 35 = 0?",
-  "choices": [
-   "12",
-   "35",
-   "2",
-   "-12"
-  ],
-  "correctIndex": 0,
-  "explanation": "The equation factors as (x - 7)(x - 5) = 0, so the solutions are 7 and 5, and their sum is 12."
- },
- {
-  "id": "sm-089",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "In a collection, the ratio of boys students to girls students is 2 to 3. If there are 25 students in all, how many are girls?",
-  "choices": [
-   "10",
-   "8",
-   "15",
-   "22"
-  ],
-  "correctIndex": 2,
-  "explanation": "The parts total 2 + 3 = 5, so each part is 25/5 = 5. The girls students are 3 × 5 = 15."
- },
- {
-  "id": "sm-090",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "What is the least integer value of x that satisfies the inequality 3x - 6 > 27?",
-  "choices": [
-   "13",
-   "12",
-   "9",
-   "11"
-  ],
-  "correctIndex": 1,
-  "explanation": "Add 6 and divide by 3: x > 11. The least integer greater than that is 12."
- },
- {
-  "id": "sm-091",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "A line has slope 2 and passes through the point (1, 5). What is the y-coordinate of the point where the line crosses the y-axis?",
-  "choices": [
-   "-3",
-   "2",
-   "7",
-   "3"
-  ],
-  "correctIndex": 3,
-  "explanation": "Use y = 2x + b. Substituting (1, 5) gives 5 = 2 + b, so b = 3."
- },
- {
-  "id": "sm-092",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "8 is what percent of 40?",
-  "choices": [
-   "30%",
-   "10%",
-   "20%",
-   "80%"
-  ],
-  "correctIndex": 2,
-  "explanation": "Percent = 8/40 × 100 = 20%."
- },
- {
-  "id": "sm-093",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "A bacteria culture starts with 250 cells and doubles every 2 hours. Assuming this pattern continues, how many cells will there be after 6 hours?",
-  "choices": [
-   "2000",
-   "2250",
-   "258",
-   "1500"
-  ],
-  "correctIndex": 0,
-  "explanation": "After 6 hours there have been 6/2 = 3 doublings, so the count is 250 × 2^3 = 2000."
- },
- {
-  "id": "sm-094",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A video-editing service charges a one-time fee of $50 plus $12 per hour. A customer's total charge was $110. How many hours did the customer pay for?",
-  "choices": [
-   "5",
-   "60",
-   "6",
-   "13"
-  ],
-  "correctIndex": 0,
-  "explanation": "Write 50 + 12n = 110. Subtract 50: 12n = 60. So n = 5."
- },
- {
-  "id": "sm-095",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "What is the positive solution to x² - 3x - 10 = 0?",
-  "choices": [
-   "5",
-   "7",
-   "10",
-   "-5"
-  ],
-  "correctIndex": 0,
-  "explanation": "The equation factors as (x + 2)(x - 5) = 0, so x = -2 or x = 5. The positive solution is 5."
- },
- {
-  "id": "sm-096",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "A right circular cylinder has a radius of 4 centimeters and a height of 12 centimeters. What is its volume, in cubic centimeters?",
-  "choices": [
-   "96π",
-   "192π",
-   "576π",
-   "64π"
-  ],
-  "correctIndex": 1,
-  "explanation": "Volume = πr²h = π(4)²(12) = 192π."
- },
- {
-  "id": "sm-097",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "For what positive value of k does the equation x² + kx + 9 = 0 have exactly one real solution?",
-  "choices": [
-   "9",
-   "12",
-   "6",
-   "3"
-  ],
-  "correctIndex": 2,
-  "explanation": "One real solution means the discriminant is zero: k² - 4(9) = 0, so k² = 36 and k = 6 (positive)."
- },
- {
-  "id": "sm-098",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A survey asked 90 students whether they prefer morning or evening study sessions. Of the 46 seniors, 7 prefer morning and 39 prefer evening. Of the 44 juniors, 28 prefer morning and 16 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
-  "choices": [
-   "7/46",
-   "7/90",
-   "1/5",
-   "39/46"
-  ],
-  "correctIndex": 0,
-  "explanation": "There are 46 seniors and 7 of them prefer morning, so the probability is 7/46."
- },
- {
-  "id": "sm-099",
   "subject": "satmath",
   "topic": "Algebra",
   "difficulty": 1,
@@ -1485,22 +45,1762 @@
   "explanation": "Divide both sides by 7 to get x + 3 = -3. Then x = -3 - 3 = -6."
  },
  {
-  "id": "sm-100",
+  "id": "sm-004",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 49 = 0 have exactly one real solution?",
+  "choices": [
+   "49",
+   "14",
+   "98",
+   "28"
+  ],
+  "correctIndex": 1,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(49) = 0, so k² = 196 and k = 14 (positive)."
+ },
+ {
+  "id": "sm-005",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 3x + 20. According to the line, what is the predicted score for a student who studied 12 hours?",
+  "choices": [
+   "39",
+   "35",
+   "56",
+   "59"
+  ],
+  "correctIndex": 2,
+  "explanation": "Substitute x = 12: y = 3(12) + 20 = 56."
+ },
+ {
+  "id": "sm-006",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "An angle measures 5π/6 radians. What is the measure of the angle in degrees?",
+  "choices": [
+   "75",
+   "150",
+   "120",
+   "300"
+  ],
+  "correctIndex": 1,
+  "explanation": "Multiply by 180/π: (5π/6)(180/π) = 150°."
+ },
+ {
+  "id": "sm-007",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 21, BC = 20, and AC = 29. What is the value of sin A?",
+  "choices": [
+   "20/29",
+   "20/21",
+   "21/29",
+   "29/20"
+  ],
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (20) and adjacent to side AB (21); the hypotenuse is 29. sin A = opposite/hypotenuse = 20/29."
+ },
+ {
+  "id": "sm-008",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 30°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "75",
+   "30",
+   "150",
+   "85"
+  ],
+  "correctIndex": 0,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 150°, and each measures 75°."
+ },
+ {
+  "id": "sm-009",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "42 is what percent of 120?",
+  "choices": [
+   "286%",
+   "25%",
+   "65%",
+   "35%"
+  ],
+  "correctIndex": 3,
+  "explanation": "Percent = 42/120 × 100 = 35%."
+ },
+ {
+  "id": "sm-010",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 15, BC = 8, and AC = 17. What is the value of cos A?",
+  "choices": [
+   "15/17",
+   "8/17",
+   "8/15",
+   "17/15"
+  ],
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (8) and adjacent to side AB (15); the hypotenuse is 17. cos A = adjacent/hypotenuse = 15/17."
+ },
+ {
+  "id": "sm-011",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 48, BC = 14, and AC = 50. What is the value of tan A?",
+  "choices": [
+   "7/24",
+   "24/7",
+   "25/7",
+   "24/25"
+  ],
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (14) and adjacent to side AB (48); the hypotenuse is 50. tan A = opposite/adjacent = 14/48 = 7/24."
+ },
+ {
+  "id": "sm-012",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 7 and 24. What is the length of its hypotenuse?",
+  "choices": [
+   "26",
+   "25",
+   "31",
+   "13"
+  ],
+  "correctIndex": 1,
+  "explanation": "By the Pythagorean theorem, c² = 7² + 24² = 625, so c = 25."
+ },
+ {
+  "id": "sm-013",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 3)/(x - 5) = 3, what is the value of x?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "9"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply both sides by (x - 5): x + 3 = 3x - 15. So 18 = 2x, giving x = 9."
+ },
+ {
+  "id": "sm-014",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $80. The store raises the price by 25%, and later reduces the new price by 20%. What is the final price?",
+  "choices": [
+   "$80",
+   "$84",
+   "$85",
+   "$64"
+  ],
+  "correctIndex": 0,
+  "explanation": "After the increase the price is 80 × 1.25 = 100. After the decrease it is 100 × 0.8 = 80. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-015",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $120. The store raises the price by 50%, and later reduces the new price by 10%. What is the final price?",
+  "choices": [
+   "$162",
+   "$108",
+   "$120",
+   "$167"
+  ],
+  "correctIndex": 0,
+  "explanation": "After the increase the price is 120 × 1.5 = 180. After the decrease it is 180 × 0.9 = 162. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-016",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(-2, -3) and B(12, 5). What is the midpoint of AB?",
+  "choices": [
+   "(14, 8)",
+   "(6, 1)",
+   "(5, 1)",
+   "(1, 5)"
+  ],
+  "correctIndex": 2,
+  "explanation": "The midpoint averages the coordinates: ((-2 + 12)/2, (-3 + 5)/2) = (5, 1)."
+ },
+ {
+  "id": "sm-017",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 46, 38, 18, 31, 24, 20, 50",
+  "choices": [
+   "46",
+   "31",
+   "24",
+   "32"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ordered, the values are 18, 20, 24, 31, 38, 46, 50. With 7 values the median is the 4th: 31."
+ },
+ {
+  "id": "sm-018",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 3 centimeters and a height of 9 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "54π",
+   "162π",
+   "243π",
+   "81π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Volume = πr²h = π(3)²(9) = 81π."
+ },
+ {
+  "id": "sm-019",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 7(x + 8) = 35, what is the value of x?",
+  "choices": [
+   "3",
+   "13",
+   "27",
+   "-3"
+  ],
+  "correctIndex": 3,
+  "explanation": "Divide both sides by 7 to get x + 8 = 5. Then x = 5 - 8 = -3."
+ },
+ {
+  "id": "sm-020",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 5x - 5 > 29?",
+  "choices": [
+   "8",
+   "6",
+   "7",
+   "5"
+  ],
+  "correctIndex": 2,
+  "explanation": "Add 5 and divide by 5: x > 34/5. The least integer greater than that is 7."
+ },
+ {
+  "id": "sm-021",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 3x - 1 and g(x) = 4x + 1, what is the value of f(g(4))?",
+  "choices": [
+   "45",
+   "53",
+   "50",
+   "28"
+  ],
+  "correctIndex": 2,
+  "explanation": "First g(4) = 4(4) + 1 = 17. Then f(17) = 3(17) - 1 = 50."
+ },
+ {
+  "id": "sm-022",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of red marbles to blue marbles is 2 to 3. If there are 50 marbles in all, how many are blue?",
+  "choices": [
+   "20",
+   "30",
+   "47",
+   "16"
+  ],
+  "correctIndex": 1,
+  "explanation": "The parts total 2 + 3 = 5, so each part is 50/5 = 10. The blue marbles are 3 × 10 = 30."
+ },
+ {
+  "id": "sm-023",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 97 students whether they prefer morning or evening study sessions. Of the 43 seniors, 7 prefer morning and 36 prefer evening. Of the 54 juniors, 19 prefer morning and 35 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "7/26",
+   "7/43",
+   "36/43",
+   "7/44"
+  ],
+  "correctIndex": 1,
+  "explanation": "There are 43 seniors and 7 of them prefer morning, so the probability is 7/43."
+ },
+ {
+  "id": "sm-024",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 3, BC = 9, and DE = 6. What is the length of EF?",
+  "choices": [
+   "11",
+   "15",
+   "17",
+   "18"
+  ],
+  "correctIndex": 3,
+  "explanation": "The scale factor is DE/AB = 6/3 = 2. So EF = 2 × BC = 2 × 9 = 18."
+ },
+ {
+  "id": "sm-025",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² + 1x - 72 = 0?",
+  "choices": [
+   "8",
+   "-8",
+   "17",
+   "72"
+  ],
+  "correctIndex": 0,
+  "explanation": "The equation factors as (x + 9)(x - 8) = 0, so x = -9 or x = 8. The positive solution is 8."
+ },
+ {
+  "id": "sm-026",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 2x - 2 > 34?",
+  "choices": [
+   "19",
+   "17",
+   "20",
+   "18"
+  ],
+  "correctIndex": 0,
+  "explanation": "Add 2 and divide by 2: x > 18. The least integer greater than that is 19."
+ },
+ {
+  "id": "sm-027",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "9 is what percent of 60?",
+  "choices": [
+   "25%",
+   "85%",
+   "667%",
+   "15%"
+  ],
+  "correctIndex": 3,
+  "explanation": "Percent = 9/60 × 100 = 15%."
+ },
+ {
+  "id": "sm-028",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 3 tests are 87, 67, 68. What score does the student need on one more test for the mean of all 4 scores to be 80?",
+  "choices": [
+   "74",
+   "102",
+   "98",
+   "94"
+  ],
+  "correctIndex": 2,
+  "explanation": "The total of all 4 scores must be 80 × 4 = 320. The first 3 sum to 222, so the last score is 320 - 222 = 98."
+ },
+ {
+  "id": "sm-029",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "An angle measures 2π/3 radians. What is the measure of the angle in degrees?",
+  "choices": [
+   "120",
+   "240",
+   "150",
+   "60"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiply by 180/π: (2π/3)(180/π) = 120°."
+ },
+ {
+  "id": "sm-030",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 6x + 9y = 7 and 12x + 18y = c have infinitely many solutions?",
+  "choices": [
+   "14",
+   "2",
+   "9",
+   "5"
+  ],
+  "correctIndex": 0,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 12x + 18y = 14, so c = 14."
+ },
+ {
+  "id": "sm-031",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 120°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "120",
+   "40",
+   "60",
+   "30"
+  ],
+  "correctIndex": 3,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 60°, and each measures 30°."
+ },
+ {
+  "id": "sm-032",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 15x + 56 = 0?",
+  "choices": [
+   "1",
+   "15",
+   "-15",
+   "56"
+  ],
+  "correctIndex": 1,
+  "explanation": "The equation factors as (x - 7)(x - 8) = 0, so the solutions are 7 and 8, and their sum is 15."
+ },
+ {
+  "id": "sm-033",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 4x + 2y = -14 and 4x - y = -11, what is the value of x + y?",
+  "choices": [
+   "-1",
+   "-4",
+   "3",
+   "-2"
+  ],
+  "correctIndex": 1,
+  "explanation": "Solving the system gives x = -3 and y = -1, which satisfy both equations. So x + y = -4."
+ },
+ {
+  "id": "sm-034",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 4x + 1y = 7 and 8x + 2y = c have infinitely many solutions?",
+  "choices": [
+   "2",
+   "14",
+   "9",
+   "13"
+  ],
+  "correctIndex": 1,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 8x + 2y = 14, so c = 14."
+ },
+ {
+  "id": "sm-035",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 2 and passes through the point (4, -2). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "-2",
+   "-8",
+   "10",
+   "-10"
+  ],
+  "correctIndex": 3,
+  "explanation": "Use y = 2x + b. Substituting (4, -2) gives -2 = 8 + b, so b = -10."
+ },
+ {
+  "id": "sm-036",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-1, -1) and (0, -4). What is the slope of the line?",
+  "choices": [
+   "-2",
+   "-1/3",
+   "-3",
+   "-4"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (-4 - (-1))/(0 - (-1)) = -3/1 = -3."
+ },
+ {
+  "id": "sm-037",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 127 students whether they prefer morning or evening study sessions. Of the 73 seniors, 33 prefer morning and 40 prefer evening. Of the 54 juniors, 21 prefer morning and 33 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "33/127",
+   "33/73",
+   "11/18",
+   "40/73"
+  ],
+  "correctIndex": 1,
+  "explanation": "There are 73 seniors and 33 of them prefer morning, so the probability is 33/73."
+ },
+ {
+  "id": "sm-038",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 64 = 0 have exactly one real solution?",
+  "choices": [
+   "8",
+   "128",
+   "16",
+   "32"
+  ],
+  "correctIndex": 2,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(64) = 0, so k² = 256 and k = 16 (positive)."
+ },
+ {
+  "id": "sm-039",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 6x + 3. What is the value of f(6)?",
+  "choices": [
+   "15",
+   "45",
+   "54",
+   "39"
+  ],
+  "correctIndex": 3,
+  "explanation": "f(6) = 6(6) + 3 = 39."
+ },
+ {
+  "id": "sm-040",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 20π. What is the area of the circle?",
+  "choices": [
+   "20π",
+   "400π",
+   "100π",
+   "10π"
+  ],
+  "correctIndex": 2,
+  "explanation": "Circumference = 2πr = 20π, so r = 10. Area = πr² = 100π."
+ },
+ {
+  "id": "sm-041",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (1, -5) and (4, -9) in the xy-plane?",
+  "choices": [
+   "6",
+   "7",
+   "5",
+   "1"
+  ],
+  "correctIndex": 2,
+  "explanation": "The horizontal change is 3 and the vertical change is 4, so the distance is √(3² + 4²) = √25 = 5."
+ },
+ {
+  "id": "sm-042",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 3 tests are 85, 81, 90. What score does the student need on one more test for the mean of all 4 scores to be 84?",
+  "choices": [
+   "76",
+   "88",
+   "80",
+   "85"
+  ],
+  "correctIndex": 2,
+  "explanation": "The total of all 4 scores must be 84 × 4 = 336. The first 3 sum to 256, so the last score is 336 - 256 = 80."
+ },
+ {
+  "id": "sm-043",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x + 4)² + (y - 1)² = 9. What is the radius of the circle?",
+  "choices": [
+   "4",
+   "9",
+   "3",
+   "5"
+  ],
+  "correctIndex": 2,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 9, so r = 3."
+ },
+ {
+  "id": "sm-044",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "12 is what percent of 60?",
+  "choices": [
+   "30%",
+   "80%",
+   "20%",
+   "10%"
+  ],
+  "correctIndex": 2,
+  "explanation": "Percent = 12/60 × 100 = 20%."
+ },
+ {
+  "id": "sm-045",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 8(x + 8) = 40, what is the value of x?",
+  "choices": [
+   "3",
+   "-3",
+   "32",
+   "-2"
+  ],
+  "correctIndex": 1,
+  "explanation": "Divide both sides by 8 to get x + 8 = 5. Then x = 5 - 8 = -3."
+ },
+ {
+  "id": "sm-046",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $40. The store raises the price by 50%, and later reduces the new price by 20%. What is the final price?",
+  "choices": [
+   "$53",
+   "$48",
+   "$40",
+   "$52"
+  ],
+  "correctIndex": 1,
+  "explanation": "After the increase the price is 40 × 1.5 = 60. After the decrease it is 60 × 0.8 = 48. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-047",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x + 5)² + (y + 6)² = 81. What is the radius of the circle?",
+  "choices": [
+   "81",
+   "10",
+   "11",
+   "9"
+  ],
+  "correctIndex": 3,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 81, so r = 9."
+ },
+ {
+  "id": "sm-048",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 3x + 5 and g(x) = 3x + 5, what is the value of f(g(4))?",
+  "choices": [
+   "59",
+   "17",
+   "41",
+   "56"
+  ],
+  "correctIndex": 3,
+  "explanation": "First g(4) = 3(4) + 5 = 17. Then f(17) = 3(17) + 5 = 56."
+ },
+ {
+  "id": "sm-049",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A video-editing service charges a one-time fee of $50 plus $6 per hour. A customer's total charge was $116. How many hours did the customer pay for?",
+  "choices": [
+   "10",
+   "11",
+   "12",
+   "66"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 50 + 6n = 116. Subtract 50: 6n = 66. So n = 11."
+ },
+ {
+  "id": "sm-050",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 81 = 0 have exactly one real solution?",
+  "choices": [
+   "36",
+   "18",
+   "162",
+   "81"
+  ],
+  "correctIndex": 1,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(81) = 0, so k² = 324 and k = 18 (positive)."
+ },
+ {
+  "id": "sm-051",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 30 miles per hour. How many feet does the car travel in 20 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "440",
+   "600",
+   "880",
+   "1320"
+  ],
+  "correctIndex": 2,
+  "explanation": "30 mph is 30 × 5,280 / 3,600 = 44 feet per second. In 20 seconds: 44 × 20 = 880 feet."
+ },
+ {
+  "id": "sm-052",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 250 cells and doubles every 3 hours. Assuming this pattern continues, how many cells will there be after 6 hours?",
+  "choices": [
+   "254",
+   "2000",
+   "1500",
+   "1000"
+  ],
+  "correctIndex": 3,
+  "explanation": "After 6 hours there have been 6/3 = 2 doublings, so the count is 250 × 2^2 = 1000."
+ },
+ {
+  "id": "sm-053",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(-2, -8) and B(12, 8). What is the midpoint of AB?",
+  "choices": [
+   "(0, 5)",
+   "(14, 16)",
+   "(5, 0)",
+   "(6, 0)"
+  ],
+  "correctIndex": 2,
+  "explanation": "The midpoint averages the coordinates: ((-2 + 12)/2, (-8 + 8)/2) = (5, 0)."
+ },
+ {
+  "id": "sm-054",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 5 and 12. What is the length of its hypotenuse?",
+  "choices": [
+   "8",
+   "12",
+   "14",
+   "13"
+  ],
+  "correctIndex": 3,
+  "explanation": "By the Pythagorean theorem, c² = 5² + 12² = 169, so c = 13."
+ },
+ {
+  "id": "sm-055",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 2x + 12. According to the line, what is the predicted score for a student who studied 6 hours?",
+  "choices": [
+   "26",
+   "14",
+   "12",
+   "24"
+  ],
+  "correctIndex": 3,
+  "explanation": "Substitute x = 6: y = 2(6) + 12 = 24."
+ },
+ {
+  "id": "sm-056",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 31, 33, 5, 41, 9, 17, 8",
+  "choices": [
+   "31",
+   "17",
+   "9",
+   "41"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ordered, the values are 5, 8, 9, 17, 31, 33, 41. With 7 values the median is the 4th: 17."
+ },
+ {
+  "id": "sm-057",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 4, BC = 10, and DE = 16. What is the length of EF?",
+  "choices": [
+   "14",
+   "40",
+   "39",
+   "26"
+  ],
+  "correctIndex": 1,
+  "explanation": "The scale factor is DE/AB = 16/4 = 4. So EF = 4 × BC = 4 × 10 = 40."
+ },
+ {
+  "id": "sm-058",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "An angle measures 5π/4 radians. What is the measure of the angle in degrees?",
+  "choices": [
+   "195",
+   "112",
+   "255",
+   "225"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply by 180/π: (5π/4)(180/π) = 225°."
+ },
+ {
+  "id": "sm-059",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 5x - 8. What is the value of f(4)?",
+  "choices": [
+   "-20",
+   "12",
+   "28",
+   "17"
+  ],
+  "correctIndex": 1,
+  "explanation": "f(4) = 5(4) - 8 = 12."
+ },
+ {
+  "id": "sm-060",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 80°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "60",
+   "100",
+   "80",
+   "50"
+  ],
+  "correctIndex": 3,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 100°, and each measures 50°."
+ },
+ {
+  "id": "sm-061",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 7, BC = 12, and DE = 21. What is the length of EF?",
+  "choices": [
+   "43",
+   "15",
+   "36",
+   "35"
+  ],
+  "correctIndex": 2,
+  "explanation": "The scale factor is DE/AB = 21/7 = 3. So EF = 3 × BC = 3 × 12 = 36."
+ },
+ {
+  "id": "sm-062",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 12 and a central angle measuring 60°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "24π",
+   "4π",
+   "2π",
+   "8π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Arc length = (60/360)(2π · 12) = 4π."
+ },
+ {
+  "id": "sm-063",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $80. The store raises the price by 20%, and later reduces the new price by 10%. What is the final price?",
+  "choices": [
+   "$86.4",
+   "$91.4",
+   "$88",
+   "$72"
+  ],
+  "correctIndex": 0,
+  "explanation": "After the increase the price is 80 × 1.2 = 96. After the decrease it is 96 × 0.9 = 86.4. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-064",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "An angle measures 3π/4 radians. What is the measure of the angle in degrees?",
+  "choices": [
+   "135",
+   "165",
+   "105",
+   "270"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiply by 180/π: (3π/4)(180/π) = 135°."
+ },
+ {
+  "id": "sm-065",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (0, 3) and (4, 7). What is the slope of the line?",
+  "choices": [
+   "1",
+   "4",
+   "-1",
+   "2"
+  ],
+  "correctIndex": 0,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (7 - 3)/(4 - 0) = 4/4 = 1."
+ },
+ {
+  "id": "sm-066",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 3)/(x - 5) = 5, what is the value of x?",
+  "choices": [
+   "7",
+   "6",
+   "22",
+   "8"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiply both sides by (x - 5): x + 3 = 5x - 25. So 28 = 4x, giving x = 7."
+ },
+ {
+  "id": "sm-067",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x - 4)² + 2. What is the minimum value of f?",
+  "choices": [
+   "-2",
+   "4",
+   "2",
+   "-4"
+  ],
+  "correctIndex": 2,
+  "explanation": "A squared term is never negative, so the least value occurs when x = 4, where (x - 4)² = 0. The minimum is 2."
+ },
+ {
+  "id": "sm-068",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
   "difficulty": 2,
   "prompt": "A circle has a circumference of 16π. What is the area of the circle?",
   "choices": [
-   "64π",
    "8π",
-   "16π",
-   "128π"
+   "128π",
+   "64π",
+   "256π"
   ],
-  "correctIndex": 0,
+  "correctIndex": 2,
   "explanation": "Circumference = 2πr = 16π, so r = 8. Area = πr² = 64π."
  },
  {
+  "id": "sm-069",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A print shop charges a one-time fee of $20 plus $4 per poster. A customer's total charge was $72. How many posters did the customer pay for?",
+  "choices": [
+   "52",
+   "13",
+   "23",
+   "18"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 20 + 4n = 72. Subtract 20: 4n = 52. So n = 13."
+ },
+ {
+  "id": "sm-070",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 4, BC = 3, and AC = 5. What is the value of sin A?",
+  "choices": [
+   "5/3",
+   "4/5",
+   "3/5",
+   "3/4"
+  ],
+  "correctIndex": 2,
+  "explanation": "Angle A is opposite side BC (3) and adjacent to side AB (4); the hypotenuse is 5. sin A = opposite/hypotenuse = 3/5."
+ },
+ {
+  "id": "sm-071",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 2)/(x - 3) = 2, what is the value of x?",
+  "choices": [
+   "4",
+   "5",
+   "7",
+   "8"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply both sides by (x - 3): x + 2 = 2x - 6. So 8 = 1x, giving x = 8."
+ },
+ {
+  "id": "sm-072",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations x + 4y = -8 and 3x - 3y = 36, what is the value of x + y?",
+  "choices": [
+   "12",
+   "2",
+   "5",
+   "4"
+  ],
+  "correctIndex": 3,
+  "explanation": "Solving the system gives x = 8 and y = -4, which satisfy both equations. So x + y = 4."
+ },
+ {
+  "id": "sm-073",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 9 and a central angle measuring 90°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "9/2π",
+   "81/4π",
+   "18π",
+   "9/4π"
+  ],
+  "correctIndex": 0,
+  "explanation": "Arc length = (90/360)(2π · 9) = 9/2π."
+ },
+ {
+  "id": "sm-074",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 5 tests are 72, 98, 70, 98, 94. What score does the student need on one more test for the mean of all 6 scores to be 79?",
+  "choices": [
+   "86",
+   "42",
+   "36",
+   "79"
+  ],
+  "correctIndex": 1,
+  "explanation": "The total of all 6 scores must be 79 × 6 = 474. The first 5 sum to 432, so the last score is 474 - 432 = 42."
+ },
+ {
+  "id": "sm-075",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 3 and passes through the point (1, -6). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "9",
+   "-6",
+   "3",
+   "-9"
+  ],
+  "correctIndex": 3,
+  "explanation": "Use y = 3x + b. Substituting (1, -6) gives -6 = 3 + b, so b = -9."
+ },
+ {
+  "id": "sm-076",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 68 students whether they prefer morning or evening study sessions. Of the 28 seniors, 22 prefer morning and 6 prefer evening. Of the 40 juniors, 25 prefer morning and 15 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "22/29",
+   "11/34",
+   "3/14",
+   "11/14"
+  ],
+  "correctIndex": 3,
+  "explanation": "There are 28 seniors and 22 of them prefer morning, so the probability is 22/28 = 11/14."
+ },
+ {
+  "id": "sm-077",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A print shop charges a one-time fee of $75 plus $15 per poster. A customer's total charge was $270. How many posters did the customer pay for?",
+  "choices": [
+   "23",
+   "13",
+   "195",
+   "18"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 75 + 15n = 270. Subtract 75: 15n = 195. So n = 13."
+ },
+ {
+  "id": "sm-078",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $40. The store raises the price by 25%, and later reduces the new price by 10%. What is the final price?",
+  "choices": [
+   "$46",
+   "$50",
+   "$45",
+   "$36"
+  ],
+  "correctIndex": 2,
+  "explanation": "After the increase the price is 40 × 1.25 = 50. After the decrease it is 50 × 0.9 = 45. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-079",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 2(x + 10) = 40, what is the value of x?",
+  "choices": [
+   "10",
+   "30",
+   "9",
+   "11"
+  ],
+  "correctIndex": 0,
+  "explanation": "Divide both sides by 2 to get x + 10 = 20. Then x = 20 - 10 = 10."
+ },
+ {
+  "id": "sm-080",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 7, BC = 11, and DE = 28. What is the length of EF?",
+  "choices": [
+   "39",
+   "43",
+   "44",
+   "51"
+  ],
+  "correctIndex": 2,
+  "explanation": "The scale factor is DE/AB = 28/7 = 4. So EF = 4 × BC = 4 × 11 = 44."
+ },
+ {
+  "id": "sm-081",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 6 and a central angle measuring 90°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "6π",
+   "3π",
+   "12π",
+   "3/2π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Arc length = (90/360)(2π · 6) = 3π."
+ },
+ {
+  "id": "sm-082",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A print shop charges a one-time fee of $35 plus $15 per poster. A customer's total charge was $95. How many posters did the customer pay for?",
+  "choices": [
+   "8",
+   "4",
+   "6",
+   "3"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 35 + 15n = 95. Subtract 35: 15n = 60. So n = 4."
+ },
+ {
+  "id": "sm-083",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 6π. What is the area of the circle?",
+  "choices": [
+   "18π",
+   "9π",
+   "36π",
+   "6π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Circumference = 2πr = 6π, so r = 3. Area = πr² = 9π."
+ },
+ {
+  "id": "sm-084",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 3x + 3 and g(x) = 3x + 4, what is the value of f(g(1))?",
+  "choices": [
+   "24",
+   "27",
+   "7",
+   "12"
+  ],
+  "correctIndex": 0,
+  "explanation": "First g(1) = 3(1) + 4 = 7. Then f(7) = 3(7) + 3 = 24."
+ },
+ {
+  "id": "sm-085",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 4x - 8 > 39?",
+  "choices": [
+   "13",
+   "9",
+   "11",
+   "12"
+  ],
+  "correctIndex": 3,
+  "explanation": "Add 8 and divide by 4: x > 47/4. The least integer greater than that is 12."
+ },
+ {
+  "id": "sm-086",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 9 and 12. What is the length of its hypotenuse?",
+  "choices": [
+   "16",
+   "14",
+   "10",
+   "15"
+  ],
+  "correctIndex": 3,
+  "explanation": "By the Pythagorean theorem, c² = 9² + 12² = 225, so c = 15."
+ },
+ {
+  "id": "sm-087",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x + 6)² + (y - 4)² = 9. What is the radius of the circle?",
+  "choices": [
+   "6",
+   "4",
+   "3",
+   "10"
+  ],
+  "correctIndex": 2,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 9, so r = 3."
+ },
+ {
+  "id": "sm-088",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of boys students to girls students is 2 to 3. If there are 15 students in all, how many are girls?",
+  "choices": [
+   "9",
+   "12",
+   "6",
+   "5"
+  ],
+  "correctIndex": 0,
+  "explanation": "The parts total 2 + 3 = 5, so each part is 15/5 = 3. The girls students are 3 × 3 = 9."
+ },
+ {
+  "id": "sm-089",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 4)/(x - 4) = 5, what is the value of x?",
+  "choices": [
+   "6",
+   "16",
+   "5",
+   "8"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiply both sides by (x - 4): x + 4 = 5x - 20. So 24 = 4x, giving x = 6."
+ },
+ {
+  "id": "sm-090",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of boys students to girls students is 3 to 5. If there are 24 students in all, how many are girls?",
+  "choices": [
+   "9",
+   "4",
+   "12",
+   "15"
+  ],
+  "correctIndex": 3,
+  "explanation": "The parts total 3 + 5 = 8, so each part is 24/8 = 3. The girls students are 5 × 3 = 15."
+ },
+ {
+  "id": "sm-091",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 4x + 6y = 7 and 12x + 18y = c have infinitely many solutions?",
+  "choices": [
+   "7",
+   "15",
+   "21",
+   "10"
+  ],
+  "correctIndex": 2,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 12x + 18y = 21, so c = 21."
+ },
+ {
+  "id": "sm-092",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x + 6)(x - 3) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "-18",
+   "3",
+   "9",
+   "4"
+  ],
+  "correctIndex": 1,
+  "explanation": "Expanding gives x² + (6 - 3)x - 18, so p = 3."
+ },
+ {
+  "id": "sm-093",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $50. The store raises the price by 50%, and later reduces the new price by 20%. What is the final price?",
+  "choices": [
+   "$50",
+   "$40",
+   "$60",
+   "$65"
+  ],
+  "correctIndex": 2,
+  "explanation": "After the increase the price is 50 × 1.5 = 75. After the decrease it is 75 × 0.8 = 60. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-094",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 1000 cells and doubles every 5 hours. Assuming this pattern continues, how many cells will there be after 15 hours?",
+  "choices": [
+   "8000",
+   "9000",
+   "15000",
+   "6000"
+  ],
+  "correctIndex": 0,
+  "explanation": "After 15 hours there have been 15/5 = 3 doublings, so the count is 1000 × 2^3 = 8000."
+ },
+ {
+  "id": "sm-095",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x + 1)² + 4. What is the minimum value of f?",
+  "choices": [
+   "4",
+   "5",
+   "-4",
+   "-1"
+  ],
+  "correctIndex": 0,
+  "explanation": "A squared term is never negative, so the least value occurs when x = -1, where (x + 1)² = 0. The minimum is 4."
+ },
+ {
+  "id": "sm-096",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² + 6x - 27 = 0?",
+  "choices": [
+   "-3",
+   "27",
+   "12",
+   "3"
+  ],
+  "correctIndex": 3,
+  "explanation": "The equation factors as (x + 9)(x - 3) = 0, so x = -9 or x = 3. The positive solution is 3."
+ },
+ {
+  "id": "sm-097",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 100°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "80",
+   "50",
+   "100",
+   "40"
+  ],
+  "correctIndex": 3,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 80°, and each measures 40°."
+ },
+ {
+  "id": "sm-098",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 4)/(x - 5) = 2, what is the value of x?",
+  "choices": [
+   "14",
+   "15",
+   "6",
+   "13"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiply both sides by (x - 5): x + 4 = 2x - 10. So 14 = 1x, giving x = 14."
+ },
+ {
+  "id": "sm-099",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 4π. What is the area of the circle?",
+  "choices": [
+   "16π",
+   "4π",
+   "2π",
+   "8π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Circumference = 2πr = 4π, so r = 2. Area = πr² = 4π."
+ },
+ {
+  "id": "sm-100",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 18 and a central angle measuring 40°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "2π",
+   "36π",
+   "4π",
+   "8π"
+  ],
+  "correctIndex": 2,
+  "explanation": "Arc length = (40/360)(2π · 18) = 4π."
+ },
+ {
   "id": "sm-101",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-4, 4) and (-1, 10). What is the slope of the line?",
+  "choices": [
+   "3",
+   "1/2",
+   "2",
+   "1"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (10 - 4)/(-1 - (-4)) = 6/3 = 2."
+ },
+ {
+  "id": "sm-102",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 200 cells and doubles every 3 hours. Assuming this pattern continues, how many cells will there be after 9 hours?",
+  "choices": [
+   "208",
+   "1800",
+   "1600",
+   "3200"
+  ],
+  "correctIndex": 2,
+  "explanation": "After 9 hours there have been 9/3 = 3 doublings, so the count is 200 × 2^3 = 1600."
+ },
+ {
+  "id": "sm-103",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 3(x + 2) = 36, what is the value of x?",
+  "choices": [
+   "11",
+   "9",
+   "14",
+   "10"
+  ],
+  "correctIndex": 3,
+  "explanation": "Divide both sides by 3 to get x + 2 = 12. Then x = 12 - 2 = 10."
+ },
+ {
+  "id": "sm-104",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 2)/(x - 4) = 2, what is the value of x?",
+  "choices": [
+   "11",
+   "9",
+   "6",
+   "10"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply both sides by (x - 4): x + 2 = 2x - 8. So 10 = 1x, giving x = 10."
+ },
+ {
+  "id": "sm-105",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² + 2x - 3 = 0?",
+  "choices": [
+   "-1",
+   "1",
+   "4",
+   "3"
+  ],
+  "correctIndex": 1,
+  "explanation": "The equation factors as (x + 3)(x - 1) = 0, so x = -3 or x = 1. The positive solution is 1."
+ },
+ {
+  "id": "sm-106",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x - 2)² - 2. What is the minimum value of f?",
+  "choices": [
+   "-4",
+   "2",
+   "-2",
+   "0"
+  ],
+  "correctIndex": 2,
+  "explanation": "A squared term is never negative, so the least value occurs when x = 2, where (x - 2)² = 0. The minimum is -2."
+ },
+ {
+  "id": "sm-107",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² - 6x - 27 = 0?",
+  "choices": [
+   "3",
+   "9",
+   "-9",
+   "12"
+  ],
+  "correctIndex": 1,
+  "explanation": "The equation factors as (x + 3)(x - 9) = 0, so x = -3 or x = 9. The positive solution is 9."
+ },
+ {
+  "id": "sm-108",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 6 and a central angle measuring 60°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "2π",
+   "4π",
+   "12π",
+   "6π"
+  ],
+  "correctIndex": 0,
+  "explanation": "Arc length = (60/360)(2π · 6) = 2π."
+ },
+ {
+  "id": "sm-109",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 4x + 10. According to the line, what is the predicted score for a student who studied 9 hours?",
+  "choices": [
+   "46",
+   "56",
+   "50",
+   "36"
+  ],
+  "correctIndex": 0,
+  "explanation": "Substitute x = 9: y = 4(9) + 10 = 46."
+ },
+ {
+  "id": "sm-110",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 8, BC = 13, and DE = 16. What is the length of EF?",
+  "choices": [
+   "15",
+   "26",
+   "34",
+   "25"
+  ],
+  "correctIndex": 1,
+  "explanation": "The scale factor is DE/AB = 16/8 = 2. So EF = 2 × BC = 2 × 13 = 26."
+ },
+ {
+  "id": "sm-111",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 7 centimeters and a height of 5 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "175π",
+   "70π",
+   "490π",
+   "245π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Volume = πr²h = π(7)²(5) = 245π."
+ },
+ {
+  "id": "sm-112",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A video-editing service charges a one-time fee of $75 plus $4 per hour. A customer's total charge was $95. How many hours did the customer pay for?",
+  "choices": [
+   "6",
+   "23",
+   "5",
+   "42"
+  ],
+  "correctIndex": 2,
+  "explanation": "Write 75 + 4n = 95. Subtract 75: 4n = 20. So n = 5."
+ },
+ {
+  "id": "sm-113",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 20°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "160",
+   "80",
+   "20",
+   "90"
+  ],
+  "correctIndex": 1,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 160°, and each measures 80°."
+ },
+ {
+  "id": "sm-114",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^2)^4 / x^5?",
+  "choices": [
+   "x^11",
+   "x^13",
+   "x^1",
+   "x^3"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply exponents in the power: (x^2)^4 = x^8. Dividing by x^5 subtracts exponents: x^3."
+ },
+ {
+  "id": "sm-115",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 96 students whether they prefer morning or evening study sessions. Of the 60 seniors, 32 prefer morning and 28 prefer evening. Of the 36 juniors, 28 prefer morning and 8 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "8/15",
+   "7/15",
+   "1/3",
+   "32/61"
+  ],
+  "correctIndex": 0,
+  "explanation": "There are 60 seniors and 32 of them prefer morning, so the probability is 32/60 = 8/15."
+ },
+ {
+  "id": "sm-116",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 4x - 11 > 36?",
+  "choices": [
+   "11",
+   "13",
+   "9",
+   "12"
+  ],
+  "correctIndex": 3,
+  "explanation": "Add 11 and divide by 4: x > 47/4. The least integer greater than that is 12."
+ },
+ {
+  "id": "sm-117",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x - 7)(x - 2) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "-8",
+   "9",
+   "-9",
+   "-5"
+  ],
+  "correctIndex": 2,
+  "explanation": "Expanding gives x² + (-7 - 2)x + 14, so p = -9."
+ },
+ {
+  "id": "sm-118",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A video-editing service charges a one-time fee of $50 plus $15 per hour. A customer's total charge was $155. How many hours did the customer pay for?",
+  "choices": [
+   "10",
+   "7",
+   "8",
+   "13"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 50 + 15n = 155. Subtract 50: 15n = 105. So n = 7."
+ },
+ {
+  "id": "sm-119",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 9, BC = 15, and DE = 27. What is the length of EF?",
+  "choices": [
+   "18",
+   "45",
+   "44",
+   "42"
+  ],
+  "correctIndex": 1,
+  "explanation": "The scale factor is DE/AB = 27/9 = 3. So EF = 3 × BC = 3 × 15 = 45."
+ },
+ {
+  "id": "sm-120",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 4 tests are 77, 80, 70, 91. What score does the student need on one more test for the mean of all 5 scores to be 82?",
+  "choices": [
+   "87",
+   "92",
+   "80",
+   "97"
+  ],
+  "correctIndex": 1,
+  "explanation": "The total of all 5 scores must be 82 × 5 = 410. The first 4 sum to 318, so the last score is 410 - 318 = 92."
+ },
+ {
+  "id": "sm-121",
   "subject": "satmath",
   "topic": "Algebra",
   "difficulty": 1,
@@ -1515,499 +1815,199 @@
   "explanation": "Divide both sides by 9 to get x - 1 = 11. Then x = 11 + 1 = 12."
  },
  {
-  "id": "sm-102",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "Segment AB has endpoints A(-8, -3) and B(6, 9). What is the midpoint of AB?",
-  "choices": [
-   "(-1, 3)",
-   "(14, 12)",
-   "(3, -1)",
-   "(-1, 2)"
-  ],
-  "correctIndex": 0,
-  "explanation": "The midpoint averages the coordinates: ((-8 + 6)/2, (-3 + 9)/2) = (-1, 3)."
- },
- {
-  "id": "sm-103",
+  "id": "sm-122",
   "subject": "satmath",
   "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If f(x) = 3x - 2 and g(x) = 3x - 1, what is the value of f(g(4))?",
-  "choices": [
-   "34",
-   "31",
-   "21",
-   "29"
-  ],
-  "correctIndex": 1,
-  "explanation": "First g(4) = 3(4) - 1 = 11. Then f(11) = 3(11) - 2 = 31."
- },
- {
-  "id": "sm-104",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 3,
-  "prompt": "For what value of c does the system 2x + 7y = 7 and 4x + 14y = c have infinitely many solutions?",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² + 3x - 10 = 0?",
   "choices": [
    "2",
    "7",
-   "14",
-   "9"
-  ],
-  "correctIndex": 2,
-  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 4x + 14y = 14, so c = 14."
- },
- {
-  "id": "sm-105",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "A plant's height in centimeters, h, t weeks after planting is modeled by h = 8t + 17. What does the number 8 represent in the model?",
-  "choices": [
-   "The plant's height, in centimeters, at planting",
-   "The number of centimeters the plant grows each week",
-   "The plant's height, in centimeters, after 8 weeks",
-   "The total change over the whole period"
-  ],
-  "correctIndex": 1,
-  "explanation": "In y = mx + b form, the coefficient 8 is the rate of change per unit of time, and 17 is the starting value."
- },
- {
-  "id": "sm-106",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "What is the least integer value of x that satisfies the inequality 6x - 5 > 31?",
-  "choices": [
-   "5",
-   "7",
-   "6",
-   "8"
-  ],
-  "correctIndex": 1,
-  "explanation": "Add 5 and divide by 6: x > 6. The least integer greater than that is 7."
- },
- {
-  "id": "sm-107",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "The equation of a circle in the xy-plane is (x - 4)² + (y - 2)² = 64. What is the radius of the circle?",
-  "choices": [
-   "16",
-   "6",
-   "9",
-   "8"
-  ],
-  "correctIndex": 3,
-  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 64, so r = 8."
- },
- {
-  "id": "sm-108",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 3,
-  "prompt": "For what value of c does the system 2x + 9y = 7 and 6x + 27y = c have infinitely many solutions?",
-  "choices": [
-   "21",
-   "7",
-   "3",
-   "23"
+   "10",
+   "-2"
   ],
   "correctIndex": 0,
-  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 6x + 27y = 21, so c = 21."
- },
- {
-  "id": "sm-109",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 1,
-  "prompt": "When the expression (x + 5)(x - 6) is written in the form x² + px + q, what is the value of p?",
-  "choices": [
-   "-30",
-   "0",
-   "11",
-   "-1"
-  ],
-  "correctIndex": 3,
-  "explanation": "Expanding gives x² + (5 - 6)x - 30, so p = -1."
- },
- {
-  "id": "sm-110",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "The function f is defined by f(x) = 6x - 8. What is the value of f(8)?",
-  "choices": [
-   "6",
-   "46",
-   "56",
-   "40"
-  ],
-  "correctIndex": 3,
-  "explanation": "f(8) = 6(8) - 8 = 40."
- },
- {
-  "id": "sm-111",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "A circle has a circumference of 12π. What is the area of the circle?",
-  "choices": [
-   "6π",
-   "12π",
-   "72π",
-   "36π"
-  ],
-  "correctIndex": 3,
-  "explanation": "Circumference = 2πr = 12π, so r = 6. Area = πr² = 36π."
- },
- {
-  "id": "sm-112",
-  "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "The function f is defined by f(x) = 2x. What is the value of f(7)?",
-  "choices": [
-   "16",
-   "9",
-   "14",
-   "15"
-  ],
-  "correctIndex": 2,
-  "explanation": "f(7) = 2(7) + 0 = 14."
- },
- {
-  "id": "sm-113",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "The equation of a circle in the xy-plane is (x + 2)² + (y + 4)² = 64. What is the radius of the circle?",
-  "choices": [
-   "9",
-   "16",
-   "6",
-   "8"
-  ],
-  "correctIndex": 3,
-  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 64, so r = 8."
- },
- {
-  "id": "sm-114",
-  "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 2,
-  "prompt": "The function f is defined by f(x) = (x + 5)² + 8. What is the minimum value of f?",
-  "choices": [
-   "8",
-   "3",
-   "5",
-   "-8"
-  ],
-  "correctIndex": 0,
-  "explanation": "A squared term is never negative, so the least value occurs when x = -5, where (x + 5)² = 0. The minimum is 8."
- },
- {
-  "id": "sm-115",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 6, BC = 8, and DE = 18. What is the length of EF?",
-  "choices": [
-   "24",
-   "11",
-   "26",
-   "23"
-  ],
-  "correctIndex": 0,
-  "explanation": "The scale factor is DE/AB = 18/6 = 3. So EF = 3 × BC = 3 × 8 = 24."
- },
- {
-  "id": "sm-116",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "An angle measures 5π/4 radians. What is the measure of the angle in degrees?",
-  "choices": [
-   "112",
-   "225",
-   "195",
-   "255"
-  ],
-  "correctIndex": 1,
-  "explanation": "Multiply by 180/π: (5π/4)(180/π) = 225°."
- },
- {
-  "id": "sm-117",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "An angle measures 7π/6 radians. What is the measure of the angle in degrees?",
-  "choices": [
-   "420",
-   "210",
-   "180",
-   "240"
-  ],
-  "correctIndex": 1,
-  "explanation": "Multiply by 180/π: (7π/6)(180/π) = 210°."
- },
- {
-  "id": "sm-118",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 3,
-  "prompt": "A circle has a radius of 6 and a central angle measuring 150°. What is the length of the arc intercepted by this angle?",
-  "choices": [
-   "10π",
-   "15π",
-   "5π",
-   "5/2π"
-  ],
-  "correctIndex": 2,
-  "explanation": "Arc length = (150/360)(2π · 6) = 5π."
- },
- {
-  "id": "sm-119",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 30°. What is the measure, in degrees, of one of the other two angles?",
-  "choices": [
-   "150",
-   "75",
-   "85",
-   "30"
-  ],
-  "correctIndex": 1,
-  "explanation": "The angles sum to 180°, so the two equal base angles total 150°, and each measures 75°."
- },
- {
-  "id": "sm-120",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 48, BC = 14, and AC = 50. What is the value of cos A?",
-  "choices": [
-   "7/24",
-   "7/25",
-   "24/25",
-   "25/24"
-  ],
-  "correctIndex": 2,
-  "explanation": "Angle A is opposite side BC (14) and adjacent to side AB (48); the hypotenuse is 50. cos A = adjacent/hypotenuse = 48/50 = 24/25."
- },
- {
-  "id": "sm-121",
-  "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "A student's scores on 5 tests are 89, 77, 82, 91, 68. What score does the student need on one more test for the mean of all 6 scores to be 79?",
-  "choices": [
-   "81",
-   "73",
-   "91",
-   "67"
-  ],
-  "correctIndex": 3,
-  "explanation": "The total of all 6 scores must be 79 × 6 = 474. The first 5 sum to 407, so the last score is 474 - 407 = 67."
- },
- {
-  "id": "sm-122",
-  "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "A circle has a circumference of 18π. What is the area of the circle?",
-  "choices": [
-   "324π",
-   "162π",
-   "18π",
-   "81π"
-  ],
-  "correctIndex": 3,
-  "explanation": "Circumference = 2πr = 18π, so r = 9. Area = πr² = 81π."
+  "explanation": "The equation factors as (x + 5)(x - 2) = 0, so x = -5 or x = 2. The positive solution is 2."
  },
  {
   "id": "sm-123",
   "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A tutoring center charges a one-time fee of $60 plus $15 per lesson. A customer's total charge was $180. How many lessons did the customer pay for?",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^2)^3 / x^3?",
   "choices": [
-   "8",
-   "9",
-   "7",
-   "16"
+   "x^9",
+   "x^2",
+   "x^8",
+   "x^3"
   ],
-  "correctIndex": 0,
-  "explanation": "Write 60 + 15n = 180. Subtract 60: 15n = 120. So n = 8."
+  "correctIndex": 3,
+  "explanation": "Multiply exponents in the power: (x^2)^3 = x^6. Dividing by x^3 subtracts exponents: x^3."
  },
  {
   "id": "sm-124",
   "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "If f(x) = 5x + 6 and g(x) = 3x + 3, what is the value of f(g(1))?",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 24, BC = 10, and AC = 26. What is the value of cos A?",
   "choices": [
-   "36",
-   "21",
-   "6",
-   "41"
+   "12/13",
+   "5/13",
+   "13/12",
+   "5/12"
   ],
   "correctIndex": 0,
-  "explanation": "First g(1) = 3(1) + 3 = 6. Then f(6) = 5(6) + 6 = 36."
+  "explanation": "Angle A is opposite side BC (10) and adjacent to side AB (24); the hypotenuse is 26. cos A = adjacent/hypotenuse = 24/26 = 12/13."
  },
  {
   "id": "sm-125",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
   "difficulty": 2,
-  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 6, BC = 11, and DE = 12. What is the length of EF?",
+  "prompt": "What is the distance between the points (-2, 4) and (3, 16) in the xy-plane?",
   "choices": [
-   "28",
-   "21",
    "13",
-   "22"
+   "14",
+   "169",
+   "17"
   ],
-  "correctIndex": 3,
-  "explanation": "The scale factor is DE/AB = 12/6 = 2. So EF = 2 × BC = 2 × 11 = 22."
+  "correctIndex": 0,
+  "explanation": "The horizontal change is 5 and the vertical change is 12, so the distance is √(5² + 12²) = √169 = 13."
  },
  {
   "id": "sm-126",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 2,
-  "prompt": "The price of a jacket is $200. The store raises the price by 25%, and later reduces the new price by 10%. What is the final price?",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 3x - 9. What is the value of f(9)?",
   "choices": [
-   "$200",
-   "$180",
-   "$230",
-   "$225"
+   "21",
+   "36",
+   "18",
+   "0"
   ],
-  "correctIndex": 3,
-  "explanation": "After the increase the price is 200 × 1.25 = 250. After the decrease it is 250 × 0.9 = 225. Percent changes do not simply cancel."
+  "correctIndex": 2,
+  "explanation": "f(9) = 3(9) - 9 = 18."
  },
  {
   "id": "sm-127",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
+  "topic": "Algebra",
   "difficulty": 2,
-  "prompt": "A student's scores on 5 tests are 73, 79, 88, 95, 98. What score does the student need on one more test for the mean of all 6 scores to be 85?",
+  "prompt": "The balance in dollars, d, of a savings account t months after opening is modeled by d = 4t + 23. What does the number 4 represent in the model?",
   "choices": [
-   "77",
-   "71",
-   "85",
-   "83"
+   "The number of months until the balance reaches $4",
+   "The balance, in dollars, after 4 months",
+   "The number of dollars the balance increases each month",
+   "The opening balance, in dollars"
   ],
-  "correctIndex": 0,
-  "explanation": "The total of all 6 scores must be 85 × 6 = 510. The first 5 sum to 433, so the last score is 510 - 433 = 77."
+  "correctIndex": 2,
+  "explanation": "In y = mx + b form, the coefficient 4 is the rate of change per unit of time, and 23 is the starting value."
  },
  {
   "id": "sm-128",
   "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A line passes through the points (0, 5) and (5, 15). What is the slope of the line?",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 9x + 8 = 0?",
   "choices": [
-   "3",
-   "1",
-   "2",
-   "1/2"
+   "9",
+   "8",
+   "7",
+   "-9"
   ],
-  "correctIndex": 2,
-  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (15 - 5)/(5 - 0) = 10/5 = 2."
+  "correctIndex": 0,
+  "explanation": "The equation factors as (x - 8)(x - 1) = 0, so the solutions are 8 and 1, and their sum is 9."
  },
  {
   "id": "sm-129",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
   "difficulty": 2,
-  "prompt": "In right triangle ABC, the right angle is at B, AB = 24, BC = 7, and AC = 25. What is the value of tan A?",
+  "prompt": "The equation of a circle in the xy-plane is (x - 5)² + (y - 4)² = 9. What is the radius of the circle?",
   "choices": [
-   "24/25",
-   "25/7",
-   "7/24",
-   "24/7"
+   "6",
+   "9",
+   "3",
+   "4"
   ],
   "correctIndex": 2,
-  "explanation": "Angle A is opposite side BC (7) and adjacent to side AB (24); the hypotenuse is 25. tan A = opposite/adjacent = 7/24."
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 9, so r = 3."
  },
  {
   "id": "sm-130",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "A right triangle has legs of length 27 and 120. What is the length of its hypotenuse?",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 42, BC = 40, and AC = 58. What is the value of cos A?",
   "choices": [
-   "57",
-   "124",
-   "123",
-   "147"
+   "21/29",
+   "20/21",
+   "29/21",
+   "20/29"
   ],
-  "correctIndex": 2,
-  "explanation": "By the Pythagorean theorem, c² = 27² + 120² = 15129, so c = 123."
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (40) and adjacent to side AB (42); the hypotenuse is 58. cos A = adjacent/hypotenuse = 42/58 = 21/29."
  },
  {
   "id": "sm-131",
   "subject": "satmath",
-  "topic": "Algebra",
+  "topic": "Problem-Solving & Data Analysis",
   "difficulty": 2,
-  "prompt": "In the system of equations 4x + 4y = -4 and 3x - 4y = -17, what is the value of x + y?",
+  "prompt": "A student's scores on 5 tests are 75, 76, 78, 91, 77. What score does the student need on one more test for the mean of all 6 scores to be 82?",
   "choices": [
-   "-3",
-   "-1",
-   "0",
-   "2"
+   "89",
+   "82",
+   "95",
+   "69"
   ],
-  "correctIndex": 1,
-  "explanation": "Solving the system gives x = -3 and y = 2, which satisfy both equations. So x + y = -1."
+  "correctIndex": 2,
+  "explanation": "The total of all 6 scores must be 82 × 6 = 492. The first 5 sum to 397, so the last score is 492 - 397 = 95."
  },
  {
   "id": "sm-132",
   "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A print shop charges a one-time fee of $35 plus $15 per poster. A customer's total charge was $125. How many posters did the customer pay for?",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 18 and a central angle measuring 120°. What is the length of the arc intercepted by this angle?",
   "choices": [
-   "7",
-   "6",
-   "10",
-   "90"
+   "12π",
+   "36π",
+   "108π",
+   "24π"
   ],
-  "correctIndex": 1,
-  "explanation": "Write 35 + 15n = 125. Subtract 35: 15n = 90. So n = 6."
+  "correctIndex": 0,
+  "explanation": "Arc length = (120/360)(2π · 18) = 12π."
  },
  {
   "id": "sm-133",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
+  "topic": "Algebra",
   "difficulty": 1,
-  "prompt": "14 is what percent of 40?",
+  "prompt": "If 6(x + 9) = 120, what is the value of x?",
   "choices": [
-   "286%",
-   "45%",
-   "65%",
-   "35%"
+   "111",
+   "-11",
+   "10",
+   "11"
   ],
   "correctIndex": 3,
-  "explanation": "Percent = 14/40 × 100 = 35%."
+  "explanation": "Divide both sides by 6 to get x + 9 = 20. Then x = 20 - 9 = 11."
  },
  {
   "id": "sm-134",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "A car travels at a constant speed of 45 miles per hour. How many feet does the car travel in 20 seconds? (1 mile = 5,280 feet)",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 30, BC = 16, and AC = 34. What is the value of cos A?",
   "choices": [
-   "900",
-   "1760",
-   "660",
-   "1320"
+   "8/15",
+   "8/17",
+   "15/17",
+   "17/15"
   ],
-  "correctIndex": 3,
-  "explanation": "45 mph is 45 × 5,280 / 3,600 = 66 feet per second. In 20 seconds: 66 × 20 = 1320 feet."
+  "correctIndex": 2,
+  "explanation": "Angle A is opposite side BC (16) and adjacent to side AB (30); the hypotenuse is 34. cos A = adjacent/hypotenuse = 30/34 = 15/17."
  },
  {
   "id": "sm-135",
@@ -2016,10 +2016,10 @@
   "difficulty": 1,
   "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 40°. What is the measure, in degrees, of one of the other two angles?",
   "choices": [
-   "80",
+   "140",
    "70",
    "40",
-   "140"
+   "80"
   ],
   "correctIndex": 1,
   "explanation": "The angles sum to 180°, so the two equal base angles total 140°, and each measures 70°."
@@ -2027,271 +2027,2521 @@
  {
   "id": "sm-136",
   "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 3,
-  "prompt": "For what positive value of k does the equation x² + kx + 49 = 0 have exactly one real solution?",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (-4, 1) and (4, 16) in the xy-plane?",
   "choices": [
-   "28",
-   "98",
-   "14",
+   "289",
+   "18",
+   "17",
    "7"
   ],
   "correctIndex": 2,
-  "explanation": "One real solution means the discriminant is zero: k² - 4(49) = 0, so k² = 196 and k = 14 (positive)."
+  "explanation": "The horizontal change is 8 and the vertical change is 15, so the distance is √(8² + 15²) = √289 = 17."
  },
  {
   "id": "sm-137",
   "subject": "satmath",
   "topic": "Advanced Math",
   "difficulty": 2,
-  "prompt": "A bacteria culture starts with 250 cells and doubles every 5 hours. Assuming this pattern continues, how many cells will there be after 10 hours?",
+  "prompt": "The function f is defined by f(x) = (x - 6)² - 2. What is the minimum value of f?",
   "choices": [
-   "1000",
-   "254",
-   "2000",
-   "2500"
+   "-2",
+   "4",
+   "2",
+   "-6"
   ],
   "correctIndex": 0,
-  "explanation": "After 10 hours there have been 10/5 = 2 doublings, so the count is 250 × 2^2 = 1000."
+  "explanation": "A squared term is never negative, so the least value occurs when x = 6, where (x - 6)² = 0. The minimum is -2."
  },
  {
   "id": "sm-138",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
+  "topic": "Algebra",
   "difficulty": 2,
-  "prompt": "A survey asked 141 students whether they prefer morning or evening study sessions. Of the 72 seniors, 36 prefer morning and 36 prefer evening. Of the 69 juniors, 30 prefer morning and 39 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "prompt": "What is the least integer value of x that satisfies the inequality 4x - 4 > 27?",
   "choices": [
-   "36/73",
-   "1/2",
-   "6/11",
-   "12/47"
+   "8",
+   "7",
+   "6",
+   "9"
   ],
-  "correctIndex": 1,
-  "explanation": "There are 72 seniors and 36 of them prefer morning, so the probability is 36/72 = 1/2."
+  "correctIndex": 0,
+  "explanation": "Add 4 and divide by 4: x > 31/4. The least integer greater than that is 8."
  },
  {
   "id": "sm-139",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
+  "topic": "Geometry & Trigonometry",
   "difficulty": 1,
-  "prompt": "What is the median of the following data set? 8, 40, 5, 7, 36, 31, 39",
+  "prompt": "A right triangle has legs of length 15 and 36. What is the length of its hypotenuse?",
   "choices": [
-   "8",
-   "24",
-   "36",
-   "31"
+   "51",
+   "38",
+   "23",
+   "39"
   ],
   "correctIndex": 3,
-  "explanation": "Ordered, the values are 5, 7, 8, 31, 36, 39, 40. With 7 values the median is the 4th: 31."
+  "explanation": "By the Pythagorean theorem, c² = 15² + 36² = 1521, so c = 39."
  },
  {
   "id": "sm-140",
   "subject": "satmath",
   "topic": "Algebra",
-  "difficulty": 2,
-  "prompt": "A line has slope -3 and passes through the point (4, 6). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (5, 5) and (6, 7). What is the slope of the line?",
   "choices": [
-   "15",
-   "-12",
-   "18",
-   "6"
+   "2",
+   "3",
+   "1/2",
+   "-2"
   ],
-  "correctIndex": 2,
-  "explanation": "Use y = -3x + b. Substituting (4, 6) gives 6 = -12 + b, so b = 18."
+  "correctIndex": 0,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (7 - 5)/(6 - 5) = 2/1 = 2."
  },
  {
   "id": "sm-141",
   "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 1,
-  "prompt": "A right triangle has legs of length 10 and 24. What is the length of its hypotenuse?",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 94 students whether they prefer morning or evening study sessions. Of the 46 seniors, 10 prefer morning and 36 prefer evening. Of the 48 juniors, 30 prefer morning and 18 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
   "choices": [
-   "26",
-   "34",
-   "25",
-   "27"
+   "5/23",
+   "1/4",
+   "18/23",
+   "5/47"
   ],
   "correctIndex": 0,
-  "explanation": "By the Pythagorean theorem, c² = 10² + 24² = 676, so c = 26."
+  "explanation": "There are 46 seniors and 10 of them prefer morning, so the probability is 10/46 = 5/23."
  },
  {
   "id": "sm-142",
   "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
-  "difficulty": 2,
-  "prompt": "A right circular cylinder has a radius of 3 centimeters and a height of 9 centimeters. What is its volume, in cubic centimeters?",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 4x + 2 and g(x) = 2x + 5, what is the value of f(g(5))?",
   "choices": [
-   "27π",
-   "81π",
-   "243π",
-   "54π"
+   "42",
+   "66",
+   "37",
+   "62"
   ],
-  "correctIndex": 1,
-  "explanation": "Volume = πr²h = π(3)²(9) = 81π."
+  "correctIndex": 3,
+  "explanation": "First g(5) = 2(5) + 5 = 15. Then f(15) = 4(15) + 2 = 62."
  },
  {
   "id": "sm-143",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
   "difficulty": 2,
-  "prompt": "A right circular cylinder has a radius of 4 centimeters and a height of 7 centimeters. What is its volume, in cubic centimeters?",
+  "prompt": "An angle measures 3π/2 radians. What is the measure of the angle in degrees?",
   "choices": [
-   "224π",
-   "56π",
-   "112π",
-   "113π"
+   "270",
+   "240",
+   "135",
+   "300"
   ],
-  "correctIndex": 2,
-  "explanation": "Volume = πr²h = π(4)²(7) = 112π."
+  "correctIndex": 0,
+  "explanation": "Multiply by 180/π: (3π/2)(180/π) = 270°."
  },
  {
   "id": "sm-144",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 3,
-  "prompt": "A car travels at a constant speed of 36 miles per hour. How many feet does the car travel in 10 seconds? (1 mile = 5,280 feet)",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "The balance in dollars, d, of a savings account t months after opening is modeled by d = 4t + 27. What does the number 4 represent in the model?",
   "choices": [
-   "360",
-   "968",
-   "3168",
-   "528"
+   "The number of dollars the balance increases each month",
+   "The number of months until the balance reaches $4",
+   "The opening balance, in dollars",
+   "The total change over the whole period"
   ],
-  "correctIndex": 3,
-  "explanation": "36 mph is 36 × 5,280 / 3,600 = 264/5 feet per second. In 10 seconds: 264/5 × 10 = 528 feet."
+  "correctIndex": 0,
+  "explanation": "In y = mx + b form, the coefficient 4 is the rate of change per unit of time, and 27 is the starting value."
  },
  {
   "id": "sm-145",
   "subject": "satmath",
-  "topic": "Algebra",
-  "difficulty": 1,
-  "prompt": "A line passes through the points (1, 2) and (2, 5). What is the slope of the line?",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x + 4)² + 9. What is the minimum value of f?",
   "choices": [
-   "1/3",
-   "2",
-   "3",
-   "4"
+   "-9",
+   "9",
+   "13",
+   "5"
   ],
-  "correctIndex": 2,
-  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (5 - 2)/(2 - 1) = 3/1 = 3."
+  "correctIndex": 1,
+  "explanation": "A squared term is never negative, so the least value occurs when x = -4, where (x + 4)² = 0. The minimum is 9."
  },
  {
   "id": "sm-146",
   "subject": "satmath",
-  "topic": "Advanced Math",
-  "difficulty": 1,
-  "prompt": "When the expression (x + 1)(x - 2) is written in the form x² + px + q, what is the value of p?",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 4x + 20. According to the line, what is the predicted score for a student who studied 9 hours?",
   "choices": [
-   "-2",
-   "3",
-   "-1",
-   "0"
+   "36",
+   "40",
+   "33",
+   "56"
   ],
-  "correctIndex": 2,
-  "explanation": "Expanding gives x² + (1 - 2)x - 2, so p = -1."
+  "correctIndex": 3,
+  "explanation": "Substitute x = 9: y = 4(9) + 20 = 56."
  },
  {
   "id": "sm-147",
   "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
+  "topic": "Problem-Solving & Data Analysis",
   "difficulty": 3,
-  "prompt": "A circle has a radius of 9 and a central angle measuring 150°. What is the length of the arc intercepted by this angle?",
+  "prompt": "A car travels at a constant speed of 30 miles per hour. How many feet does the car travel in 30 seconds? (1 mile = 5,280 feet)",
   "choices": [
-   "18π",
-   "15/2π",
-   "135/4π",
-   "15π"
+   "2640",
+   "1320",
+   "1760",
+   "900"
   ],
   "correctIndex": 1,
-  "explanation": "Arc length = (150/360)(2π · 9) = 15/2π."
+  "explanation": "30 mph is 30 × 5,280 / 3,600 = 44 feet per second. In 30 seconds: 44 × 30 = 1320 feet."
  },
  {
   "id": "sm-148",
   "subject": "satmath",
-  "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "What is the median of the following data set? 47, 45, 38, 23, 51, 19, 46",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 2 and passes through the point (3, 4). What is the y-coordinate of the point where the line crosses the y-axis?",
   "choices": [
-   "45",
-   "23",
-   "46",
-   "38"
+   "4",
+   "2",
+   "10",
+   "-2"
   ],
-  "correctIndex": 0,
-  "explanation": "Ordered, the values are 19, 23, 38, 45, 46, 47, 51. With 7 values the median is the 4th: 45."
+  "correctIndex": 3,
+  "explanation": "Use y = 2x + b. Substituting (3, 4) gives 4 = 6 + b, so b = -2."
  },
  {
   "id": "sm-149",
   "subject": "satmath",
   "topic": "Problem-Solving & Data Analysis",
-  "difficulty": 1,
-  "prompt": "36 is what percent of 240?",
+  "difficulty": 3,
+  "prompt": "An account earns 5% interest compounded annually. If $2,000 is deposited and no other deposits or withdrawals are made, what is the balance after 2 years?",
   "choices": [
-   "5%",
-   "667%",
-   "15%",
-   "25%"
+   "$2,300",
+   "$2,010",
+   "$2,315.25",
+   "$2,205"
   ],
-  "correctIndex": 2,
-  "explanation": "Percent = 36/240 × 100 = 15%."
+  "correctIndex": 3,
+  "explanation": "Balance = 2,000(1 + 0.05)^2 = $2,205. Compound interest grows faster than the simple-interest total of $2,200."
  },
  {
   "id": "sm-150",
   "subject": "satmath",
-  "topic": "Geometry & Trigonometry",
+  "topic": "Advanced Math",
   "difficulty": 1,
-  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 120°. What is the measure, in degrees, of one of the other two angles?",
+  "prompt": "When the expression (x + 6)(x - 2) is written in the form x² + px + q, what is the value of p?",
   "choices": [
-   "120",
-   "30",
-   "40",
-   "60"
+   "4",
+   "5",
+   "-12",
+   "8"
   ],
-  "correctIndex": 1,
-  "explanation": "The angles sum to 180°, so the two equal base angles total 60°, and each measures 30°."
+  "correctIndex": 0,
+  "explanation": "Expanding gives x² + (6 - 2)x - 12, so p = 4."
  },
  {
   "id": "sm-151",
   "subject": "satmath",
   "topic": "Geometry & Trigonometry",
   "difficulty": 2,
-  "prompt": "A right circular cylinder has a radius of 5 centimeters and a height of 9 centimeters. What is its volume, in cubic centimeters?",
+  "prompt": "A circle has a circumference of 18π. What is the area of the circle?",
   "choices": [
-   "90π",
-   "225π",
-   "450π",
-   "75π"
+   "324π",
+   "9π",
+   "18π",
+   "81π"
   ],
-  "correctIndex": 1,
-  "explanation": "Volume = πr²h = π(5)²(9) = 225π."
+  "correctIndex": 3,
+  "explanation": "Circumference = 2πr = 18π, so r = 9. Area = πr² = 81π."
  },
  {
   "id": "sm-152",
   "subject": "satmath",
-  "topic": "Advanced Math",
+  "topic": "Geometry & Trigonometry",
   "difficulty": 2,
-  "prompt": "For x > 0, which of the following is equivalent to (x^3)^4 / x^2?",
+  "prompt": "An angle measures π/3 radians. What is the measure of the angle in degrees?",
   "choices": [
-   "x^6",
-   "x^5",
-   "x^10",
-   "x^14"
+   "90",
+   "30",
+   "60",
+   "120"
   ],
   "correctIndex": 2,
-  "explanation": "Multiply exponents in the power: (x^3)^4 = x^12. Dividing by x^2 subtracts exponents: x^10."
+  "explanation": "Multiply by 180/π: (1π/3)(180/π) = 60°."
  },
  {
   "id": "sm-153",
   "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(0, 2) and B(12, 10). What is the midpoint of AB?",
+  "choices": [
+   "(6, 6)",
+   "(6, 5)",
+   "(12, 8)",
+   "(7, 6)"
+  ],
+  "correctIndex": 0,
+  "explanation": "The midpoint averages the coordinates: ((0 + 12)/2, (2 + 10)/2) = (6, 6)."
+ },
+ {
+  "id": "sm-154",
+  "subject": "satmath",
   "topic": "Algebra",
   "difficulty": 2,
-  "prompt": "What is the least integer value of x that satisfies the inequality 7x - 6 > 23?",
+  "prompt": "In the system of equations 3x + 4y = 49 and 2x - 4y = -14, what is the value of x + y?",
+  "choices": [
+   "12",
+   "14",
+   "0",
+   "15"
+  ],
+  "correctIndex": 1,
+  "explanation": "Solving the system gives x = 7 and y = 7, which satisfy both equations. So x + y = 14."
+ },
+ {
+  "id": "sm-155",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x - 1)² - 8. What is the minimum value of f?",
+  "choices": [
+   "-8",
+   "-7",
+   "-9",
+   "1"
+  ],
+  "correctIndex": 0,
+  "explanation": "A squared term is never negative, so the least value occurs when x = 1, where (x - 1)² = 0. The minimum is -8."
+ },
+ {
+  "id": "sm-156",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 2x + y = -9 and x - 4y = 0, what is the value of x + y?",
+  "choices": [
+   "-7",
+   "-4",
+   "-5",
+   "4"
+  ],
+  "correctIndex": 2,
+  "explanation": "Solving the system gives x = -4 and y = -1, which satisfy both equations. So x + y = -5."
+ },
+ {
+  "id": "sm-157",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 500 cells and doubles every 4 hours. Assuming this pattern continues, how many cells will there be after 16 hours?",
+  "choices": [
+   "16000",
+   "8000",
+   "4000",
+   "516"
+  ],
+  "correctIndex": 1,
+  "explanation": "After 16 hours there have been 16/4 = 4 doublings, so the count is 500 × 2^4 = 8000."
+ },
+ {
+  "id": "sm-158",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 10π. What is the area of the circle?",
+  "choices": [
+   "5π",
+   "25π",
+   "100π",
+   "50π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Circumference = 2πr = 10π, so r = 5. Area = πr² = 25π."
+ },
+ {
+  "id": "sm-159",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 12, BC = 5, and AC = 13. What is the value of tan A?",
+  "choices": [
+   "5/12",
+   "12/5",
+   "13/5",
+   "12/13"
+  ],
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (5) and adjacent to side AB (12); the hypotenuse is 13. tan A = opposite/adjacent = 5/12."
+ },
+ {
+  "id": "sm-160",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 11x + 18 = 0?",
+  "choices": [
+   "7",
+   "11",
+   "10",
+   "18"
+  ],
+  "correctIndex": 1,
+  "explanation": "The equation factors as (x - 9)(x - 2) = 0, so the solutions are 9 and 2, and their sum is 11."
+ },
+ {
+  "id": "sm-161",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (1, -5) and (-7, 10) in the xy-plane?",
+  "choices": [
+   "18",
+   "289",
+   "23",
+   "17"
+  ],
+  "correctIndex": 3,
+  "explanation": "The horizontal change is 8 and the vertical change is 15, so the distance is √(8² + 15²) = √289 = 17."
+ },
+ {
+  "id": "sm-162",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-4, -1) and (-3, 0). What is the slope of the line?",
+  "choices": [
+   "-1",
+   "3",
+   "1",
+   "2"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (0 - (-1))/(-3 - (-4)) = 1/1 = 1."
+ },
+ {
+  "id": "sm-163",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A tutoring center charges a one-time fee of $20 plus $8 per lesson. A customer's total charge was $108. How many lessons did the customer pay for?",
+  "choices": [
+   "13",
+   "11",
+   "12",
+   "16"
+  ],
+  "correctIndex": 1,
+  "explanation": "Write 20 + 8n = 108. Subtract 20: 8n = 88. So n = 11."
+ },
+ {
+  "id": "sm-164",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(0, -8) and B(8, 8). What is the midpoint of AB?",
+  "choices": [
+   "(4, 0)",
+   "(8, 16)",
+   "(5, 0)",
+   "(0, 4)"
+  ],
+  "correctIndex": 0,
+  "explanation": "The midpoint averages the coordinates: ((0 + 8)/2, (-8 + 8)/2) = (4, 0)."
+ },
+ {
+  "id": "sm-165",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(1, -1) and B(5, 7). What is the midpoint of AB?",
+  "choices": [
+   "(4, 3)",
+   "(3, 3)",
+   "(4, 8)",
+   "(3, 2)"
+  ],
+  "correctIndex": 1,
+  "explanation": "The midpoint averages the coordinates: ((1 + 5)/2, (-1 + 7)/2) = (3, 3)."
+ },
+ {
+  "id": "sm-166",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A print shop charges a one-time fee of $35 plus $4 per poster. A customer's total charge was $47. How many posters did the customer pay for?",
   "choices": [
    "3",
-   "5",
+   "12",
+   "2",
+   "20"
+  ],
+  "correctIndex": 0,
+  "explanation": "Write 35 + 4n = 47. Subtract 35: 4n = 12. So n = 3."
+ },
+ {
+  "id": "sm-167",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 200 cells and doubles every 3 hours. Assuming this pattern continues, how many cells will there be after 12 hours?",
+  "choices": [
+   "216",
+   "6400",
+   "3200",
+   "2400"
+  ],
+  "correctIndex": 2,
+  "explanation": "After 12 hours there have been 12/3 = 4 doublings, so the count is 200 × 2^4 = 3200."
+ },
+ {
+  "id": "sm-168",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 6x + 6. What is the value of f(6)?",
+  "choices": [
+   "42",
+   "72",
+   "48",
+   "30"
+  ],
+  "correctIndex": 0,
+  "explanation": "f(6) = 6(6) + 6 = 42."
+ },
+ {
+  "id": "sm-169",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $120. The store raises the price by 25%, and later reduces the new price by 20%. What is the final price?",
+  "choices": [
+   "$96",
+   "$120",
+   "$125",
+   "$126"
+  ],
+  "correctIndex": 1,
+  "explanation": "After the increase the price is 120 × 1.25 = 150. After the decrease it is 150 × 0.8 = 120. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-170",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "In an isosceles triangle, the angle between the two congruent sides measures 50°. What is the measure, in degrees, of one of the other two angles?",
+  "choices": [
+   "75",
+   "65",
+   "50",
+   "130"
+  ],
+  "correctIndex": 1,
+  "explanation": "The angles sum to 180°, so the two equal base angles total 130°, and each measures 65°."
+ },
+ {
+  "id": "sm-171",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 2x + 2y = 20 and 4x - y = 0, what is the value of x + y?",
+  "choices": [
+   "10",
+   "8",
+   "16",
+   "-6"
+  ],
+  "correctIndex": 0,
+  "explanation": "Solving the system gives x = 2 and y = 8, which satisfy both equations. So x + y = 10."
+ },
+ {
+  "id": "sm-172",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(-7, -1) and B(11, 11). What is the midpoint of AB?",
+  "choices": [
+   "(2, 4)",
+   "(2, 5)",
+   "(5, 2)",
+   "(3, 5)"
+  ],
+  "correctIndex": 1,
+  "explanation": "The midpoint averages the coordinates: ((-7 + 11)/2, (-1 + 11)/2) = (2, 5)."
+ },
+ {
+  "id": "sm-173",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 8 centimeters and a height of 10 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "800π",
+   "640π",
+   "1280π",
+   "641π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Volume = πr²h = π(8)²(10) = 640π."
+ },
+ {
+  "id": "sm-174",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^4)^4 / x^3?",
+  "choices": [
+   "x^11",
+   "x^19",
+   "x^13",
+   "x^5"
+  ],
+  "correctIndex": 2,
+  "explanation": "Multiply exponents in the power: (x^4)^4 = x^16. Dividing by x^3 subtracts exponents: x^13."
+ },
+ {
+  "id": "sm-175",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 24, BC = 7, and AC = 25. What is the value of tan A?",
+  "choices": [
+   "7/24",
+   "24/25",
+   "25/7",
+   "24/7"
+  ],
+  "correctIndex": 0,
+  "explanation": "Angle A is opposite side BC (7) and adjacent to side AB (24); the hypotenuse is 25. tan A = opposite/adjacent = 7/24."
+ },
+ {
+  "id": "sm-176",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 1.5x + 10. According to the line, what is the predicted score for a student who studied 13 hours?",
+  "choices": [
+   "21",
+   "29.5",
+   "24.5",
+   "39.5"
+  ],
+  "correctIndex": 1,
+  "explanation": "Substitute x = 13: y = 1.5(13) + 10 = 29.5."
+ },
+ {
+  "id": "sm-177",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 6 centimeters and a height of 8 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "384π",
+   "576π",
+   "96π",
+   "288π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Volume = πr²h = π(6)²(8) = 288π."
+ },
+ {
+  "id": "sm-178",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 9 and a central angle measuring 150°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "15/4π",
+   "18π",
+   "135/4π",
+   "15/2π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Arc length = (150/360)(2π · 9) = 15/2π."
+ },
+ {
+  "id": "sm-179",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (0, 3) and (7, -21) in the xy-plane?",
+  "choices": [
+   "25",
+   "17",
+   "26",
+   "31"
+  ],
+  "correctIndex": 0,
+  "explanation": "The horizontal change is 7 and the vertical change is 24, so the distance is √(7² + 24²) = √625 = 25."
+ },
+ {
+  "id": "sm-180",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "The price of a jacket is $80. The store raises the price by 50%, and later reduces the new price by 10%. What is the final price?",
+  "choices": [
+   "$80",
+   "$113",
+   "$108",
+   "$112"
+  ],
+  "correctIndex": 2,
+  "explanation": "After the increase the price is 80 × 1.5 = 120. After the decrease it is 120 × 0.9 = 108. Percent changes do not simply cancel."
+ },
+ {
+  "id": "sm-181",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 2x + 2 and g(x) = 4x + 3, what is the value of f(g(4))?",
+  "choices": [
+   "43",
+   "34",
+   "42",
+   "40"
+  ],
+  "correctIndex": 3,
+  "explanation": "First g(4) = 4(4) + 3 = 19. Then f(19) = 2(19) + 2 = 40."
+ },
+ {
+  "id": "sm-182",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A video-editing service charges a one-time fee of $75 plus $12 per hour. A customer's total charge was $231. How many hours did the customer pay for?",
+  "choices": [
+   "12",
+   "25",
+   "14",
+   "13"
+  ],
+  "correctIndex": 3,
+  "explanation": "Write 75 + 12n = 231. Subtract 75: 12n = 156. So n = 13."
+ },
+ {
+  "id": "sm-183",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 27 and 120. What is the length of its hypotenuse?",
+  "choices": [
+   "122",
+   "123",
+   "124",
+   "57"
+  ],
+  "correctIndex": 1,
+  "explanation": "By the Pythagorean theorem, c² = 27² + 120² = 15129, so c = 123."
+ },
+ {
+  "id": "sm-184",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "48 is what percent of 80?",
+  "choices": [
+   "40%",
+   "60%",
+   "167%",
+   "50%"
+  ],
+  "correctIndex": 1,
+  "explanation": "Percent = 48/80 × 100 = 60%."
+ },
+ {
+  "id": "sm-185",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 21 and 72. What is the length of its hypotenuse?",
+  "choices": [
+   "75",
+   "39",
+   "74",
+   "93"
+  ],
+  "correctIndex": 0,
+  "explanation": "By the Pythagorean theorem, c² = 21² + 72² = 5625, so c = 75."
+ },
+ {
+  "id": "sm-186",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 4x - 11 > 17?",
+  "choices": [
+   "9",
+   "8",
    "4",
    "6"
   ],
   "correctIndex": 1,
-  "explanation": "Add 6 and divide by 7: x > 29/7. The least integer greater than that is 5."
+  "explanation": "Add 11 and divide by 4: x > 7. The least integer greater than that is 8."
+ },
+ {
+  "id": "sm-187",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² - 5x - 14 = 0?",
+  "choices": [
+   "14",
+   "9",
+   "7",
+   "-7"
+  ],
+  "correctIndex": 2,
+  "explanation": "The equation factors as (x + 2)(x - 7) = 0, so x = -2 or x = 7. The positive solution is 7."
+ },
+ {
+  "id": "sm-188",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-3, 0) and (-1, -2). What is the slope of the line?",
+  "choices": [
+   "-1",
+   "2",
+   "0",
+   "-2"
+  ],
+  "correctIndex": 0,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (-2 - 0)/(-1 - (-3)) = -2/2 = -1."
+ },
+ {
+  "id": "sm-189",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 64 students whether they prefer morning or evening study sessions. Of the 36 seniors, 28 prefer morning and 8 prefer evening. Of the 28 juniors, 6 prefer morning and 22 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "14/17",
+   "7/9",
+   "7/16",
+   "28/37"
+  ],
+  "correctIndex": 1,
+  "explanation": "There are 36 seniors and 28 of them prefer morning, so the probability is 28/36 = 7/9."
+ },
+ {
+  "id": "sm-190",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 36 miles per hour. How many feet does the car travel in 30 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "2024",
+   "792",
+   "1080",
+   "1584"
+  ],
+  "correctIndex": 3,
+  "explanation": "36 mph is 36 × 5,280 / 3,600 = 264/5 feet per second. In 30 seconds: 264/5 × 30 = 1584 feet."
+ },
+ {
+  "id": "sm-191",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x - 4)² + (y + 5)² = 25. What is the radius of the circle?",
+  "choices": [
+   "6",
+   "5",
+   "9",
+   "25"
+  ],
+  "correctIndex": 1,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 25, so r = 5."
+ },
+ {
+  "id": "sm-192",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 12x + 27 = 0?",
+  "choices": [
+   "27",
+   "6",
+   "-12",
+   "12"
+  ],
+  "correctIndex": 3,
+  "explanation": "The equation factors as (x - 3)(x - 9) = 0, so the solutions are 3 and 9, and their sum is 12."
+ },
+ {
+  "id": "sm-193",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "An account earns 5% interest compounded annually. If $1,000 is deposited and no other deposits or withdrawals are made, what is the balance after 2 years?",
+  "choices": [
+   "$1,102.50",
+   "$1,010",
+   "$1,157.63",
+   "$1,100"
+  ],
+  "correctIndex": 0,
+  "explanation": "Balance = 1,000(1 + 0.05)^2 = $1,102.50. Compound interest grows faster than the simple-interest total of $1,100."
+ },
+ {
+  "id": "sm-194",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "An account earns 10% interest compounded annually. If $1,000 is deposited and no other deposits or withdrawals are made, what is the balance after 3 years?",
+  "choices": [
+   "$1,300",
+   "$1,331",
+   "$1,464.10",
+   "$1,400"
+  ],
+  "correctIndex": 1,
+  "explanation": "Balance = 1,000(1 + 0.1)^3 = $1,331. Compound interest grows faster than the simple-interest total of $1,300."
+ },
+ {
+  "id": "sm-195",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 8, BC = 6, and AC = 10. What is the value of cos A?",
+  "choices": [
+   "3/4",
+   "5/4",
+   "4/5",
+   "3/5"
+  ],
+  "correctIndex": 2,
+  "explanation": "Angle A is opposite side BC (6) and adjacent to side AB (8); the hypotenuse is 10. cos A = adjacent/hypotenuse = 8/10 = 4/5."
+ },
+ {
+  "id": "sm-196",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 5 tests are 60, 80, 91, 93, 86. What score does the student need on one more test for the mean of all 6 scores to be 78?",
+  "choices": [
+   "52",
+   "58",
+   "98",
+   "78"
+  ],
+  "correctIndex": 1,
+  "explanation": "The total of all 6 scores must be 78 × 6 = 468. The first 5 sum to 410, so the last score is 468 - 410 = 58."
+ },
+ {
+  "id": "sm-197",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "70 is what percent of 200?",
+  "choices": [
+   "35%",
+   "286%",
+   "25%",
+   "65%"
+  ],
+  "correctIndex": 0,
+  "explanation": "Percent = 70/200 × 100 = 35%."
+ },
+ {
+  "id": "sm-198",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x + 2)(x + 1) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "1",
+   "4",
+   "2",
+   "3"
+  ],
+  "correctIndex": 3,
+  "explanation": "Expanding gives x² + (2 + 1)x + 2, so p = 3."
+ },
+ {
+  "id": "sm-199",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 4 to 7. If there are 88 books in all, how many are nonfiction?",
+  "choices": [
+   "32",
+   "81",
+   "56",
+   "12"
+  ],
+  "correctIndex": 2,
+  "explanation": "The parts total 4 + 7 = 11, so each part is 88/11 = 8. The nonfiction books are 7 × 8 = 56."
+ },
+ {
+  "id": "sm-200",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 54 miles per hour. How many feet does the car travel in 30 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "1620",
+   "2376",
+   "1188",
+   "2816"
+  ],
+  "correctIndex": 1,
+  "explanation": "54 mph is 54 × 5,280 / 3,600 = 396/5 feet per second. In 30 seconds: 396/5 × 30 = 2376 feet."
+ },
+ {
+  "id": "sm-201",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "45 is what percent of 60?",
+  "choices": [
+   "65%",
+   "25%",
+   "75%",
+   "133%"
+  ],
+  "correctIndex": 2,
+  "explanation": "Percent = 45/60 × 100 = 75%."
+ },
+ {
+  "id": "sm-202",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 6x - 9. What is the value of f(3)?",
+  "choices": [
+   "27",
+   "0",
+   "-36",
+   "9"
+  ],
+  "correctIndex": 3,
+  "explanation": "f(3) = 6(3) - 9 = 9."
+ },
+ {
+  "id": "sm-203",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 5 and passes through the point (2, -2). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "12",
+   "-2",
+   "8",
+   "-12"
+  ],
+  "correctIndex": 3,
+  "explanation": "Use y = 5x + b. Substituting (2, -2) gives -2 = 10 + b, so b = -12."
+ },
+ {
+  "id": "sm-204",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 10, 28, 41, 27, 33, 56, 22",
+  "choices": [
+   "31",
+   "28",
+   "27",
+   "33"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ordered, the values are 10, 22, 27, 28, 33, 41, 56. With 7 values the median is the 4th: 28."
+ },
+ {
+  "id": "sm-205",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (2, 2) and (-5, -22) in the xy-plane?",
+  "choices": [
+   "17",
+   "25",
+   "26",
+   "625"
+  ],
+  "correctIndex": 1,
+  "explanation": "The horizontal change is 7 and the vertical change is 24, so the distance is √(7² + 24²) = √625 = 25."
+ },
+ {
+  "id": "sm-206",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 2(x - 4) = -20, what is the value of x?",
+  "choices": [
+   "-7",
+   "6",
+   "-16",
+   "-6"
+  ],
+  "correctIndex": 3,
+  "explanation": "Divide both sides by 2 to get x - 4 = -10. Then x = -10 + 4 = -6."
+ },
+ {
+  "id": "sm-207",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 3 tests are 96, 63, 94. What score does the student need on one more test for the mean of all 4 scores to be 84?",
+  "choices": [
+   "79",
+   "83",
+   "87",
+   "85"
+  ],
+  "correctIndex": 1,
+  "explanation": "The total of all 4 scores must be 84 × 4 = 336. The first 3 sum to 253, so the last score is 336 - 253 = 83."
+ },
+ {
+  "id": "sm-208",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 15, 21, 11, 59, 27, 23, 48",
+  "choices": [
+   "21",
+   "27",
+   "23",
+   "59"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ordered, the values are 11, 15, 21, 23, 27, 48, 59. With 7 values the median is the 4th: 23."
+ },
+ {
+  "id": "sm-209",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A plant's height in centimeters, h, t weeks after planting is modeled by h = 8t + 19. What does the number 8 represent in the model?",
+  "choices": [
+   "The number of centimeters the plant grows each week",
+   "The plant's height, in centimeters, at planting",
+   "The plant's height, in centimeters, after 8 weeks",
+   "The total change over the whole period"
+  ],
+  "correctIndex": 0,
+  "explanation": "In y = mx + b form, the coefficient 8 is the rate of change per unit of time, and 19 is the starting value."
+ },
+ {
+  "id": "sm-210",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope -2 and passes through the point (3, 0). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "4",
+   "-6",
+   "0",
+   "6"
+  ],
+  "correctIndex": 3,
+  "explanation": "Use y = -2x + b. Substituting (3, 0) gives 0 = -6 + b, so b = 6."
+ },
+ {
+  "id": "sm-211",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope -3 and passes through the point (3, 0). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "0",
+   "9",
+   "6",
+   "-9"
+  ],
+  "correctIndex": 1,
+  "explanation": "Use y = -3x + b. Substituting (3, 0) gives 0 = -9 + b, so b = 9."
+ },
+ {
+  "id": "sm-212",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "8 is what percent of 40?",
+  "choices": [
+   "20%",
+   "500%",
+   "80%",
+   "30%"
+  ],
+  "correctIndex": 0,
+  "explanation": "Percent = 8/40 × 100 = 20%."
+ },
+ {
+  "id": "sm-213",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 5x + 8y = 7 and 15x + 24y = c have infinitely many solutions?",
+  "choices": [
+   "21",
+   "13",
+   "10",
+   "7"
+  ],
+  "correctIndex": 0,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 15x + 24y = 21, so c = 21."
+ },
+ {
+  "id": "sm-214",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 2x + 10. According to the line, what is the predicted score for a student who studied 5 hours?",
+  "choices": [
+   "22",
+   "20",
+   "17",
+   "30"
+  ],
+  "correctIndex": 1,
+  "explanation": "Substitute x = 5: y = 2(5) + 10 = 20."
+ },
+ {
+  "id": "sm-215",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "An account earns 10% interest compounded annually. If $2,000 is deposited and no other deposits or withdrawals are made, what is the balance after 3 years?",
+  "choices": [
+   "$2,928.20",
+   "$2,800",
+   "$2,030",
+   "$2,662"
+  ],
+  "correctIndex": 3,
+  "explanation": "Balance = 2,000(1 + 0.1)^3 = $2,662. Compound interest grows faster than the simple-interest total of $2,600."
+ },
+ {
+  "id": "sm-216",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x - 3)² + (y - 6)² = 36. What is the radius of the circle?",
+  "choices": [
+   "6",
+   "36",
+   "9",
+   "12"
+  ],
+  "correctIndex": 0,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 36, so r = 6."
+ },
+ {
+  "id": "sm-217",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 2x + 3y = 21 and x - 4y = -17, what is the value of x + y?",
+  "choices": [
+   "15",
+   "5",
+   "8",
+   "9"
+  ],
+  "correctIndex": 2,
+  "explanation": "Solving the system gives x = 3 and y = 5, which satisfy both equations. So x + y = 8."
+ },
+ {
+  "id": "sm-218",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 3x - 2 > 20?",
+  "choices": [
+   "9",
+   "6",
+   "7",
+   "8"
+  ],
+  "correctIndex": 3,
+  "explanation": "Add 2 and divide by 3: x > 22/3. The least integer greater than that is 8."
+ },
+ {
+  "id": "sm-219",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 5 and passes through the point (3, 10). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "-5",
+   "0",
+   "5",
+   "10"
+  ],
+  "correctIndex": 0,
+  "explanation": "Use y = 5x + b. Substituting (3, 10) gives 10 = 15 + b, so b = -5."
+ },
+ {
+  "id": "sm-220",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-4, 2) and (-1, 5). What is the slope of the line?",
+  "choices": [
+   "0",
+   "3",
+   "1",
+   "-1"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (5 - 2)/(-1 - (-4)) = 3/3 = 1."
+ },
+ {
+  "id": "sm-221",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 4x + 4y = 28 and 4x - 4y = -28, what is the value of x + y?",
+  "choices": [
+   "8",
+   "0",
+   "-7",
+   "7"
+  ],
+  "correctIndex": 3,
+  "explanation": "Solving the system gives x = 0 and y = 7, which satisfy both equations. So x + y = 7."
+ },
+ {
+  "id": "sm-222",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 3 centimeters and a height of 3 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "27π",
+   "9π",
+   "18π",
+   "54π"
+  ],
+  "correctIndex": 0,
+  "explanation": "Volume = πr²h = π(3)²(3) = 27π."
+ },
+ {
+  "id": "sm-223",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(4, 3) and B(10, 7). What is the midpoint of AB?",
+  "choices": [
+   "(5, 7)",
+   "(6, 4)",
+   "(8, 5)",
+   "(7, 5)"
+  ],
+  "correctIndex": 3,
+  "explanation": "The midpoint averages the coordinates: ((4 + 10)/2, (3 + 7)/2) = (7, 5)."
+ },
+ {
+  "id": "sm-224",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 2x - 1 and g(x) = 2x - 1, what is the value of f(g(4))?",
+  "choices": [
+   "7",
+   "14",
+   "15",
+   "13"
+  ],
+  "correctIndex": 3,
+  "explanation": "First g(4) = 2(4) - 1 = 7. Then f(7) = 2(7) - 1 = 13."
+ },
+ {
+  "id": "sm-225",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 4(x + 7) = 64, what is the value of x?",
+  "choices": [
+   "10",
+   "23",
+   "8",
+   "9"
+  ],
+  "correctIndex": 3,
+  "explanation": "Divide both sides by 4 to get x + 7 = 16. Then x = 16 - 7 = 9."
+ },
+ {
+  "id": "sm-226",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "The balance in dollars, d, of a savings account t months after opening is modeled by d = 4t + 45. What does the number 4 represent in the model?",
+  "choices": [
+   "The number of dollars the balance increases each month",
+   "The number of months until the balance reaches $4",
+   "The balance, in dollars, after 4 months",
+   "The total change over the whole period"
+  ],
+  "correctIndex": 0,
+  "explanation": "In y = mx + b form, the coefficient 4 is the rate of change per unit of time, and 45 is the starting value."
+ },
+ {
+  "id": "sm-227",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^4)^3 / x^2?",
+  "choices": [
+   "x^5",
+   "x^14",
+   "x^10",
+   "x^9"
+  ],
+  "correctIndex": 2,
+  "explanation": "Multiply exponents in the power: (x^4)^3 = x^12. Dividing by x^2 subtracts exponents: x^10."
+ },
+ {
+  "id": "sm-228",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 45 miles per hour. How many feet does the car travel in 10 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "660",
+   "450",
+   "1100",
+   "3960"
+  ],
+  "correctIndex": 0,
+  "explanation": "45 mph is 45 × 5,280 / 3,600 = 66 feet per second. In 10 seconds: 66 × 10 = 660 feet."
+ },
+ {
+  "id": "sm-229",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 5x - 7. What is the value of f(7)?",
+  "choices": [
+   "0",
+   "28",
+   "42",
+   "33"
+  ],
+  "correctIndex": 1,
+  "explanation": "f(7) = 5(7) - 7 = 28."
+ },
+ {
+  "id": "sm-230",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 16 and 30. What is the length of its hypotenuse?",
+  "choices": [
+   "34",
+   "22",
+   "35",
+   "33"
+  ],
+  "correctIndex": 0,
+  "explanation": "By the Pythagorean theorem, c² = 16² + 30² = 1156, so c = 34."
+ },
+ {
+  "id": "sm-231",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "A line has slope 3 and passes through the point (5, -3). What is the y-coordinate of the point where the line crosses the y-axis?",
+  "choices": [
+   "12",
+   "15",
+   "-18",
+   "-15"
+  ],
+  "correctIndex": 2,
+  "explanation": "Use y = 3x + b. Substituting (5, -3) gives -3 = 15 + b, so b = -18."
+ },
+ {
+  "id": "sm-232",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "An account earns 5% interest compounded annually. If $500 is deposited and no other deposits or withdrawals are made, what is the balance after 2 years?",
+  "choices": [
+   "$551.25",
+   "$575",
+   "$550",
+   "$510"
+  ],
+  "correctIndex": 0,
+  "explanation": "Balance = 500(1 + 0.05)^2 = $551.25. Compound interest grows faster than the simple-interest total of $550."
+ },
+ {
+  "id": "sm-233",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 30 miles per hour. How many feet does the car travel in 10 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "300",
+   "880",
+   "440",
+   "2640"
+  ],
+  "correctIndex": 2,
+  "explanation": "30 mph is 30 × 5,280 / 3,600 = 44 feet per second. In 10 seconds: 44 × 10 = 440 feet."
+ },
+ {
+  "id": "sm-234",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A print shop charges a one-time fee of $50 plus $6 per poster. A customer's total charge was $104. How many posters did the customer pay for?",
+  "choices": [
+   "54",
+   "17",
+   "9",
+   "10"
+  ],
+  "correctIndex": 2,
+  "explanation": "Write 50 + 6n = 104. Subtract 50: 6n = 54. So n = 9."
+ },
+ {
+  "id": "sm-235",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 5)/(x - 3) = 3, what is the value of x?",
+  "choices": [
+   "6",
+   "7",
+   "4",
+   "8"
+  ],
+  "correctIndex": 1,
+  "explanation": "Multiply both sides by (x - 3): x + 5 = 3x - 9. So 14 = 2x, giving x = 7."
+ },
+ {
+  "id": "sm-236",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If f(x) = 4x + 3 and g(x) = 2x - 1, what is the value of f(g(5))?",
+  "choices": [
+   "39",
+   "45",
+   "43",
+   "9"
+  ],
+  "correctIndex": 0,
+  "explanation": "First g(5) = 2(5) - 1 = 9. Then f(9) = 4(9) + 3 = 39."
+ },
+ {
+  "id": "sm-237",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x - 6)(x - 6) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "-12",
+   "12",
+   "-11",
+   "0"
+  ],
+  "correctIndex": 0,
+  "explanation": "Expanding gives x² + (-6 - 6)x + 36, so p = -12."
+ },
+ {
+  "id": "sm-238",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² - 1x - 2 = 0?",
+  "choices": [
+   "-2",
+   "3",
+   "2",
+   "1"
+  ],
+  "correctIndex": 2,
+  "explanation": "The equation factors as (x + 1)(x - 2) = 0, so x = -1 or x = 2. The positive solution is 2."
+ },
+ {
+  "id": "sm-239",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "A right triangle has legs of length 40 and 42. What is the length of its hypotenuse?",
+  "choices": [
+   "82",
+   "41",
+   "58",
+   "57"
+  ],
+  "correctIndex": 2,
+  "explanation": "By the Pythagorean theorem, c² = 40² + 42² = 3364, so c = 58."
+ },
+ {
+  "id": "sm-240",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^2)^4 / x^2?",
+  "choices": [
+   "x^4",
+   "x^6",
+   "x^8",
+   "x^10"
+  ],
+  "correctIndex": 1,
+  "explanation": "Multiply exponents in the power: (x^2)^4 = x^8. Dividing by x^2 subtracts exponents: x^6."
+ },
+ {
+  "id": "sm-241",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 5x + 5y = 7 and 15x + 15y = c have infinitely many solutions?",
+  "choices": [
+   "26",
+   "7",
+   "3",
+   "21"
+  ],
+  "correctIndex": 3,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 15x + 15y = 21, so c = 21."
+ },
+ {
+  "id": "sm-242",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 1.5x + 10. According to the line, what is the predicted score for a student who studied 12 hours?",
+  "choices": [
+   "28",
+   "38",
+   "18",
+   "23.5"
+  ],
+  "correctIndex": 0,
+  "explanation": "Substitute x = 12: y = 1.5(12) + 10 = 28."
+ },
+ {
+  "id": "sm-243",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 4 to 7. If there are 132 books in all, how many are nonfiction?",
+  "choices": [
+   "48",
+   "84",
+   "72",
+   "125"
+  ],
+  "correctIndex": 1,
+  "explanation": "The parts total 4 + 7 = 11, so each part is 132/11 = 12. The nonfiction books are 7 × 12 = 84."
+ },
+ {
+  "id": "sm-244",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "If (x + 1)/(x - 5) = 2, what is the value of x?",
+  "choices": [
+   "6",
+   "12",
+   "11",
+   "10"
+  ],
+  "correctIndex": 2,
+  "explanation": "Multiply both sides by (x - 5): x + 1 = 2x - 10. So 11 = 1x, giving x = 11."
+ },
+ {
+  "id": "sm-245",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 48, BC = 14, and AC = 50. What is the value of sin A?",
+  "choices": [
+   "7/24",
+   "7/25",
+   "24/25",
+   "25/7"
+  ],
+  "correctIndex": 1,
+  "explanation": "Angle A is opposite side BC (14) and adjacent to side AB (48); the hypotenuse is 50. sin A = opposite/hypotenuse = 14/50 = 7/25."
+ },
+ {
+  "id": "sm-246",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 5x + 6 = 0?",
+  "choices": [
+   "1",
+   "-5",
+   "5",
+   "4"
+  ],
+  "correctIndex": 2,
+  "explanation": "The equation factors as (x - 2)(x - 3) = 0, so the solutions are 2 and 3, and their sum is 5."
+ },
+ {
+  "id": "sm-247",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "An angle measures 7π/6 radians. What is the measure of the angle in degrees?",
+  "choices": [
+   "420",
+   "240",
+   "180",
+   "210"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply by 180/π: (7π/6)(180/π) = 210°."
+ },
+ {
+  "id": "sm-248",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (-2, 5) and (-10, -10) in the xy-plane?",
+  "choices": [
+   "7",
+   "18",
+   "23",
+   "17"
+  ],
+  "correctIndex": 3,
+  "explanation": "The horizontal change is 8 and the vertical change is 15, so the distance is √(8² + 15²) = √289 = 17."
+ },
+ {
+  "id": "sm-249",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 1000 cells and doubles every 2 hours. Assuming this pattern continues, how many cells will there be after 6 hours?",
+  "choices": [
+   "9000",
+   "1008",
+   "8000",
+   "6000"
+  ],
+  "correctIndex": 2,
+  "explanation": "After 6 hours there have been 6/2 = 3 doublings, so the count is 1000 × 2^3 = 8000."
+ },
+ {
+  "id": "sm-250",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 9, BC = 12, and DE = 36. What is the length of EF?",
+  "choices": [
+   "48",
+   "57",
+   "16",
+   "47"
+  ],
+  "correctIndex": 0,
+  "explanation": "The scale factor is DE/AB = 36/9 = 4. So EF = 4 × BC = 4 × 12 = 48."
+ },
+ {
+  "id": "sm-251",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 14π. What is the area of the circle?",
+  "choices": [
+   "98π",
+   "7π",
+   "14π",
+   "49π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Circumference = 2πr = 14π, so r = 7. Area = πr² = 49π."
+ },
+ {
+  "id": "sm-252",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 1,
+  "prompt": "Segment AB has endpoints A(1, -8) and B(11, 6). What is the midpoint of AB?",
+  "choices": [
+   "(7, -1)",
+   "(6, -2)",
+   "(6, -1)",
+   "(-1, 6)"
+  ],
+  "correctIndex": 2,
+  "explanation": "The midpoint averages the coordinates: ((1 + 11)/2, (-8 + 6)/2) = (6, -1)."
+ },
+ {
+  "id": "sm-253",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A student's scores on 3 tests are 72, 95, 88. What score does the student need on one more test for the mean of all 4 scores to be 81?",
+  "choices": [
+   "69",
+   "73",
+   "81",
+   "85"
+  ],
+  "correctIndex": 0,
+  "explanation": "The total of all 4 scores must be 81 × 4 = 324. The first 3 sum to 255, so the last score is 324 - 255 = 69."
+ },
+ {
+  "id": "sm-254",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the positive solution to x² + 5x - 36 = 0?",
+  "choices": [
+   "4",
+   "36",
+   "-4",
+   "13"
+  ],
+  "correctIndex": 0,
+  "explanation": "The equation factors as (x + 9)(x - 4) = 0, so x = -9 or x = 4. The positive solution is 4."
+ },
+ {
+  "id": "sm-255",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 8 centimeters and a height of 4 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "256π",
+   "128π",
+   "512π",
+   "257π"
+  ],
+  "correctIndex": 0,
+  "explanation": "Volume = πr²h = π(8)²(4) = 256π."
+ },
+ {
+  "id": "sm-256",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "What is the least integer value of x that satisfies the inequality 5x - 6 > 15?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "correctIndex": 2,
+  "explanation": "Add 6 and divide by 5: x > 21/5. The least integer greater than that is 5."
+ },
+ {
+  "id": "sm-257",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^5)^2 / x^5?",
+  "choices": [
+   "x^12",
+   "x^2",
+   "x^15",
+   "x^5"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply exponents in the power: (x^5)^2 = x^10. Dividing by x^5 subtracts exponents: x^5."
+ },
+ {
+  "id": "sm-258",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 3 to 4. If there are 42 books in all, how many are nonfiction?",
+  "choices": [
+   "10",
+   "38",
+   "24",
+   "18"
+  ],
+  "correctIndex": 2,
+  "explanation": "The parts total 3 + 4 = 7, so each part is 42/7 = 6. The nonfiction books are 4 × 6 = 24."
+ },
+ {
+  "id": "sm-259",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "What is the distance between the points (5, -1) and (-3, 14) in the xy-plane?",
+  "choices": [
+   "18",
+   "17",
+   "23",
+   "289"
+  ],
+  "correctIndex": 1,
+  "explanation": "The horizontal change is 8 and the vertical change is 15, so the distance is √(8² + 15²) = √289 = 17."
+ },
+ {
+  "id": "sm-260",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A scatterplot of the number of hours studied, x, and exam score, y, has a line of best fit with equation y = 2.5x + 8. According to the line, what is the predicted score for a student who studied 12 hours?",
+  "choices": [
+   "46",
+   "38",
+   "22.5",
+   "30"
+  ],
+  "correctIndex": 1,
+  "explanation": "Substitute x = 12: y = 2.5(12) + 8 = 38."
+ },
+ {
+  "id": "sm-261",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 60 miles per hour. How many feet does the car travel in 20 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "1760",
+   "5280",
+   "2200",
+   "880"
+  ],
+  "correctIndex": 0,
+  "explanation": "60 mph is 60 × 5,280 / 3,600 = 88 feet per second. In 20 seconds: 88 × 20 = 1760 feet."
+ },
+ {
+  "id": "sm-262",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 3,
+  "prompt": "A circle has a radius of 12 and a central angle measuring 40°. What is the length of the arc intercepted by this angle?",
+  "choices": [
+   "8/3π",
+   "4/3π",
+   "24π",
+   "16π"
+  ],
+  "correctIndex": 0,
+  "explanation": "Arc length = (40/360)(2π · 12) = 8/3π."
+ },
+ {
+  "id": "sm-263",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 2x + 2y = 24 and 2x - 4y = 0, what is the value of x + y?",
+  "choices": [
+   "12",
+   "10",
+   "32",
+   "13"
+  ],
+  "correctIndex": 0,
+  "explanation": "Solving the system gives x = 8 and y = 4, which satisfy both equations. So x + y = 12."
+ },
+ {
+  "id": "sm-264",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 8 centimeters and a height of 6 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "768π",
+   "288π",
+   "128π",
+   "384π"
+  ],
+  "correctIndex": 3,
+  "explanation": "Volume = πr²h = π(8)²(6) = 384π."
+ },
+ {
+  "id": "sm-265",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 7x. What is the value of f(3)?",
+  "choices": [
+   "10",
+   "22",
+   "21",
+   "23"
+  ],
+  "correctIndex": 2,
+  "explanation": "f(3) = 7(3) + 0 = 21."
+ },
+ {
+  "id": "sm-266",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 14x + 48 = 0?",
+  "choices": [
+   "-14",
+   "15",
+   "13",
+   "14"
+  ],
+  "correctIndex": 3,
+  "explanation": "The equation factors as (x - 8)(x - 6) = 0, so the solutions are 8 and 6, and their sum is 14."
+ },
+ {
+  "id": "sm-267",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 105 students whether they prefer morning or evening study sessions. Of the 52 seniors, 17 prefer morning and 35 prefer evening. Of the 53 juniors, 34 prefer morning and 19 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "17/53",
+   "35/52",
+   "1/3",
+   "17/52"
+  ],
+  "correctIndex": 3,
+  "explanation": "There are 52 seniors and 17 of them prefer morning, so the probability is 17/52."
+ },
+ {
+  "id": "sm-268",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x - 5)(x - 7) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "-12",
+   "35",
+   "12",
+   "2"
+  ],
+  "correctIndex": 0,
+  "explanation": "Expanding gives x² + (-5 - 7)x + 35, so p = -12."
+ },
+ {
+  "id": "sm-269",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "The function f is defined by f(x) = 6x - 4. What is the value of f(6)?",
+  "choices": [
+   "8",
+   "32",
+   "40",
+   "38"
+  ],
+  "correctIndex": 1,
+  "explanation": "f(6) = 6(6) - 4 = 32."
+ },
+ {
+  "id": "sm-270",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 3x + 1y = 7 and 9x + 3y = c have infinitely many solutions?",
+  "choices": [
+   "20",
+   "3",
+   "21",
+   "7"
+  ],
+  "correctIndex": 2,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 3 gives 9x + 3y = 21, so c = 21."
+ },
+ {
+  "id": "sm-271",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 5x + 7y = 7 and 10x + 14y = c have infinitely many solutions?",
+  "choices": [
+   "14",
+   "9",
+   "2",
+   "19"
+  ],
+  "correctIndex": 0,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 10x + 14y = 14, so c = 14."
+ },
+ {
+  "id": "sm-272",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x - 1)² + (y - 3)² = 9. What is the radius of the circle?",
+  "choices": [
+   "4",
+   "6",
+   "3",
+   "9"
+  ],
+  "correctIndex": 2,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 9, so r = 3."
+ },
+ {
+  "id": "sm-273",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^4)^4 / x^6?",
+  "choices": [
+   "x^14",
+   "x^10",
+   "x^22",
+   "x^2"
+  ],
+  "correctIndex": 1,
+  "explanation": "Multiply exponents in the power: (x^4)^4 = x^16. Dividing by x^6 subtracts exponents: x^10."
+ },
+ {
+  "id": "sm-274",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A right circular cylinder has a radius of 3 centimeters and a height of 10 centimeters. What is its volume, in cubic centimeters?",
+  "choices": [
+   "300π",
+   "180π",
+   "90π",
+   "30π"
+  ],
+  "correctIndex": 2,
+  "explanation": "Volume = πr²h = π(3)²(10) = 90π."
+ },
+ {
+  "id": "sm-275",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "In right triangle ABC, the right angle is at B, AB = 42, BC = 40, and AC = 58. What is the value of tan A?",
+  "choices": [
+   "21/29",
+   "29/20",
+   "20/21",
+   "21/20"
+  ],
+  "correctIndex": 2,
+  "explanation": "Angle A is opposite side BC (40) and adjacent to side AB (42); the hypotenuse is 58. tan A = opposite/adjacent = 40/42 = 20/21."
+ },
+ {
+  "id": "sm-276",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 2,
+  "prompt": "A survey asked 108 students whether they prefer morning or evening study sessions. Of the 33 seniors, 24 prefer morning and 9 prefer evening. Of the 75 juniors, 36 prefer morning and 39 prefer evening. If one senior is chosen at random, what is the probability the student prefers morning?",
+  "choices": [
+   "12/17",
+   "2/9",
+   "8/11",
+   "2/5"
+  ],
+  "correctIndex": 2,
+  "explanation": "There are 33 seniors and 24 of them prefer morning, so the probability is 24/33 = 8/11."
+ },
+ {
+  "id": "sm-277",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "The equation of a circle in the xy-plane is (x + 3)² + (y + 3)² = 64. What is the radius of the circle?",
+  "choices": [
+   "16",
+   "64",
+   "8",
+   "6"
+  ],
+  "correctIndex": 2,
+  "explanation": "In (x - h)² + (y - k)² = r², the right side is r². Here r² = 64, so r = 8."
+ },
+ {
+  "id": "sm-278",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "An account earns 5% interest compounded annually. If $500 is deposited and no other deposits or withdrawals are made, what is the balance after 3 years?",
+  "choices": [
+   "$607.75",
+   "$578.81",
+   "$515",
+   "$575"
+  ],
+  "correctIndex": 1,
+  "explanation": "Balance = 500(1 + 0.05)^3 = $578.81. Compound interest grows faster than the simple-interest total of $575."
+ },
+ {
+  "id": "sm-279",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "A circle has a circumference of 22π. What is the area of the circle?",
+  "choices": [
+   "11π",
+   "121π",
+   "484π",
+   "22π"
+  ],
+  "correctIndex": 1,
+  "explanation": "Circumference = 2πr = 22π, so r = 11. Area = πr² = 121π."
+ },
+ {
+  "id": "sm-280",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "The function f is defined by f(x) = (x - 6)² + 1. What is the minimum value of f?",
+  "choices": [
+   "-1",
+   "-5",
+   "1",
+   "-6"
+  ],
+  "correctIndex": 2,
+  "explanation": "A squared term is never negative, so the least value occurs when x = 6, where (x - 6)² = 0. The minimum is 1."
+ },
+ {
+  "id": "sm-281",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x + 2)(x - 5) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "7",
+   "-10",
+   "-3",
+   "-2"
+  ],
+  "correctIndex": 2,
+  "explanation": "Expanding gives x² + (2 - 5)x - 10, so p = -3."
+ },
+ {
+  "id": "sm-282",
+  "subject": "satmath",
+  "topic": "Geometry & Trigonometry",
+  "difficulty": 2,
+  "prompt": "Triangle DEF is similar to triangle ABC, with D corresponding to A and E corresponding to B. AB = 7, BC = 13, and DE = 28. What is the length of EF?",
+  "choices": [
+   "17",
+   "59",
+   "52",
+   "41"
+  ],
+  "correctIndex": 2,
+  "explanation": "The scale factor is DE/AB = 28/7 = 4. So EF = 4 × BC = 4 × 13 = 52."
+ },
+ {
+  "id": "sm-283",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 6x + 8 = 0?",
+  "choices": [
+   "8",
+   "-6",
+   "6",
+   "5"
+  ],
+  "correctIndex": 2,
+  "explanation": "The equation factors as (x - 2)(x - 4) = 0, so the solutions are 2 and 4, and their sum is 6."
+ },
+ {
+  "id": "sm-284",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 200 cells and doubles every 2 hours. Assuming this pattern continues, how many cells will there be after 6 hours?",
+  "choices": [
+   "208",
+   "3200",
+   "1600",
+   "1200"
+  ],
+  "correctIndex": 2,
+  "explanation": "After 6 hours there have been 6/2 = 3 doublings, so the count is 200 × 2^3 = 1600."
+ },
+ {
+  "id": "sm-285",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations x + 3y = -10 and 3x - 2y = 3, what is the value of x + y?",
+  "choices": [
+   "-4",
+   "2",
+   "-3",
+   "3"
+  ],
+  "correctIndex": 0,
+  "explanation": "Solving the system gives x = -1 and y = -3, which satisfy both equations. So x + y = -4."
+ },
+ {
+  "id": "sm-286",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "A bacteria culture starts with 250 cells and doubles every 3 hours. Assuming this pattern continues, how many cells will there be after 12 hours?",
+  "choices": [
+   "3000",
+   "4000",
+   "8000",
+   "2000"
+  ],
+  "correctIndex": 1,
+  "explanation": "After 12 hours there have been 12/3 = 4 doublings, so the count is 250 × 2^4 = 4000."
+ },
+ {
+  "id": "sm-287",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "For x > 0, which of the following is equivalent to (x^5)^2 / x^6?",
+  "choices": [
+   "x^16",
+   "x^13",
+   "x^1",
+   "x^4"
+  ],
+  "correctIndex": 3,
+  "explanation": "Multiply exponents in the power: (x^5)^2 = x^10. Dividing by x^6 subtracts exponents: x^4."
+ },
+ {
+  "id": "sm-288",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "A line passes through the points (-2, -5) and (1, -14). What is the slope of the line?",
+  "choices": [
+   "-3",
+   "3",
+   "-2",
+   "-1/3"
+  ],
+  "correctIndex": 0,
+  "explanation": "Slope = (y2 - y1)/(x2 - x1) = (-14 - (-5))/(1 - (-2)) = -9/3 = -3."
+ },
+ {
+  "id": "sm-289",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 1,
+  "prompt": "When the expression (x + 2)(x - 3) is written in the form x² + px + q, what is the value of p?",
+  "choices": [
+   "0",
+   "-6",
+   "-1",
+   "5"
+  ],
+  "correctIndex": 2,
+  "explanation": "Expanding gives x² + (2 - 3)x - 6, so p = -1."
+ },
+ {
+  "id": "sm-290",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 36 = 0 have exactly one real solution?",
+  "choices": [
+   "72",
+   "12",
+   "36",
+   "6"
+  ],
+  "correctIndex": 1,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(36) = 0, so k² = 144 and k = 12 (positive)."
+ },
+ {
+  "id": "sm-291",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 35, 18, 34, 30, 59, 40, 45",
+  "choices": [
+   "34",
+   "37",
+   "40",
+   "35"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ordered, the values are 18, 30, 34, 35, 40, 45, 59. With 7 values the median is the 4th: 35."
+ },
+ {
+  "id": "sm-292",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 1,
+  "prompt": "If 9(x + 2) = -36, what is the value of x?",
+  "choices": [
+   "-5",
+   "-6",
+   "-38",
+   "6"
+  ],
+  "correctIndex": 1,
+  "explanation": "Divide both sides by 9 to get x + 2 = -4. Then x = -4 - 2 = -6."
+ },
+ {
+  "id": "sm-293",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 3,
+  "prompt": "A car travels at a constant speed of 36 miles per hour. How many feet does the car travel in 20 seconds? (1 mile = 5,280 feet)",
+  "choices": [
+   "720",
+   "1496",
+   "3168",
+   "1056"
+  ],
+  "correctIndex": 3,
+  "explanation": "36 mph is 36 × 5,280 / 3,600 = 264/5 feet per second. In 20 seconds: 264/5 × 20 = 1056 feet."
+ },
+ {
+  "id": "sm-294",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of fiction books to nonfiction books is 4 to 7. If there are 121 books in all, how many are nonfiction?",
+  "choices": [
+   "114",
+   "44",
+   "77",
+   "66"
+  ],
+  "correctIndex": 2,
+  "explanation": "The parts total 4 + 7 = 11, so each part is 121/11 = 11. The nonfiction books are 7 × 11 = 77."
+ },
+ {
+  "id": "sm-295",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 3,
+  "prompt": "For what value of c does the system 6x + 5y = 7 and 12x + 10y = c have infinitely many solutions?",
+  "choices": [
+   "2",
+   "14",
+   "7",
+   "9"
+  ],
+  "correctIndex": 1,
+  "explanation": "The second equation must be a multiple of the first. Multiplying the first equation by 2 gives 12x + 10y = 14, so c = 14."
+ },
+ {
+  "id": "sm-296",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "In a collection, the ratio of red marbles to blue marbles is 2 to 3. If there are 45 marbles in all, how many are blue?",
+  "choices": [
+   "18",
+   "42",
+   "15",
+   "27"
+  ],
+  "correctIndex": 3,
+  "explanation": "The parts total 2 + 3 = 5, so each part is 45/5 = 9. The blue marbles are 3 × 9 = 27."
+ },
+ {
+  "id": "sm-297",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "What is the median of the following data set? 26, 38, 46, 48, 8, 36, 35",
+  "choices": [
+   "36",
+   "34",
+   "38",
+   "48"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ordered, the values are 8, 26, 35, 36, 38, 46, 48. With 7 values the median is the 4th: 36."
+ },
+ {
+  "id": "sm-298",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 16 = 0 have exactly one real solution?",
+  "choices": [
+   "4",
+   "8",
+   "16",
+   "32"
+  ],
+  "correctIndex": 1,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(16) = 0, so k² = 64 and k = 8 (positive)."
+ },
+ {
+  "id": "sm-299",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 25 = 0 have exactly one real solution?",
+  "choices": [
+   "10",
+   "20",
+   "25",
+   "50"
+  ],
+  "correctIndex": 0,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(25) = 0, so k² = 100 and k = 10 (positive)."
+ },
+ {
+  "id": "sm-300",
+  "subject": "satmath",
+  "topic": "Problem-Solving & Data Analysis",
+  "difficulty": 1,
+  "prompt": "14 is what percent of 40?",
+  "choices": [
+   "35%",
+   "65%",
+   "286%",
+   "25%"
+  ],
+  "correctIndex": 0,
+  "explanation": "Percent = 14/40 × 100 = 35%."
+ },
+ {
+  "id": "sm-301",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 2,
+  "prompt": "What is the sum of the solutions to the equation x² - 12x + 32 = 0?",
+  "choices": [
+   "13",
+   "-12",
+   "4",
+   "12"
+  ],
+  "correctIndex": 3,
+  "explanation": "The equation factors as (x - 8)(x - 4) = 0, so the solutions are 8 and 4, and their sum is 12."
+ },
+ {
+  "id": "sm-302",
+  "subject": "satmath",
+  "topic": "Algebra",
+  "difficulty": 2,
+  "prompt": "In the system of equations 2x + 4y = 16 and 3x - 4y = -26, what is the value of x + y?",
+  "choices": [
+   "3",
+   "-10",
+   "4",
+   "5"
+  ],
+  "correctIndex": 0,
+  "explanation": "Solving the system gives x = -2 and y = 5, which satisfy both equations. So x + y = 3."
+ },
+ {
+  "id": "sm-303",
+  "subject": "satmath",
+  "topic": "Advanced Math",
+  "difficulty": 3,
+  "prompt": "For what positive value of k does the equation x² + kx + 9 = 0 have exactly one real solution?",
+  "choices": [
+   "18",
+   "9",
+   "3",
+   "6"
+  ],
+  "correctIndex": 3,
+  "explanation": "One real solution means the discriminant is zero: k² - 4(9) = 0, so k² = 36 and k = 6 (positive)."
  }
 ]

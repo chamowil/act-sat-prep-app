@@ -686,6 +686,9 @@ def verify(item):
     assert 0 <= item["correctIndex"] < 4, item
 
 
+PLAN = [(f, n * 2) for f, n in PLAN]
+
+
 def main():
     g = Gen()
     for fn, n in PLAN:

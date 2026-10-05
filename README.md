@@ -2,7 +2,7 @@
 
 A Flutter study app for the **ACT** and the **SAT**, for iOS, iPadOS, and Android from one codebase.
 
-- **1,316 original practice questions** — 1,040 ACT (English, Math, Reading, Science) and 276 SAT (Reading & Writing, Math)
+- **1,466 original practice questions** — 1,040 ACT (English, Math, Reading, Science) and 426 SAT (Reading & Writing, Math)
 - **48 tutorials**, **245 flashcards** (spaced repetition), a 60-entry ACT quick reference
 - **ACT Writing**: guides, 12 prompts, a 40-minute autosaving editor, 6 scored sample essays
 - **21 mock exams** (15 ACT, 6 SAT) in Quick and Full-Length modes, plus a diagnostic

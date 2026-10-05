@@ -1,6 +1,6 @@
 # Store listing copy
 
-Counts: 1,040 ACT + 276 SAT = 1,316 practice questions; 48 tutorials (40 ACT, 8 SAT); 245 flashcards;
+Counts: 1,040 ACT + 426 SAT = 1,466 practice questions; 48 tutorials (40 ACT, 8 SAT); 245 flashcards;
 15 ACT + 6 SAT mock exams. Update these numbers if you change content.
 
 ## Name and short text
