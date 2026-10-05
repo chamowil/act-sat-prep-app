@@ -11,7 +11,7 @@ Counts: 1,040 ACT + 426 SAT = 1,466 practice questions; 48 tutorials (40 ACT, 8 
 | App Store subtitle (≤30) | `Practice tests & tutorials` |
 | Google Play title (≤30) | `ACT & SAT Prep` |
 | Google Play short description (≤80) | `ACT & SAT practice questions, tutorials, flashcards, and timed mock exams.` |
-| Promotional text (iOS, ≤170) | `Start free. Unlock 1,300+ practice questions, tutorials, flashcards, and timed mock exams for the ACT and SAT.` |
+| Promotional text (iOS, ≤170) | `Start free. Unlock 1,400+ practice questions, tutorials, flashcards, and timed mock exams for the ACT and SAT.` |
 | Keywords (iOS, ≤100) | `ACT,SAT,test prep,practice test,college,study,math,reading,writing,science,mock exam,flashcards` |
 | Category | Education (secondary: Reference) |
 | Support / Marketing URL | `https://chamowil.github.io/act-prep-support/` |
@@ -24,7 +24,7 @@ Counts: 1,040 ACT + 426 SAT = 1,466 practice questions; 48 tutorials (40 ACT, 8 
 Prepare for the ACT or the SAT in one app. Choose your test, set a target score, and follow a study plan that fits your schedule.
 
 WHAT'S INSIDE
-• 1,300+ original practice questions, each with a written explanation: ACT English, Math, Reading, and Science, plus SAT Reading & Writing and Math
+• 1,400+ original practice questions, each with a written explanation: ACT English, Math, Reading, and Science, plus SAT Reading & Writing and Math
 • 48 tutorials with worked examples, key facts, and test-day tips
 • 245 flashcards with spaced repetition, so you review what you are about to forget
 • ACT Writing: guides, prompts, a 40-minute timed editor, and scored sample essays

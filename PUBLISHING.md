@@ -8,7 +8,7 @@ Copy-paste listing text is in [`STORE_LISTING.md`](STORE_LISTING.md). Ready-made
 
 | Item | Current value | Notes |
 |---|---|---|
-| iOS bundle ID | `Wuilmer.Ponte.ACT-prep` | Kept from the original SwiftUI app so this is an **update of the same App Store record**. If you want a fresh listing, change it in Xcode (Runner target) and register it. |
+| iOS bundle ID | `Wuilmer.Ponte.ACT-SAT-prep` | New ID registered for this app (the old `Wuilmer.Ponte.ACT-prep` is already tied to an earlier record and cannot be used for a new App Store Connect app). |
 | Apple team | `WYS4LUJSP6` | Same team as the SwiftUI project. Flutter had auto-picked `T5V6PC49J3` (your other Apple Development identity); it was changed back. Confirm `WYS4LUJSP6` is the paid Developer Program team. |
 | Android application ID | `com.wuilmer.actsatprep` | **Permanent** once uploaded to Play. |
 | Version | `1.0.0+1` in `pubspec.yaml` | Every upload needs a higher build number (the part after `+`). If earlier SwiftUI builds already used build 1 on this App Store record, raise it (e.g. `1.1.0+10`). |
@@ -122,7 +122,7 @@ in transit because none is transmitted; answer the "deletion" question with "no 
 
 ## 4. App Store Connect
 
-1. **Register the bundle ID** `Wuilmer.Ponte.ACT-prep` at <https://developer.apple.com/account/resources/identifiers/list>
+1. **Register the bundle ID** `Wuilmer.Ponte.ACT-SAT-prep` at <https://developer.apple.com/account/resources/identifiers/list>
    (Xcode does this automatically on first signed build).
 2. **Business → Agreements**: the *Paid Applications* agreement must be **Active**, with banking and tax complete.
    Without it, subscriptions silently fail to load.
