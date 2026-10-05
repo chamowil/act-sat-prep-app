@@ -25,13 +25,11 @@ Done:
 - App Information: subtitle, categories (Education / Reference), content rights (no third-party content), age rating (4+).
 - App Privacy: privacy policy URL and "Data Not Collected" answered.
 - Pricing: Free, all 175 countries.
-- Subscription group "ACT Prep Pro"; **Pro Yearly** (`actprep.pro.yearly`) with price $99.99 (all countries) and English display name/description.
+- Subscription group "ACT Prep Pro" with **Pro Yearly** ($99.99, free 1-week introductory offer, all countries) and **Pro Monthly** ($19.99), both with English name/description, paywall review screenshot (`publish/apple/screenshots/subscription-review-paywall.png`); ranking Yearly above Monthly.
 
 **YOU** to do:
 1. App Privacy page: click **Publish**.
 2. App Review block: it requires a **phone number** before it will save. Re-enter the contact (Wuilmer Ponte, chamowil@outlook.com) and paste the notes from `publish/apple/metadata/review_notes.txt`; leave "Sign-in required" off.
-3. Create **Pro Monthly** (`actprep.pro.monthly`, 1 month, $19.99, display name "Pro Monthly", description "Unlock all ACT and SAT content. Billed monthly.").
-4. Pro Yearly: add the introductory offer (Free, 1 week, all countries) and a review screenshot of the paywall; set group ranking (Yearly above Monthly).
-5. Upload the build: sign into Xcode, then double-click `~/Desktop/ACT-SAT-Prep.xcarchive` > Distribute App > App Store Connect. Then attach it to version 1.0 and add both subscriptions to the submission.
-6. In Chrome, a "Leave site?" dialog may be open on the original App Store Connect tab; choose Leave to dismiss it.
-7. Submit for review when ready.
+3. Upload the build: sign into Xcode, then double-click `~/Desktop/ACT-SAT-Prep.xcarchive` > Distribute App > App Store Connect. Then attach it to version 1.0 and add both subscriptions to the submission.
+4. In Chrome, a "Leave site?" dialog may be open on the original App Store Connect tab; choose Leave to dismiss it.
+5. Submit for review when ready.
