@@ -2,7 +2,7 @@
 
 End-to-end checklist for Google Play Console and App Store Connect. Work top to bottom.
 Copy-paste listing text is in [`STORE_LISTING.md`](STORE_LISTING.md). Ready-made images are in
-[`store_assets/`](store_assets/).
+[`publish/`](publish/).
 
 ## 0. Decisions only you can make
 
@@ -94,7 +94,7 @@ Activate both base plans. The IDs must match `lib/config.dart` exactly.
 
 ### 3.4 Store listing and policy forms
 Grow → Store presence → **Main store listing**: paste text from `STORE_LISTING.md`; upload
-`store_assets/android/icon-512.png`, `store_assets/android/feature-graphic-1024x500.png`, and at least 2 phone
+`publish/android/graphics/icon-512.png`, `publish/android/graphics/feature-graphic-1024x500.png`, and at least 2 phone
 screenshots (see §5).
 
 Policy → **App content**:
@@ -135,7 +135,7 @@ in transit because none is transmitted; answer the "deletion" question with "no 
 5. **App Information**: category Education (secondary Reference), age rating questionnaire → all **None** (4+),
    privacy policy and support URLs.
 6. **App Privacy**: *Data Not Collected*. This matches `ios/Runner/PrivacyInfo.xcprivacy` (no tracking, no collected data).
-7. **Screenshots**: upload `store_assets/ios/iphone-6.9/*` (1320×2868) and `store_assets/ios/ipad-13/*` (2064×2752).
+7. **Screenshots**: upload `publish/apple/screenshots/iphone-6.9/*` (1320×2868) and `publish/apple/screenshots/ipad-13/*` (2064×2752).
 8. **Upload the build** (see §2). Export compliance is pre-answered (`ITSAppUsesNonExemptEncryption = NO`).
 9. **TestFlight** first: add yourself as an internal tester, create a Sandbox Apple Account (Users and Access →
    Sandbox), and run the same purchase checklist as in §3.5.
@@ -145,9 +145,9 @@ in transit because none is transmitted; answer the "deletion" question with "no 
 
 | Store | Required size | Provided |
 |---|---|---|
-| App Store iPhone 6.9" | 1320×2868 | 5 images in `store_assets/ios/iphone-6.9/` |
-| App Store iPad 13" | 2064×2752 | 3 images in `store_assets/ios/ipad-13/` |
-| Google Play phone | 2–8 images, 9:16, 320–3840 px | 5 images in `store_assets/android/phone/` (Pixel 8 Pro emulator, 1344×2992) |
+| App Store iPhone 6.9" | 1320×2868 | 5 images in `publish/apple/screenshots/iphone-6.9/` |
+| App Store iPad 13" | 2064×2752 | 3 images in `publish/apple/screenshots/ipad-13/` |
+| Google Play phone | 2–8 images, 9:16, 320–3840 px | 5 images in `publish/android/screenshots/` (Pixel 8 Pro emulator, 1344×2992) |
 
 The iOS images were captured from the iOS Simulator with demo data (a launch flag; it is compiled out of normal builds):
 

@@ -33,7 +33,7 @@ lib/
   ui/                screens and widgets
 assets/act, assets/sat   question, tutorial, flashcard, writing JSON
 tools/               generators for SAT content (see below)
-store_assets/        Google Play graphics and App Store screenshots
+publish/             store listing text, graphics, and screenshots (apple/ and android/)
 legacy_swiftui/      the original SwiftUI ACT-only app, kept for reference
 ```
 

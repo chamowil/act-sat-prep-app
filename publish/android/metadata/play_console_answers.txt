@@ -1,0 +1,14 @@
+Privacy policy: https://chamowil.github.io/act-prep-support/privacy.html
+App category: Education
+Contact email: chamowil@outlook.com
+Ads: No
+App access: all functionality available without login
+Target audience: 13-15, 16-17, 18+ (do NOT select under 13)
+Content rating (IARC): category "Reference, news or educational"; answer No to every question -> Everyone
+Data safety: collects/shares no user data; no data encrypted in transit because none is transmitted
+Application ID: com.wuilmer.actsatprep
+
+Subscriptions
+- Subscription ID actprep.pro.monthly, base plan ID monthly, auto-renewing monthly, US$19.99
+- Subscription ID actprep.pro.yearly, base plan ID yearly, auto-renewing yearly, US$99.99
+  Offer on yearly base plan: eligibility "New customer acquisition", phase "Free trial", 7 days

@@ -1,0 +1,10 @@
+Subscription group: ACT Prep Pro
+1) Reference name: Pro Monthly | Product ID: actprep.pro.monthly | Duration: 1 month | Price: US$19.99
+   Display name: Pro Monthly
+   Description: Full access to every ACT and SAT question, tutorial, and mock exam. Billed monthly.
+2) Reference name: Pro Yearly | Product ID: actprep.pro.yearly | Duration: 1 year | Price: US$99.99
+   Display name: Pro Yearly
+   Description: Full access to every ACT and SAT question, tutorial, and mock exam. Billed yearly.
+   Introductory offer: Free, 1 week, all countries, no end date
+Ranking: Pro Yearly above Pro Monthly
+Each subscription needs a review screenshot of the paywall (Settings > Upgrade to Pro).

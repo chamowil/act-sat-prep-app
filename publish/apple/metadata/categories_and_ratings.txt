@@ -1,0 +1,6 @@
+Primary category: Education
+Secondary category: Reference
+Age rating questionnaire: answer None to everything (result 4+)
+Price: Free (in-app subscriptions)
+App Privacy: Data Not Collected
+Export compliance: already declared (ITSAppUsesNonExemptEncryption = NO)
