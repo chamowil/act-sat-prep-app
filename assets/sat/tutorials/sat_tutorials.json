@@ -1,0 +1,339 @@
+[
+ {
+  "id": "sat-m1",
+  "subject": "satmath",
+  "category": "Algebra",
+  "title": "Linear Equations & Systems",
+  "symbolName": "function",
+  "summary": "Solve, graph, and interpret linear relationships, the largest single topic on the SAT Math section.",
+  "estimatedMinutes": 7,
+  "sections": [
+   {
+    "heading": "The Core Idea",
+    "body": "Linear equations describe a constant rate of change. In y = mx + b, m tells you how much y changes each time x increases by 1, and b is the value of y when x is 0. Most SAT word problems hide a line: a fixed fee plus a per-item rate, a starting balance plus a monthly deposit. Translating the words into y = mx + b is half the work."
+   },
+   {
+    "heading": "Systems of Equations",
+    "body": "Two lines can intersect once (one solution), never (parallel, same slope but different intercepts), or everywhere (the same line). To solve, use substitution when one variable is already isolated and elimination when coefficients line up. On the SAT you can also use the graphing calculator built into the test to find the intersection quickly, but always sanity-check the answer."
+   }
+  ],
+  "keyFacts": [
+   "Slope = (y₂ − y₁)/(x₂ − x₁)",
+   "Parallel lines share a slope; perpendicular slopes are negative reciprocals.",
+   "No solution: same slope, different intercept. Infinite solutions: identical equations.",
+   "The constant term is the starting value; the coefficient of x is the rate."
+  ],
+  "examples": [
+   {
+    "problem": "A gym charges a $40 sign-up fee plus $25 per month. After how many months does a member's total cost reach $190?",
+    "steps": [
+     "Write 40 + 25m = 190.",
+     "Subtract 40: 25m = 150.",
+     "Divide by 25: m = 6."
+    ],
+    "answer": "6 months"
+   },
+   {
+    "problem": "Solve the system: 2x + y = 11 and x − y = 1.",
+    "steps": [
+     "Add the equations: 3x = 12, so x = 4.",
+     "Substitute into x − y = 1: 4 − y = 1, so y = 3."
+    ],
+    "answer": "x = 4, y = 3"
+   }
+  ],
+  "tips": [
+   "Define your variables in words before writing equations.",
+   "Check your answer by plugging it back into the original problem.",
+   "If a question asks for 'x + y' or '2x', solve for that expression directly when you can."
+  ]
+ },
+ {
+  "id": "sat-m2",
+  "subject": "satmath",
+  "category": "Advanced Math",
+  "title": "Quadratics & Functions",
+  "symbolName": "chart",
+  "summary": "Factor, complete the square, read parabolas, and work with function notation.",
+  "estimatedMinutes": 8,
+  "sections": [
+   {
+    "heading": "Quadratics",
+    "body": "A quadratic has the form ax² + bx + c. You can solve it by factoring, completing the square, or the quadratic formula. The discriminant b² − 4ac tells you how many real solutions exist: positive means two, zero means one, negative means none. In vertex form, y = a(x − h)² + k, the vertex is (h, k), and the sign of a tells you whether it opens up or down."
+   },
+   {
+    "heading": "Function Notation",
+    "body": "f(3) means 'substitute 3 for x.' For composition, f(g(x)), work from the inside out: evaluate g first, then feed the result into f. Transformations: f(x) + k shifts up, f(x − h) shifts right, and −f(x) reflects across the x-axis."
+   }
+  ],
+  "keyFacts": [
+   "Sum of roots = −b/a; product of roots = c/a.",
+   "Difference of squares: a² − b² = (a − b)(a + b).",
+   "Perfect-square trinomial: a² + 2ab + b² = (a + b)².",
+   "Exactly one real solution when b² − 4ac = 0."
+  ],
+  "examples": [
+   {
+    "problem": "If f(x) = 2x + 3 and g(x) = x² − 1, what is f(g(3))?",
+    "steps": [
+     "g(3) = 9 − 1 = 8.",
+     "f(8) = 2(8) + 3 = 19."
+    ],
+    "answer": "19"
+   },
+   {
+    "problem": "For what positive value of k does x² + kx + 25 = 0 have exactly one solution?",
+    "steps": [
+     "Set the discriminant to 0: k² − 4(25) = 0.",
+     "k² = 100, so k = 10."
+    ],
+    "answer": "10"
+   }
+  ],
+  "tips": [
+   "When a quadratic is hard to factor, try the quadratic formula or the calculator's graph.",
+   "Know the three forms (standard, factored, vertex) and what each reveals.",
+   "In composition, never reverse the order."
+  ]
+ },
+ {
+  "id": "sat-m3",
+  "subject": "satmath",
+  "category": "Problem-Solving & Data Analysis",
+  "title": "Percents, Ratios & Data",
+  "symbolName": "chart",
+  "summary": "Percent change, unit conversion, statistics, and reading tables and scatterplots.",
+  "estimatedMinutes": 7,
+  "sections": [
+   {
+    "heading": "Percents and Rates",
+    "body": "'Percent of' means multiply; 'percent change' means (new − old)/old. A successive increase and decrease are not inverses: raising a price 20% and then lowering it 20% leaves it 4% lower. Unit conversions are multiplication by fractions equal to 1, like (5,280 feet / 1 mile), arranged so the unwanted unit cancels."
+   },
+   {
+    "heading": "Statistics and Data",
+    "body": "The mean is sensitive to outliers; the median is not. Standard deviation measures spread, so a data set with a larger standard deviation is more spread out. A line of best fit gives a prediction, not a certainty, and correlation does not prove causation. Always check what a table or graph is actually measuring before answering."
+   }
+  ],
+  "keyFacts": [
+   "Percent change = (new − old) / old × 100.",
+   "Compound growth: A = P(1 + r)^t.",
+   "Mean of a data set = sum ÷ count.",
+   "A random sample generalizes only to the population it was drawn from."
+  ],
+  "examples": [
+   {
+    "problem": "A $50 item increases 20% and then decreases 20%. What is the final price?",
+    "steps": [
+     "After the increase: 50 × 1.2 = 60.",
+     "After the decrease: 60 × 0.8 = 48."
+    ],
+    "answer": "$48"
+   }
+  ],
+  "tips": [
+   "Convert percentages to decimals before multiplying.",
+   "In table problems, circle the exact group the question asks about.",
+   "Check units at the end."
+  ]
+ },
+ {
+  "id": "sat-m4",
+  "subject": "satmath",
+  "category": "Geometry & Trigonometry",
+  "title": "Geometry & Trigonometry Essentials",
+  "symbolName": "triangle",
+  "summary": "Triangles, circles, volume, and right-triangle trigonometry.",
+  "estimatedMinutes": 7,
+  "sections": [
+   {
+    "heading": "Triangles and Circles",
+    "body": "The angles of a triangle sum to 180°. In a right triangle, a² + b² = c². Special right triangles (30-60-90 and 45-45-90) have fixed side ratios. A circle's equation is (x − h)² + (y − k)² = r², and the arc and sector of a central angle θ are (θ/360) of the circumference and area respectively."
+   },
+   {
+    "heading": "Trigonometry",
+    "body": "SOH-CAH-TOA connects an angle to a ratio of sides. Complementary angles satisfy sin(x) = cos(90° − x). Radians measure angles by arc length: π radians equals 180°. To convert, multiply degrees by π/180."
+   }
+  ],
+  "keyFacts": [
+   "Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25.",
+   "Similar triangles have equal angles and proportional sides.",
+   "Arc length = (θ/360)(2πr).",
+   "sin A = cos B when A and B are the acute angles of a right triangle."
+  ],
+  "examples": [
+   {
+    "problem": "A circle has radius 6. What is the arc length intercepted by a 60° central angle?",
+    "steps": [
+     "Arc = (60/360)(2π × 6).",
+     "= (1/6)(12π) = 2π."
+    ],
+    "answer": "2π"
+   }
+  ],
+  "tips": [
+   "Draw and label the figure, even if one is provided.",
+   "Look for special triangles before using the Pythagorean theorem.",
+   "Keep π in your answer unless a decimal is requested."
+  ]
+ },
+ {
+  "id": "sat-r1",
+  "subject": "satrw",
+  "category": "Craft & Structure",
+  "title": "Words in Context & Vocabulary",
+  "symbolName": "book",
+  "summary": "Choose the most precise word by using the clues the passage gives you.",
+  "estimatedMinutes": 6,
+  "sections": [
+   {
+    "heading": "Predict, Then Match",
+    "body": "Cover the answer choices and read the sentence. Ask: what must the blank mean, based on the clues? Look for contrast words (although, but, rather than) and for examples that define the blank. Predict a simple word of your own, and then choose the answer closest in meaning and tone."
+   },
+   {
+    "heading": "Precision Matters",
+    "body": "Several choices may have a similar general meaning. The right one fits the exact context, including degree and connotation. 'Careful' and 'meticulous' are close, but 'meticulous' is stronger. A word that sounds sophisticated is not better if it does not match the clue."
+   }
+  ],
+  "keyFacts": [
+   "Use context clues: definitions, examples, contrasts, and cause-effect.",
+   "Watch the tone: positive, negative, or neutral.",
+   "Eliminate choices that contradict a clue.",
+   "Plug your final choice back in and reread."
+  ],
+  "examples": [
+   {
+    "problem": "Although critics called the early drafts ______, the final version was praised for its clarity. (opaque / lucid / brief / ornate)",
+    "steps": [
+     "'Although' signals a contrast with 'clarity.'",
+     "The blank must mean the opposite of clear: opaque."
+    ],
+    "answer": "opaque"
+   }
+  ],
+  "tips": [
+   "Do not choose a word just because you know it.",
+   "If two choices seem right, look for the more specific clue.",
+   "Practice vocabulary through reading, not just flashcards."
+  ]
+ },
+ {
+  "id": "sat-r2",
+  "subject": "satrw",
+  "category": "Standard English Conventions",
+  "title": "Punctuation & Sentence Boundaries",
+  "symbolName": "pencil",
+  "summary": "The commas, semicolons, colons, and dashes that appear in nearly every Writing question set.",
+  "estimatedMinutes": 8,
+  "sections": [
+   {
+    "heading": "Boundaries",
+    "body": "The SAT tests whether you can join, separate, and interrupt sentences correctly. Two independent clauses (each could stand alone) need a period, a semicolon, a colon (when the second explains the first), or a comma with a conjunction. A comma alone creates a splice. Dependent clauses and phrases lead into a main clause with a comma."
+   },
+   {
+    "heading": "Extra Information and Lists",
+    "body": "Nonessential information is surrounded by matching punctuation: two commas, two dashes, or parentheses. Never mix them or use only one. A colon must follow a complete sentence; do not place it directly after a verb or preposition. In a series, commas separate items; if the items contain commas, use semicolons."
+   }
+  ],
+  "keyFacts": [
+   "Independent + independent: period, semicolon, colon, or comma + FANBOYS.",
+   "Nonessential phrases come in pairs of punctuation.",
+   "No comma between a subject and its verb, or between a verb and its object.",
+   "Colon = after a complete sentence."
+  ],
+  "examples": [
+   {
+    "problem": "The bridge, which opened in 1932 ______ remains one of the busiest in the country. Which punctuation completes the sentence?",
+    "steps": [
+     "'which opened in 1932' is nonessential and was opened with a comma.",
+     "It must be closed with a comma before the verb 'remains.'"
+    ],
+    "answer": "a comma"
+   }
+  ],
+  "tips": [
+   "Cover the extra information. Does the sentence still work?",
+   "Look for one comma where a pair belongs.",
+   "Do not add a comma just because you hear a pause."
+  ]
+ },
+ {
+  "id": "sat-r3",
+  "subject": "satrw",
+  "category": "Expression of Ideas",
+  "title": "Transitions & Rhetorical Synthesis",
+  "symbolName": "list",
+  "summary": "Choose the logical transition and the note-based sentence that best achieves a stated goal.",
+  "estimatedMinutes": 6,
+  "sections": [
+   {
+    "heading": "Transitions",
+    "body": "First decide the relationship between the two sentences: contrast (however, yet), cause (therefore, as a result), addition (moreover, in addition), example (for instance), or sequence (later, next). Then choose the transition that matches. Never pick a transition just because it sounds formal."
+   },
+   {
+    "heading": "Rhetorical Synthesis",
+    "body": "You receive a bulleted list of notes and a goal such as 'emphasize the contrast' or 'introduce the topic to an audience unfamiliar with it.' The correct answer uses only the notes relevant to the goal and states them clearly. Reread the goal, and eliminate answers that use true but irrelevant information."
+   }
+  ],
+  "keyFacts": [
+   "Contrast: however, yet, by contrast, nevertheless.",
+   "Cause/effect: therefore, as a result, consequently.",
+   "Addition: moreover, in addition, furthermore.",
+   "The goal tells you which notes matter."
+  ],
+  "examples": [
+   {
+    "problem": "Wind turbines produce power without fuel. ______ they can harm birds if poorly placed. Which transition fits?",
+    "steps": [
+     "The second sentence names a drawback, contrasting with the benefit.",
+     "'However' signals the contrast."
+    ],
+    "answer": "However,"
+   }
+  ],
+  "tips": [
+   "Underline the goal in the question.",
+   "Ignore details that do not serve the goal, however interesting.",
+   "Read each transition in the sentence before deciding."
+  ]
+ },
+ {
+  "id": "sat-r4",
+  "subject": "satrw",
+  "category": "Information & Ideas",
+  "title": "Central Ideas, Evidence & Inferences",
+  "symbolName": "magnifier",
+  "summary": "Find the main point, choose the best supporting evidence, and make safe inferences.",
+  "estimatedMinutes": 7,
+  "sections": [
+   {
+    "heading": "Central Ideas and Details",
+    "body": "The central idea is the point of the whole passage, not any single detail. Summarize in your own words before looking at the choices. Wrong choices are often too narrow (a detail), too broad (beyond the passage), or distorted (a twisted reading). For detail questions, find the exact line in the text."
+   },
+   {
+    "heading": "Evidence and Inferences",
+    "body": "For command of evidence, the correct choice directly supports (or weakens) the specific claim, not a related topic. For inference questions, the answer must be supported by the text; if it requires outside assumptions, it is wrong. Treat the passage as the only source of truth."
+   }
+  ],
+  "keyFacts": [
+   "Main idea = whole passage; detail = one part.",
+   "Extreme words (always, never, only) are often wrong.",
+   "The best evidence matches the claim's exact wording.",
+   "An inference must follow from the text alone."
+  ],
+  "examples": [
+   {
+    "problem": "Researchers found that plants in moving air grew thicker stems. Which conclusion is best supported? (a) Plants need fans. (b) Gentle air movement may strengthen stems.",
+    "steps": [
+     "Only (b) follows directly from the single difference (moving air).",
+     "(a) is too extreme."
+    ],
+    "answer": "(b)"
+   }
+  ],
+  "tips": [
+   "Prove the answer with a line from the text.",
+   "Beware answers that are true in real life but not stated in the passage.",
+   "For evidence questions, restate the claim in your own words first."
+  ]
+ }
+]

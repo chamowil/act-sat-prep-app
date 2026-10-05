@@ -1,0 +1,362 @@
+[
+ {
+  "id": "sfc-001",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Slope of a line through (x₁, y₁) and (x₂, y₂)",
+  "back": "m = (y₂ − y₁) / (x₂ − x₁)",
+  "hint": "Rise over run."
+ },
+ {
+  "id": "sfc-002",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Slope-intercept form of a line",
+  "back": "y = mx + b, where m is the slope and b is the y-intercept.",
+  "hint": "b is where the line crosses the y-axis."
+ },
+ {
+  "id": "sfc-003",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Quadratic formula",
+  "back": "x = [−b ± √(b² − 4ac)] / 2a for ax² + bx + c = 0",
+  "hint": "Starts with negative b."
+ },
+ {
+  "id": "sfc-004",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Discriminant and number of real solutions",
+  "back": "b² − 4ac > 0: two real solutions; = 0: one; < 0: none.",
+  "hint": "Look under the square root."
+ },
+ {
+  "id": "sfc-005",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Vertex form of a parabola",
+  "back": "y = a(x − h)² + k has vertex (h, k); it is a minimum if a > 0 and a maximum if a < 0.",
+  "hint": "The sign inside the parentheses flips."
+ },
+ {
+  "id": "sfc-006",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Distance between two points",
+  "back": "d = √[(x₂ − x₁)² + (y₂ − y₁)²]",
+  "hint": "It is just the Pythagorean theorem."
+ },
+ {
+  "id": "sfc-007",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Midpoint of a segment",
+  "back": "((x₁ + x₂)/2, (y₁ + y₂)/2)",
+  "hint": "Average the coordinates."
+ },
+ {
+  "id": "sfc-008",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Equation of a circle",
+  "back": "(x − h)² + (y − k)² = r², center (h, k), radius r.",
+  "hint": "The right side is r squared."
+ },
+ {
+  "id": "sfc-009",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Area and circumference of a circle",
+  "back": "A = πr²; C = 2πr",
+  "hint": "The SAT reference sheet gives these, but know them cold."
+ },
+ {
+  "id": "sfc-010",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Arc length and sector area",
+  "back": "Arc = (θ/360)(2πr); Sector = (θ/360)(πr²)",
+  "hint": "Fraction of the full circle."
+ },
+ {
+  "id": "sfc-011",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Degrees ↔ radians",
+  "back": "radians = degrees × π/180; degrees = radians × 180/π",
+  "hint": "π radians = 180°."
+ },
+ {
+  "id": "sfc-012",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Volume of a cylinder, cone, sphere",
+  "back": "Cylinder πr²h; cone (1/3)πr²h; sphere (4/3)πr³",
+  "hint": "Cone is a third of the cylinder."
+ },
+ {
+  "id": "sfc-013",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Special right triangles",
+  "back": "30-60-90: sides x, x√3, 2x. 45-45-90: sides x, x, x√2.",
+  "hint": "Short leg, long leg, hypotenuse."
+ },
+ {
+  "id": "sfc-014",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Right-triangle trig ratios",
+  "back": "sin = opposite/hypotenuse; cos = adjacent/hypotenuse; tan = opposite/adjacent",
+  "hint": "SOH-CAH-TOA."
+ },
+ {
+  "id": "sfc-015",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Exponential growth model",
+  "back": "y = a(1 + r)^t for growth, y = a(1 − r)^t for decay.",
+  "hint": "a is the starting amount."
+ },
+ {
+  "id": "sfc-016",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Percent change",
+  "back": "(new − old) / old × 100",
+  "hint": "Always divide by the original."
+ },
+ {
+  "id": "sfc-017",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Mean, median, and mode",
+  "back": "Mean = sum ÷ count; median = middle value of the sorted list; mode = most frequent value.",
+  "hint": "Outliers pull the mean more than the median."
+ },
+ {
+  "id": "sfc-018",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Probability of an event",
+  "back": "favorable outcomes ÷ total outcomes",
+  "hint": "Always between 0 and 1."
+ },
+ {
+  "id": "sfc-019",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Systems with no solution or infinitely many",
+  "back": "Parallel lines (same slope, different intercept): no solution. Same line: infinitely many.",
+  "hint": "Compare slopes first."
+ },
+ {
+  "id": "sfc-020",
+  "deck": "SAT Math Formulas",
+  "subject": "satmath",
+  "front": "Factoring a difference of squares",
+  "back": "a² − b² = (a − b)(a + b)",
+  "hint": "Two perfect squares with a minus sign."
+ },
+ {
+  "id": "sfc-021",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Ambivalent",
+  "back": "Having mixed or conflicting feelings about something.",
+  "hint": "Think 'both ways.'"
+ },
+ {
+  "id": "sfc-022",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Candid",
+  "back": "Frank and honest, even when the truth is unwelcome.",
+  "hint": "A candid camera shows real life."
+ },
+ {
+  "id": "sfc-023",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Ephemeral",
+  "back": "Lasting only a very short time.",
+  "hint": "Like a mayfly."
+ },
+ {
+  "id": "sfc-024",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Pragmatic",
+  "back": "Dealing with things in a practical, realistic way.",
+  "hint": "Practical."
+ },
+ {
+  "id": "sfc-025",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Meticulous",
+  "back": "Showing great attention to detail; very careful.",
+  "hint": "Meticulous editors catch every comma."
+ },
+ {
+  "id": "sfc-026",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Substantiate",
+  "back": "To provide evidence that supports a claim.",
+  "hint": "Substance = proof."
+ },
+ {
+  "id": "sfc-027",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Pivotal",
+  "back": "Of crucial importance; a turning point.",
+  "hint": "Think 'pivot.'"
+ },
+ {
+  "id": "sfc-028",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Undermine",
+  "back": "To weaken gradually or secretly.",
+  "hint": "Dig under the foundation."
+ },
+ {
+  "id": "sfc-029",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Tenuous",
+  "back": "Very weak or slight; flimsy.",
+  "hint": "Related to 'thin.'"
+ },
+ {
+  "id": "sfc-030",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Conciliatory",
+  "back": "Intended to calm or make peace with someone.",
+  "hint": "Reconcile."
+ },
+ {
+  "id": "sfc-031",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Equivocal",
+  "back": "Open to more than one interpretation; deliberately vague.",
+  "hint": "'Equi' = equal voices."
+ },
+ {
+  "id": "sfc-032",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Scrutinize",
+  "back": "To examine closely and critically.",
+  "hint": "Look under a magnifying glass."
+ },
+ {
+  "id": "sfc-033",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Corroborate",
+  "back": "To confirm or give support to a statement with additional evidence.",
+  "hint": "Co- + robust."
+ },
+ {
+  "id": "sfc-034",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Prudent",
+  "back": "Acting with care and thought for the future.",
+  "hint": "Prudent savers keep an emergency fund."
+ },
+ {
+  "id": "sfc-035",
+  "deck": "SAT Vocabulary in Context",
+  "subject": "satrw",
+  "front": "Laconic",
+  "back": "Using very few words.",
+  "hint": "Sparta's Laconia was famous for short answers."
+ },
+ {
+  "id": "sfc-036",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Two independent clauses: how to join them",
+  "back": "Use a period, a semicolon, a colon (if the second explains the first), or a comma plus a FANBOYS conjunction.",
+  "hint": "A lone comma is always a splice."
+ },
+ {
+  "id": "sfc-037",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Nonessential (extra) information",
+  "back": "Set it off with a pair of commas, dashes, or parentheses; never use just one.",
+  "hint": "Test: remove it. If the sentence still works, it's nonessential."
+ },
+ {
+  "id": "sfc-038",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Colon rule",
+  "back": "A colon must follow a complete sentence.",
+  "hint": "Never put a colon right after a verb or preposition."
+ },
+ {
+  "id": "sfc-039",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Subject–verb agreement through interruptions",
+  "back": "Ignore phrases set off by commas or beginning with 'along with', 'as well as', 'in addition to'.",
+  "hint": "Find the true subject."
+ },
+ {
+  "id": "sfc-040",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Pronoun agreement",
+  "back": "A pronoun must match its antecedent in number: 'The company raised its prices.'",
+  "hint": "Collective nouns are usually singular."
+ },
+ {
+  "id": "sfc-041",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Modifier placement",
+  "back": "A descriptive phrase must sit next to the noun it describes: 'Walking home, I saw...' not 'Walking home, the rain started.'",
+  "hint": "Who is doing the action?"
+ },
+ {
+  "id": "sfc-042",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Its vs. it's; their vs. they're",
+  "back": "Its = possessive; it's = it is. Their = possessive; they're = they are.",
+  "hint": "Expand the contraction to test it."
+ },
+ {
+  "id": "sfc-043",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Verb tense consistency",
+  "back": "Keep tenses logical for the timeline; use past perfect for an action that happened before another past action.",
+  "hint": "Look at time clues."
+ },
+ {
+  "id": "sfc-044",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Comparatives vs. superlatives",
+  "back": "Compare two items with -er/more; three or more with -est/most.",
+  "hint": "Of the two → comparative."
+ },
+ {
+  "id": "sfc-045",
+  "deck": "SAT Grammar & Punctuation",
+  "subject": "satrw",
+  "front": "Transitions: contrast, cause, addition",
+  "back": "Contrast: however, yet, by contrast. Cause/effect: therefore, as a result. Addition: moreover, in addition. Example: for instance.",
+  "hint": "Decide the relationship first, then pick the word."
+ }
+]

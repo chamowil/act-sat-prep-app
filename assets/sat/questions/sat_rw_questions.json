@@ -1,0 +1,1970 @@
+[
+ {
+  "id": "sr-001",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 2,
+  "stimulus": "Octopuses are famous escape artists. Keepers at one aquarium once found an octopus's tank empty each morning, only to discover that it was sneaking out at night to feed on fish in a neighboring tank before returning to its own.",
+  "prompt": "Which choice best describes the function of the second sentence in the text as a whole?",
+  "choices": [
+   "It offers a specific example that illustrates the claim made in the first sentence.",
+   "It shifts the focus from octopuses to aquarium management.",
+   "It introduces a counterargument to the claim made in the first sentence.",
+   "It defines a technical term used in the first sentence."
+  ],
+  "correctIndex": 0,
+  "explanation": "The first sentence makes a general claim (octopuses escape); the second gives a concrete case of it."
+ },
+ {
+  "id": "sr-002",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 3,
+  "stimulus": "Unlike the rainfall in coastal regions, ______ in the mountains arrives mostly as snow.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "which",
+   "the rainfall",
+   "those",
+   "it"
+  ],
+  "correctIndex": 1,
+  "explanation": "The comparison must be between like things: rainfall in coastal regions and rainfall in the mountains."
+ },
+ {
+  "id": "sr-003",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 3,
+  "stimulus": "Scientists studying a remote island found that native birds there show no fear of humans, allowing researchers to approach within arm's reach. Birds on nearby continents typically flee at distances of tens of meters. One reasonable inference is that the island birds ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "have been trained by the researchers.",
+   "are smarter than continental birds.",
+   "cannot see people approaching.",
+   "evolved without large land predators and therefore never developed a strong fear response."
+  ],
+  "correctIndex": 3,
+  "explanation": "Lack of fear is most plausibly explained by the absence of predators that would have selected for wariness."
+ },
+ {
+  "id": "sr-004",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Researchers at the observatory were ______ the new data, spending weeks checking each measurement against earlier records before announcing their conclusions.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "applauding",
+   "scrutinizing",
+   "inventing",
+   "ignoring"
+  ],
+  "correctIndex": 1,
+  "explanation": "Checking each measurement against earlier records is careful examination, i.e., scrutinizing."
+ },
+ {
+  "id": "sr-005",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 1,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• The kakapo is a flightless parrot from New Zealand.\n• It is nocturnal.\n• There are fewer than 300 kakapo alive today.\n• Conservationists monitor every bird.",
+  "prompt": "The student wants to emphasize how endangered the kakapo is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Many parrots are kept as pets.",
+   "The kakapo cannot fly.",
+   "The kakapo is a nocturnal parrot from New Zealand.",
+   "With fewer than 300 left alive, every kakapo, a flightless parrot from New Zealand, is monitored by conservationists."
+  ],
+  "correctIndex": 3,
+  "explanation": "Only the correct choice conveys scarcity (fewer than 300) and the extreme response to it."
+ },
+ {
+  "id": "sr-006",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "The tour stops in Lima, Peru ______ Quito, Ecuador; and Bogotá, Colombia.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Peru:",
+   "Peru;",
+   "Peru",
+   "Peru,"
+  ],
+  "correctIndex": 1,
+  "explanation": "When items in a series already contain commas, semicolons separate the items so the series is clear."
+ },
+ {
+  "id": "sr-007",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Because the hikers had underestimated how much water they would need, the remaining supply was ______, forcing them to turn back a full day early.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "contaminated",
+   "inadequate",
+   "abundant",
+   "unnecessary"
+  ],
+  "correctIndex": 1,
+  "explanation": "The hikers were forced to turn back, so the water was insufficient: 'inadequate.'"
+ },
+ {
+  "id": "sr-008",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 3,
+  "stimulus": "Text 1: Author Maria Soto praises the novel for its realistic dialogue, which she says captures how teenagers actually speak. Text 2: Linguist Ben Ito notes that the dialogue in the novel is full of slang that was already out of date when the book was published.",
+  "prompt": "Based on the texts, how would Ito (Text 2) most likely respond to Soto's praise (Text 1)?",
+  "choices": [
+   "By questioning whether the dialogue is as realistic as Soto claims",
+   "By agreeing that the dialogue is perfectly realistic",
+   "By arguing that teenagers do not use slang",
+   "By praising the novel's plot instead"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ito's point that the slang was outdated undercuts the claim of realism."
+ },
+ {
+  "id": "sr-009",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 3,
+  "stimulus": "Anthropologist Lila Chen proposes that the ancient settlement was abandoned because its water source dried up, not because of invasion. Excavations revealed no weapons, burn layers, or fortifications at the site, while sediment analysis showed that the nearby stream bed was dry by the time the settlement was emptied.",
+  "prompt": "Which finding, if true, would most directly weaken Chen's proposal?",
+  "choices": [
+   "The stream bed contains fine sediment.",
+   "Pottery at the site was made from local clay.",
+   "The settlement was larger than neighboring settlements.",
+   "Burned buildings and arrowheads were found throughout the settlement's final layer."
+  ],
+  "correctIndex": 3,
+  "explanation": "Evidence of burning and weapons would support invasion and so undermine the drying-up explanation."
+ },
+ {
+  "id": "sr-010",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 3,
+  "stimulus": "When physicist Hana Voss began studying how snow insulates the ground, most colleagues assumed that the topic was too narrow to matter. But her measurements showed that a thick snowpack can keep soil tens of degrees warmer than the air above it, a finding that has since reshaped how scientists model Arctic carbon release.",
+  "prompt": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "It presents a problem, rejects two proposed solutions, and recommends a third.",
+   "It lists several unrelated findings and then ranks them by importance.",
+   "It describes an initial assumption, then presents evidence that overturned it and notes the finding's impact.",
+   "It compares two research methods and concludes that neither is reliable."
+  ],
+  "correctIndex": 2,
+  "explanation": "Colleagues first assumed the topic was minor ('too narrow'); the 'But' sentence gives evidence against that and notes consequences."
+ },
+ {
+  "id": "sr-011",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 2,
+  "stimulus": "Wind turbines produce electricity without burning fuel. ______ they can disrupt bird flight paths if built in the wrong place.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Likewise,",
+   "Specifically,",
+   "Therefore,",
+   "However,"
+  ],
+  "correctIndex": 3,
+  "explanation": "The second sentence introduces a drawback, contrasting with the benefit in the first."
+ },
+ {
+  "id": "sr-012",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 3,
+  "stimulus": "Text 1: Critic A argues that the film's slow pacing is a flaw, since it asks viewers to wait through long silent scenes with little plot. Text 2: Critic B writes that the same silent scenes are the film's greatest strength because they let viewers feel the characters' isolation.",
+  "prompt": "Which choice best describes the relationship between the two texts?",
+  "choices": [
+   "Critic B summarizes the plot that Critic A leaves out.",
+   "Critic B provides evidence that supports Critic A's argument.",
+   "Critic A and Critic B discuss entirely different films.",
+   "Both critics notice the same feature of the film but judge its effect differently."
+  ],
+  "correctIndex": 3,
+  "explanation": "Both refer to the long silent scenes; A sees a flaw and B sees a strength."
+ },
+ {
+  "id": "sr-013",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "The scientist's goal was to measure ______ much carbon the forest absorbed each year.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "that",
+   "what",
+   "how",
+   "which"
+  ],
+  "correctIndex": 2,
+  "explanation": "'How much' correctly introduces the quantity being measured."
+ },
+ {
+  "id": "sr-014",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 1,
+  "stimulus": "Dolphins sleep with only half of their brain at a time. This allows one eye to stay open and one half of the brain to stay alert, so the animal can surface to breathe and watch for predators while resting.",
+  "prompt": "According to the text, why can a sleeping dolphin still surface to breathe?",
+  "choices": [
+   "It rests on the ocean floor.",
+   "It sleeps only once a week.",
+   "It keeps both eyes open.",
+   "Half of its brain stays alert while the other half rests."
+  ],
+  "correctIndex": 3,
+  "explanation": "The text explains that half of the brain stays alert."
+ },
+ {
+  "id": "sr-015",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "The researchers ______ their findings at the conference last month.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have presenting",
+   "presented",
+   "will present",
+   "presents"
+  ],
+  "correctIndex": 1,
+  "explanation": "'Last month' signals the past tense."
+ },
+ {
+  "id": "sr-016",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 2,
+  "stimulus": "The new highway reduced travel time between the two cities by half. ______ it brought a surge of visitors to businesses along the route.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Conversely,",
+   "Moreover,",
+   "Nevertheless,",
+   "Instead,"
+  ],
+  "correctIndex": 1,
+  "explanation": "The second sentence adds a further benefit, so 'Moreover' fits."
+ },
+ {
+  "id": "sr-017",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 3,
+  "stimulus": "The trail was closed for repairs ______ however, hikers could still reach the lake by the old road.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "repairs",
+   "repairs:",
+   "repairs;",
+   "repairs,"
+  ],
+  "correctIndex": 2,
+  "explanation": "A conjunctive adverb like 'however' joining two independent clauses takes a semicolon before it and a comma after it."
+ },
+ {
+  "id": "sr-018",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 2,
+  "stimulus": "The following is from a field guide: The red-tailed hawk is the most common hawk in North America. Look for its rust-colored tail, which is visible when the bird soars overhead. In winter, it often perches on roadside poles, scanning the ground for rodents.",
+  "prompt": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To help readers identify a bird and know where they might see it",
+   "To argue that hawks should be protected",
+   "To compare hawks with other predators",
+   "To explain why hawks are declining in number"
+  ],
+  "correctIndex": 0,
+  "explanation": "The passage gives identifying features and typical locations, as a field guide does."
+ },
+ {
+  "id": "sr-019",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 2,
+  "stimulus": "A city replaced its traditional streetlights with LED lights that use half as much electricity. In the first year, however, the city's total electricity bill for street lighting barely changed. This outcome would be most easily explained if ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "traditional lights last longer than LED lights.",
+   "LED lights are brighter than traditional lights.",
+   "the city installed twice as many lights as it had before.",
+   "the city's electricity rates fell by half."
+  ],
+  "correctIndex": 2,
+  "explanation": "If lights doubled in number while each used half the power, the total would stay about the same."
+ },
+ {
+  "id": "sr-020",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "The twins ______ their grandmother's house every summer since they were five.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "visited",
+   "will visit",
+   "have visited",
+   "visit"
+  ],
+  "correctIndex": 2,
+  "explanation": "'Every summer since they were five' calls for the present perfect, an action that began in the past and continues."
+ },
+ {
+  "id": "sr-021",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 1,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• The Eiffel Tower was completed in 1889.\n• It was built for the World's Fair in Paris.\n• It is 330 meters tall.\n• It was the tallest man-made structure in the world until 1930.",
+  "prompt": "The student wants to explain why the tower was built. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Eiffel Tower was completed in 1889 and remains popular today.",
+   "The Eiffel Tower is 330 meters tall.",
+   "The Eiffel Tower was built for the 1889 World's Fair in Paris.",
+   "The Eiffel Tower was the tallest man-made structure in the world until 1930."
+  ],
+  "correctIndex": 2,
+  "explanation": "Only the correct choice states the purpose for which it was built."
+ },
+ {
+  "id": "sr-022",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "The documentary's narrator maintains a ______ attitude toward the explorer, neither praising his achievements nor condemning his mistakes, but presenting both without comment.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "scornful",
+   "neutral",
+   "apprehensive",
+   "adulatory"
+  ],
+  "correctIndex": 1,
+  "explanation": "Presenting both successes and mistakes 'without comment' indicates neutrality."
+ },
+ {
+  "id": "sr-023",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 3,
+  "stimulus": "Economist Karim Aziz claims that the town's new factory raised local wages. Records show that average hourly pay in the town was $14.20 before the factory opened and $16.80 after, whereas pay in a similar nearby town with no new factory rose from $14.10 to $14.60 over the same period.",
+  "prompt": "Which choice best explains why the nearby town's data strengthen Aziz's claim?",
+  "choices": [
+   "They suggest that the larger wage increase in the factory town was unlikely to be caused by general economic trends alone.",
+   "They show that the nearby town's factory closed.",
+   "They prove that no wage increase occurred in the nearby town.",
+   "They indicate that the two towns have identical populations."
+  ],
+  "correctIndex": 0,
+  "explanation": "A comparison town provides a baseline; its much smaller rise suggests the factory contributed to the larger increase."
+ },
+ {
+  "id": "sr-024",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 2,
+  "stimulus": "Some linguists argue that a language dies when its last fluent speaker does. But in Wales, activists have shown that a language with few native speakers can recover when schools, television, and public signs all use it. Revival, it turns out, depends less on the number of speakers than on the number of places where the language is needed.",
+  "prompt": "Which choice best describes the function of the second sentence?",
+  "choices": [
+   "It provides a definition of 'fluent speaker.'",
+   "It introduces a new topic unrelated to the first sentence.",
+   "It presents a case that challenges the view stated in the first sentence.",
+   "It restates the view in the first sentence using more precise terms."
+  ],
+  "correctIndex": 2,
+  "explanation": "The second sentence uses Wales as a counterexample to the claim that a language is doomed once speakers dwindle."
+ },
+ {
+  "id": "sr-025",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 2,
+  "stimulus": "Text 1: Many cities are installing glass-walled bus shelters to make waiting riders feel safer. Text 2: In a study of 30 bus stops, transit analyst Colin Reyes found that riders felt safest at stops with good lighting and frequent buses, regardless of the shelter's walls.",
+  "prompt": "Which choice best describes the relationship between the texts?",
+  "choices": [
+   "Text 2 describes how glass is manufactured.",
+   "Text 2 shows that glass walls are the most effective safety measure.",
+   "Text 2 argues that riders should avoid bus shelters.",
+   "Text 2 suggests that the approach in Text 1 may not address the factors that matter most."
+  ],
+  "correctIndex": 3,
+  "explanation": "Reyes finds lighting and frequency matter more than walls, implying the cities' approach misses the key factors."
+ },
+ {
+  "id": "sr-026",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 2,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• Typewriters were widely used in offices from the 1880s through the 1980s.\n• The QWERTY layout was designed to reduce jams.\n• Computers eventually replaced typewriters in most offices.\n• The QWERTY layout is still used on computer keyboards.",
+  "prompt": "The student wants to show how a feature of an older technology has persisted. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Computers eventually replaced typewriters in most offices.",
+   "Although computers replaced typewriters in most offices, the QWERTY layout, designed to reduce typewriter jams, is still used on computer keyboards.",
+   "The QWERTY layout was designed in the nineteenth century.",
+   "Typewriters were widely used in offices from the 1880s through the 1980s."
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the correct choice connects the old design to its present-day use."
+ },
+ {
+  "id": "sr-027",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Rather than ______ the committee's concerns, the director addressed each one in turn and revised the proposal accordingly.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "repeating",
+   "dismissing",
+   "documenting",
+   "acknowledging"
+  ],
+  "correctIndex": 1,
+  "explanation": "'Rather than' sets up a contrast with addressing each concern, so the missing word means to wave them away: 'dismissing.'"
+ },
+ {
+  "id": "sr-028",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 2,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• The monarch butterfly migrates up to 3,000 miles each fall.\n• It travels from Canada and the northern United States to central Mexico.\n• No single butterfly makes the round trip; it takes several generations to return north.\n• The trip is guided by the sun's position and Earth's magnetic field.",
+  "prompt": "The student wants to emphasize the length of the migration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Monarch butterflies migrate in the fall, though they do not all make the round trip.",
+   "Monarch butterflies are guided by the sun's position and Earth's magnetic field.",
+   "Monarch butterflies, which live in Canada and the northern United States, also travel to Mexico.",
+   "The monarch butterfly's annual migration, up to 3,000 miles from Canada and the northern United States to central Mexico, is so long that it takes several generations to complete the round trip."
+  ],
+  "correctIndex": 3,
+  "explanation": "Only the correct choice foregrounds distance (3,000 miles) and ties it to the multi-generation round trip."
+ },
+ {
+  "id": "sr-029",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 2,
+  "stimulus": "A recent analysis of subway ridership shows that weekday trips have recovered to about 80 percent of their earlier levels, while weekend trips have exceeded them. Transit officials suggest that as more people work from home on some days, riders are using the system for errands and outings rather than for commuting alone.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Subway use has shifted in pattern, with weekends now busier than before even as weekdays remain lower.",
+   "Weekend trips are more expensive than weekday trips.",
+   "Subway ridership has fallen to a record low.",
+   "Transit officials plan to close the subway on weekends."
+  ],
+  "correctIndex": 0,
+  "explanation": "The data show weekday ridership below earlier levels and weekend ridership above."
+ },
+ {
+  "id": "sr-030",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 2,
+  "stimulus": "A recent survey of public libraries found that branches that added late-night hours saw a rise in visits by adults who work during the day, but little change in visits by retirees. Library officials concluded that the new hours ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "discouraged retirees from reading.",
+   "caused the libraries to lose money.",
+   "were unpopular with everyone.",
+   "primarily benefited patrons whose work schedules had made daytime visits difficult."
+  ],
+  "correctIndex": 3,
+  "explanation": "The increase was among daytime workers, so the hours mainly helped those with schedule conflicts."
+ },
+ {
+  "id": "sr-031",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 3,
+  "stimulus": "The study's lead author explained why the data were surprising ______ the results contradicted decades of earlier findings.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "surprising: and the",
+   "surprising: the",
+   "surprising the",
+   "surprising, the"
+  ],
+  "correctIndex": 1,
+  "explanation": "A colon after a complete clause introduces an explanation; a comma alone splices two clauses, and no punctuation runs them together."
+ },
+ {
+  "id": "sr-032",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "The final exhibit—a collection of letters written by soldiers ______ drew the longest lines.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "soldiers;",
+   "soldiers—",
+   "soldiers:",
+   "soldiers,"
+  ],
+  "correctIndex": 1,
+  "explanation": "A nonessential phrase opened with a dash must be closed with a dash; mixing a dash with a comma, semicolon, or colon is incorrect."
+ },
+ {
+  "id": "sr-033",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 2,
+  "stimulus": "The city's bike-share program was supposed to reduce car traffic downtown. Yet traffic counts have barely changed since the program launched. Planners now suspect that many riders are simply replacing walking or bus trips, not driving trips.",
+  "prompt": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To compare the benefits of walking with those of cycling",
+   "To present a possible explanation for why a program has not produced its intended result",
+   "To argue that bike-share programs should be eliminated",
+   "To describe how bike-share programs are funded"
+  ],
+  "correctIndex": 1,
+  "explanation": "The text states an expectation, notes that it was not met, and offers planners' hypothesis for why."
+ },
+ {
+  "id": "sr-034",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 2,
+  "stimulus": "Researchers who studied 200 elementary classrooms found that students whose teachers read aloud for just fifteen minutes a day gained vocabulary faster than students whose teachers did not, even after accounting for family income. The effect was largest for students who spoke another language at home.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Daily read-aloud time in class was linked to faster vocabulary growth, especially for students who spoke another language at home.",
+   "Students who speak another language at home are poor readers.",
+   "Teachers should stop assigning reading homework.",
+   "Family income has no effect on vocabulary."
+  ],
+  "correctIndex": 0,
+  "explanation": "The study found a vocabulary benefit from read-aloud time that was largest among students who spoke another language at home."
+ },
+ {
+  "id": "sr-035",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 2,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• Octopuses have three hearts.\n• Two hearts pump blood through the gills.\n• The third pumps blood to the rest of the body.\n• Octopus blood is blue because it contains copper.",
+  "prompt": "The student wants to explain the purpose of the octopus's multiple hearts. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "An octopus's third heart is larger than the other two.",
+   "Octopus blood is blue because it contains copper.",
+   "An octopus has three hearts: two pump blood through the gills, and the third pumps blood to the rest of the body.",
+   "Octopuses are unusual animals with unusual body features."
+  ],
+  "correctIndex": 2,
+  "explanation": "Only the correct choice states what each heart does."
+ },
+ {
+  "id": "sr-036",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 3,
+  "stimulus": "In 1928, Alexander Fleming noticed that mold had killed bacteria on one of his discarded dishes. Many scientists might have thrown the dish away; Fleming instead investigated, and his curiosity led to the discovery of penicillin. His story is often told as a tale of luck, but it is just as much a tale of attentiveness.",
+  "prompt": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "It recounts an event, then offers a reframing of how the event is usually understood.",
+   "It contrasts two scientists with opposing views.",
+   "It presents a hypothesis and then tests it with an experiment.",
+   "It lists the steps in a scientific process in order."
+  ],
+  "correctIndex": 0,
+  "explanation": "The narrative of Fleming's observation is followed by a final sentence that reinterprets it as attentiveness, not just luck."
+ },
+ {
+  "id": "sr-037",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 3,
+  "stimulus": "Paleontologists found fossilized tracks showing that an unusually large number of dinosaurs walked in the same direction along an ancient lakeshore. Some argue that the animals were migrating together. Others point out that the tracks all lead toward a patch of mud that would have held fresh water. If the second group is correct, then the fossils ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "prove that the dinosaurs were hunting each other.",
+   "indicate that the dinosaurs could not walk far.",
+   "show that the lake had no fresh water.",
+   "may reflect many animals independently seeking water rather than a coordinated migration."
+  ],
+  "correctIndex": 3,
+  "explanation": "If they were heading to water, the shared direction could result from separate animals with the same goal."
+ },
+ {
+  "id": "sr-038",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 3,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• Author Zora Neale Hurston collected folktales in Florida in the 1920s and 1930s.\n• Her book Mules and Men was published in 1935.\n• It presents stories exactly as speakers told them, in their own dialect.\n• Some earlier collectors had rewritten such stories in standard English.",
+  "prompt": "The student wants to explain what made Hurston's approach distinctive. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Hurston published Mules and Men in 1935.",
+   "Hurston collected folktales in Florida during the 1920s and 1930s.",
+   "Unlike some earlier collectors who rewrote folktales in standard English, Hurston presented stories exactly as speakers told them, in their own dialect.",
+   "Folktales were collected by many people before Hurston."
+  ],
+  "correctIndex": 2,
+  "explanation": "Only the correct choice contrasts her method with earlier practice."
+ },
+ {
+  "id": "sr-039",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "Last summer, my brother ______ a ten-mile hike in less than three hours.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "will complete",
+   "completed",
+   "has completed",
+   "completes"
+  ],
+  "correctIndex": 1,
+  "explanation": "'Last summer' signals the simple past."
+ },
+ {
+  "id": "sr-040",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 1,
+  "stimulus": "The newspaper issued a correction after readers pointed out that an article had ______ the date of the festival, listing it as June 4 instead of June 14.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "postponed",
+   "celebrated",
+   "misreported",
+   "illustrated"
+  ],
+  "correctIndex": 2,
+  "explanation": "The article gave the wrong date, so it 'misreported' it."
+ },
+ {
+  "id": "sr-041",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "Ms. Patel, along with her two assistants, ______ preparing the exhibit.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been",
+   "are",
+   "were",
+   "is"
+  ],
+  "correctIndex": 3,
+  "explanation": "The subject is 'Ms. Patel'; 'along with her two assistants' does not make it plural."
+ },
+ {
+  "id": "sr-042",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "Maya had only one goal for the weekend ______ finish her science project.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "weekend finish",
+   "weekend: finish",
+   "weekend; finish",
+   "weekend, finish"
+  ],
+  "correctIndex": 1,
+  "explanation": "A colon after a complete clause can introduce what the goal is. A semicolon needs a complete clause on both sides, and a comma alone would create a splice."
+ },
+ {
+  "id": "sr-043",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "Each of the students ______ required to submit a final report by Friday.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "have been",
+   "is",
+   "are"
+  ],
+  "correctIndex": 2,
+  "explanation": "'Each' is singular, so it takes the singular verb 'is.'"
+ },
+ {
+  "id": "sr-044",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 3,
+  "stimulus": "The committee reviewed three proposals ______ a plan to expand the library, a plan to repair the gym, and a plan to build a new field.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "proposals",
+   "proposals;",
+   "proposals:",
+   "proposals and"
+  ],
+  "correctIndex": 2,
+  "explanation": "A colon after a complete clause introduces the list of proposals. A semicolon would have to be followed by an independent clause."
+ },
+ {
+  "id": "sr-045",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "During the debate, the senator's argument was undermined when her opponent produced records that ______ her claim that spending had fallen every year.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "clarified",
+   "contradicted",
+   "predicted",
+   "supported"
+  ],
+  "correctIndex": 1,
+  "explanation": "Records that undermine her argument would contradict, not support, her claim."
+ },
+ {
+  "id": "sr-046",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 3,
+  "stimulus": "Mathematician Sophie Germain was barred from attending lectures at the École Polytechnique because she was a woman, so she obtained the lecture notes and submitted her work under a male pseudonym. Her insights into the theory of elasticity were so original that the leading mathematicians of the day sought out the mysterious 'author,' and the truth of her identity did not diminish their respect.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Germain preferred to remain anonymous throughout her life.",
+   "Germain's talent earned respect from leading mathematicians despite barriers placed in her way.",
+   "Elasticity was a topic of little interest to mathematicians.",
+   "The École Polytechnique later admitted only women."
+  ],
+  "correctIndex": 1,
+  "explanation": "She overcame exclusion by working under a pseudonym, and her work earned respect even once her identity was known."
+ },
+ {
+  "id": "sr-047",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 2,
+  "stimulus": "Text 1: Many ecologists believe that reintroducing wolves to a park will restore its balance by controlling elk populations. Text 2: Biologist Reza Tehrani cautions that the effect on elk is only part of the story, because wolves also change where elk graze, which allows streamside plants to recover.",
+  "prompt": "Which choice best describes how Tehrani (Text 2) would most likely respond to the belief in Text 1?",
+  "choices": [
+   "By agreeing that wolves matter but adding that their influence extends beyond population control",
+   "By arguing that elk populations are unimportant",
+   "By denying that wolves have any effect on elk",
+   "By insisting that wolves should not be reintroduced"
+  ],
+  "correctIndex": 0,
+  "explanation": "Tehrani calls the elk effect 'only part of the story' and adds a second effect, so he extends rather than rejects the claim."
+ },
+ {
+  "id": "sr-048",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "The oldest tree in the park is a giant sequoia ______ it is more than two thousand years old.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "sequoia; it",
+   "sequoia it",
+   "sequoia, it",
+   "sequoia: and it"
+  ],
+  "correctIndex": 0,
+  "explanation": "Two independent clauses can be joined by a semicolon. A comma alone makes a splice, and no punctuation makes a run-on."
+ },
+ {
+  "id": "sr-049",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 1,
+  "stimulus": "Rain gardens are shallow gardens planted with native grasses and flowers. They collect runoff from roofs and driveways and let it soak into the ground slowly, which reduces flooding and filters pollutants before they reach streams.",
+  "prompt": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To describe how to choose native plants",
+   "To argue that all homeowners should build rain gardens",
+   "To explain what rain gardens are and what they do",
+   "To compare rain gardens with swimming pools"
+  ],
+  "correctIndex": 2,
+  "explanation": "The text defines rain gardens and explains their function."
+ },
+ {
+  "id": "sr-050",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 2,
+  "stimulus": "For decades, the tiny island of Nauru was one of the richest nations per person because of its phosphate deposits. By the 1990s, however, the mines were nearly exhausted, and the nation, which had invested little in other industries, faced severe economic hardship.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Nauru has the largest phosphate deposits in the world.",
+   "Nauru's government banned mining in the 1990s.",
+   "Nauru's economy has always been poor.",
+   "Nauru's reliance on a single resource left it vulnerable once that resource ran low."
+  ],
+  "correctIndex": 3,
+  "explanation": "The text contrasts earlier wealth from phosphate with hardship after depletion and limited diversification."
+ },
+ {
+  "id": "sr-051",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 2,
+  "stimulus": "A student argues that urban green spaces improve residents' well-being. In one survey, residents living within 500 meters of a park reported an average well-being rating of 7.4 out of 10, while residents living more than 2 kilometers from any park reported an average rating of 6.1.",
+  "prompt": "Which choice most effectively uses data from the survey to support the student's argument?",
+  "choices": [
+   "Parks vary in size from city to city.",
+   "Some residents live more than 2 kilometers from a park.",
+   "Residents near parks reported higher average well-being (7.4) than residents far from parks (6.1).",
+   "Well-being was rated on a scale of 10."
+  ],
+  "correctIndex": 2,
+  "explanation": "The comparison of ratings by distance to a park supports the claim."
+ },
+ {
+  "id": "sr-052",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 1,
+  "stimulus": "The bakery sells out of its sourdough loaves by ten o'clock every morning, even on days when it bakes twice as many loaves as usual. This suggests that ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "demand for the sourdough is high enough that even larger batches sell quickly.",
+   "the bakery opens later than other shops.",
+   "customers dislike the sourdough.",
+   "the bakery should stop making sourdough."
+  ],
+  "correctIndex": 0,
+  "explanation": "Selling out even with doubled supply indicates strong demand."
+ },
+ {
+  "id": "sr-053",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "The new library is larger than ______ in the next town.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "that one is",
+   "those",
+   "the one",
+   "it"
+  ],
+  "correctIndex": 2,
+  "explanation": "'The one' refers back to a single library for a logical comparison."
+ },
+ {
+  "id": "sr-054",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "The ecologist cautions that the recovery of the wetland, though encouraging, is still ______: a single dry summer could undo years of restoration work.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "permanent",
+   "exaggerated",
+   "complete",
+   "tenuous"
+  ],
+  "correctIndex": 3,
+  "explanation": "If one dry summer could undo the progress, the recovery is fragile, or 'tenuous.'"
+ },
+ {
+  "id": "sr-055",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 3,
+  "stimulus": "Scientists once believed that Pluto was a typical planet. ______ the discovery of many similar objects in the outer solar system prompted astronomers to reconsider.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Therefore,",
+   "In other words,",
+   "Later,",
+   "For example,"
+  ],
+  "correctIndex": 2,
+  "explanation": "The sentences describe a sequence of events: a past belief followed by a later discovery."
+ },
+ {
+  "id": "sr-056",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 3,
+  "stimulus": "When volcanic ash blankets a landscape, it can smother plants and block sunlight, but it also releases minerals as it weathers. Ecologists studying a volcanic island found that, within ten years of an eruption, areas covered by thin layers of ash supported richer plant communities than nearby areas the ash had missed.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Ash layers should be removed to help plants grow.",
+   "Volcanic ash can harm plants initially but may ultimately enrich the soil.",
+   "The island has not erupted since.",
+   "Volcanic eruptions always destroy local ecosystems."
+  ],
+  "correctIndex": 1,
+  "explanation": "The text pairs the immediate harm with the later benefit from released minerals."
+ },
+ {
+  "id": "sr-057",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "The collection of rare coins, which includes pieces from three continents, ______ valued at over a million dollars.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been",
+   "is",
+   "were being",
+   "are"
+  ],
+  "correctIndex": 1,
+  "explanation": "The subject is 'collection,' which is singular; the phrase between commas does not change that."
+ },
+ {
+  "id": "sr-058",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 1,
+  "stimulus": "The first prototype of the electric scooter was heavy and slow. ______ the second version was light enough to carry and reached twice the speed.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "As a result,",
+   "For example,",
+   "By contrast,",
+   "Similarly,"
+  ],
+  "correctIndex": 2,
+  "explanation": "The second version differs from the first, so a contrast transition fits."
+ },
+ {
+  "id": "sr-059",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 1,
+  "stimulus": "Although the mayor's first proposal was widely criticized, her revised plan was received so ______ that the council approved it within a week.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "suspiciously",
+   "reluctantly",
+   "indifferently",
+   "enthusiastically"
+  ],
+  "correctIndex": 3,
+  "explanation": "The council approved the plan within a week, which signals a warm reception. 'Enthusiastically' fits; the other choices suggest hesitation or disinterest."
+ },
+ {
+  "id": "sr-060",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 1,
+  "stimulus": "The marine biologist collected samples from three tide pools ______ then examined each one under a microscope.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "pools she",
+   "pools; she",
+   "pools, she",
+   "pools: she"
+  ],
+  "correctIndex": 1,
+  "explanation": "Two independent clauses need a semicolon or a comma plus a conjunction. A comma alone makes a comma splice; with no punctuation it is a run-on; and nothing here calls for a colon."
+ },
+ {
+  "id": "sr-061",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 2,
+  "stimulus": "Linguists have observed that the more often a word is used in everyday speech, the more likely it is to be short. For example, 'is' and 'the' are far shorter than 'photosynthesis.' This pattern suggests that speakers tend to ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "forget rare words quickly.",
+   "shorten frequently used words over time to communicate more efficiently.",
+   "avoid using common words.",
+   "invent long words to sound impressive."
+  ],
+  "correctIndex": 1,
+  "explanation": "Frequent use correlates with brevity, which suggests efficiency-driven shortening."
+ },
+ {
+  "id": "sr-062",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 2,
+  "stimulus": "Since the 1970s, the number of languages spoken in the Amazon basin has fallen sharply. Anthropologists attribute the decline less to deliberate suppression than to economic pressure: as families move to towns for work, children increasingly learn the regional trade language instead of their parents' tongue.",
+  "prompt": "According to the text, what do anthropologists identify as the main reason for the decline of Amazonian languages?",
+  "choices": [
+   "Laws that forbid the use of native languages",
+   "The invention of new writing systems",
+   "Families moving to towns for work, so children learn a trade language",
+   "A decline in the Amazon's population overall"
+  ],
+  "correctIndex": 2,
+  "explanation": "The text says economic pressure and migration, not deliberate suppression, drive the decline."
+ },
+ {
+  "id": "sr-063",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 1,
+  "stimulus": "Ravi's favorite subjects are ______ chemistry, history, and music.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are chemistry",
+   "are; chemistry",
+   "are, chemistry",
+   "are: chemistry"
+  ],
+  "correctIndex": 0,
+  "explanation": "No punctuation should separate a linking verb ('are') from its complement."
+ },
+ {
+  "id": "sr-064",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 1,
+  "stimulus": "Every spring, the lake near Maria's house fills with migrating geese. This year, however, the geese did not come, and Maria noticed that the lake was still frozen in late April. It is likely that the geese ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "migrate only in winter.",
+   "stayed away because the ice made the lake unusable.",
+   "were frightened by Maria.",
+   "prefer cold weather."
+  ],
+  "correctIndex": 1,
+  "explanation": "The still-frozen lake is the likely reason the geese were absent."
+ },
+ {
+  "id": "sr-065",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 1,
+  "stimulus": "A student is writing about the novel's setting. She wants to support the claim that the author portrays the town as isolated.",
+  "prompt": "Which quotation from the novel would best support the student's claim?",
+  "choices": [
+   "\"The mayor's house, painted yellow, stood at the corner of Elm Street.\"",
+   "\"The nearest neighbor lived forty miles of dirt road away, and in winter even that road disappeared.\"",
+   "\"Maya had always thought the harvest festival was the best day of the year.\"",
+   "\"Every Sunday the whole town gathered at the long table behind the church.\""
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the forty-mile road that vanishes in winter conveys isolation."
+ },
+ {
+  "id": "sr-066",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 1,
+  "stimulus": "The Great Wall of China is not a single wall but a series of walls built by different dynasties over many centuries. The best-known sections, made of stone and brick, date to the Ming dynasty, which ruled from 1368 to 1644.",
+  "prompt": "According to the text, which sections of the Great Wall are the best known?",
+  "choices": [
+   "Those made of stone and brick during the Ming dynasty",
+   "Those made of wood during the earliest dynasties",
+   "Those built after 1644",
+   "Those built from a single wall in one century"
+  ],
+  "correctIndex": 0,
+  "explanation": "The text says the best-known sections are stone and brick and date to the Ming dynasty."
+ },
+ {
+  "id": "sr-067",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 2,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• Basalt is a dark volcanic rock.\n• It forms when lava cools quickly.\n• Granite is a light-colored rock.\n• Granite forms when magma cools slowly beneath Earth's surface.",
+  "prompt": "The student wants to contrast how basalt and granite form. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Both basalt and granite are rocks that form from cooled molten material.",
+   "Basalt forms when lava cools quickly, whereas granite forms when magma cools slowly beneath Earth's surface.",
+   "Basalt forms from lava, and magma is found beneath Earth's surface.",
+   "Basalt is dark and granite is light."
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the correct choice contrasts the cooling rates and settings."
+ },
+ {
+  "id": "sr-068",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "The playwright's later works are marked by a ______ tone that surprised critics accustomed to the sharp satire of her early plays; they read as gentle, even forgiving, portraits of ordinary people.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "acerbic",
+   "menacing",
+   "conciliatory",
+   "frenetic"
+  ],
+  "correctIndex": 2,
+  "explanation": "The later works are 'gentle, even forgiving,' contrasting with sharp satire. 'Conciliatory' (inclined to make peace) fits; 'acerbic' means harsh."
+ },
+ {
+  "id": "sr-069",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "By the time the rescue team arrived, the hikers ______ for nearly six hours.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have waited",
+   "were waiting",
+   "had been waiting",
+   "waited"
+  ],
+  "correctIndex": 2,
+  "explanation": "The past perfect 'had been waiting' shows an action that began before another past event (the arrival)."
+ },
+ {
+  "id": "sr-070",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "The architect's design is notable for its ______: every element, from the width of the doorways to the angle of the roof, serves a clear function, and nothing is merely ornamental.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "extravagance",
+   "ambiguity",
+   "whimsy",
+   "economy"
+  ],
+  "correctIndex": 3,
+  "explanation": "A design in which nothing is merely ornamental and each element serves a purpose shows 'economy.' 'Extravagance' and 'whimsy' contradict that."
+ },
+ {
+  "id": "sr-071",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 1,
+  "stimulus": "Although the experiment failed ______ the team learned several useful lessons.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "failed;",
+   "failed:",
+   "failed",
+   "failed,"
+  ],
+  "correctIndex": 3,
+  "explanation": "A comma follows an introductory dependent clause that begins with 'Although.'"
+ },
+ {
+  "id": "sr-072",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 1,
+  "stimulus": "The book ______ I borrowed from the library was due on Friday.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "book I",
+   "book: I",
+   "book; I",
+   "book, I"
+  ],
+  "correctIndex": 0,
+  "explanation": "'I borrowed from the library' is an essential clause identifying which book, so no punctuation is used."
+ },
+ {
+  "id": "sr-073",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 2,
+  "stimulus": "Many birds migrate south for the winter. ______ some species, such as the Arctic tern, travel nearly the length of the planet.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In fact,",
+   "However,",
+   "Otherwise,",
+   "Meanwhile,"
+  ],
+  "correctIndex": 0,
+  "explanation": "The second sentence extends and intensifies the first, so 'In fact' fits."
+ },
+ {
+  "id": "sr-074",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 1,
+  "stimulus": "Of the two bridges, the old stone bridge is the ______.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "narrowest",
+   "more narrower",
+   "most narrow",
+   "narrower"
+  ],
+  "correctIndex": 3,
+  "explanation": "Comparing two items uses the comparative form 'narrower.'"
+ },
+ {
+  "id": "sr-075",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 1,
+  "stimulus": "Before the storm arrived, the crew secured the boats, covered the equipment, ______ moved the supplies to higher ground.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   ", and",
+   ": and",
+   ", and,",
+   "; and"
+  ],
+  "correctIndex": 0,
+  "explanation": "Items in a series are separated by commas, with a comma before the final 'and.' A semicolon or colon is not appropriate, and the extra comma after 'and' interrupts the verb."
+ },
+ {
+  "id": "sr-076",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 2,
+  "stimulus": "Researchers placed identical seedlings in two greenhouses. In the first, a fan gently moved the air several hours a day; in the second, the air stayed still. After a month, the seedlings in the first greenhouse had noticeably thicker stems. These results suggest that ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "seedlings grow faster in the dark than in the light.",
+   "thicker stems always produce larger fruit.",
+   "fans are necessary for seeds to sprout.",
+   "gentle movement of air may encourage plants to develop stronger stems."
+  ],
+  "correctIndex": 3,
+  "explanation": "Only the first choice follows from the single difference between the greenhouses (moving air)."
+ },
+ {
+  "id": "sr-077",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 1,
+  "stimulus": "The museum's new exhibit is ______ to visitors of all ages: young children enjoy its interactive displays, while adults appreciate its detailed historical research.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "appealing",
+   "confusing",
+   "unfamiliar",
+   "irrelevant"
+  ],
+  "correctIndex": 0,
+  "explanation": "Both children and adults enjoy different aspects of the exhibit, so it is appealing to everyone."
+ },
+ {
+  "id": "sr-078",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Many of the poet's early admirers found her work ______; its dense references to obscure myths made even short poems difficult to follow without a commentary.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "tedious",
+   "transparent",
+   "impenetrable",
+   "uplifting"
+  ],
+  "correctIndex": 2,
+  "explanation": "Dense, obscure references that require commentary make the poems hard to understand: 'impenetrable.' 'Transparent' means the opposite."
+ },
+ {
+  "id": "sr-079",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 3,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• In 2019, a town installed solar panels on its public school roofs.\n• The panels cut the schools' electricity costs by 35 percent.\n• The savings paid for two new teaching positions.\n• Some residents had worried about the upfront cost of the project.",
+  "prompt": "The student wants to argue that the project was worthwhile despite its cost. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The solar panels were installed on school roofs, and two teachers were hired.",
+   "Although some residents worried about the upfront cost, the solar panels cut the schools' electricity costs by 35 percent, and the savings paid for two new teaching positions.",
+   "Some residents worried about the cost of installing solar panels.",
+   "In 2019, a town installed solar panels on its public school roofs."
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the correct choice acknowledges the cost concern and answers it with concrete benefits."
+ },
+ {
+  "id": "sr-080",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 1,
+  "stimulus": "A student is summarizing a report on school start times. The student wants to support the claim that later start times can improve attendance.",
+  "prompt": "Which finding from the report would best support the student's claim?",
+  "choices": [
+   "Some districts chose to keep their start times unchanged.",
+   "After one district moved its start time from 7:30 a.m. to 8:30 a.m., the number of students absent each day fell by 12 percent.",
+   "Many districts have school start times before 8:00 a.m.",
+   "Teenagers typically need between eight and ten hours of sleep."
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the drop in absences after the later start directly links start time to attendance."
+ },
+ {
+  "id": "sr-081",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 1,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• The Pacific Crest Trail runs from Mexico to Canada.\n• It is about 2,650 miles long.\n• It passes through California, Oregon, and Washington.\n• Hikers usually need five months to complete it.",
+  "prompt": "The student wants to give a basic description of the trail's route and length. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Hikers usually need about five months to complete the Pacific Crest Trail.",
+   "The Pacific Crest Trail is longer than most trails in the country.",
+   "The Pacific Crest Trail is popular with hikers in California.",
+   "The Pacific Crest Trail, about 2,650 miles long, runs from Mexico to Canada through California, Oregon, and Washington."
+  ],
+  "correctIndex": 3,
+  "explanation": "Only the correct choice gives route and length."
+ },
+ {
+  "id": "sr-082",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "Historians have long regarded the treaty as a ______ event: before it, the two nations had fought for decades; afterward, they never again went to war.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "predictable",
+   "controversial",
+   "pivotal",
+   "trivial"
+  ],
+  "correctIndex": 2,
+  "explanation": "A single event that cleanly divides a long period of war from lasting peace is 'pivotal.' Nothing in the text suggests controversy or triviality."
+ },
+ {
+  "id": "sr-083",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "Neither the coach nor the players ______ expecting the schedule change.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "were",
+   "has been",
+   "is"
+  ],
+  "correctIndex": 1,
+  "explanation": "With 'neither...nor,' the verb agrees with the nearer subject, 'players,' which is plural."
+ },
+ {
+  "id": "sr-084",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "Critics describe the novelist's prose as ______: she conveys complicated emotions in sentences so spare that a reader may pass over their force on a first reading.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "understated",
+   "ornate",
+   "careless",
+   "bombastic"
+  ],
+  "correctIndex": 0,
+  "explanation": "Spare sentences that convey strong feeling quietly are 'understated.' 'Ornate' and 'bombastic' describe the opposite style."
+ },
+ {
+  "id": "sr-085",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Although the study's sample size was small, its authors argue that the results are still ______ because the same pattern appeared in every one of the twelve cities examined.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "unreliable",
+   "discouraging",
+   "significant",
+   "accidental"
+  ],
+  "correctIndex": 2,
+  "explanation": "The consistent pattern across all cities supports the claim that the results matter, so 'significant' fits."
+ },
+ {
+  "id": "sr-086",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 1,
+  "stimulus": "Dear neighbors: The community garden will close for repairs from March 3 to March 17. During this time, please do not enter the fenced area. We expect to reopen on March 18 and will plant new beds in April.",
+  "prompt": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To inform a community of a temporary closure and when it will end",
+   "To describe the history of the garden",
+   "To criticize the way the garden has been maintained",
+   "To persuade neighbors to donate money for repairs"
+  ],
+  "correctIndex": 0,
+  "explanation": "The notice gives the closure dates, an instruction, and a reopening date."
+ },
+ {
+  "id": "sr-087",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 2,
+  "stimulus": "Several students suggested changing the school's lunch schedule. ______ the principal agreed to test a new schedule for one month.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In response,",
+   "On the other hand,",
+   "In comparison,",
+   "Regardless,"
+  ],
+  "correctIndex": 0,
+  "explanation": "The principal's action follows from, and responds to, the students' suggestions."
+ },
+ {
+  "id": "sr-088",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "The students handed in ______ essays before the bell rang.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "their",
+   "its",
+   "they're",
+   "there"
+  ],
+  "correctIndex": 0,
+  "explanation": "The plural 'students' takes the plural possessive 'their.'"
+ },
+ {
+  "id": "sr-089",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 2,
+  "stimulus": "A student claims that the poet's later work is more optimistic than her earlier work. The student has gathered lines from two of her poems.",
+  "prompt": "Which pair of quotations best supports the student's claim?",
+  "choices": [
+   "Earlier: \"She walked home alone.\" Later: \"She walked home at dusk.\"",
+   "Earlier: \"The river ran quietly past the old mill.\" Later: \"The river ran quietly past the new bridge.\"",
+   "Earlier: \"The field woke green, and every cloud carried a promise.\" Later: \"The field lay barren under a sky that promised nothing.\"",
+   "Earlier: \"The field lay barren under a sky that promised nothing.\" Later: \"The field woke green, and every cloud carried a promise.\""
+  ],
+  "correctIndex": 3,
+  "explanation": "The earlier quote is bleak and the later one hopeful, which matches the claim of growing optimism."
+ },
+ {
+  "id": "sr-090",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 3,
+  "stimulus": "The botanist's findings were initially met with ______ by colleagues, who doubted that a plant could survive in such salty soil; only after three independent labs repeated the experiment did the skepticism fade.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "acclaim",
+   "sympathy",
+   "skepticism",
+   "relief"
+  ],
+  "correctIndex": 2,
+  "explanation": "The colleagues 'doubted' the claim and the passage later says 'the skepticism fade[d],' so 'skepticism' is the best fit."
+ },
+ {
+  "id": "sr-091",
+  "subject": "satrw",
+  "topic": "Rhetorical Synthesis",
+  "difficulty": 2,
+  "stimulus": "While researching a topic, a student has taken the following notes:\n• Sourdough bread uses a fermented starter instead of commercial yeast.\n• The starter contains wild yeast and bacteria.\n• These bacteria give sourdough its tangy flavor.\n• Sourdough often stays fresh longer than yeast bread.",
+  "prompt": "The student wants to explain what gives sourdough its distinctive taste. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The bacteria in the wild-yeast starter that sourdough uses give the bread its tangy flavor.",
+   "Sourdough uses a fermented starter instead of commercial yeast.",
+   "Sourdough is a type of bread that many people enjoy.",
+   "Sourdough often stays fresh longer than bread made with commercial yeast."
+  ],
+  "correctIndex": 0,
+  "explanation": "Only the correct choice links the taste to its cause, the bacteria."
+ },
+ {
+  "id": "sr-092",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 2,
+  "stimulus": "Sea otters, which keep their young safe by wrapping them in kelp while they dive for food, are considered a 'keystone' species. By eating sea urchins, otters protect kelp forests from being overgrazed, and those forests in turn shelter hundreds of other species.",
+  "prompt": "According to the text, why are sea otters considered a keystone species?",
+  "choices": [
+   "They build shelters that other species use.",
+   "They are the largest animals in the kelp forest.",
+   "They wrap their young in kelp.",
+   "Their eating of sea urchins protects kelp forests that many other species depend on."
+  ],
+  "correctIndex": 3,
+  "explanation": "The text says otters eat urchins, which protects the kelp forests that shelter many species."
+ },
+ {
+  "id": "sr-093",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 1,
+  "stimulus": "Text 1: Some teachers believe that students learn best when they sit in silent rows. Text 2: Education researcher Dana Lee found that students who discuss problems with a partner score higher on later tests than students who work alone in silence.",
+  "prompt": "Which choice best describes the relationship between the texts?",
+  "choices": [
+   "Text 2 presents research that challenges the belief described in Text 1.",
+   "Text 2 repeats the belief described in Text 1.",
+   "Text 2 describes a different subject altogether.",
+   "Text 2 offers a definition of the term in Text 1."
+  ],
+  "correctIndex": 0,
+  "explanation": "Lee's findings favor partner discussion over silent solo work, so they challenge the teachers' belief."
+ },
+ {
+  "id": "sr-094",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 2,
+  "stimulus": "A student claims that coastal cities are warming more slowly than inland cities. The student has the following data: Over the past 50 years, the average annual temperature rose by 1.1°C in Coastal City, 1.9°C in Inland City A, and 2.2°C in Inland City B.",
+  "prompt": "Which choice most effectively uses data from the text to support the student's claim?",
+  "choices": [
+   "Coastal City's temperature rose by 1.1°C, a smaller increase than the 1.9°C and 2.2°C increases in the inland cities.",
+   "Inland City A warmed by 0.3°C less than Inland City B.",
+   "Inland City B's average temperature is higher than Coastal City's.",
+   "All three cities experienced warming over the 50-year period."
+  ],
+  "correctIndex": 0,
+  "explanation": "Only the correct choice compares the coastal increase with the inland increases, which is what the claim is about."
+ },
+ {
+  "id": "sr-095",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "The museum's newest acquisition, a seventeenth-century map of the Atlantic coast ______ is now on display in the east gallery.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "coast",
+   "coast:",
+   "coast,",
+   "coast;"
+  ],
+  "correctIndex": 2,
+  "explanation": "The appositive 'a seventeenth-century map of the Atlantic coast' is nonessential and opened with a comma, so it must close with a comma before the verb."
+ },
+ {
+  "id": "sr-096",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 1,
+  "stimulus": "Most mammals give birth to live young. ______ the platypus lays eggs.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "The platypus, similarly,",
+   "The platypus, therefore,",
+   "The platypus, however,",
+   "The platypus, for instance,"
+  ],
+  "correctIndex": 2,
+  "explanation": "The platypus is an exception to the general statement, so a contrast is logical."
+ },
+ {
+  "id": "sr-097",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 3,
+  "stimulus": "Text 1: Historian Priya Nair argues that the printing press spread new ideas quickly because it made books cheap. Text 2: Historian Tom Aldous responds that cost alone cannot explain the speed, since literacy rates were low in many regions; he points to public readings in taverns, which let people absorb books without being able to read them.",
+  "prompt": "Based on the texts, what would Aldous (Text 2) most likely say about Nair's explanation?",
+  "choices": [
+   "It is incomplete because it overlooks how people without literacy could still encounter books.",
+   "It is irrelevant because printing presses were rare.",
+   "It is unsupported because no books were printed in that era.",
+   "It is correct because cheap books reached everyone directly."
+  ],
+  "correctIndex": 0,
+  "explanation": "Aldous accepts that cost mattered but says it 'cannot explain' the speed on its own and adds public readings."
+ },
+ {
+  "id": "sr-098",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 2,
+  "stimulus": "Text 1: Urban planners often claim that wide sidewalks encourage walking. Text 2: In a survey of eight cities, researcher Mina Park found that sidewalk width had almost no relationship to how much people walked; instead, the presence of shops and cafés within a five-minute stroll predicted walking rates much better.",
+  "prompt": "Based on the texts, how would Park (Text 2) most likely respond to the claim in Text 1?",
+  "choices": [
+   "By arguing that other features of a neighborhood matter more than sidewalk width",
+   "By agreeing that wide sidewalks are the best way to increase walking",
+   "By claiming that people do not like to walk in cities",
+   "By suggesting that cities should remove sidewalks entirely"
+  ],
+  "correctIndex": 0,
+  "explanation": "Park's data show sidewalk width barely matters and nearby destinations matter more."
+ },
+ {
+  "id": "sr-099",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 2,
+  "stimulus": "Poet Marguerite Dane is often associated with the city of Boston, yet she wrote some of her best-known early poems while traveling at sea as a ship's crewman. The ocean, with its steady rhythms, may have shaped the music of her lines more than any city street did.",
+  "prompt": "Which choice best describes the function of the underlined portion, 'yet she wrote some of her best-known early poems while traveling at sea as a ship's crewman'?",
+  "choices": [
+   "It summarizes the poems Hughes wrote at sea.",
+   "It provides evidence that Dane disliked Boston.",
+   "It introduces a fact that complicates a common association.",
+   "It defines the term 'crewman.'"
+  ],
+  "correctIndex": 2,
+  "explanation": "'Yet' signals contrast: the common Harlem association is complicated by the fact that many early poems were written at sea."
+ },
+ {
+  "id": "sr-100",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 1,
+  "stimulus": "Lena practiced the piano for an hour every day. ______ she won first place at the regional competition.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "As a result,",
+   "Nevertheless,",
+   "For example,",
+   "In contrast,"
+  ],
+  "correctIndex": 0,
+  "explanation": "Her practice led to her winning, so a cause-and-effect transition is best."
+ },
+ {
+  "id": "sr-101",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 3,
+  "stimulus": "In the 1930s, labor economist Ruth Alder pushed for policies that many business leaders opposed, arguing that unemployment insurance would stabilize consumer spending during downturns. Critics warned that such programs would discourage work. Decades of data have since shown that benefit programs cushion economic shocks without producing the widespread withdrawal from work that critics predicted.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Alder opposed all government programs.",
+   "Unemployment insurance has no effect on spending.",
+   "Business leaders were the first to support unemployment insurance.",
+   "Later evidence largely supported Alder's position rather than her critics' predictions."
+  ],
+  "correctIndex": 3,
+  "explanation": "The final sentence says the data showed cushioning effects without the work withdrawal critics predicted."
+ },
+ {
+  "id": "sr-102",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 3,
+  "stimulus": "Some critics argued that the novel's ending was rushed. ______ the author has said that she wrote the ending first and built the rest of the book toward it.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Yet",
+   "Thus",
+   "In addition",
+   "For instance"
+  ],
+  "correctIndex": 0,
+  "explanation": "The author's statement pushes back on the critics' view, so a contrast is needed."
+ },
+ {
+  "id": "sr-103",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 1,
+  "stimulus": "Honeybees communicate the location of food by dancing. A bee that has found nectar returns to the hive and performs a 'waggle dance' whose angle shows the direction of the food relative to the sun and whose duration shows its distance.",
+  "prompt": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Honeybees prefer to travel in the direction of the sun.",
+   "Honeybees cannot find food without a hive.",
+   "Honeybees use dance movements to tell other bees where food is.",
+   "Honeybees dance only when they are tired."
+  ],
+  "correctIndex": 2,
+  "explanation": "The text explains that the dance conveys direction and distance of food."
+ },
+ {
+  "id": "sr-104",
+  "subject": "satrw",
+  "topic": "Cross-Text Connections",
+  "difficulty": 2,
+  "stimulus": "Text 1: A food scientist claims that organic produce is always more nutritious than conventional produce. Text 2: A review of 40 studies by nutrition researcher Ali Haddad found small differences in some vitamins but concluded that, for most fruits and vegetables, the nutritional gap was too small to matter.",
+  "prompt": "Based on the texts, how would Haddad (Text 2) most likely characterize the claim in Text 1?",
+  "choices": [
+   "As accurate in every respect",
+   "As too modest, since the gap is larger than claimed",
+   "As impossible to test",
+   "As overstated, since the evidence shows only minor differences"
+  ],
+  "correctIndex": 3,
+  "explanation": "'Always more nutritious' is contradicted by a review finding small, mostly negligible differences."
+ },
+ {
+  "id": "sr-105",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 2,
+  "stimulus": "Medieval scribes occasionally wrote notes in the margins of manuscripts, such as complaints about the cold or the poor quality of ink. Because these notes were never intended for readers, historians consider them especially valuable, since they ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "reveal the scribes' everyday experiences in a way that formal text does not.",
+   "list the rules scribes had to follow.",
+   "prove that the manuscripts were forged.",
+   "show that scribes could not write well."
+  ],
+  "correctIndex": 0,
+  "explanation": "Unintended private remarks capture daily life candidly, which is what makes them valuable."
+ },
+ {
+  "id": "sr-106",
+  "subject": "satrw",
+  "topic": "Boundaries",
+  "difficulty": 2,
+  "stimulus": "The author of the novel, who grew up in a small coastal town ______ often writes about the sea.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "town,",
+   "town:",
+   "town",
+   "town;"
+  ],
+  "correctIndex": 0,
+  "explanation": "The nonessential clause 'who grew up in a small coastal town' opens with a comma after 'novel' and must close with a matching comma before the verb."
+ },
+ {
+  "id": "sr-107",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "In her memoir, the former diplomat is surprisingly ______ about her failures, describing missed opportunities and poor judgment calls in unsparing detail.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "boastful",
+   "sentimental",
+   "candid",
+   "evasive"
+  ],
+  "correctIndex": 2,
+  "explanation": "'Unsparing detail' about failures indicates honesty. 'Candid' means frank; 'evasive' means the opposite."
+ },
+ {
+  "id": "sr-108",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 1,
+  "stimulus": "The software update was ______ for most users, who noticed no change in how the app worked except that it loaded a little faster.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "optional",
+   "disastrous",
+   "expensive",
+   "seamless"
+  ],
+  "correctIndex": 3,
+  "explanation": "Users noticed almost no change, so the update was smooth, or seamless."
+ },
+ {
+  "id": "sr-109",
+  "subject": "satrw",
+  "topic": "Text Structure & Purpose",
+  "difficulty": 3,
+  "stimulus": "Economists often treat leisure time as wasted output. But a growing body of research suggests that people who take regular breaks solve problems faster and make fewer errors. If so, a schedule packed with uninterrupted work may reduce, rather than raise, a team's total productivity.",
+  "prompt": "Which choice best describes the function of the last sentence?",
+  "choices": [
+   "It gives an example of a team that succeeded without breaks.",
+   "It questions whether the research methods were sound.",
+   "It draws a conclusion that follows from the research just described.",
+   "It restates the economists' view in different words."
+  ],
+  "correctIndex": 2,
+  "explanation": "'If so' signals an inference from the research; it concludes that constant work may lower productivity."
+ },
+ {
+  "id": "sr-110",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 2,
+  "stimulus": "Researchers claim that a certain fertilizer increases corn yield. In their experiment, plots treated with the fertilizer produced an average of 180 bushels per acre, while untreated plots under identical conditions produced an average of 150 bushels per acre.",
+  "prompt": "Which choice best describes data from the experiment that support the researchers' claim?",
+  "choices": [
+   "Both kinds of plots were measured in bushels.",
+   "Treated plots produced more bushels per acre than untreated plots under identical conditions.",
+   "The experiment was conducted on corn.",
+   "Untreated plots produced 150 bushels per acre."
+  ],
+  "correctIndex": 1,
+  "explanation": "Only the comparison between treated and untreated plots supports the claim that the fertilizer raises yield."
+ },
+ {
+  "id": "sr-111",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 3,
+  "stimulus": "The city council, in an effort to ease congestion, ______ to add bus lanes on three major roads.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were voting",
+   "voting",
+   "voted",
+   "vote"
+  ],
+  "correctIndex": 2,
+  "explanation": "The singular subject 'council' takes 'voted'; the phrase set off by commas does not change the subject."
+ },
+ {
+  "id": "sr-112",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 3,
+  "stimulus": "Marine biologist Dr. Lee claims that the reef's coral cover declined mainly because of rising water temperatures rather than pollution. Survey data show that coral cover dropped by 40 percent in both a heavily polluted bay and a pristine, protected bay over the same ten-year period, during which water temperature rose by 1.5°C in both locations.",
+  "prompt": "Which choice best describes how the survey data support Dr. Lee's claim?",
+  "choices": [
+   "The polluted bay lost more coral than the pristine bay.",
+   "Coral cover has been measured for ten years.",
+   "The coral decline occurred equally in polluted and unpolluted locations while temperature rose in both.",
+   "The temperature rise was larger in the polluted bay."
+  ],
+  "correctIndex": 2,
+  "explanation": "Equal declines despite different pollution levels, alongside the shared temperature rise, support the temperature explanation."
+ },
+ {
+  "id": "sr-113",
+  "subject": "satrw",
+  "topic": "Transitions",
+  "difficulty": 2,
+  "stimulus": "The restaurant's menu had hardly changed in thirty years. ______ regular customers were surprised when the owner announced a complete redesign.",
+  "prompt": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Alternatively,",
+   "For instance,",
+   "Instead,",
+   "Consequently,"
+  ],
+  "correctIndex": 3,
+  "explanation": "The unchanged menu is the reason regulars were surprised; the redesign was unexpected as a result."
+ },
+ {
+  "id": "sr-114",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "Neither of the answers ______ correct.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been",
+   "were",
+   "are",
+   "is"
+  ],
+  "correctIndex": 3,
+  "explanation": "'Neither' is singular."
+ },
+ {
+  "id": "sr-115",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 3,
+  "stimulus": "Sound travels about four times faster through water than through air. Because of this, a whale's call can be detected by other whales hundreds of kilometers away. It follows that the ocean, compared with the open air, is ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "a more effective medium for long-distance communication by sound.",
+   "less crowded with animal life.",
+   "a quieter place than a forest.",
+   "unsuitable for communication."
+  ],
+  "correctIndex": 0,
+  "explanation": "Faster travel allows calls to be detected over great distances."
+ },
+ {
+  "id": "sr-116",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "The wolf lifted ______ head and howled at the moon.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "his or hers",
+   "their",
+   "it's"
+  ],
+  "correctIndex": 0,
+  "explanation": "'Its' is the possessive form of 'it'; 'it's' means 'it is,' and 'their' is plural."
+ },
+ {
+  "id": "sr-117",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 3,
+  "stimulus": "Having finished the experiment, ______",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "a notebook was where the results were recorded.",
+   "the students recorded the results in a notebook.",
+   "the recording of results was done by the students.",
+   "the results were recorded in a notebook by them."
+  ],
+  "correctIndex": 1,
+  "explanation": "The introductory participial phrase 'Having finished the experiment' must modify the people who finished it: 'the students.'"
+ },
+ {
+  "id": "sr-118",
+  "subject": "satrw",
+  "topic": "Command of Evidence",
+  "difficulty": 3,
+  "stimulus": "Historian Elena Marsh argues that the village's decline began well before the railroad bypassed it. Records show that the village's population fell from 1,200 in 1860 to 740 in 1880, while the railroad's alternate route opened in 1890.",
+  "prompt": "Which choice best describes how the records support Marsh's argument?",
+  "choices": [
+   "The population fell significantly before the railroad's alternate route opened.",
+   "The population rose after 1890.",
+   "The village had a larger population than nearby towns.",
+   "The railroad opened in the same decade as the census."
+  ],
+  "correctIndex": 0,
+  "explanation": "The drop from 1,200 to 740 happened before 1890, so the decline predates the bypass."
+ },
+ {
+  "id": "sr-119",
+  "subject": "satrw",
+  "topic": "Form, Structure & Sense",
+  "difficulty": 2,
+  "stimulus": "Because of its long, flexible neck, the giraffe can reach leaves that ______ out of reach for most other animals.",
+  "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are",
+   "has been",
+   "is",
+   "was"
+  ],
+  "correctIndex": 0,
+  "explanation": "The plural 'leaves' requires 'are,' and the sentence is in the present tense."
+ },
+ {
+  "id": "sr-120",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 1,
+  "stimulus": "The chef's menu changes with the seasons, ______ whatever ingredients the local farms have in abundance at that time of year.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "delaying",
+   "rejecting",
+   "reflecting",
+   "forgetting"
+  ],
+  "correctIndex": 2,
+  "explanation": "A menu that changes with the harvest reflects what is available locally."
+ },
+ {
+  "id": "sr-121",
+  "subject": "satrw",
+  "topic": "Inferences",
+  "difficulty": 3,
+  "stimulus": "When a team of ecologists removed every spider from several small islands, the number of plant-eating insects there rose sharply within a season, and the plants on those islands showed more leaf damage than plants on islands where spiders remained. This suggests that spiders ______",
+  "prompt": "Which choice most logically completes the text?",
+  "choices": [
+   "help limit plant damage by preying on plant-eating insects.",
+   "feed mainly on leaves.",
+   "reduce the number of plants.",
+   "cannot survive on islands."
+  ],
+  "correctIndex": 0,
+  "explanation": "Without spiders, insects increased and damage rose, so spiders restrain the insects that damage plants."
+ },
+ {
+  "id": "sr-122",
+  "subject": "satrw",
+  "topic": "Central Ideas & Details",
+  "difficulty": 1,
+  "stimulus": "A single mature oak tree can produce as many as ten thousand acorns in a good year. Most of these acorns are eaten by squirrels, deer, and birds, but the few that are buried and forgotten can grow into new trees.",
+  "prompt": "According to the text, how can an acorn grow into a new oak tree?",
+  "choices": [
+   "It can be buried and forgotten by an animal.",
+   "It can be eaten by a deer.",
+   "It can be planted by a forest ranger.",
+   "It can be picked up by a mature oak."
+  ],
+  "correctIndex": 0,
+  "explanation": "The text says the acorns that are buried and forgotten can grow."
+ },
+ {
+  "id": "sr-123",
+  "subject": "satrw",
+  "topic": "Words in Context",
+  "difficulty": 2,
+  "stimulus": "Marine biologist Dr. Lena Okafor describes the deep-sea anglerfish as a(n) ______ predator: it lies motionless in the dark for hours, relying on a glowing lure to draw prey close rather than chasing it.",
+  "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "reckless",
+   "gregarious",
+   "frantic",
+   "patient"
+  ],
+  "correctIndex": 3,
+  "explanation": "Lying motionless and waiting for prey to approach describes a patient hunter. 'Frantic' and 'reckless' contradict the stillness."
+ }
+]
