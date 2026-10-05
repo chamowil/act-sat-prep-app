@@ -147,7 +147,7 @@ in transit because none is transmitted; answer the "deletion" question with "no 
 |---|---|---|
 | App Store iPhone 6.9" | 1320×2868 | 5 images in `store_assets/ios/iphone-6.9/` |
 | App Store iPad 13" | 2064×2752 | 3 images in `store_assets/ios/ipad-13/` |
-| Google Play phone | 2–8 images, 9:16, 320–3840 px | Capture on an Android emulator or device (see below) |
+| Google Play phone | 2–8 images, 9:16, 320–3840 px | 5 images in `store_assets/android/phone/` (Pixel 8 Pro emulator, 1344×2992) |
 
 The iOS images were captured from the iOS Simulator with demo data (a launch flag; it is compiled out of normal builds):
 
